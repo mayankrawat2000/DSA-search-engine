@@ -1,0 +1,2 @@
+Now you get Baby Ehab's first words: "Given an integer nn, find the longest subsequence of [1,2,…,n−1][1,2,…,n−1] whose product is 11 modulo nn." Please solve the problem.
+A sequence bb is a subsequence of an array aa if bb can be obtained from aa by deleting some (possibly all) elements. The product of an empty subsequence is equal to 11.

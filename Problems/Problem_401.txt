@@ -1,0 +1,7 @@
+The only difference with E1 is the question of the problem.
+Vlad built a maze out of nn rooms and n−1n−1 bidirectional corridors. From any room uu any other room vv can be reached through a sequence of corridors. Thus, the room system forms an undirected tree.
+Vlad invited kk friends to play a game with them.
+Vlad starts the game in the room 11 and wins if he reaches a room other than 11, into which exactly one corridor leads. Friends are placed in the maze: the friend with number ii is in the room xixi, and no two friends are in the same room (that is, xi≠xjxi≠xj for all i≠ji≠j). Friends win if one of them meets Vlad in any room or corridor before he wins.
+For one unit of time, each participant of the game can go through one corridor. All participants move at the same time. Participants may not move. Each room can fit all participants at the same time.
+Friends know the plan of a maze and intend to win. They don't want to waste too much energy. They ask you to determine if they can win and if they can, what minimum number of friends must remain in the maze so that they can always catch Vlad.
+In other words, you need to determine the size of the minimum (by the number of elements) subset of friends who can catch Vlad or say that such a subset does not exist.

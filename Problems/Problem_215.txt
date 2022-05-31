@@ -1,0 +1,2 @@
+Let's call a permutation pp of length nn anti-Fibonacci if the condition pi−2+pi−1≠pipi−2+pi−1≠pi holds for all ii (3≤i≤n3≤i≤n). Recall that the permutation is the array of length nn which contains each integer from 11 to nn exactly once.
+Your task is for a given number nn print nn distinct anti-Fibonacci permutations of length nn.

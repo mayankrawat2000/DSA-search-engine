@@ -1,0 +1,2 @@
+You are given an undirected graph of nn vertices indexed from 11 to nn, where vertex ii has a value aiai assigned to it and all values aiai are different. There is an edge between two vertices uu and vv if either auau divides avav or avav divides auau.
+Find the minimum number of vertices to remove such that the remaining graph is bipartite, when you remove a vertex you remove all the edges incident to it.

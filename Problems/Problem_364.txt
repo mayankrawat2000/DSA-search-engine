@@ -1,0 +1,2 @@
+You are given an array a1,a2,…,ana1,a2,…,an and an integer xx.
+Find the number of non-empty subsets of indices of this array 1≤b1<b2<…<bk≤n1≤b1<b2<…<bk≤n, such that for all pairs (i,j)(i,j) where 1≤i<j≤k1≤i<j≤k, the inequality abi⊕abj≤xabi⊕abj≤x is held. Here, ⊕⊕ denotes the bitwise XOR operation. As the answer may be very large, output it modulo 998244353998244353.

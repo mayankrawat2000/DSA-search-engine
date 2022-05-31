@@ -1,0 +1,4 @@
+You are given an array a1,a2,…,ana1,a2,…,an of integers. This array is non-increasing.
+Let's consider a line with nn shops. The shops are numbered with integers from 11 to nn from left to right. The cost of a meal in the ii-th shop is equal to aiai.
+You should process qq queries of two types:
+  1 x y: for each shop 1≤i≤x1≤i≤x set ai=max(ai,y)ai=max(ai,y).  2 x y: let's consider a hungry man with yy money. He visits the shops from xx-th shop to nn-th and if he can buy a meal in the current shop he buys one item of it. Find how many meals he will purchase. The man can buy a meal in the shop ii if he has at least aiai money, and after it his money decreases by aiai. 

@@ -1,0 +1,6 @@
+  
+William owns a flat in central London. He decided to rent his flat out for the next nn days to earn some money.
+Since his flat is in the center of the city, he instantly got mm offers in the form (li,ri)(li,ri), which means that someone wants to book the flat from day lili until day riri inclusive. To avoid spending a lot of time figuring out whether it's profitable for him to accept an offer, William decided to develop an algorithm. The algorithm processes all offers as they arrive and will only accept offer ii if the following two conditions are satisfied:
+  ri−li+1≥xri−li+1≥x.  None of the days between lili and riri are occupied by a previously accepted offer 
+ 
+William isn't sure what value xx should have and he asks you for help. For all xx from 11 to nn he wants you to calculate the total number of days for which the flat would be occupied if the corresponding value will be assigned to xx.

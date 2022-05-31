@@ -1,0 +1,4 @@
+Three little pigs from all over the world are meeting for a convention! Every minute, a triple of 3 new pigs arrives on the convention floor. After the nn-th minute, the convention ends.
+The big bad wolf has learned about this convention, and he has an attack plan. At some minute in the convention, he will arrive and eat exactly xx pigs. Then he will get away.
+The wolf wants Gregor to help him figure out the number of possible attack plans that involve eating exactly xx pigs for various values of xx (1≤x≤3n1≤x≤3n). Two attack plans are considered different, if they occur at different times or if the sets of little pigs to eat are different.
+Note that all queries are independent, that is, the wolf does not eat the little pigs, he only makes plans!

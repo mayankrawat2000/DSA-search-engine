@@ -1,0 +1,3 @@
+Let's call the set of positive integers SS correct if the following two conditions are met: 
+  S⊆{1,2,…,n}S⊆{1,2,…,n};  if a∈Sa∈S and b∈Sb∈S, then |a−b|≠x|a−b|≠x and |a−b|≠y|a−b|≠y. 
+For the given values nn, xx, and yy, you have to find the maximum size of the correct set.

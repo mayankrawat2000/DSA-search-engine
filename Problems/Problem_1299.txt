@@ -1,0 +1,4 @@
+You are given a string ss of even length nn. String ss is binary, in other words, consists only of 0's and 1's.
+String ss has exactly n2n2 zeroes and n2n2 ones (nn is even).
+In one operation you can reverse any substring of ss. A substring of a string is a contiguous subsequence of that string.
+What is the minimum number of operations you need to make string ss alternating? A string is alternating if si≠si+1si≠si+1 for all ii. There are two types of alternating strings in general: 01010101... or 10101010...

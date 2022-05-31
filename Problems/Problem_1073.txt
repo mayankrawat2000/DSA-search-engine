@@ -1,0 +1,3 @@
+Given a positive integer kk, two arrays are called kk-similar if:
+  they are strictly increasing;  they have the same length;  all their elements are positive integers between 11 and kk (inclusive);  they differ in exactly one position. 
+You are given an integer kk, a strictly increasing array aa and qq queries. For each query, you are given two integers li≤rili≤ri. Your task is to find how many arrays bb exist, such that bb is kk-similar to array [ali,ali+1…,ari][ali,ali+1…,ari]. 

@@ -1,0 +1,4 @@
+Two painters, Amin and Benj, are repainting Gregor's living room ceiling! The ceiling can be modeled as an n×mn×m grid.
+For each ii between 11 and nn, inclusive, painter Amin applies aiai layers of paint to the entire ii-th row. For each jj between 11 and mm, inclusive, painter Benj applies bjbj layers of paint to the entire jj-th column. Therefore, the cell (i,j)(i,j) ends up with ai+bjai+bj layers of paint.
+Gregor considers the cell (i,j)(i,j) to be badly painted if ai+bj≤xai+bj≤x. Define a badly painted region to be a maximal connected component of badly painted cells, i. e. a connected component of badly painted cells such that all adjacent to the component cells are not badly painted. Two cells are considered adjacent if they share a side.
+Gregor is appalled by the state of the finished ceiling, and wants to know the number of badly painted regions.

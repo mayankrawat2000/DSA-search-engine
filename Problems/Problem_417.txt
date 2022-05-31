@@ -1,0 +1,6 @@
+  
+William has two arrays of numbers a1,a2,…,ana1,a2,…,an and b1,b2,…,bmb1,b2,…,bm. The arrays satisfy the conditions of being convex. Formally an array cc of length kk is considered convex if ci−ci−1<ci+1−cici−ci−1<ci+1−ci for all ii from 22 to k−1k−1 and c1<c2c1<c2.
+Throughout William's life he observed qq changes of two types happening to the arrays: 
+  Add the arithmetic progression d,d⋅2,d⋅3,…,d⋅kd,d⋅2,d⋅3,…,d⋅k to the suffix of the array aa of length kk. The array after the change looks like this: [a1,a2,…,an−k,an−k+1+d,an−k+2+d⋅2,…,an+d⋅k][a1,a2,…,an−k,an−k+1+d,an−k+2+d⋅2,…,an+d⋅k].  The same operation, but for array bb. 
+After each change a matrix dd is created from arrays aa and bb, of size n×mn×m, where di,j=ai+bjdi,j=ai+bj. William wants to get from cell (1,11,1) to cell (n,mn,m) of this matrix. From cell (x,yx,y) he can only move to cells (x+1,yx+1,y) and (x,y+1x,y+1). The length of a path is calculated as the sum of numbers in cells visited by William, including the first and the last cells.
+After each change William wants you to help find out the minimal length of the path he could take.

@@ -1,0 +1,8 @@
+A sequence of round and square brackets is given. You can change the sequence by performing the following operations:
+  change the direction of a bracket from opening to closing and vice versa without changing the form of the bracket: i.e. you can change '(' to ')' and ')' to '('; you can change '[' to ']' and ']' to '['. The operation costs 00 burles. change any square bracket to round bracket having the same direction: i.e. you can change '[' to '(' but not from '(' to '['; similarly, you can change ']' to ')' but not from ')' to ']'. The operation costs 11 burle. 
+The operations can be performed in any order any number of times.
+You are given a string ss of the length nn and qq queries of the type "l r" where 1≤l<r≤n1≤l<r≤n. For every substring s[l…r]s[l…r], find the minimum cost to pay to make it a correct bracket sequence. It is guaranteed that the substring s[l…r]s[l…r] has an even length.
+The queries must be processed independently, i.e. the changes made in the string for the answer to a question ii don't affect the queries jj (j>ij>i). In other words, for every query, the substring s[l…r]s[l…r] is given from the initially given string ss.
+A correct bracket sequence is a sequence that can be built according the following rules:
+  an empty sequence is a correct bracket sequence;  if "s" is a correct bracket sequence, the sequences "(s)" and "[s]" are correct bracket sequences.  if "s" and "t" are correct bracket sequences, the sequence "st" (the concatenation of the sequences) is a correct bracket sequence. 
+E.g. the sequences "", "(()[])", "[()()]()" and "(())()" are correct bracket sequences whereas "(", "[(])" and ")))" are not.

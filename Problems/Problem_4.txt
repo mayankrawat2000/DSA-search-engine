@@ -1,0 +1,4 @@
+You are given a string ss consisting of characters 0 and/or 1.
+You have to remove several (possibly zero) characters from the beginning of the string, and then several (possibly zero) characters from the end of the string. The string may become empty after the removals. The cost of the removal is the maximum of the following two values:
+  the number of characters 0 left in the string;  the number of characters 1 removed from the string. 
+What is the minimum cost of removal you can achieve?

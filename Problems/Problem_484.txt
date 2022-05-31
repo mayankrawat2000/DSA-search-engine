@@ -1,0 +1,4 @@
+Monocarp has got an array aa consisting of nn integers. Let's denote kk as the mathematic mean of these elements (note that it's possible that kk is not an integer). 
+The mathematic mean of an array of nn elements is the sum of elements divided by the number of these elements (i. e. sum divided by nn).
+Monocarp wants to delete exactly two elements from aa so that the mathematic mean of the remaining (n−2)(n−2) elements is still equal to kk.
+Your task is to calculate the number of pairs of positions [i,j][i,j] (i<ji<j) such that if the elements on these positions are deleted, the mathematic mean of (n−2)(n−2) remaining elements is equal to kk (that is, it is equal to the mathematic mean of nn elements of the original array aa).

@@ -1,0 +1,8 @@
+Boboniu defines BN-string as a string ss of characters 'B' and 'N'.
+You can perform the following operations on the BN-string ss:
+  Remove a character of ss.  Remove a substring "BN" or "NB" of ss.  Add a character 'B' or 'N' to the end of ss.  Add a string "BN" or "NB" to the end of ss. 
+Note that a string aa is a substring of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.
+Boboniu thinks that BN-strings ss and tt are similar if and only if:
+  |s|=|t||s|=|t|.  There exists a permutation p1,p2,…,p|s|p1,p2,…,p|s| such that for all ii (1≤i≤|s|1≤i≤|s|), spi=tispi=ti. 
+Boboniu also defines dist(s,t)dist(s,t), the distance between ss and tt, as the minimum number of operations that makes ss similar to tt.
+Now Boboniu gives you nn non-empty BN-strings s1,s2,…,sns1,s2,…,sn and asks you to find a non-empty BN-string tt such that the maximum distance to string ss is minimized, i.e. you need to minimize maxni=1dist(si,t)maxi=1ndist(si,t).

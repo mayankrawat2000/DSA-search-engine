@@ -1,0 +1,5 @@
+Given a permutation pp of length nn, find its subsequence s1s1, s2s2, ……, sksk of length at least 22 such that:
+  |s1−s2|+|s2−s3|+…+|sk−1−sk||s1−s2|+|s2−s3|+…+|sk−1−sk| is as big as possible over all subsequences of pp with length at least 22.  Among all such subsequences, choose the one whose length, kk, is as small as possible. 
+If multiple subsequences satisfy these conditions, you are allowed to find any of them.
+A sequence aa is a subsequence of an array bb if aa can be obtained from bb by deleting some (possibly, zero or all) elements.
+A permutation of length nn is an array of length nn in which every element from 11 to nn occurs exactly once.

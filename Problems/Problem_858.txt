@@ -1,0 +1,5 @@
+  
+William really wants to get a pet. Since his childhood he dreamt about getting a pet grasshopper. William is being very responsible about choosing his pet, so he wants to set up a trial for the grasshopper!
+The trial takes place on an array aa of length nn, which defines lengths of hops for each of nn cells. A grasshopper can hop around the sells according to the following rule: from a cell with index ii it can jump to any cell with indices from ii to i+aii+ai inclusive.
+Let's call the kk-grasshopper value of some array the smallest number of hops it would take a grasshopper to hop from the first cell to the last, but before starting you can select no more than kk cells and remove them from the array. When a cell is removed all other cells are renumbered but the values of aiai for each cell remains the same. During this the first and the last cells may not be removed.
+It is required to process qq queries of the following format: you are given three numbers ll, rr, kk. You are required to find the kk-grasshopper value for an array, which is a subarray of the array aa with elements from ll to rr inclusive.

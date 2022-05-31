@@ -1,0 +1,3 @@
+This is the hard version of the problem. The difference is the constraint on the sum of lengths of strings and the number of test cases. You can make hacks only if you solve all versions of this task.
+You are given a string ss, consisting of lowercase English letters. Find the longest string, tt, which satisfies the following conditions: 
+  The length of tt does not exceed the length of ss.  tt is a palindrome.  There exists two strings aa and bb (possibly empty), such that t=a+bt=a+b ( "++" represents concatenation), and aa is prefix of ss while bb is suffix of ss. 

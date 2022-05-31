@@ -1,0 +1,7 @@
+There are nn trees in a park, numbered from 11 to nn. The initial height of the ii-th tree is hihi.
+You want to water these trees, so they all grow to the same height.
+The watering process goes as follows. You start watering trees at day 11. During the jj-th day you can: 
+  Choose a tree and water it. If the day is odd (e.g. 1,3,5,7,…1,3,5,7,…), then the height of the tree increases by 11. If the day is even (e.g. 2,4,6,8,…2,4,6,8,…), then the height of the tree increases by 22.  Or skip a day without watering any tree. 
+Note that you can't water more than one tree in a day. 
+Your task is to determine the minimum number of days required to water the trees so they grow to the same height.
+You have to answer tt independent test cases.

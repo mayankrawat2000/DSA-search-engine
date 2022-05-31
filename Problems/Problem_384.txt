@@ -1,0 +1,5 @@
+The company "Divan's Sofas" is planning to build n+1n+1 different buildings on a coordinate line so that: 
+  the coordinate of each building is an integer number;  no two buildings stand at the same point. 
+Let xixi be the coordinate of the ii-th building. To get from the building ii to the building jj, Divan spends |xi−xj||xi−xj| minutes, where |y||y| is the absolute value of yy.
+All buildings that Divan is going to build can be numbered from 00 to nn. The businessman will live in the building 00, the new headquarters of "Divan's Sofas". In the first ten years after construction Divan will visit the ii-th building aiai times, each time spending 2⋅|x0−xi|2⋅|x0−xi| minutes for walking.
+Divan asks you to choose the coordinates for all n+1n+1 buildings so that over the next ten years the businessman will spend as little time for walking as possible.

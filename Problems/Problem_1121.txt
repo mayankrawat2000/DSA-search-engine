@@ -1,0 +1,30 @@
+Lunar rover finally reached planet X. After landing, he met an obstacle, that contains permutation pp of length nn. Scientists found out, that to overcome an obstacle, the robot should make pp an identity permutation (make pi=ipi=i for all ii).
+Unfortunately, scientists can't control the robot. Thus the only way to make pp an identity permutation is applying the following operation to pp multiple times: 
+  Select two indices ii and jj (i≠ji≠j), such that pj=ipj=i and swap the values of pipi and pjpj. It takes robot (j−i)2(j−i)2 seconds to do this operation. 
+ Positions 
+
+ii
+i
+ and 
+
+jj
+j
+ are selected by the robot (scientists can't control it). He will apply this operation while 
+
+pp
+p
+ isn't an identity permutation. We can show that the robot will make no more than 
+
+nn
+n
+ operations regardless of the choice of 
+
+ii
+i
+ and 
+
+jj
+j
+ on each operation.
+Scientists asked you to find out the maximum possible time it will take the robot to finish making pp an identity permutation (i. e. worst-case scenario), so they can decide whether they should construct a new lunar rover or just rest and wait. They won't believe you without proof, so you should build an example of pp and robot's operations that maximizes the answer.
+For a better understanding of the statement, read the sample description.

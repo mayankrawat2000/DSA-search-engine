@@ -1,0 +1,5 @@
+There are two sisters Alice and Betty. You have nn candies. You want to distribute these nn candies between two sisters in such a way that:
+  Alice will get aa (a>0a>0) candies;  Betty will get bb (b>0b>0) candies;  each sister will get some integer number of candies;  Alice will get a greater amount of candies than Betty (i.e. a>ba>b);  all the candies will be given to one of two sisters (i.e. a+b=na+b=n). 
+Your task is to calculate the number of ways to distribute exactly nn candies between sisters in a way described above. Candies are indistinguishable.
+Formally, find the number of ways to represent nn as the sum of n=a+bn=a+b, where aa and bb are positive integers and a>ba>b.
+You have to answer tt independent test cases.

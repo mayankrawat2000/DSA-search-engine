@@ -1,0 +1,2 @@
+You are given a binary string (i. e. a string consisting of characters 0 and/or 1) ss of length nn. You can perform the following operation with the string ss at most once: choose a substring (a contiguous subsequence) of ss having exactly kk characters 1 in it, and shuffle it (reorder the characters in the substring as you wish).
+Calculate the number of different strings which can be obtained from ss by performing this operation at most once.

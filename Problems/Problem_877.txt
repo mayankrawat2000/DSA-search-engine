@@ -1,0 +1,2 @@
+Let's call a positive integer nn ordinary if in the decimal notation all its digits are the same. For example, 11, 22 and 9999 are ordinary numbers, but 719719 and 20212021 are not ordinary numbers.
+For a given number nn, find the number of ordinary numbers among the numbers from 11 to nn.

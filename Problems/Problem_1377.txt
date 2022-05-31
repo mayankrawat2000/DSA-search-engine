@@ -1,0 +1,4 @@
+The pandemic is upon us, and the world is in shortage of the most important resource: toilet paper. As one of the best prepared nations for this crisis, BubbleLand promised to help all other world nations with this valuable resource. To do that, the country will send airplanes to other countries carrying toilet paper.
+In BubbleLand, there are NN toilet paper factories, and NN airports. Because of how much it takes to build a road, and of course legal issues, every factory must send paper to only one airport, and every airport can only take toilet paper from one factory.
+Also, a road can't be built between all airport-factory pairs, again because of legal issues. Every possible road has number dd given, number of days it takes to build that road.
+Your job is to choose NN factory-airport pairs, such that if the country starts building all roads at the same time, it takes the least amount of days to complete them.

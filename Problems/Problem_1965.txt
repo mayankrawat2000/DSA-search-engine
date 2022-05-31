@@ -1,0 +1,4 @@
+Farmer John is obsessed with making Bessie exercise more!
+Bessie is out grazing on the farm, which consists of nn fields connected by mm directed roads. Each road takes some time wiwi to cross. She is currently at field 11 and will return to her home at field nn at the end of the day.
+Farmer John has plans to increase the time it takes to cross certain roads. He can increase the time it takes to cross each road by a nonnegative amount, but the total increase cannot exceed xixi for the ii-th plan. 
+Determine the maximum he can make the shortest path from 11 to nn for each of the qq independent plans.

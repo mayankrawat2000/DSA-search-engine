@@ -1,0 +1,5 @@
+Consider the infinite sequence ss of positive integers, created by repeating the following steps:
+  Find the lexicographically smallest triple of positive integers (a,b,c)(a,b,c) such that   a⊕b⊕c=0a⊕b⊕c=0, where ⊕⊕ denotes the bitwise XOR operation.  aa, bb, cc are not in ss.  Here triple of integers (a1,b1,c1)(a1,b1,c1) is considered to be lexicographically smaller than triple (a2,b2,c2)(a2,b2,c2) if sequence [a1,b1,c1][a1,b1,c1] is lexicographically smaller than sequence [a2,b2,c2][a2,b2,c2].  Append aa, bb, cc to ss in this order.  Go back to the first step. 
+You have integer nn. Find the nn-th element of ss.
+You have to answer tt independent test cases.
+A sequence aa is lexicographically smaller than a sequence bb if in the first position where aa and bb differ, the sequence aa has a smaller element than the corresponding element in bb.

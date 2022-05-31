@@ -1,0 +1,5 @@
+Major Ram is being chased by his arch enemy Raghav. Ram must reach the top of the building to escape via helicopter. The building, however, is on fire. Ram must choose the optimal path to reach the top of the building to lose the minimum amount of health.
+The building consists of nn floors, each with mm rooms each. Let (i,j)(i,j) represent the jj-th room on the ii-th floor. Additionally, there are kk ladders installed. The ii-th ladder allows Ram to travel from (ai,bi)(ai,bi) to (ci,di)(ci,di), but not in the other direction. Ram also gains hihi health points if he uses the ladder ii. It is guaranteed ai<ciai<ci for all ladders.
+If Ram is on the ii-th floor, he can move either left or right. Travelling across floors, however, is treacherous. If Ram travels from (i,j)(i,j) to (i,k)(i,k), he loses |j−k|⋅xi|j−k|⋅xi health points.
+Ram enters the building at (1,1)(1,1) while his helicopter is waiting at (n,m)(n,m). What is the minimum amount of health Ram loses if he takes the most optimal path? Note this answer may be negative (in which case he gains health). Output "NO ESCAPE" if no matter what path Ram takes, he cannot escape the clutches of Raghav.
+  

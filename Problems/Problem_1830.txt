@@ -1,0 +1,7 @@
+Kana was just an ordinary high school girl before a talent scout discovered her. Then, she became an idol. But different from the stereotype, she is also a gameholic. 
+One day Kana gets interested in a new adventure game called Dragon Quest. In this game, her quest is to beat a dragon.
+
+ 
+The dragon has a hit point of xx initially. When its hit point goes to 00 or under 00, it will be defeated. In order to defeat the dragon, Kana can cast the two following types of spells. 
+ Void Absorption Assume that the dragon's current hit point is hh, after casting this spell its hit point will become ⌊h2⌋+10⌊h2⌋+10. Here ⌊h2⌋⌊h2⌋ denotes hh divided by two, rounded down. Lightning Strike This spell will decrease the dragon's hit point by 1010. Assume that the dragon's current hit point is hh, after casting this spell its hit point will be lowered to h−10h−10.
+Due to some reasons Kana can only cast no more than nn Void Absorptions and mm Lightning Strikes. She can cast the spells in any order and doesn't have to cast all the spells. Kana isn't good at math, so you are going to help her to find out whether it is possible to defeat the dragon.

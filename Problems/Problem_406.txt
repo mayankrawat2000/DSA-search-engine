@@ -1,0 +1,6 @@
+Polycarp has an integer nn that doesn't contain the digit 0. He can do the following operation with his number several (possibly zero) times:
+ Reverse the prefix of length ll (in other words, ll leftmost digits) of nn. So, the leftmost digit is swapped with the ll-th digit from the left, the second digit from the left swapped with (l−1l−1)-th left, etc. For example, if n=123456789n=123456789 and l=5l=5, then the new value of nn will be 543216789543216789.
+Note that for different operations, the values of ll can be different. The number ll can be equal to the length of the number nn — in this case, the whole number nn is reversed.
+Polycarp loves even numbers. Therefore, he wants to make his number even. At the same time, Polycarp is very impatient. He wants to do as few operations as possible.
+Help Polycarp. Determine the minimum number of operations he needs to perform with the number nn to make it even or determine that this is impossible.
+You need to answer tt independent test cases.

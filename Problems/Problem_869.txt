@@ -1,0 +1,5 @@
+Nastia has received an array of nn positive integers as a gift.
+She calls such an array aa good that for all ii (2≤i≤n2≤i≤n) takes place gcd(ai−1,ai)=1gcd(ai−1,ai)=1, where gcd(u,v)gcd(u,v) denotes the greatest common divisor (GCD) of integers uu and vv.
+You can perform the operation: select two different indices i,ji,j (1≤i,j≤n1≤i,j≤n, i≠ji≠j) and two integers x,yx,y (1≤x,y≤2⋅1091≤x,y≤2⋅109) so that min(ai,aj)=min(x,y)min(ai,aj)=min(x,y). Then change aiai to xx and ajaj to yy.
+The girl asks you to make the array good using at most nn operations.
+It can be proven that this is always possible.

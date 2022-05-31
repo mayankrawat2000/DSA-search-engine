@@ -1,0 +1,4 @@
+You are given an array of integers b1,b2,…,bnb1,b2,…,bn.
+An array a1,a2,…,ana1,a2,…,an of integers is hybrid if for each ii (1≤i≤n1≤i≤n) at least one of these conditions is true: 
+  bi=aibi=ai, or  bi=∑ij=1ajbi=∑j=1iaj. 
+Find the number of hybrid arrays a1,a2,…,ana1,a2,…,an. As the result can be very large, you should print the answer modulo 109+7109+7.

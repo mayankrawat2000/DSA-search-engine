@@ -1,0 +1,4 @@
+A binary string is a string where each character is either 0 or 1. Two binary strings aa and bb of equal length are similar, if they have the same character in some position (there exists an integer ii such that ai=biai=bi). For example:
+  10010 and 01111 are similar (they have the same character in position 44);  10010 and 11111 are similar;  111 and 111 are similar;  0110 and 1001 are not similar. 
+You are given an integer nn and a binary string ss consisting of 2n−12n−1 characters. Let's denote s[l..r]s[l..r] as the contiguous substring of ss starting with ll-th character and ending with rr-th character (in other words, s[l..r]=slsl+1sl+2…srs[l..r]=slsl+1sl+2…sr).
+You have to construct a binary string ww of length nn which is similar to all of the following strings: s[1..n]s[1..n], s[2..n+1]s[2..n+1], s[3..n+2]s[3..n+2], ..., s[n..2n−1]s[n..2n−1].

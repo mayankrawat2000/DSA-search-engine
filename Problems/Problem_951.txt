@@ -1,0 +1,4 @@
+A bitstring is a string that contains only the characters 0 and 1.
+Koyomi Kanou is working hard towards her dream of becoming a writer. To practice, she decided to participate in the Binary Novel Writing Contest. The writing prompt for the contest consists of three bitstrings of length 2n2n. A valid novel for the contest is a bitstring of length at most 3n3n that contains at least two of the three given strings as subsequences.
+Koyomi has just received the three prompt strings from the contest organizers. Help her write a valid novel for the contest.
+A string aa is a subsequence of a string bb if aa can be obtained from bb by deletion of several (possibly, zero) characters.

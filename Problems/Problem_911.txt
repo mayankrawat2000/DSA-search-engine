@@ -1,0 +1,2 @@
+Given an array aa of length nn, tell us whether it has a non-empty subsequence such that the product of its elements is not a perfect square.
+A sequence bb is a subsequence of an array aa if bb can be obtained from aa by deleting some (possibly zero) elements.

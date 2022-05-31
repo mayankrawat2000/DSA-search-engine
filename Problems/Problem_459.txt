@@ -1,0 +1,7 @@
+Black is gifted with a Divine array aa consisting of nn (1≤n≤20001≤n≤2000) integers. Each position in aa has an initial value. After shouting a curse over the array, it becomes angry and starts an unstoppable transformation.
+The transformation consists of infinite steps. Array aa changes at the ii-th step in the following way: for every position jj, ajaj becomes equal to the number of occurrences of ajaj in aa before starting this step.
+Here is an example to help you understand the process better: 
+ Initial array:22 11 11 44 33 11 22After the 11-st step:22 33 33 11 11 33 22After the 22-nd step:22 33 33 22 22 33 22After the 33-rd step:44 33 33 44 44 33 44...... 
+In the initial array, we had two 22-s, three 11-s, only one 44 and only one 33, so after the first step, each element became equal to the number of its occurrences in the initial array: all twos changed to 22, all ones changed to 33, four changed to 11 and three changed to 11.
+The transformation steps continue forever.
+You have to process qq queries: in each query, Black is curious to know the value of axax after the kk-th step of transformation.

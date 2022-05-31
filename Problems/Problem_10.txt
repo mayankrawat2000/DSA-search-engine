@@ -1,0 +1,5 @@
+You have a square chessboard of size n×nn×n. Rows are numbered from top to bottom with numbers from 11 to nn, and columns — from left to right with numbers from 11 to nn. So, each cell is denoted with pair of integers (x,y)(x,y) (1≤x,y≤n1≤x,y≤n), where xx is a row number and yy is a column number.
+You have to perform qq queries of three types:
+  Put a new rook in cell (x,y)(x,y).  Remove a rook from cell (x,y)(x,y). It's guaranteed that the rook was put in this cell before.  Check if each cell of subrectangle (x1,y1)−(x2,y2)(x1,y1)−(x2,y2) of the board is attacked by at least one rook. 
+Subrectangle is a set of cells (x,y)(x,y) such that for each cell two conditions are satisfied: x1≤x≤x2x1≤x≤x2 and y1≤y≤y2y1≤y≤y2.
+Recall that cell (a,b)(a,b) is attacked by a rook placed in cell (c,d)(c,d) if either a=ca=c or b=db=d. In particular, the cell containing a rook is attacked by this rook.

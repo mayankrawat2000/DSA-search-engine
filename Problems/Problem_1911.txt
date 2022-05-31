@@ -1,0 +1,3 @@
+The next lecture in a high school requires two topics to be discussed. The ii-th topic is interesting by aiai units for the teacher and by bibi units for the students.
+The pair of topics ii and jj (i<ji<j) is called good if ai+aj>bi+bjai+aj>bi+bj (i.e. it is more interesting for the teacher).
+Your task is to find the number of good pairs of topics.

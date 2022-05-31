@@ -1,0 +1,5 @@
+  
+William has two arrays aa and bb, each consisting of nn items.
+For some segments l..rl..r of these arrays William wants to know if it is possible to equalize the values of items in these segments using a balancing operation. Formally, the values are equalized if for each ii from ll to rr holds ai=biai=bi.
+To perform a balancing operation an even number of indices must be selected, such that l≤pos1<pos2<⋯<posk≤rl≤pos1<pos2<⋯<posk≤r. Next the items of array a at positions pos1,pos3,pos5,…pos1,pos3,pos5,… get incremented by one and the items of array b at positions pos2,pos4,pos6,…pos2,pos4,pos6,… get incremented by one.
+William wants to find out if it is possible to equalize the values of elements in two arrays for each segment using some number of balancing operations, and what is the minimal number of operations required for that. Note that for each segment the operations are performed independently.

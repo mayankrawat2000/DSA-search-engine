@@ -1,0 +1,4 @@
+Shikamaru and Asuma like to play different games, and sometimes they play the following: given an increasing list of numbers, they take turns to move. Each move consists of picking a number from the list.
+Assume the picked numbers are vi1vi1, vi2vi2, ……, vikvik. The following conditions must hold:
+  ij<ij+1ij<ij+1 for all 1≤j≤k−11≤j≤k−1;  vij+1−vij<vij+2−vij+1vij+1−vij<vij+2−vij+1 for all 1≤j≤k−21≤j≤k−2. 
+However, it's easy to play only one instance of game, so today Shikamaru and Asuma decided to play nn simultaneous games. They agreed on taking turns as for just one game, Shikamaru goes first. At each turn, the player performs a valid move in any single game. The player who cannot move loses. Find out who wins, provided that both play optimally.

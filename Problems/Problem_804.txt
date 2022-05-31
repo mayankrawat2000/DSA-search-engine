@@ -1,0 +1,7 @@
+Polycarp is coaching a team for an upcoming game at the chess tournament. A complete team for the tournament should consist of n+1n+1 members.
+There are nn members in his team, the ii-th member's skill value is aiai. Polycarp is yet to choose the final member for the team.
+The opposing team has n+1n+1 members, the jj-th member's skill value is bjbj.
+Polycarp has mm options for the final player of the team. The kk-th of them has a skill value ckck.
+Before the game starts, Polycarp pairs up the members of his team with the members of the opposing team. Every member of both teams is in exactly one pair. The difficulty of a game for a certain player is the difference between his paired opponent's skill and his own skill. So if the ii-th player of the Polycarp's team is paired up with the jj-th member of the opposing team, then the difficulty is equal to bj−aibj−ai. The difficulty of the game for a team is the maximum difficulty of all its players.
+So, before the game starts, Polycarp wants to pair up the players in such a way that the difficulty of the game for his team is minimized.
+For each of the mm options for the final player print the smallest difficulty of the game for the team Polycarp can achieve.

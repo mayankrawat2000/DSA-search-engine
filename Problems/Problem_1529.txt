@@ -1,0 +1,5 @@
+Omkar is building a waterslide in his water park, and he needs your help to ensure that he does it as efficiently as possible.
+Omkar currently has nn supports arranged in a line, the ii-th of which has height aiai. Omkar wants to build his waterslide from the right to the left, so his supports must be nondecreasing in height in order to support the waterslide. In 11 operation, Omkar can do the following: take any contiguous subsegment of supports which is nondecreasing by heights and add 11 to each of their heights. 
+Help Omkar find the minimum number of operations he needs to perform to make his supports able to support his waterslide!
+An array bb is a subsegment of an array cc if bb can be obtained from cc by deletion of several (possibly zero or all) elements from the beginning and several (possibly zero or all) elements from the end.
+An array b1,b2,…,bnb1,b2,…,bn is called nondecreasing if bi≤bi+1bi≤bi+1 for every ii from 11 to n−1n−1.

@@ -1,0 +1,7 @@
+You are given a bracket sequence ss of length nn, where nn is even (divisible by two). The string ss consists of n2n2 opening brackets '(' and n2n2 closing brackets ')'.
+In one move, you can choose exactly one bracket and move it to the beginning of the string or to the end of the string (i.e. you choose some index ii, remove the ii-th character of ss and insert it before or after all remaining characters of ss).
+Your task is to find the minimum number of moves required to obtain regular bracket sequence from ss. It can be proved that the answer always exists under the given constraints.
+Recall what the regular bracket sequence is:
+  "()" is regular bracket sequence;  if ss is regular bracket sequence then "(" + ss + ")" is regular bracket sequence;  if ss and tt are regular bracket sequences then ss + tt is regular bracket sequence. 
+For example, "()()", "(())()", "(())" and "()" are regular bracket sequences, but ")(", "()(" and ")))" are not.
+You have to answer tt independent test cases.

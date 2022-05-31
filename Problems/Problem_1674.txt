@@ -1,0 +1,4 @@
+Given a connected undirected graph with nn vertices and an integer kk, you have to either:
+  either find an independent set that has exactly ⌈k2⌉⌈k2⌉ vertices. or find a simple cycle of length at most kk. 
+An independent set is a set of vertices such that no two of them are connected by an edge. A simple cycle is a cycle that doesn't contain any vertex twice. 
+I have a proof that for any input you can always solve at least one of these problems, but it's left as an exercise for the reader.

@@ -1,0 +1,4 @@
+Kawashiro Nitori is a girl who loves competitive programming.
+One day she found a string and an integer. As an advanced problem setter, she quickly thought of a problem.
+Given a string ss and a parameter kk, you need to check if there exist k+1k+1 non-empty strings a1,a2...,ak+1a1,a2...,ak+1, such that s=a1+a2+…+ak+ak+1+R(ak)+R(ak−1)+…+R(a1).s=a1+a2+…+ak+ak+1+R(ak)+R(ak−1)+…+R(a1). 
+Here ++ represents concatenation. We define R(x)R(x) as a reversed string xx. For example R(abcd)=dcbaR(abcd)=dcba. Note that in the formula above the part R(ak+1)R(ak+1) is intentionally skipped.

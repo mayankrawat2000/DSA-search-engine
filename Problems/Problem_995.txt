@@ -1,0 +1,5 @@
+You are given nn rectangles, each of height 11. Each rectangle's width is a power of 22 (i. e. it can be represented as 2x2x for some non-negative integer xx). 
+You are also given a two-dimensional box of width WW. Note that WW may or may not be a power of 22. Moreover, WW is at least as large as the width of the largest rectangle.
+You have to find the smallest height of this box, such that it is able to fit all the given rectangles. It is allowed to have some empty space left in this box after fitting all the rectangles.
+You cannot rotate the given rectangles to make them fit into the box. Moreover, any two distinct rectangles must not overlap, i. e., any two distinct rectangles must have zero intersection area.
+See notes for visual explanation of sample input.

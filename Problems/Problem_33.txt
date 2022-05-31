@@ -1,0 +1,5 @@
+You are given a string ss of lowercase Latin letters. 
+The following operation can be used: 
+  select one character (from 'a' to 'z') that occurs at least once in the string. And replace all such characters in the string with the previous one in alphabetical order on the loop. For example, replace all 'c' with 'b' or replace all 'a' with 'z'. 
+And you are given the integer kk — the maximum number of operations that can be performed. Find the minimum lexicographically possible string that can be obtained by performing no more than kk operations.
+The string a=a1a2…ana=a1a2…an is lexicographically smaller than the string b=b1b2…bnb=b1b2…bn if there exists an index kk (1≤k≤n1≤k≤n) such that a1=b1a1=b1, a2=b2a2=b2, ..., ak−1=bk−1ak−1=bk−1, but ak<bkak<bk.

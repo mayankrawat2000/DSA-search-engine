@@ -1,0 +1,4 @@
+Given an undirected graph GG, we say that a neighbour ordering is an ordered list of all the neighbours of a vertex for each of the vertices of GG. Consider a given neighbour ordering of GG and three vertices uu, vv and ww, such that vv is a neighbor of uu and ww. We write u<vwu<vw if uu comes after ww in vv's neighbor list.
+A neighbour ordering is said to be good if, for each simple cycle v1,v2,…,vcv1,v2,…,vc of the graph, one of the following is satisfied:
+  v1<v2v3,v2<v3v4,…,vc−2<vc−1vc,vc−1<vcv1,vc<v1v2v1<v2v3,v2<v3v4,…,vc−2<vc−1vc,vc−1<vcv1,vc<v1v2. v1>v2v3,v2>v3v4,…,vc−2>vc−1vc,vc−1>vcv1,vc>v1v2v1>v2v3,v2>v3v4,…,vc−2>vc−1vc,vc−1>vcv1,vc>v1v2. 
+Given a graph GG, determine whether there exists a good neighbour ordering for it and construct one if it does.

@@ -1,0 +1,4 @@
+You are given a matrix aa consisting of positive integers. It has nn rows and mm columns.
+Construct a matrix bb consisting of positive integers. It should have the same size as aa, and the following conditions should be met: 
+  1≤bi,j≤1061≤bi,j≤106;  bi,jbi,j is a multiple of ai,jai,j;  the absolute value of the difference between numbers in any adjacent pair of cells (two cells that share the same side) in bb is equal to k4k4 for some integer k≥1k≥1 (kk is not necessarily the same for all pairs, it is own for each pair). 
+We can show that the answer always exists.

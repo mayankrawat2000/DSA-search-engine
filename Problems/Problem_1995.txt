@@ -1,0 +1,4 @@
+This is an unusual problem in an unusual contest, here is the announcement: http://codeforces.com/blog/entry/73543
+You run a string shop. During a day your customers want to buy strings of certain lengths and sometimes satisfying other properties.
+Today your first customer asked you if you have a string of length kk. In fact, you have a string of length nn and can cut a string of length kk starting at any position out of it. You wonder how many distinct values this string can equal.
+Please note that in your shop strings are over an alphabet of size 22.

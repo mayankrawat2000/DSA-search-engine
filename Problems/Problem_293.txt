@@ -1,0 +1,4 @@
+You have an array a1,a2,…,ana1,a2,…,an consisting of nn distinct integers. You are allowed to perform the following operation on it:
+  Choose two elements from the array aiai and ajaj (i≠ji≠j) such that gcd(ai,aj)gcd(ai,aj) is not present in the array, and add gcd(ai,aj)gcd(ai,aj) to the end of the array. Here gcd(x,y)gcd(x,y) denotes greatest common divisor (GCD) of integers xx and yy. 
+Note that the array changes after each operation, and the subsequent operations are performed on the new array.
+What is the maximum number of times you can perform the operation on the array?

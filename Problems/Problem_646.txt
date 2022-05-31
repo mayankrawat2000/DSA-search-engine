@@ -1,0 +1,7 @@
+Mocha wants to be an astrologer. There are nn stars which can be seen in Zhijiang, and the brightness of the ii-th star is aiai. 
+Mocha considers that these nn stars form a constellation, and she uses (a1,a2,…,an)(a1,a2,…,an) to show its state. A state is called mathematical if all of the following three conditions are satisfied:
+  For all ii (1≤i≤n1≤i≤n), aiai is an integer in the range [li,ri][li,ri]. ∑i=1nai≤m∑i=1nai≤m. gcd(a1,a2,…,an)=1gcd(a1,a2,…,an)=1.
+ 
+Here, gcd(a1,a2,…,an)gcd(a1,a2,…,an) denotes the greatest common divisor (GCD) of integers a1,a2,…,ana1,a2,…,an.
+Mocha is wondering how many different mathematical states of this constellation exist. Because the answer may be large, you must find it modulo 998244353998244353.
+Two states (a1,a2,…,an)(a1,a2,…,an) and (b1,b2,…,bn)(b1,b2,…,bn) are considered different if there exists ii (1≤i≤n1≤i≤n) such that ai≠biai≠bi.

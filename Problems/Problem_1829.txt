@@ -1,0 +1,5 @@
+You have an array aa of length nn. For every positive integer xx you are going to perform the following operation during the xx-th second:
+  Select some distinct indices i1,i2,…,iki1,i2,…,ik which are between 11 and nn inclusive, and add 2x−12x−1 to each corresponding position of aa. Formally, aij:=aij+2x−1aij:=aij+2x−1 for j=1,2,…,kj=1,2,…,k. Note that you are allowed to not select any indices at all. 
+You have to make aa nondecreasing as fast as possible. Find the smallest number TT such that you can make the array nondecreasing after at most TT seconds.
+Array aa is nondecreasing if and only if a1≤a2≤…≤ana1≤a2≤…≤an.
+You have to answer tt independent test cases.

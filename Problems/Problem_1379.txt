@@ -1,0 +1,4 @@
+Yura owns a quite ordinary and boring array aa of length nn. You think there is nothing more boring than that, but Vladik doesn't agree!
+In order to make Yura's array even more boring, Vladik makes qq boring queries. Each query consists of two integers xx and yy. Before answering a query, the bounds ll and rr for this query are calculated: l=(last+x)modn+1l=(last+x)modn+1, r=(last+y)modn+1r=(last+y)modn+1, where lastlast is the answer on the previous query (zero initially), and modmod is the remainder operation. Whenever l>rl>r, they are swapped.
+After Vladik computes ll and rr for a query, he is to compute the least common multiple (LCM) on the segment [l;r][l;r] of the initial array aa modulo 109+7109+7. LCM of a multiset of integers is the smallest positive integer that is divisible by all the elements of the multiset. The obtained LCM is the answer for this query.
+Help Vladik and compute the answer for each query!

@@ -1,0 +1,6 @@
+For the New Year, Polycarp decided to send postcards to all his nn friends. He wants to make postcards with his own hands. For this purpose, he has a sheet of paper of size w×hw×h, which can be cut into pieces.
+Polycarp can cut any sheet of paper w×hw×h that he has in only two cases: 
+  If ww is even, then he can cut the sheet in half and get two sheets of size w2×hw2×h;  If hh is even, then he can cut the sheet in half and get two sheets of size w×h2w×h2; 
+If ww and hh are even at the same time, then Polycarp can cut the sheet according to any of the rules above.
+After cutting a sheet of paper, the total number of sheets of paper is increased by 11.
+Help Polycarp to find out if he can cut his sheet of size w×hw×h at into nn or more pieces, using only the rules described above.

@@ -1,0 +1,6 @@
+You are given an integer nn and a string ss consisting of 2n2n lowercase letters of the English alphabet. The characters of the string ss are s0s1s2⋯s2n−1s0s1s2⋯s2n−1.
+A string tt of length 2n2n (whose characters are denoted by t0t1t2⋯t2n−1t0t1t2⋯t2n−1) is a xoration of ss if there exists an integer jj (0≤j≤2n−10≤j≤2n−1) such that, for each 0≤i≤2n−10≤i≤2n−1, ti=si⊕jti=si⊕j (where ⊕⊕ denotes the operation bitwise XOR).
+Find the lexicographically minimal xoration of ss.
+A string aa is lexicographically smaller than a string bb if and only if one of the following holds: 
+  aa is a prefix of bb, but a≠ba≠b;  in the first position where aa and bb differ, the string aa has a letter that appears earlier in the alphabet than the corresponding letter in bb. 
+ 

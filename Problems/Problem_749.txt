@@ -1,0 +1,1 @@
+You are given a multiset (i. e. a set that can contain multiple equal integers) containing 2n2n integers. Determine if you can split it into exactly nn pairs (i. e. each element should be in exactly one pair) so that the sum of the two elements in each pair is odd (i. e. when divided by 22, the remainder is 11).

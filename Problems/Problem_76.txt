@@ -1,0 +1,3 @@
+Given nn strings, each of length 22, consisting of lowercase Latin alphabet letters from 'a' to 'k', output the number of pairs of indices (i,j)(i,j) such that i<ji<j and the ii-th string and the jj-th string differ in exactly one position.
+In other words, count the number of pairs (i,j)(i,j) (i<ji<j) such that the ii-th string and the jj-th string have exactly one position pp (1≤p≤21≤p≤2) such that sip≠sjpsip≠sjp.
+The answer may not fit into 32-bit integer type, so you should use 64-bit integers like long long in C++ to avoid integer overflow.

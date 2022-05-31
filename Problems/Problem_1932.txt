@@ -1,0 +1,6 @@
+Alice, the president of club FCB, wants to build a team for the new volleyball tournament. The team should consist of pp players playing in pp different positions. She also recognizes the importance of audience support, so she wants to select kk people as part of the audience.
+There are nn people in Byteland. Alice needs to select exactly pp players, one for each position, and exactly kk members of the audience from this pool of nn people. Her ultimate goal is to maximize the total strength of the club.
+The ii-th of the nn persons has an integer aiai associated with him — the strength he adds to the club if he is selected as a member of the audience.
+For each person ii and for each position jj, Alice knows si,jsi,j  — the strength added by the ii-th person to the club if he is selected to play in the jj-th position.
+Each person can be selected at most once as a player or a member of the audience. You have to choose exactly one player for each position.
+Since Alice is busy, she needs you to help her find the maximum possible strength of the club that can be achieved by an optimal choice of players and the audience.

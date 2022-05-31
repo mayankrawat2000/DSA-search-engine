@@ -1,0 +1,6 @@
+Let FkFk denote the kk-th term of Fibonacci sequence, defined as below:
+ F0=F1=1F0=F1=1 for any integer n≥0n≥0, Fn+2=Fn+1+FnFn+2=Fn+1+Fn
+You are given a tree with nn vertices. Recall that a tree is a connected undirected graph without cycles.
+We call a tree a Fib-tree, if its number of vertices equals FkFk for some kk, and at least one of the following conditions holds:
+ The tree consists of only 11 vertex; You can divide it into two Fib-trees by removing some edge of the tree. 
+Determine whether the given tree is a Fib-tree or not.

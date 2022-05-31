@@ -1,0 +1,5 @@
+You like playing chess tournaments online.
+In your last tournament you played nn games. For the sake of this problem, each chess game is either won or lost (no draws). When you lose a game you get 00 points. When you win you get 11 or 22 points: if you have won also the previous game you get 22 points, otherwise you get 11 point. If you win the very first game of the tournament you get 11 point (since there is not a "previous game").
+The outcomes of the nn games are represented by a string ss of length nn: the ii-th character of ss is W if you have won the ii-th game, while it is L if you have lost the ii-th game.
+After the tournament, you notice a bug on the website that allows you to change the outcome of at most kk of your games (meaning that at most kk times you can change some symbol L to W, or W to L). Since your only goal is to improve your chess rating, you decide to cheat and use the bug.
+Compute the maximum score you can get by cheating in the optimal way.

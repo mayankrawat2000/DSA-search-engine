@@ -1,0 +1,5 @@
+You are given an array aa of nn (n≥2n≥2) positive integers and an integer pp. Consider an undirected weighted graph of nn vertices numbered from 11 to nn for which the edges between the vertices ii and jj (i<ji<j) are added in the following manner:
+  If gcd(ai,ai+1,ai+2,…,aj)=min(ai,ai+1,ai+2,…,aj)gcd(ai,ai+1,ai+2,…,aj)=min(ai,ai+1,ai+2,…,aj), then there is an edge of weight min(ai,ai+1,ai+2,…,aj)min(ai,ai+1,ai+2,…,aj) between ii and jj.  If i+1=ji+1=j, then there is an edge of weight pp between ii and jj. 
+Here gcd(x,y,…)gcd(x,y,…) denotes the greatest common divisor (GCD) of integers xx, yy, ....
+Note that there could be multiple edges between ii and jj if both of the above conditions are true, and if both the conditions fail for ii and jj, then there is no edge between these vertices.
+The goal is to find the weight of the minimum spanning tree of this graph.

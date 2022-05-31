@@ -1,0 +1,6 @@
+You have a sequence aa with nn elements 1,2,3,…,k−1,k,k−1,k−2,…,k−(n−k)1,2,3,…,k−1,k,k−1,k−2,…,k−(n−k) (k≤n<2kk≤n<2k).
+Let's call as inversion in aa a pair of indices i<ji<j such that a[i]>a[j]a[i]>a[j].
+Suppose, you have some permutation pp of size kk and you build a sequence bb of size nn in the following manner: b[i]=p[a[i]]b[i]=p[a[i]].
+Your goal is to find such permutation pp that the total number of inversions in bb doesn't exceed the total number of inversions in aa, and bb is lexicographically maximum.
+Small reminder: the sequence of kk integers is called a permutation if it contains all integers from 11 to kk exactly once.
+Another small reminder: a sequence ss is lexicographically smaller than another sequence tt, if either ss is a prefix of tt, or for the first ii such that si≠tisi≠ti, si<tisi<ti holds (in the first position that these sequences are different, ss has smaller number than tt).

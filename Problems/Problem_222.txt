@@ -1,0 +1,4 @@
+In the work of a doctor, it is important to maintain the anonymity of clients and the results of tests. The test results are sent to everyone personally by email, but people are very impatient and they want to know the results right away.
+That's why in the testing lab "De-vitro" doctors came up with an experimental way to report the results. Let's assume that nn people took the tests in the order of the queue. Then the chief doctor Sam can make several statements, in each telling if there is a sick person among the people in the queue from ll-th to rr-th (inclusive), for some values ll and rr.
+During the process, Sam will check how well this scheme works and will be interested in whether it is possible to find out the test result of ii-th person from the information he announced. And if it can be done, then is that patient sick or not.
+Help Sam to test his scheme.

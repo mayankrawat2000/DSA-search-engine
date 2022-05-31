@@ -1,0 +1,8 @@
+This is an interactive problem.
+Note: the XOR-sum of an array a1,a2,…,ana1,a2,…,an (1≤ai≤1091≤ai≤109) is defined as a1⊕a2⊕…⊕ana1⊕a2⊕…⊕an, where ⊕⊕ denotes the bitwise XOR operation.
+Little Dormi received an array of nn integers a1,a2,…,ana1,a2,…,an for Christmas. However, while playing with it over the winter break, he accidentally dropped it into his XOR machine, and the array got lost.
+The XOR machine is currently configured with a query size of kk (which you cannot change), and allows you to perform the following type of query: by giving the machine kk distinct indices x1,x2,…,xkx1,x2,…,xk, it will output ax1⊕ax2⊕…⊕axkax1⊕ax2⊕…⊕axk.
+As Little Dormi's older brother, you would like to help him recover the XOR-sum of his array a1,a2,…,ana1,a2,…,an by querying the XOR machine.
+Little Dormi isn't very patient, so to be as fast as possible, you must query the XOR machine the minimum number of times to find the XOR-sum of his array. Formally, let dd be the minimum number of queries needed to find the XOR-sum of any array of length nn with a query size of kk. Your program will be accepted if you find the correct XOR-sum in at most dd queries.
+Lastly, you also noticed that with certain configurations of the machine kk and values of nn, it may not be possible to recover the XOR-sum of Little Dormi's lost array. If that is the case, you should report it as well.
+The array a1,a2,…,ana1,a2,…,an is fixed before you start querying the XOR machine and does not change with the queries.

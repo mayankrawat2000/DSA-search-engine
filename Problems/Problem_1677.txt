@@ -1,0 +1,2 @@
+Ehab loves number theory, but for some reason he hates the number xx. Given an array aa, find the length of its longest subarray such that the sum of its elements isn't divisible by xx, or determine that such subarray doesn't exist.
+An array aa is a subarray of an array bb if aa can be obtained from bb by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.

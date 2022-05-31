@@ -1,0 +1,7 @@
+Berland Music is a music streaming service built specifically to support Berland local artist. Its developers are currently working on a song recommendation module.
+So imagine Monocarp got recommended nn songs, numbered from 11 to nn. The ii-th song had its predicted rating equal to pipi, where 1≤pi≤n1≤pi≤n and every integer from 11 to nn appears exactly once. In other words, pp is a permutation.
+After listening to each of them, Monocarp pressed either a like or a dislike button. Let his vote sequence be represented with a string ss, such that si=0si=0 means that he disliked the ii-th song, and si=1si=1 means that he liked it.
+Now the service has to re-evaluate the song ratings in such a way that:
+  the new ratings q1,q2,…,qnq1,q2,…,qn still form a permutation (1≤qi≤n1≤qi≤n; each integer from 11 to nn appears exactly once);  every song that Monocarp liked should have a greater rating than every song that Monocarp disliked (formally, for all i,ji,j such that si=1si=1 and sj=0sj=0, qi>qjqi>qj should hold). 
+Among all valid permutations qq find the one that has the smallest value of ∑i=1n|pi−qi|∑i=1n|pi−qi|, where |x||x| is an absolute value of xx.
+Print the permutation q1,q2,…,qnq1,q2,…,qn. If there are multiple answers, you can print any of them.

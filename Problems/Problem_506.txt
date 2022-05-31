@@ -1,0 +1,5 @@
+Bakry faced a problem, but since he's lazy to solve it, he asks for your help.
+You are given a tree of nn nodes, the ii-th node has value aiai assigned to it for each ii from 11 to nn. As a reminder, a tree on nn nodes is a connected graph with n−1n−1 edges.
+You want to delete at least 11, but at most k−1k−1 edges from the tree, so that the following condition would hold:
+For every connected component calculate the bitwise XOR of the values of the nodes in it. Then, these values have to be the same for all connected components.
+Is it possible to achieve this condition?

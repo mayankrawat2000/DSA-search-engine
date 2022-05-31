@@ -1,0 +1,5 @@
+You are given an array aa consisting of nn distinct elements and an integer kk. Each element in the array is a non-negative integer not exceeding 2k−12k−1.
+Let's define the XOR distance for a number xx as the value of 
+f(x)=mini=1nminj=i+1n|(ai⊕x)−(aj⊕x)|,f(x)=mini=1nminj=i+1n|(ai⊕x)−(aj⊕x)|,
+where ⊕⊕ denotes the bitwise XOR operation.
+For every integer xx from 00 to 2k−12k−1, you have to calculate f(x)f(x).

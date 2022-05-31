@@ -1,0 +1,7 @@
+This is an interactive problem!
+In the last regional contest Hemose, ZeyadKhattab and YahiaSherif — members of the team Carpe Diem — did not qualify to ICPC because of some unknown reasons. Hemose was very sad and had a bad day after the contest, but ZeyadKhattab is very wise and knows Hemose very well, and does not want to see him sad.
+Zeyad knows that Hemose loves tree problems, so he gave him a tree problem with a very special device.
+Hemose has a weighted tree with nn nodes and n−1n−1 edges. Unfortunately, Hemose doesn't remember the weights of edges.
+Let's define Dist(u,v)Dist(u,v) for u≠vu≠v as the greatest common divisor of the weights of all edges on the path from node uu to node vv.
+Hemose has a special device. Hemose can give the device a set of nodes, and the device will return the largest DistDist between any two nodes from the set. More formally, if Hemose gives the device a set SS of nodes, the device will return the largest value of Dist(u,v)Dist(u,v) over all pairs (u,v)(u,v) with uu, vv ∈∈ SS and u≠vu≠v.
+Hemose can use this Device at most 1212 times, and wants to find any two distinct nodes aa, bb, such that Dist(a,b)Dist(a,b) is maximum possible. Can you help him?

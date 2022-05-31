@@ -1,0 +1,8 @@
+There are nn points on an infinite plane. The ii-th point has coordinates (xi,yi)(xi,yi) such that xi>0xi>0 and yi>0yi>0. The coordinates are not necessarily integer.
+In one move you perform the following operations: 
+  choose two points aa and bb (a≠ba≠b);  move point aa from (xa,ya)(xa,ya) to either (xa+1,ya)(xa+1,ya) or (xa,ya+1)(xa,ya+1);  move point bb from (xb,yb)(xb,yb) to either (xb+1,yb)(xb+1,yb) or (xb,yb+1)(xb,yb+1);  remove points aa and bb. 
+However, the move can only be performed if there exists a line that passes through the new coordinates of aa, new coordinates of bb and (0,0)(0,0). 
+Otherwise, the move can't be performed and the points stay at their original coordinates (xa,ya)(xa,ya) and (xb,yb)(xb,yb), respectively.
+The numeration of points does not change after some points are removed. Once the points are removed, they can't be chosen in any later moves. Note that you have to move both points during the move, you can't leave them at their original coordinates.
+What is the maximum number of moves you can perform? What are these moves?
+If there are multiple answers, you can print any of them.

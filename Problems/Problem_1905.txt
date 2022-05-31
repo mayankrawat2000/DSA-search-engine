@@ -1,0 +1,1 @@
+Given 2 integers uu and vv, find the shortest array such that bitwise-xor of its elements is uu, and the sum of its elements is vv.

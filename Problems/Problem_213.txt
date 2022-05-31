@@ -1,0 +1,5 @@
+There is a sheet of paper that can be represented with a grid of size n×mn×m: nn rows and mm columns of cells. All cells are colored in white initially.
+qq operations have been applied to the sheet. The ii-th of them can be described as follows: 
+  xixi yiyi — choose one of kk non-white colors and color the entire row xixi and the entire column yiyi in it. The new color is applied to each cell, regardless of whether the cell was colored before the operation. 
+The sheet after applying all qq operations is called a coloring. Two colorings are different if there exists at least one cell that is colored in different colors.
+How many different colorings are there? Print the number modulo 998244353998244353.

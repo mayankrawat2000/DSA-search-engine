@@ -1,0 +1,5 @@
+There are nn bags with candies, initially the ii-th bag contains ii candies. You want all the bags to contain an equal amount of candies in the end. 
+To achieve this, you will:
+ Choose mm such that 1≤m≤10001≤m≤1000Perform mm operations. In the jj-th operation, you will pick one bag and add jj candies to all bags apart from the chosen one.
+Your goal is to find a valid sequence of operations after which all the bags will contain an equal amount of candies. 
+It can be proved that for the given constraints such a sequence always exists.You don't have to minimize mm.If there are several valid sequences, you can output any.

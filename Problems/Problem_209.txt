@@ -1,0 +1,5 @@
+ 
+You are given a sequence of nn non-negative integers a1,a2,…,ana1,a2,…,an. Initially, all the elements of the sequence are unpainted. You can paint each number Red–––––Red_ or Blue¯¯¯¯¯¯¯¯¯¯¯Blue¯ (but not both), or leave it unpainted. 
+For a color cc, Count(c)Count(c) is the number of elements in the sequence painted with that color and Sum(c)Sum(c) is the sum of the elements in the sequence painted with that color.
+For example, if the given sequence is [2,8,6,3,1][2,8,6,3,1] and it is painted this way: [2¯¯¯,8,6––,3¯¯¯,1][2¯,8,6_,3¯,1] (where 66 is painted red, 22 and 33 are painted blue, 11 and 88 are unpainted) then Sum(Red–––––)=6Sum(Red_)=6, Sum(Blue¯¯¯¯¯¯¯¯¯¯¯)=2+3=5Sum(Blue¯)=2+3=5, Count(Red–––––)=1Count(Red_)=1, and Count(Blue¯¯¯¯¯¯¯¯¯¯¯)=2Count(Blue¯)=2.
+Determine if it is possible to paint the sequence so that Sum(Red–––––)>Sum(Blue¯¯¯¯¯¯¯¯¯¯¯)Sum(Red_)>Sum(Blue¯) and Count(Red–––––)<Count(Blue¯¯¯¯¯¯¯¯¯¯¯)Count(Red_)<Count(Blue¯).

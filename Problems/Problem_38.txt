@@ -1,0 +1,7 @@
+You are given a directed acyclic graph, consisting of nn vertices and mm edges. The vertices are numbered from 11 to nn. There are no multiple edges and self-loops.
+Let invinv be the number of incoming edges (indegree) and outvoutv be the number of outgoing edges (outdegree) of vertex vv.
+You are asked to remove some edges from the graph. Let the new degrees be in′vin′v and out′vout′v.
+You are only allowed to remove the edges if the following conditions hold for every vertex vv: 
+  in′v<invin′v<inv or in′v=inv=0in′v=inv=0;  out′v<outvout′v<outv or out′v=outv=0out′v=outv=0. 
+Let's call a set of vertices SS cute if for each pair of vertices vv and uu (v≠uv≠u) such that v∈Sv∈S and u∈Su∈S, there exists a path either from vv to uu or from uu to vv over the non-removed edges.
+What is the maximum possible size of a cute set SS after you remove some edges from the graph and both indegrees and outdegrees of all vertices either decrease or remain equal to 00?

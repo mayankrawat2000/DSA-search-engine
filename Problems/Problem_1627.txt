@@ -1,0 +1,7 @@
+Anna is a girl so brave that she is loved by everyone in the city and citizens love her cookies. She is planning to hold a party with cookies. Now she has aa vanilla cookies and bb chocolate cookies for the party.
+She invited nn guests of the first type and mm guests of the second type to the party. They will come to the party in some order. After coming to the party, each guest will choose the type of cookie (vanilla or chocolate) to eat. There is a difference in the way how they choose that type:
+If there are vv vanilla cookies and cc chocolate cookies at the moment, when the guest comes, then
+  if the guest of the first type: if v>cv>c the guest selects a vanilla cookie. Otherwise, the guest selects a chocolate cookie.  if the guest of the second type: if v>cv>c the guest selects a chocolate cookie. Otherwise, the guest selects a vanilla cookie. 
+After that:
+  If there is at least one cookie of the selected type, the guest eats one.  Otherwise (there are no cookies of the selected type), the guest gets angry and returns to home. 
+Anna wants to know if there exists some order of guests, such that no one guest gets angry. Your task is to answer her question.

@@ -1,0 +1,4 @@
+You are given an array aa of size nn.
+You can perform the following operation on the array: 
+  Choose two different integers i,ji,j (1≤i<j≤n(1≤i<j≤n), replace aiai with xx and ajaj with yy. In order not to break the array, ai|aj=x|yai|aj=x|y must be held, where || denotes the bitwise OR operation. Notice that xx and yy are non-negative integers. 
+Please output the minimum sum of the array you can get after using the operation above any number of times.

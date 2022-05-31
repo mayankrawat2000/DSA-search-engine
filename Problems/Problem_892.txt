@@ -1,0 +1,2 @@
+A number is called 2050-number if it is 20502050, 2050020500, ..., (2050⋅10k2050⋅10k for integer k≥0k≥0).
+Given a number nn, you are asked to represent nn as the sum of some (not necessarily distinct) 2050-numbers. Compute the minimum number of 2050-numbers required for that.

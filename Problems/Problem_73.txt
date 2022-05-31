@@ -1,0 +1,4 @@
+Let ANDAND denote the bitwise AND operation, and OROR denote the bitwise OR operation.
+You are given an array aa of length nn and a non-negative integer kk. You can perform at most kk operations on the array of the following type:
+  Select an index ii (1≤i≤n1≤i≤n) and replace aiai with aiai OROR 2j2j where jj is any integer between 00 and 3030 inclusive. In other words, in an operation you can choose an index ii (1≤i≤n1≤i≤n) and set the jj-th bit of aiai to 11 (0≤j≤300≤j≤30). 
+Output the maximum possible value of a1a1 ANDAND a2a2 ANDAND …… ANDAND anan after performing at most kk operations. 

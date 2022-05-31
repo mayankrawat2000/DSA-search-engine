@@ -1,0 +1,6 @@
+You are given a sequence a1,a2,…,ana1,a2,…,an consisting of nn pairwise distinct positive integers.
+Find ⌊n2⌋⌊n2⌋ different pairs of integers xx and yy such that: 
+  x≠yx≠y;  xx and yy appear in aa;  x mod yx mod y doesn't appear in aa. 
+Note that some xx or yy can belong to multiple pairs.
+⌊x⌋⌊x⌋ denotes the floor function — the largest integer less than or equal to xx. x mod yx mod y denotes the remainder from dividing xx by yy.
+If there are multiple solutions, print any of them. It can be shown that at least one solution always exists.

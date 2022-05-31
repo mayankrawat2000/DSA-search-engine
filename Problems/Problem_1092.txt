@@ -1,0 +1,5 @@
+In Homer's country, there are nn cities numbered 11 to nn and they form a tree. That is, there are (n−1)(n−1) undirected roads between these nn cities and every two cities can reach each other through these roads. 
+Homer's country is an industrial country, and each of the nn cities in it contains some mineral resource. The mineral resource of city ii is labeled aiai. 
+Homer is given the plans of the country in the following qq years. The plan of the ii-th year is described by four parameters ui,vi,liui,vi,li and riri, and he is asked to find any mineral resource cici such that the following two conditions hold: 
+  mineral resource cici appears an odd number of times between city uiui and city vivi; and  li≤ci≤rili≤ci≤ri. 
+As the best friend of Homer, he asks you for help. For every plan, find any such mineral resource cici, or tell him that there doesn't exist one.

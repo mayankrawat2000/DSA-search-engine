@@ -1,0 +1,6 @@
+This week Arkady wanted to cook some pancakes (to follow ancient traditions) and make a problem about that. But then he remembered that one can't make a problem about stacking pancakes without working at a specific IT company, so he decided to bake the Napoleon cake instead.
+To bake a Napoleon cake, one has to bake nn dry layers first, and then put them on each other in one stack, adding some cream. Arkady started with an empty plate, and performed the following steps nn times: 
+  place a new cake layer on the top of the stack;  after the ii-th layer is placed, pour aiai units of cream on top of the stack. 
+When xx units of cream are poured on the top of the stack, top xx layers of the cake get drenched in the cream. If there are less than xx layers, all layers get drenched and the rest of the cream is wasted. If x=0x=0, no layer gets drenched.
+  The picture represents the first test case of the example. 
+Help Arkady determine which layers of the cake eventually get drenched when the process is over, and which don't.

@@ -1,0 +1,5 @@
+This is an interactive problem.
+The jury has a permutation pp of length nn and wants you to guess it. For this, the jury created another permutation qq of length nn. Initially, qq is an identity permutation (qi=iqi=i for all ii).
+You can ask queries to get qiqi for any ii you want. After each query, the jury will change qq in the following way: 
+  At first, the jury will create a new permutation q′q′ of length nn such that q′i=qpiqi′=qpi for all ii.  Then the jury will replace permutation qq with pemutation q′q′. 
+You can make no more than 2n2n queries in order to quess pp.

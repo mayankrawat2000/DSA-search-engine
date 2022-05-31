@@ -1,0 +1,5 @@
+You are given an integer kk and a tree TT with nn nodes (nn is even).
+Let dist(u,v)dist(u,v) be the number of edges on the shortest path from node uu to node vv in TT.
+Let us define a undirected weighted complete graph G=(V,E)G=(V,E) as following: 
+  V={x∣1≤x≤n}V={x∣1≤x≤n} i.e. the set of integers from 11 to nn E={(u,v,w)∣1≤u,v≤n,u≠v,w=dist(u,v)}E={(u,v,w)∣1≤u,v≤n,u≠v,w=dist(u,v)} i.e. there is an edge between every pair of distinct nodes, the weight being the distance between their respective nodes in TT 
+Your task is simple, find a perfect matching in GG with total edge weight kk (1≤k≤n2)(1≤k≤n2).

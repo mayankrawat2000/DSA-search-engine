@@ -1,0 +1,5 @@
+There is a local shop in your area getting prepared for the great holiday of Black Friday. There are nn items with prices p1,p2,…,pnp1,p2,…,pn on the display. They are ordered by price, so p1≤p2≤⋯≤pnp1≤p2≤⋯≤pn.
+The shop has a prechosen discount value kk. The Black Friday discount is applied in the following way: for a single purchase of xx items, you get the cheapest ⌊xk⌋⌊xk⌋ items of them for free (⌊xk⌋⌊xk⌋ is xx divided by kk rounded down to the nearest integer). You can include each item in your purchase no more than once.
+For example, if there are items with prices [1,1,2,2,2,3,4,5,6][1,1,2,2,2,3,4,5,6] in the shop, and you buy items with prices [1,2,2,4,5][1,2,2,4,5], and k=2k=2, then you get the cheapest ⌊52⌋=2⌊52⌋=2 for free. They are items with prices 11 and 22.
+So you, being the naive customer, don't care about how much money you spend. However, you want the total price of the items you get for free to be as large as possible.
+What is the maximum total price of the items you can get for free on a single purchase?

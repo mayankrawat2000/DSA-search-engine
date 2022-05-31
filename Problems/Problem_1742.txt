@@ -1,0 +1,5 @@
+You have to restore the wall. The wall consists of NN pillars of bricks, the height of the ii-th pillar is initially equal to hihi, the height is measured in number of bricks. After the restoration all the NN pillars should have equal heights.
+You are allowed the following operations:
+ put a brick on top of one pillar, the cost of this operation is AA; remove a brick from the top of one non-empty pillar, the cost of this operation is RR; move a brick from the top of one non-empty pillar to the top of another pillar, the cost of this operation is MM.
+You cannot create additional pillars or ignore some of pre-existing pillars even if their height becomes 00.
+What is the minimal total cost of restoration, in other words, what is the minimal total cost to make all the pillars of equal height?

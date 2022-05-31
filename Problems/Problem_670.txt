@@ -1,0 +1,5 @@
+  
+William has two numbers aa and bb initially both equal to zero. William mastered performing three different operations with them quickly. Before performing each operation some positive integer kk is picked, which is then used to perform one of the following operations: (note, that for each operation you can choose a new positive integer kk)
+  add number kk to both aa and bb, or  add number kk to aa and subtract kk from bb, or  add number kk to bb and subtract kk from aa. 
+Note that after performing operations, numbers aa and bb may become negative as well.
+William wants to find out the minimal number of operations he would have to perform to make aa equal to his favorite number cc and bb equal to his second favorite number dd.

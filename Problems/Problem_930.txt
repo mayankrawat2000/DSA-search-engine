@@ -1,0 +1,5 @@
+You are given three integers aa, bb and cc.
+Find two positive integers xx and yy (x>0x>0, y>0y>0) such that: 
+  the decimal representation of xx without leading zeroes consists of aa digits;  the decimal representation of yy without leading zeroes consists of bb digits;  the decimal representation of gcd(x,y)gcd(x,y) without leading zeroes consists of cc digits. 
+gcd(x,y)gcd(x,y) denotes the greatest common divisor (GCD) of integers xx and yy.
+Output xx and yy. If there are multiple answers, output any of them.

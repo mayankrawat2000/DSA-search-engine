@@ -1,0 +1,4 @@
+This is the easy version of the problem. The only difference is that in this version n≤2000n≤2000. You can make hacks only if both versions of the problem are solved.
+There are nn potions in a line, with potion 11 on the far left and potion nn on the far right. Each potion will increase your health by aiai when drunk. aiai can be negative, meaning that potion will decrease will health.
+You start with 00 health and you will walk from left to right, from first potion to the last one. At each potion, you may choose to drink it or ignore it. You must ensure that your health is always non-negative.
+What is the largest number of potions you can drink?

@@ -1,0 +1,4 @@
+You are given an array aa consisting of nn integers.
+In one move, you can choose some index ii (1≤i≤n−21≤i≤n−2) and shift the segment [ai,ai+1,ai+2][ai,ai+1,ai+2] cyclically to the right (i.e. replace the segment [ai,ai+1,ai+2][ai,ai+1,ai+2] with [ai+2,ai,ai+1][ai+2,ai,ai+1]). 
+Your task is to sort the initial array by no more than n2n2 such operations or say that it is impossible to do that.
+You have to answer tt independent test cases.

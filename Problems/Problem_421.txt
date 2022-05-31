@@ -1,0 +1,5 @@
+  
+While performing complex market analysis William encountered the following problem:
+For a given array aa of size nn and a natural number ee, calculate the number of pairs of natural numbers (i,k)(i,k) which satisfy the following conditions: 
+  1≤i,k1≤i,k  i+e⋅k≤ni+e⋅k≤n.  Product ai⋅ai+e⋅ai+2⋅e⋅…⋅ai+k⋅eai⋅ai+e⋅ai+2⋅e⋅…⋅ai+k⋅e is a prime number. 
+A prime number (or a prime) is a natural number greater than 1 that is not a product of two smaller natural numbers.

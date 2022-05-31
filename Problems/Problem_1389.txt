@@ -1,0 +1,3 @@
+In order to celebrate Twice's 5th anniversary, Tzuyu and Sana decided to play a game.
+Tzuyu gave Sana two integers aa and bb and a really important quest.
+In order to complete the quest, Sana has to output the smallest possible value of (a⊕xa⊕x) + (b⊕xb⊕x) for any given xx, where ⊕⊕ denotes the bitwise XOR operation. 

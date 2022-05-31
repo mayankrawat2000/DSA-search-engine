@@ -1,0 +1,4 @@
+There is a game called "Unique Bid Auction". You can read more about it here: https://en.wikipedia.org/wiki/Unique_bid_auction (though you don't have to do it to solve this problem).
+Let's simplify this game a bit. Formally, there are nn participants, the ii-th participant chose the number aiai. The winner of the game is such a participant that the number he chose is unique (i. e. nobody else chose this number except him) and is minimal (i. e. among all unique values of aa the minimum one is the winning one).
+Your task is to find the index of the participant who won the game (or -1 if there is no winner). Indexing is 11-based, i. e. the participants are numbered from 11 to nn.
+You have to answer tt independent test cases.

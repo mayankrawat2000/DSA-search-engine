@@ -1,0 +1,4 @@
+David was given a red checkered rectangle of size n×mn×m. But he doesn't like it. So David cuts the original or any other rectangle piece obtained during the cutting into two new pieces along the grid lines. He can do this operation as many times as he wants.
+As a result, he will get a set of rectangles. Rectangles 1×11×1 are forbidden.
+David also knows how to paint the cells blue. He wants each rectangle from the resulting set of pieces to be colored such that any pair of adjacent cells by side (from the same piece) have different colors.
+What is the minimum number of cells David will have to paint?

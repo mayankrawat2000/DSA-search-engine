@@ -1,0 +1,9 @@
+You are given a rooted tree consisting of nn vertices. Vertices are numbered from 11 to nn. Any vertex can be the root of a tree.
+A tree is a connected undirected graph without cycles. A rooted tree is a tree with a selected vertex, which is called the root.
+The tree is specified by an array of parents pp containing nn numbers: pipi is a parent of the vertex with the index ii. The parent of a vertex uu is a vertex that is the next vertex on the shortest path from uu to the root. For example, on the simple path from 55 to 33 (the root), the next vertex would be 11, so the parent of 55 is 11.
+The root has no parent, so for it, the value of pipi is ii (the root is the only vertex for which pi=ipi=i).
+Find such a set of paths that:
+  each vertex belongs to exactly one path, each path can contain one or more vertices;  in each path each next vertex — is a son of the current vertex (that is, paths always lead down — from parent to son);  number of paths is minimal. 
+For example, if n=5n=5 and p=[3,1,3,3,1]p=[3,1,3,3,1], then the tree can be divided into three paths: 
+  3→1→53→1→5 (path of 33 vertices),  44 (path of 11 vertices).  22 (path of 11 vertices). 
+  Example of splitting a root tree into three paths for n=5n=5, the root of the tree — node 33. 

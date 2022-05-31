@@ -1,0 +1,5 @@
+A rectangle with its opposite corners in (0,0)(0,0) and (w,h)(w,h) and sides parallel to the axes is drawn on a plane.
+You are given a list of lattice points such that each point lies on a side of a rectangle but not in its corner. Also, there are at least two points on every side of a rectangle.
+Your task is to choose three points in such a way that: 
+  exactly two of them belong to the same side of a rectangle;  the area of a triangle formed by them is maximum possible. 
+Print the doubled area of this triangle. It can be shown that the doubled area of any triangle formed by lattice points is always an integer.

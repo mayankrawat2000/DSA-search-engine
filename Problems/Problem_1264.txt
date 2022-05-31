@@ -1,0 +1,1 @@
+You are given two arrays aa and bb, each consisting of nn positive integers, and an integer xx. Please determine if one can rearrange the elements of bb so that ai+bi≤xai+bi≤x holds for each ii (1≤i≤n1≤i≤n).

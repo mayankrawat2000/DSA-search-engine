@@ -1,0 +1,7 @@
+Chanek Jones is back, helping his long-lost relative Indiana Jones, to find a secret treasure in a maze buried below a desert full of illusions.
+The map of the labyrinth forms a tree with nn rooms numbered from 11 to nn and n−1n−1 tunnels connecting them such that it is possible to travel between each pair of rooms through several tunnels.
+The ii-th room (1≤i≤n1≤i≤n) has aiai illusion rate. To go from the xx-th room to the yy-th room, there must exist a tunnel between xx and yy, and it takes max(|ax+ay|,|ax−ay|)max(|ax+ay|,|ax−ay|) energy. |z||z| denotes the absolute value of zz.
+To prevent grave robbers, the maze can change the illusion rate of any room in it. Chanek and Indiana would ask qq queries.
+There are two types of queries to be done:
+  1 u c1 u c — The illusion rate of the xx-th room is changed to cc (1≤u≤n1≤u≤n, 0≤|c|≤1090≤|c|≤109).  2 u v2 u v — Chanek and Indiana ask you the minimum sum of energy needed to take the secret treasure at room vv if they are initially at room uu (1≤u,v≤n1≤u,v≤n). 
+Help them, so you can get a portion of the treasure!

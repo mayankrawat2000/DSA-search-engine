@@ -1,0 +1,5 @@
+A mad scientist Dr.Jubal has made a competitive programming task. Try to solve it!
+You are given integers n,kn,k. Construct a grid AA with size n×nn×n consisting of integers 00 and 11. The very important condition should be satisfied: the sum of all elements in the grid is exactly kk. In other words, the number of 11 in the grid is equal to kk.
+Let's define:
+  Ai,jAi,j as the integer in the ii-th row and the jj-th column.  Ri=Ai,1+Ai,2+...+Ai,nRi=Ai,1+Ai,2+...+Ai,n (for all 1≤i≤n1≤i≤n).  Cj=A1,j+A2,j+...+An,jCj=A1,j+A2,j+...+An,j (for all 1≤j≤n1≤j≤n).  In other words, RiRi are row sums and CjCj are column sums of the grid AA.  For the grid AA let's define the value f(A)=(max(R)−min(R))2+(max(C)−min(C))2f(A)=(max(R)−min(R))2+(max(C)−min(C))2 (here for an integer sequence XX we define max(X)max(X) as the maximum value in XX and min(X)min(X) as the minimum value in XX). 
+Find any grid AA, which satisfies the following condition. Among such grids find any, for which the value f(A)f(A) is the minimum possible. Among such tables, you can find any.

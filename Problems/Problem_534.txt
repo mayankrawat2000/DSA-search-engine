@@ -1,0 +1,5 @@
+This is a harder version of the problem with bigger constraints.
+Korney Korneevich dag up an array aa of length nn. Korney Korneevich has recently read about the operation bitwise XOR, so he wished to experiment with it. For this purpose, he decided to find all integers x≥0x≥0 such that there exists an increasing subsequence of the array aa, in which the bitwise XOR of numbers is equal to xx.
+It didn't take a long time for Korney Korneevich to find all such xx, and he wants to check his result. That's why he asked you to solve this problem!
+A sequence ss is a subsequence of a sequence bb if ss can be obtained from bb by deletion of several (possibly, zero or all) elements.
+A sequence s1,s2,…,sms1,s2,…,sm is called increasing if s1<s2<…<sms1<s2<…<sm.

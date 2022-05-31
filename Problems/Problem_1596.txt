@@ -1,0 +1,8 @@
+You are given a tree with nn vertices. You are allowed to modify the structure of the tree through the following multi-step operation:
+  Choose three vertices aa, bb, and cc such that bb is adjacent to both aa and cc.  For every vertex dd other than bb that is adjacent to aa, remove the edge connecting dd and aa and add the edge connecting dd and cc.  Delete the edge connecting aa and bb and add the edge connecting aa and cc. 
+As an example, consider the following tree:
+  
+The following diagram illustrates the sequence of steps that happen when we apply an operation to vertices 22, 44, and 55:
+  
+It can be proven that after each operation, the resulting graph is still a tree.
+Find the minimum number of operations that must be performed to transform the tree into a star. A star is a tree with one vertex of degree n−1n−1, called its center, and n−1n−1 vertices of degree 11.

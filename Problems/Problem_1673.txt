@@ -1,0 +1,3 @@
+This is an interactive problem!
+Ehab has a hidden permutation pp of length nn consisting of the elements from 00 to n−1n−1. You, for some reason, want to figure out the permutation. To do that, you can give Ehab 22 different indices ii and jj, and he'll reply with (pi|pj)(pi|pj) where || is the bitwise-or operation.
+Ehab has just enough free time to answer 42694269 questions, and while he's OK with answering that many questions, he's too lazy to play your silly games, so he'll fix the permutation beforehand and will not change it depending on your queries. Can you guess the permutation?

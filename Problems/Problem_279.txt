@@ -1,0 +1,4 @@
+You are given nn elements numbered from 11 to nn, the element ii has value aiai and color cici, initially, ci=0ci=0 for all ii.
+The following operation can be applied:
+  Select three elements ii, jj and kk (1≤i<j<k≤n1≤i<j<k≤n), such that cici, cjcj and ckck are all equal to 00 and ai=akai=ak, then set cj=1cj=1. 
+Find the maximum value of ∑i=1nci∑i=1nci that can be obtained after applying the given operation any number of times.

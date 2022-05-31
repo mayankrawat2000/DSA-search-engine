@@ -1,0 +1,3 @@
+Not so long ago, Vlad had a birthday, for which he was presented with a package of candies. There were nn types of candies, there are aiai candies of the type ii (1≤i≤n1≤i≤n).
+Vlad decided to eat exactly one candy every time, choosing any of the candies of a type that is currently the most frequent (if there are several such types, he can choose any of them). To get the maximum pleasure from eating, Vlad does not want to eat two candies of the same type in a row.
+Help him figure out if he can eat all the candies without eating two identical candies in a row.

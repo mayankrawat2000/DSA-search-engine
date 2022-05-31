@@ -1,0 +1,8 @@
+There are nn pieces of cake on a line. The ii-th piece of cake has weight aiai (1≤i≤n1≤i≤n).
+The tastiness of the cake is the maximum total weight of two adjacent pieces of cake (i. e., max(a1+a2,a2+a3,…,an−1+an)max(a1+a2,a2+a3,…,an−1+an)).
+You want to maximize the tastiness of the cake. You are allowed to do the following operation at most once (doing more operations would ruin the cake): 
+  Choose a contiguous subsegment a[l,r]a[l,r] of pieces of cake (1≤l≤r≤n1≤l≤r≤n), and reverse it. 
+The subsegment a[l,r]a[l,r] of the array aa is the sequence al,al+1,…,aral,al+1,…,ar.
+If you reverse it, the array will become a1,a2,…,al−2,al−1,ar––,ar−1––––,…–––,al+1––––,al––,ar+1,ar+2,…,an−1,ana1,a2,…,al−2,al−1,ar_,ar−1_,…_,al+1_,al_,ar+1,ar+2,…,an−1,an.
+For example, if the weights are initially [5,2,1,4,7,3][5,2,1,4,7,3], you can reverse the subsegment a[2,5]a[2,5], getting [5,7–,4–,1–,2–,3][5,7_,4_,1_,2_,3]. The tastiness of the cake is now 5+7=125+7=12 (while before the operation the tastiness was 4+7=114+7=11).
+Find the maximum tastiness of the cake after doing the operation at most once.

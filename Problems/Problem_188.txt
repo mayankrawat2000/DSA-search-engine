@@ -1,0 +1,7 @@
+On the number line there are mm points, ii-th of which has integer coordinate xixi and integer weight wiwi. The coordinates of all points are different, and the points are numbered from 11 to mm.
+A sequence of nn segments [l1,r1],[l2,r2],…,[ln,rn][l1,r1],[l2,r2],…,[ln,rn] is called system of nested segments if for each pair i,ji,j (1≤i<j≤n1≤i<j≤n) the condition li<lj<rj<rili<lj<rj<ri is satisfied. In other words, the second segment is strictly inside the first one, the third segment is strictly inside the second one, and so on.
+For a given number nn, find a system of nested segments such that:
+  both ends of each segment are one of mm given points;  the sum of the weights 2⋅n2⋅n of the points used as ends of the segments is minimal. 
+For example, let m=8m=8. The given points are marked in the picture, their weights are marked in red, their coordinates are marked in blue. Make a system of three nested segments:
+  weight of the first segment: 1+1=21+1=2  weight of the second segment: 10+(−1)=910+(−1)=9  weight of the third segment: 3+(−2)=13+(−2)=1  sum of the weights of all the segments in the system: 2+9+1=122+9+1=12 
+  System of three nested segments 

@@ -1,0 +1,7 @@
+You have a simple and connected undirected graph consisting of nn nodes and mm edges.
+Consider any way to pair some subset of these nn nodes such that no node is present in more than one pair. 
+This pairing is valid if for every pair of pairs, the induced subgraph containing all 44 nodes, two from each pair, has at most 22 edges (out of the 66 possible edges). More formally, for any two pairs, (a,b)(a,b) and (c,d)(c,d), the induced subgraph with nodes {a,b,c,d}{a,b,c,d} should have at most 22 edges. 
+Please note that the subgraph induced by a set of nodes contains nodes only from this set and edges which have both of its end points in this set.
+Now, do one of the following: 
+  Find a simple path consisting of at least ⌈n2⌉⌈n2⌉ nodes. Here, a path is called simple if it does not visit any node multiple times.  Find a valid pairing in which at least ⌈n2⌉⌈n2⌉ nodes are paired. 
+It can be shown that it is possible to find at least one of the two in every graph satisfying constraints from the statement. 

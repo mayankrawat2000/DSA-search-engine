@@ -1,0 +1,5 @@
+nn students are taking an exam. The highest possible score at this exam is mm. Let aiai be the score of the ii-th student. You have access to the school database which stores the results of all students.
+You can change each student's score as long as the following conditions are satisfied: 
+  All scores are integers  0≤ai≤m0≤ai≤m  The average score of the class doesn't change. 
+You are student 11 and you would like to maximize your own score.
+Find the highest possible score you can assign to yourself such that all conditions are satisfied.

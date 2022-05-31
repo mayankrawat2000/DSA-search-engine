@@ -1,0 +1,4 @@
+You are given a positive integer nn. You have to find 44 positive integers a,b,c,da,b,c,d such that
+  a+b+c+d=na+b+c+d=n, and gcd(a,b)=lcm(c,d)gcd(a,b)=lcm⁡(c,d).
+If there are several possible answers you can output any of them. It is possible to show that the answer always exists.
+In this problem gcd(a,b)gcd(a,b) denotes the greatest common divisor of aa and bb, and lcm(c,d)lcm⁡(c,d) denotes the least common multiple of cc and dd.

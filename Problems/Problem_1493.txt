@@ -1,0 +1,7 @@
+You have nn gifts and you want to give all of them to children. Of course, you don't want to offend anyone, so all gifts should be equal between each other. The ii-th gift consists of aiai candies and bibi oranges.
+During one move, you can choose some gift 1≤i≤n1≤i≤n and do one of the following operations:
+  eat exactly one candy from this gift (decrease aiai by one);  eat exactly one orange from this gift (decrease bibi by one);  eat exactly one candy and exactly one orange from this gift (decrease both aiai and bibi by one). 
+Of course, you can not eat a candy or orange if it's not present in the gift (so neither aiai nor bibi can become less than zero).
+As said above, all gifts should be equal. This means that after some sequence of moves the following two conditions should be satisfied: a1=a2=⋯=ana1=a2=⋯=an and b1=b2=⋯=bnb1=b2=⋯=bn (and aiai equals bibi is not necessary).
+Your task is to find the minimum number of moves required to equalize all the given gifts.
+You have to answer tt independent test cases.

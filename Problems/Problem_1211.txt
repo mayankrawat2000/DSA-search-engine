@@ -1,0 +1,5 @@
+Polycarp is editing a complicated computer program. First, variable xx is declared and assigned to 00. Then there are instructions of two types: 
+  set yy vv — assign xx a value yy or spend vv burles to remove that instruction (thus, not reassign xx);  if yy …… end block — execute instructions inside the if block if the value of xx is yy and ignore the block otherwise. 
+if blocks can contain set instructions and other if blocks inside them.
+However, when the value of xx gets assigned to ss, the computer breaks and immediately catches fire. Polycarp wants to prevent that from happening and spend as few burles as possible.
+What is the minimum amount of burles he can spend on removing set instructions to never assign xx to ss?

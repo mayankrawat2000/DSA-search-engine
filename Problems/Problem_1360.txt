@@ -1,0 +1,4 @@
+Mr. Chanek just won the national chess tournament and got a huge chessboard of size N×MN×M. Bored with playing conventional chess, Mr. Chanek now defines a function F(X,Y)F(X,Y), which denotes the minimum number of moves to move a knight from square (1,1)(1,1) to square (X,Y)(X,Y). It turns out finding F(X,Y)F(X,Y) is too simple, so Mr. Chanek defines:
+G(X,Y)=∑Ni=X∑Mj=YF(i,j)G(X,Y)=∑i=XN∑j=YMF(i,j)
+Given X and Y, you are tasked to find G(X,Y)G(X,Y).
+A knight can move from square (a,b)(a,b) to square (a′,b′)(a′,b′) if and only if |a−a′|>0|a−a′|>0, |b−b′|>0|b−b′|>0, and |a−a′|+|b−b′|=3|a−a′|+|b−b′|=3. Of course, the knight cannot leave the chessboard.

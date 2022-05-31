@@ -1,0 +1,2 @@
+Theofanis has a riddle for you and if you manage to solve it, he will give you a Cypriot snack halloumi for free (Cypriot cheese).
+You are given an integer nn. You need to find two integers ll and rr such that −1018≤l<r≤1018−1018≤l<r≤1018 and l+(l+1)+…+(r−1)+r=nl+(l+1)+…+(r−1)+r=n.

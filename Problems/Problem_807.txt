@@ -1,0 +1,5 @@
+Your friend has created a nearest point function. For a given array of integer points xx (sorted in ascending order, without any duplicates) and a point yy it can find the nearest point from xx to the point yy. In other words, it will find such a point xixi that |y−xi||y−xi| is the minimum possible, where |a||a| is the absolute value of aa.
+For example, if x=[1,2,5,7,9,11]x=[1,2,5,7,9,11], the answer for y=3y=3 will be 22, the answer for y=5y=5 will be 55 and the answer for y=100y=100 will be 1111.
+This function is a bit buggy, though. If there are several nearest points to the given one, the function crashes. For example, if x=[1,2,5,7,9,11]x=[1,2,5,7,9,11] (as above) and y=6y=6, the function will crash, since points 55 and 77 are both the nearest points for 66.
+Your task is, for a given array of integer points xx (sorted in ascending order, without any duplicates), determine if it is possible to cause the function to crash by choosing some integer point yy.
+You have to answer tt independent test cases.

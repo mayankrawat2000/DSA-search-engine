@@ -1,0 +1,7 @@
+During cleaning the coast, Alice found nn piles of stones. The ii-th pile has aiai stones.
+Piles ii and i+1i+1 are neighbouring for all 1≤i≤n−11≤i≤n−1. If pile ii becomes empty, piles i−1i−1 and i+1i+1 doesn't become neighbouring.
+Alice is too lazy to remove these stones, so she asked you to take this duty. She allowed you to do only the following operation: 
+  Select two neighboring piles and, if both of them are not empty, remove one stone from each of them. 
+Alice understands that sometimes it's impossible to remove all stones with the given operation, so she allowed you to use the following superability: 
+  Before the start of cleaning, you can select two neighboring piles and swap them. 
+Determine, if it is possible to remove all stones using the superability not more than once.

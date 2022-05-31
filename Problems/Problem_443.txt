@@ -1,0 +1,3 @@
+Berland State University has received a new update for the operating system. Initially it is installed only on the 11-st computer.
+Update files should be copied to all nn computers. The computers are not connected to the internet, so the only way to transfer update files from one computer to another is to copy them using a patch cable (a cable connecting two computers directly). Only one patch cable can be connected to a computer at a time. Thus, from any computer where the update files are installed, they can be copied to some other computer in exactly one hour.
+Your task is to find the minimum number of hours required to copy the update files to all nn computers if there are only kk patch cables in Berland State University.

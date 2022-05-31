@@ -1,0 +1,10 @@
+You are given a permutation a1,a2,…,ana1,a2,…,an of numbers from 11 to nn. Also, you have nn sets S1,S2,…,SnS1,S2,…,Sn, where Si={ai}Si={ai}. Lastly, you have a variable cntcnt, representing the current number of sets. Initially, cnt=ncnt=n.
+We define two kinds of functions on sets:
+f(S)=minu∈Suf(S)=minu∈Su;
+g(S)=maxu∈Sug(S)=maxu∈Su.
+You can obtain a new set by merging two sets AA and BB, if they satisfy g(A)<f(B)g(A)<f(B) (Notice that the old sets do not disappear).
+Formally, you can perform the following sequence of operations:
+cnt←cnt+1cnt←cnt+1;Scnt=Su∪SvScnt=Su∪Sv, you are free to choose uu and vv for which 1≤u,v<cnt1≤u,v<cnt and which satisfy g(Su)<f(Sv)g(Su)<f(Sv).
+You are required to obtain some specific sets.
+There are qq requirements, each of which contains two integers lili,riri, which means that there must exist a set SkiSki (kiki is the ID of the set, you should determine it) which equals {au∣li≤u≤ri}{au∣li≤u≤ri}, which is, the set consisting of all aiai with indices between lili and riri.
+In the end you must ensure that cnt≤2.2×106cnt≤2.2×106. Note that you don't have to minimize cntcnt. It is guaranteed that a solution under given constraints exists.

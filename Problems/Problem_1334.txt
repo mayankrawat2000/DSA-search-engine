@@ -1,0 +1,5 @@
+This is the easy version of the problem. The only difference is that in this version q=1q=1. You can make hacks only if all versions of the problem are solved.
+Zookeeper has been teaching his qq sheep how to write and how to add. The ii-th sheep has to write exactly kk non-negative integers with the sum nini.
+Strangely, sheep have superstitions about digits and believe that the digits 33, 66, and 99 are lucky. To them, the fortune of a number depends on the decimal representation of the number; the fortune of a number is equal to the sum of fortunes of its digits, and the fortune of a digit depends on its value and position and can be described by the following table. For example, the number 319319 has fortune F2+3F0F2+3F0. 
+  
+Each sheep wants to maximize the sum of fortune among all its kk written integers. Can you help them?

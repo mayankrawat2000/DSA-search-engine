@@ -1,0 +1,9 @@
+You are given two strings xx and yy, both consist only of lowercase Latin letters. Let |s||s| be the length of string ss.
+Let's call a sequence aa a merging sequence if it consists of exactly |x||x| zeros and exactly |y||y| ones in some order.
+A merge zz is produced from a sequence aa by the following rules: 
+  if ai=0ai=0, then remove a letter from the beginning of xx and append it to the end of zz;  if ai=1ai=1, then remove a letter from the beginning of yy and append it to the end of zz. 
+Two merging sequences aa and bb are different if there is some position ii such that ai≠biai≠bi.
+Let's call a string zz chaotic if for all ii from 22 to |z||z| zi−1≠zizi−1≠zi.
+Let s[l,r]s[l,r] for some 1≤l≤r≤|s|1≤l≤r≤|s| be a substring of consecutive letters of ss, starting from position ll and ending at position rr inclusive.
+Let f(l1,r1,l2,r2)f(l1,r1,l2,r2) be the number of different merging sequences of x[l1,r1]x[l1,r1] and y[l2,r2]y[l2,r2] that produce chaotic merges. Note that only non-empty substrings of xx and yy are considered.
+Calculate ∑1≤l1≤r1≤|x|1≤l2≤r2≤|y|f(l1,r1,l2,r2)∑1≤l1≤r1≤|x|1≤l2≤r2≤|y|f(l1,r1,l2,r2). Output the answer modulo 998244353998244353.

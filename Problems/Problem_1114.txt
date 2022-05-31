@@ -1,0 +1,6 @@
+You are given two binary square matrices aa and bb of size n×nn×n. A matrix is called binary if each of its elements is equal to 00 or 11. You can do the following operations on the matrix aa arbitrary number of times (0 or more): 
+  vertical xor. You choose the number jj (1≤j≤n1≤j≤n) and for all ii (1≤i≤n1≤i≤n) do the following: ai,j:=ai,j⊕1ai,j:=ai,j⊕1 (⊕⊕ — is the operation xor (exclusive or)).  horizontal xor. You choose the number ii (1≤i≤n1≤i≤n) and for all jj (1≤j≤n1≤j≤n) do the following: ai,j:=ai,j⊕1ai,j:=ai,j⊕1. 
+Note that the elements of the aa matrix change after each operation.
+For example, if n=3n=3 and the matrix aa is: ⎛⎝⎜101101010⎞⎠⎟(110001110) Then the following sequence of operations shows an example of transformations: 
+  vertical xor, j=1j=1. a=⎛⎝⎜010101010⎞⎠⎟a=(010101010)  horizontal xor, i=2i=2. a=⎛⎝⎜000111000⎞⎠⎟a=(010010010)  vertical xor, j=2j=2. a=⎛⎝⎜000000000⎞⎠⎟a=(000000000) 
+Check if there is a sequence of operations such that the matrix aa becomes equal to the matrix bb.

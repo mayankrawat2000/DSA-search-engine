@@ -1,0 +1,5 @@
+A group of nn alpinists has just reached the foot of the mountain. The initial difficulty of climbing this mountain can be described as an integer dd.
+Each alpinist can be described by two integers ss and aa, where ss is his skill of climbing mountains and aa is his neatness.
+An alpinist of skill level ss is able to climb a mountain of difficulty pp only if p≤sp≤s. As an alpinist climbs a mountain, they affect the path and thus may change mountain difficulty. Specifically, if an alpinist of neatness aa climbs a mountain of difficulty pp the difficulty of this mountain becomes max(p,a)max(p,a). 
+Alpinists will climb the mountain one by one. And before the start, they wonder, what is the maximum number of alpinists who will be able to climb the mountain if they choose the right order. As you are the only person in the group who does programming, you are to answer the question.
+Note that after the order is chosen, each alpinist who can climb the mountain, must climb the mountain at that time. 

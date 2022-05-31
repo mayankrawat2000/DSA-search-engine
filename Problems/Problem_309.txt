@@ -1,0 +1,3 @@
+Recently, Vlad has been carried away by spanning trees, so his friends, without hesitation, gave him a connected weighted undirected graph of nn vertices and mm edges for his birthday.
+Vlad defined the ority of a spanning tree as the bitwise OR of all its weights, and now he is interested in what is the minimum possible ority that can be achieved by choosing a certain spanning tree. A spanning tree is a connected subgraph of a given graph that does not contain cycles.
+In other words, you want to keep n−1n−1 edges so that the graph remains connected and the bitwise OR weights of the edges are as small as possible. You have to find the minimum bitwise OR itself.

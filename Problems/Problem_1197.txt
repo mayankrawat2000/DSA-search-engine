@@ -1,0 +1,4 @@
+In recent years John has very successfully settled at his new job at the office. But John doesn't like to idly sit around while his code is compiling, so he immediately found himself an interesting distraction. The point of his distraction was to maintain a water level in the water cooler used by other zebras.
+  
+Originally the cooler contained exactly kk liters of water. John decided that the amount of water must always be at least ll liters of water but no more than rr liters. John will stay at the office for exactly tt days. He knows that each day exactly xx liters of water will be used by his colleagues. At the beginning of each day he can add exactly yy liters of water to the cooler, but at any point in time the amount of water in the cooler must be in the range [l,r][l,r].
+Now John wants to find out whether he will be able to maintain the water level at the necessary level for tt days. Help him answer this question!

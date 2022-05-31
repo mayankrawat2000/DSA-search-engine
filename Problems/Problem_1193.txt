@@ -1,0 +1,1 @@
+You are given a positive number xx. Find the smallest positive integer number that has the sum of digits equal to xx and all digits are distinct (unique).

@@ -1,0 +1,1 @@
+You are given an array of integers a1,a2,…,ana1,a2,…,an. Find the maximum possible value of aiajakalataiajakalat among all five indices (i,j,k,l,t)(i,j,k,l,t) (i<j<k<l<ti<j<k<l<t).

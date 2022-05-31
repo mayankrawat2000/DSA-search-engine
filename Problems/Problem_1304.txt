@@ -1,0 +1,6 @@
+Andrey thinks he is truly a successful developer, but in reality he didn't know about the binary search algorithm until recently. After reading some literature Andrey understood that this algorithm allows to quickly find a certain number xx in an array. For an array aa indexed from zero, and an integer xx the pseudocode of the algorithm is as follows:
+  
+Note that the elements of the array are indexed from zero, and the division is done in integers (rounding down).
+Andrey read that the algorithm only works if the array is sorted. However, he found this statement untrue, because there certainly exist unsorted arrays for which the algorithm find xx!
+Andrey wants to write a letter to the book authors, but before doing that he must consider the permutations of size nn such that the algorithm finds xx in them. A permutation of size nn is an array consisting of nn distinct integers between 11 and nn in arbitrary order.
+Help Andrey and find the number of permutations of size nn which contain xx at position pospos and for which the given implementation of the binary search algorithm finds xx (returns true). As the result may be extremely large, print the remainder of its division by 109+7109+7.

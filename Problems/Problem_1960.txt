@@ -1,0 +1,5 @@
+Let's define the function ff of multiset aa as the multiset of number of occurences of every number, that is present in aa.
+E.g., f({5,5,1,2,5,2,3,3,9,5})={1,1,2,2,4}f({5,5,1,2,5,2,3,3,9,5})={1,1,2,2,4}.
+Let's define fk(a)fk(a), as applying ff to array aa kk times: fk(a)=f(fk−1(a)),f0(a)=afk(a)=f(fk−1(a)),f0(a)=a. 
+E.g., f2({5,5,1,2,5,2,3,3,9,5})={1,2,2}f2({5,5,1,2,5,2,3,3,9,5})={1,2,2}.
+You are given integers n,kn,k and you are asked how many different values the function fk(a)fk(a) can have, where aa is arbitrary non-empty array with numbers of size no more than nn. Print the answer modulo 998244353998244353.

@@ -1,0 +1,4 @@
+The problem statement looms below, filling you with determination.
+Consider a grid in which some cells are empty and some cells are filled. Call a cell in this grid exitable if, starting at that cell, you can exit the grid by moving up and left through only empty cells. This includes the cell itself, so all filled in cells are not exitable. Note that you can exit the grid from any leftmost empty cell (cell in the first column) by going left, and from any topmost empty cell (cell in the first row) by going up.
+Let's call a grid determinable if, given only which cells are exitable, we can exactly determine which cells are filled in and which aren't.
+You are given a grid aa of dimensions n×mn×m , i. e. a grid with nn rows and mm columns. You need to answer qq queries (1≤q≤2⋅1051≤q≤2⋅105). Each query gives two integers x1,x2x1,x2 (1≤x1≤x2≤m1≤x1≤x2≤m) and asks whether the subgrid of aa consisting of the columns x1,x1+1,…,x2−1,x2x1,x1+1,…,x2−1,x2 is determinable.

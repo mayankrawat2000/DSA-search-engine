@@ -1,0 +1,4 @@
+You are given an array [a1,a2,…,an][a1,a2,…,an] such that 1≤ai≤1091≤ai≤109. Let SS be the sum of all elements of the array aa.
+Let's call an array bb of nn integers beautiful if:
+  1≤bi≤1091≤bi≤109 for each ii from 11 to nn;  for every pair of adjacent integers from the array (bi,bi+1)(bi,bi+1), either bibi divides bi+1bi+1, or bi+1bi+1 divides bibi (or both);  2∑i=1n|ai−bi|≤S2∑i=1n|ai−bi|≤S. 
+Your task is to find any beautiful array. It can be shown that at least one beautiful array always exists.

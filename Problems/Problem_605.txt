@@ -1,0 +1,3 @@
+Let's say that two strings ss and tt rhyme if both strings have length at least kk, and their last kk characters are equal. For example, if k=3k=3, the strings abcd and cebcd rhyme, the strings ab and ab don't rhyme, the strings aaaa and aaaaa rhyme, the strings abcd and abce don't rhyme.
+You have nn pairs of strings (si,ti)(si,ti), and for each pair of strings you know, should they rhyme or should not.
+Find all possible non-negative integer values for kk such that pairs that have to rhyme, rhyme and pairs that must not rhyme, don't rhyme.

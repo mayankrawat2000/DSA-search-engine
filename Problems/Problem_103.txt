@@ -1,0 +1,5 @@
+A tree is a connected graph without cycles. A rooted tree has a special vertex called the root. The parent of a vertex vv (different from root) is the previous to vv vertex on the shortest path from the root to the vertex vv. Children of the vertex vv are all vertices for which vv is the parent.
+You are given a rooted tree with nn vertices. The vertex 11 is the root. Initially, all vertices are healthy.
+Each second you do two operations, the spreading operation and, after that, the injection operation: 
+  Spreading: for each vertex vv, if at least one child of vv is infected, you can spread the disease by infecting at most one other child of vv of your choice.  Injection: you can choose any healthy vertex and infect it. 
+This process repeats each second until the whole tree is infected. You need to find the minimal number of seconds needed to infect the whole tree.

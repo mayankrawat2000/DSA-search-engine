@@ -1,0 +1,6 @@
+Today the kindergarten has a new group of nn kids who need to be seated at the dinner table. The chairs at the table are numbered from 11 to 4n4n. Two kids can't sit on the same chair. It is known that two kids who sit on chairs with numbers aa and bb (a≠ba≠b) will indulge if: 
+  gcd(a,b)=1gcd(a,b)=1 or,  aa divides bb or bb divides aa. 
+gcd(a,b)gcd(a,b) — the maximum number xx such that aa is divisible by xx and bb is divisible by xx.
+For example, if n=3n=3 and the kids sit on chairs with numbers 22, 33, 44, then they will indulge since 44 is divided by 22 and gcd(2,3)=1gcd(2,3)=1. If kids sit on chairs with numbers 44, 66, 1010, then they will not indulge.
+The teacher really doesn't want the mess at the table, so she wants to seat the kids so there are no 22 of the kid that can indulge. More formally, she wants no pair of chairs aa and bb that the kids occupy to fulfill the condition above.
+Since the teacher is very busy with the entertainment of the kids, she asked you to solve this problem.

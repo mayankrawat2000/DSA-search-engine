@@ -1,0 +1,2 @@
+You have nn stacks of blocks. The ii-th stack contains hihi blocks and it's height is the number of blocks in it. In one move you can take a block from the ii-th stack (if there is at least one block) and put it to the i+1i+1-th stack. Can you make the sequence of heights strictly increasing?
+Note that the number of stacks always remains nn: stacks don't disappear when they have 00 blocks.

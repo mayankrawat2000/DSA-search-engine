@@ -1,0 +1,4 @@
+Imagine a board with nn pins put into it, the ii-th pin is located at (xi,yi)(xi,yi). For simplicity, we will restrict the problem to the case where the pins are placed in vertices of a convex polygon.
+Then, take a non-stretchable string of length ll, and put it around all the pins. Place a pencil inside the string and draw a curve around the pins, trying to pull the string in every possible direction. The picture below shows an example of a string tied around the pins and pulled by a pencil (a point PP).
+  
+Your task is to find an area inside this curve. Formally, for a given convex polygon SS and a length ll let's define a fiber shape F(S,l)F(S,l) as a set of points tt such that the perimeter of the convex hull of S∪{t}S∪{t} does not exceed ll. Find an area of F(S,l)F(S,l).

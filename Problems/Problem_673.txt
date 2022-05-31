@@ -1,0 +1,4 @@
+Let's call the string beautiful if it does not contain a substring of length at least 22, which is a palindrome. Recall that a palindrome is a string that reads the same way from the first character to the last and from the last character to the first. For example, the strings a, bab, acca, bcabcbacb are palindromes, but the strings ab, abbbaa, cccb are not.
+Let's define cost of a string as the minimum number of operations so that the string becomes beautiful, if in one operation it is allowed to change any character of the string to one of the first 33 letters of the Latin alphabet (in lowercase).
+You are given a string ss of length nn, each character of the string is one of the first 33 letters of the Latin alphabet (in lowercase).
+You have to answer mm queries — calculate the cost of the substring of the string ss from lili-th to riri-th position, inclusive.

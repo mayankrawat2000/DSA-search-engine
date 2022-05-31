@@ -1,0 +1,5 @@
+Monocarp is the coach of the Berland State University programming teams. He decided to compose a problemset for a training session for his teams.
+Monocarp has nn problems that none of his students have seen yet. The ii-th problem has a topic aiai (an integer from 11 to nn) and a difficulty bibi (an integer from 11 to nn). All problems are different, that is, there are no two tasks that have the same topic and difficulty at the same time.
+Monocarp decided to select exactly 33 problems from nn problems for the problemset. The problems should satisfy at least one of two conditions (possibly, both):
+  the topics of all three selected problems are different;  the difficulties of all three selected problems are different. 
+Your task is to determine the number of ways to select three problems for the problemset.

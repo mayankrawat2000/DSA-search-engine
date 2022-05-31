@@ -1,0 +1,6 @@
+  
+This is an interactive task
+William has a certain sequence of integers a1,a2,…,ana1,a2,…,an in his mind, but due to security concerns, he does not want to reveal it to you completely. William is ready to respond to no more than 2⋅n2⋅n of the following questions:
+  What is the result of a bitwise AND of two items with indices ii and jj (i≠ji≠j)  What is the result of a bitwise OR of two items with indices ii and jj (i≠ji≠j) 
+You can ask William these questions and you need to find the kk-th smallest number of the sequence.
+Formally the kk-th smallest number is equal to the number at the kk-th place in a 1-indexed array sorted in non-decreasing order. For example in array [5,3,3,10,1][5,3,3,10,1] 44th smallest number is equal to 55, and 22nd and 33rd are 33.

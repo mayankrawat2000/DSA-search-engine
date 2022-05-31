@@ -1,0 +1,6 @@
+You are an ambitious king who wants to be the Emperor of The Reals. But to do that, you must first become Emperor of The Integers.
+Consider a number axis. The capital of your empire is initially at 00. There are nn unconquered kingdoms at positions 0<x1<x2<…<xn0<x1<x2<…<xn. You want to conquer all other kingdoms.
+There are two actions available to you: 
+  You can change the location of your capital (let its current position be c1c1) to any other conquered kingdom (let its position be c2c2) at a cost of a⋅|c1−c2|a⋅|c1−c2|.  From the current capital (let its current position be c1c1) you can conquer an unconquered kingdom (let its position be c2c2) at a cost of b⋅|c1−c2|b⋅|c1−c2|. You cannot conquer a kingdom if there is an unconquered kingdom between the target and your capital. 
+Note that you cannot place the capital at a point without a kingdom. In other words, at any point, your capital can only be at 00 or one of x1,x2,…,xnx1,x2,…,xn. Also note that conquering a kingdom does not change the position of your capital.
+Find the minimum total cost to conquer all kingdoms. Your capital can be anywhere at the end.

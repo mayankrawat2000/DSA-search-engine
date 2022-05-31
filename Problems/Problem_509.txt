@@ -1,0 +1,4 @@
+You are given an array of integers aa of size nn and a permutation pp of size nn. There are qq queries of three types coming to you:
+  For given numbers ll and rr, calculate the sum in array aa on the segment from ll to rr: ∑i=lrai∑i=lrai.  You are given two numbers vv and xx. Let's build a directed graph from the permutation pp: it has nn vertices and nn edges i→pii→pi. Let CC be the set of vertices that are reachable from vv in this graph. You should add xx to all auau such that uu is in CC.  You are given indices ii and jj. You should swap pipi and pjpj. 
+  The graph corresponding to the permutation [2,3,1,5,4][2,3,1,5,4]. 
+Please, process all queries and print answers to queries of type 11.

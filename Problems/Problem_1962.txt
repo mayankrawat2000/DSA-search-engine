@@ -1,0 +1,4 @@
+VK just opened its second HQ in St. Petersburg! Side of its office building has a huge string ss written on its side. This part of the office is supposed to be split into mm meeting rooms in such way that meeting room walls are strictly between letters on the building. Obviously, meeting rooms should not be of size 0, but can be as small as one letter wide. Each meeting room will be named after the substring of ss written on its side.
+
+For each possible arrangement of mm meeting rooms we ordered a test meeting room label for the meeting room with lexicographically minimal name. When delivered, those labels got sorted backward lexicographically.
+What is printed on kkth label of the delivery?

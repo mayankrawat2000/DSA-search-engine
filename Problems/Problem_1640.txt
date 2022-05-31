@@ -1,0 +1,4 @@
+Lee just became Master in Codeforces, and so, he went out to buy some gifts for his friends. He bought nn integers, now it's time to distribute them between his friends rationally...
+Lee has nn integers a1,a2,…,ana1,a2,…,an in his backpack and he has kk friends. Lee would like to distribute all integers in his backpack between his friends, such that the ii-th friend will get exactly wiwi integers and each integer will be handed over to exactly one friend.
+Let's define the happiness of a friend as the sum of the maximum and the minimum integer he'll get.
+Lee would like to make his friends as happy as possible, in other words, he'd like to maximize the sum of friends' happiness. Now he asks you to calculate the maximum sum of friends' happiness.

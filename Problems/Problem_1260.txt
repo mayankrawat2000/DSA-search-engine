@@ -1,0 +1,9 @@
+For a given sequence of distinct non-negative integers (b1,b2,…,bk)(b1,b2,…,bk) we determine if it is good in the following way:
+  Consider a graph on kk nodes, with numbers from b1b1 to bkbk written on them. For every ii from 11 to kk: find such jj (1≤j≤k1≤j≤k, j≠ij≠i), for which (bi⊕bj)(bi⊕bj) is the smallest among all such jj, where ⊕⊕ denotes the operation of bitwise XOR (https://en.wikipedia.org/wiki/Bitwise_operation#XOR). Next, draw an undirected edge between vertices with numbers bibi and bjbj in this graph. We say that the sequence is good if and only if the resulting graph forms a tree (is connected and doesn't have any simple cycles). 
+It is possible that for some numbers bibi and bjbj, you will try to add the edge between them twice. Nevertheless, you will add this edge only once.
+You can find an example below (the picture corresponding to the first test case). 
+Sequence (0,1,5,2,6)(0,1,5,2,6) is not good as we cannot reach 11 from 55.
+However, sequence (0,1,5,2)(0,1,5,2) is good. 
+  
+You are given a sequence (a1,a2,…,an)(a1,a2,…,an) of distinct non-negative integers. You would like to remove some of the elements (possibly none) to make the remaining sequence good. What is the minimum possible number of removals required to achieve this goal?
+It can be shown that for any sequence, we can remove some number of elements, leaving at least 22, so that the remaining sequence is good.

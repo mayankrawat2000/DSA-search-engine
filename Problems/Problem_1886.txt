@@ -1,0 +1,1 @@
+You are given two positive integers aa and bb. In one move you can increase aa by 11 (replace aa with a+1a+1). Your task is to find the minimum number of moves you need to do in order to make aa divisible by bb. It is possible, that you have to make 00 moves, as aa is already divisible by bb. You have to answer tt independent test cases.

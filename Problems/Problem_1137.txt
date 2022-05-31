@@ -1,0 +1,5 @@
+Polycarp found under the Christmas tree an array aa of nn elements and instructions for playing with it: 
+  At first, choose index ii (1≤i≤n1≤i≤n) — starting position in the array. Put the chip at the index ii (on the value aiai).  While i≤ni≤n, add aiai to your score and move the chip aiai positions to the right (i.e. replace ii with i+aii+ai).  If i>ni>n, then Polycarp ends the game. 
+For example, if n=5n=5 and a=[7,3,1,2,3]a=[7,3,1,2,3], then the following game options are possible: 
+  Polycarp chooses i=1i=1. Game process: i=1⟶+78i=1⟶+78. The score of the game is: a1=7a1=7.  Polycarp chooses i=2i=2. Game process: i=2⟶+35⟶+38i=2⟶+35⟶+38. The score of the game is: a2+a5=6a2+a5=6.  Polycarp chooses i=3i=3. Game process: i=3⟶+14⟶+26i=3⟶+14⟶+26. The score of the game is: a3+a4=3a3+a4=3.  Polycarp chooses i=4i=4. Game process: i=4⟶+26i=4⟶+26. The score of the game is: a4=2a4=2.  Polycarp chooses i=5i=5. Game process: i=5⟶+38i=5⟶+38. The score of the game is: a5=3a5=3. 
+Help Polycarp to find out the maximum score he can get if he chooses the starting index in an optimal way.

@@ -1,0 +1,6 @@
+Dreamoon likes coloring cells very much.
+There is a row of nn cells. Initially, all cells are empty (don't contain any color). Cells are numbered from 11 to nn.
+You are given an integer mm and mm integers l1,l2,…,lml1,l2,…,lm (1≤li≤n1≤li≤n)
+Dreamoon will perform mm operations.
+In ii-th operation, Dreamoon will choose a number pipi from range [1,n−li+1][1,n−li+1] (inclusive) and will paint all cells from pipi to pi+li−1pi+li−1 (inclusive) in ii-th color. Note that cells may be colored more one than once, in this case, cell will have the color from the latest operation.
+Dreamoon hopes that after these mm operations, all colors will appear at least once and all cells will be colored. Please help Dreamoon to choose pipi in each operation to satisfy all constraints.

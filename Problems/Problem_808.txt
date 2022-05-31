@@ -1,0 +1,2 @@
+Vika has decided to go on a trip to Bertown. She comes to Bertown on the kk-th day. Vika does not want to spend money on hotels, fortunately she has nn friends who live in Bertown and allow Vika to stay at their houses. The ii-th friend told Vika that she could stay at their house from the lili-th day till the riri-th day, inclusive.
+Vika decided that she would stay at no more than one friend's house. Help Vika determine the maximum number of days that she will be able to stay in Bertown.

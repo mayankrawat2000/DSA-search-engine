@@ -1,0 +1,4 @@
+  
+William is not only interested in trading but also in betting on sports matches. nn teams participate in each match. Each team is characterized by strength aiai. Each two teams i<ji<j play with each other exactly once. Team ii wins with probability aiai+ajaiai+aj and team jj wins with probability ajai+ajajai+aj.
+The team is called a winner if it directly or indirectly defeated all other teams. Team aa defeated (directly or indirectly) team bb if there is a sequence of teams c1c1, c2c2, ... ckck such that c1=ac1=a, ck=bck=b and team cici defeated team ci+1ci+1 for all ii from 11 to k−1k−1. Note that it is possible that team aa defeated team bb and in the same time team bb defeated team aa.
+William wants you to find the expected value of the number of winners.

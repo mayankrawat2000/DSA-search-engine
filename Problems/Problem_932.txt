@@ -1,0 +1,5 @@
+The brave Knight came to the King and asked permission to marry the princess. The King knew that the Knight was brave, but he also wanted to know if he was smart enough. So he asked him to solve the following task.
+There is a permutation pipi of numbers from 1 to 2n2n. You can make two types of operations. 
+  Swap p1p1 and p2p2, p3p3 and p4p4, ..., p2n−1p2n−1 and p2np2n.  Swap p1p1 and pn+1pn+1, p2p2 and pn+2pn+2, ..., pnpn and p2np2n. 
+The task is to find the minimal number of operations required to sort the given permutation.
+The Knight was not that smart actually, but quite charming, so the princess asks you to help him to solve the King's task.

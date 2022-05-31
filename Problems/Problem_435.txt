@@ -1,0 +1,6 @@
+You are given an array of integers aa of length nn. The elements of the array can be either different or the same. 
+Each element of the array is colored either blue or red. There are no unpainted elements in the array. One of the two operations described below can be applied to an array in a single step:
+  either you can select any blue element and decrease its value by 11;  or you can select any red element and increase its value by 11. 
+Situations in which there are no elements of some color at all are also possible. For example, if the whole array is colored blue or red, one of the operations becomes unavailable.
+Determine whether it is possible to make 00 or more steps such that the resulting array is a permutation of numbers from 11 to nn?
+In other words, check whether there exists a sequence of steps (possibly empty) such that after applying it, the array aa contains in some order all numbers from 11 to nn (inclusive), each exactly once.

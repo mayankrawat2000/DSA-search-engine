@@ -1,0 +1,4 @@
+You have two positive integers aa and bb.
+You can perform two kinds of operations:
+  a=⌊ab⌋a=⌊ab⌋ (replace aa with the integer part of the division between aa and bb)  b=b+1b=b+1 (increase bb by 11) 
+Find the minimum number of operations required to make a=0a=0.

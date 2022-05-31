@@ -1,0 +1,4 @@
+You are given an integer array a1,a2,…,ana1,a2,…,an and integer kk.
+In one step you can 
+  either choose some index ii and decrease aiai by one (make ai=ai−1ai=ai−1);  or choose two indices ii and jj and set aiai equal to ajaj (make ai=ajai=aj). 
+What is the minimum number of steps you need to make the sum of array ∑i=1nai≤k∑i=1nai≤k? (You are allowed to make values of array negative).

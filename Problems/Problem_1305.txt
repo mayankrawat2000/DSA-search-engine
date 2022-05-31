@@ -1,0 +1,4 @@
+Sasha likes investigating different math objects, for example, magic squares. But Sasha understands that magic squares have already been studied by hundreds of people, so he sees no sense of studying them further. Instead, he invented his own type of square — a prime square. 
+A square of size n×nn×n is called prime if the following three conditions are held simultaneously: 
+  all numbers on the square are non-negative integers not exceeding 105105;  there are no prime numbers in the square;  sums of integers in each row and each column are prime numbers. 
+Sasha has an integer nn. He asks you to find any prime square of size n×nn×n. Sasha is absolutely sure such squares exist, so just help him!

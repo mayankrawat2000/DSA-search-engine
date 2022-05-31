@@ -1,0 +1,6 @@
+The only difference between the easy and hard versions is that tokens of type O do not appear in the input of the easy version.
+Errichto gave Monogon the following challenge in order to intimidate him from taking his top contributor spot on Codeforces.
+In a Tic-Tac-Toe grid, there are nn rows and nn columns. Each cell of the grid is either empty or contains a token. There are two types of tokens: X and O. If there exist three tokens of the same type consecutive in a row or column, it is a winning configuration. Otherwise, it is a draw configuration.
+  The patterns in the first row are winning configurations. The patterns in the second row are draw configurations. 
+In an operation, you can change an X to an O, or an O to an X. Let kk denote the total number of tokens in the grid. Your task is to make the grid a draw in at most ⌊k3⌋⌊k3⌋ (rounding down) operations.
+You are not required to minimize the number of operations.

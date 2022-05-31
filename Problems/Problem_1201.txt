@@ -1,0 +1,6 @@
+One fall day Joe got bored because he couldn't find himself something interesting to do. Marty suggested Joe to generate a string of length nn to entertain him somehow. It didn't seem particularly difficult, but Joe's generated string had to follow these rules:
+  the string may only contain characters 'a', 'b', or 'c';  the maximum length of a substring of this string that is a palindrome does not exceed kk. 
+  
+A string aa is a substring of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end. For example, strings "a", "bc", "abc" are substrings of a string "abc", while strings "ac", "ba", "cba" are not.
+A string is a palindrome if it reads the same from the left to the right and from the right to the left. For example, strings "abccba", "abbba", "aba", "abacaba", "a", and "bacab" are palindromes, while strings "abcbba", "abb", and "ab" are not.
+Now Joe wants to find any correct string. Help him! It can be proven that the answer always exists under the given constraints.

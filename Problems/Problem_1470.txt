@@ -1,0 +1,6 @@
+Spring cleanings are probably the most boring parts of our lives, except this year, when Flóra and her mother found a dusty old tree graph under the carpet.
+This tree has NN nodes (numbered from 11 to NN), connected by N−1N−1 edges. The edges gathered too much dust, so Flóra's mom decided to clean them. 
+Cleaning the edges of an arbitrary tree is done by repeating the following process:   She chooses 2 different leaves (a node is a leaf if it is connected to exactly one other node by an edge), and cleans every edge lying on the shortest path between them. If this path has dd edges, then the cost of cleaning this path is dd.
+She doesn't want to harm the leaves of the tree, so she chooses every one of them at most once. A tree is cleaned when all of its edges are cleaned. The cost of this is the sum of costs for all cleaned paths.
+Flóra thinks the tree they found is too small and simple, so she imagines QQ variations of it. In the ii-th variation, she adds a total of DiDi extra leaves to the original tree: for each new leaf, she chooses a node from the original tree, and connects that node with the new leaf by an edge. Note that some nodes may stop being leaves during this step.
+For all these QQ variations, we are interested in the minimum cost that is required to clean the tree.

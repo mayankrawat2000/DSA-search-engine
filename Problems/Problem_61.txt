@@ -1,0 +1,2 @@
+Calculate the number of permutations pp of size nn with exactly kk inversions (pairs of indices (i,j)(i,j) such that i<ji<j and pi>pjpi>pj) and exactly xx indices ii such that pi>pi+1pi>pi+1.
+Yep, that's the whole problem. Good luck!

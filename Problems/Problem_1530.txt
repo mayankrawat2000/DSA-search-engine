@@ -1,0 +1,5 @@
+Being stuck at home, Ray became extremely bored. To pass time, he asks Lord Omkar to use his time bending power: Infinity Clock! However, Lord Omkar will only listen to mortals who can solve the following problem:
+You are given an array aa of nn integers. You are also given an integer kk. Lord Omkar wants you to do kk operations with this array.
+Define one operation as the following: 
+  Set dd to be the maximum value of your array.  For every ii from 11 to nn, replace aiai with d−aid−ai. 
+The goal is to predict the contents in the array after kk operations. Please help Ray determine what the final sequence will look like!

@@ -1,0 +1,6 @@
+Lord Omkar would like to have a tree with nn nodes (3≤n≤1053≤n≤105) and has asked his disciples to construct the tree. However, Lord Omkar has created mm (1≤m<n1≤m<n) restrictions to ensure that the tree will be as heavenly as possible. 
+A tree with nn nodes is an connected undirected graph with nn nodes and n−1n−1 edges. Note that for any two nodes, there is exactly one simple path between them, where a simple path is a path between two nodes that does not contain any node more than once.
+Here is an example of a tree: 
+  
+A restriction consists of 33 pairwise distinct integers, aa, bb, and cc (1≤a,b,c≤n1≤a,b,c≤n). It signifies that node bb cannot lie on the simple path between node aa and node cc. 
+Can you help Lord Omkar and become his most trusted disciple? You will need to find heavenly trees for multiple sets of restrictions. It can be shown that a heavenly tree will always exist for any set of restrictions under the given constraints.

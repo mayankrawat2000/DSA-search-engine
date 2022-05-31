@@ -1,0 +1,1 @@
+You are given an array a1,a2,…,ana1,a2,…,an consisting of nn distinct integers. Count the number of pairs of indices (i,j)(i,j) such that i<ji<j and ai⋅aj=i+jai⋅aj=i+j.

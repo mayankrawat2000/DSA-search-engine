@@ -1,0 +1,8 @@
+Eric is the teacher of graph theory class. Today, Eric teaches independent set and edge-induced subgraph.
+Given a graph G=(V,E)G=(V,E), an independent set is a subset of vertices V′⊂VV′⊂V such that for every pair u,v∈V′u,v∈V′, (u,v)∉E(u,v)∉E (i.e. no edge in EE connects two vertices from V′V′).
+An edge-induced subgraph consists of a subset of edges E′⊂EE′⊂E and all the vertices in the original graph that are incident on at least one edge in the subgraph.
+Given E′⊂EE′⊂E, denote G[E′]G[E′] the edge-induced subgraph such that E′E′ is the edge set of the subgraph. Here is an illustration of those definitions:
+  
+In order to help his students get familiar with those definitions, he leaves the following problem as an exercise:
+Given a tree G=(V,E)G=(V,E), calculate the sum of w(H)w(H) over all except null edge-induced subgraph HH of GG, where w(H)w(H) is the number of independent sets in HH. Formally, calculate ∑∅≠E′⊂Ew(G[E′])∑∅≠E′⊂Ew(G[E′]).
+Show Eric that you are smarter than his students by providing the correct answer as quickly as possible. Note that the answer might be large, you should output the answer modulo 998,244,353998,244,353.

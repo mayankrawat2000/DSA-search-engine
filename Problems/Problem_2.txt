@@ -1,0 +1,5 @@
+You are given a board of size 2×n2×n (22 rows, nn columns). Some cells of the board contain chips. The chip is represented as '*', and an empty space is represented as '.'. It is guaranteed that there is at least one chip on the board.
+In one move, you can choose any chip and move it to any adjacent (by side) cell of the board (if this cell is inside the board). It means that if the chip is in the first row, you can move it left, right or down (but it shouldn't leave the board). Same, if the chip is in the second row, you can move it left, right or up.
+If the chip moves to the cell with another chip, the chip in the destination cell disappears (i. e. our chip captures it).
+Your task is to calculate the minimum number of moves required to leave exactly one chip on the board.
+You have to answer tt independent test cases.

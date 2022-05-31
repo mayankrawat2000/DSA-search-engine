@@ -1,0 +1,3 @@
+Catherine received an array of integers as a gift for March 8. Eventually she grew bored with it, and she started calculated various useless characteristics for it. She succeeded to do it for each one she came up with. But when she came up with another one — xor of all pairwise sums of elements in the array, she realized that she couldn't compute it for a very large array, thus she asked for your help. Can you do it? Formally, you need to compute
+(a1+a2)⊕(a1+a3)⊕…⊕(a1+an)⊕(a2+a3)⊕…⊕(a2+an)…⊕(an−1+an)(a1+a2)⊕(a1+a3)⊕…⊕(a1+an)⊕(a2+a3)⊕…⊕(a2+an)…⊕(an−1+an)
+Here x⊕yx⊕y is a bitwise XOR operation (i.e. xx ^ yy in many modern programming languages). You can read about it in Wikipedia: https://en.wikipedia.org/wiki/Exclusive_or#Bitwise_operation.

@@ -1,0 +1,6 @@
+Lindsey Buckingham told Stevie Nicks "Go your own way". Nicks is now sad and wants to go away as quickly as possible, but she lives in a 2D hexagonal world.
+Consider a hexagonal tiling of the plane as on the picture below.
+  
+Nicks wishes to go from the cell marked (0,0)(0,0) to a certain cell given by the coordinates. She may go from a hexagon to any of its six neighbors you want, but there is a cost associated with each of them. The costs depend only on the direction in which you travel. Going from (0,0)(0,0) to (1,1)(1,1) will take the exact same cost as going from (−2,−1)(−2,−1) to (−1,0)(−1,0). The costs are given in the input in the order c1c1, c2c2, c3c3, c4c4, c5c5, c6c6 as in the picture below.
+  
+Print the smallest cost of a path from the origin which has coordinates (0,0)(0,0) to the given cell.

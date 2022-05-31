@@ -1,0 +1,2 @@
+You are given a simple undirected graph with nn vertices and mm edges. Edge ii is colored in the color cici, which is either 11, 22, or 33, or left uncolored (in this case, ci=−1ci=−1).
+You need to color all of the uncolored edges in such a way that for any three pairwise adjacent vertices 1≤a<b<c≤n1≤a<b<c≤n, the colors of the edges a↔ba↔b, b↔cb↔c, and a↔ca↔c are either pairwise different, or all equal. In case no such coloring exists, you need to determine that.

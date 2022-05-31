@@ -1,0 +1,4 @@
+Sam started playing with round buckets in the sandbox, while also scattering pebbles. His mom decided to buy him a new bucket, so she needs to solve the following task.
+You are given nn distinct points with integer coordinates A1,A2,…,AnA1,A2,…,An. All points were generated from the square [−108,108]×[−108,108][−108,108]×[−108,108] uniformly and independently.
+You are given positive integers kk, ll, such that k≤l≤nk≤l≤n. You want to select a subsegment Ai,Ai+1,…,Ai+l−1Ai,Ai+1,…,Ai+l−1 of the points array (for some 1≤i≤n+1−l1≤i≤n+1−l), and some circle on the plane, containing ≥k≥k points of the selected subsegment (inside or on the border).
+What is the smallest possible radius of that circle?

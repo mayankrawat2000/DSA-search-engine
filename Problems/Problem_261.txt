@@ -1,0 +1,5 @@
+Real stupidity beats artificial intelligence every time.— Terry Pratchett, Hogfather, Discworld
+You are given a string ss of length nn and a number kk. Let's denote by rev(s)rev(s) the reversed string ss (i.e. rev(s)=snsn−1...s1rev(s)=snsn−1...s1). You can apply one of the two kinds of operations to the string:
+ replace the string ss with s+rev(s)s+rev(s) replace the string ss with rev(s)+srev(s)+s
+How many different strings can you get as a result of performing exactly kk operations (possibly of different kinds) on the original string ss?
+In this statement we denoted the concatenation of strings ss and tt as s+ts+t. In other words, s+t=s1s2...snt1t2...tms+t=s1s2...snt1t2...tm, where nn and mm are the lengths of strings ss and tt respectively.

@@ -1,0 +1,10 @@
+You are given an integer nn.
+You should find a list of pairs (x1,y1)(x1,y1), (x2,y2)(x2,y2), ..., (xq,yq)(xq,yq) (1≤xi,yi≤n1≤xi,yi≤n) satisfying the following condition.
+Let's consider some function f:N×N→Nf:N×N→N (we define NN as the set of positive integers). In other words, ff is a function that returns a positive integer for a pair of positive integers.
+Let's make an array a1,a2,…,ana1,a2,…,an, where ai=iai=i initially.
+You will perform qq operations, in ii-th of them you will: 
+  assign t=f(axi,ayi)t=f(axi,ayi) (tt is a temporary variable, it is used only for the next two assignments);  assign axi=taxi=t;  assign ayi=tayi=t. 
+In other words, you need to simultaneously change axiaxi and ayiayi to f(axi,ayi)f(axi,ayi). Note that during this process f(p,q)f(p,q) is always the same for a fixed pair of pp and qq.
+In the end, there should be at most two different numbers in the array aa.
+It should be true for any function ff.
+Find any possible list of pairs. The number of pairs should not exceed 5⋅1055⋅105.

@@ -1,0 +1,2 @@
+Nezzar's favorite digit among 1,…,91,…,9 is dd. He calls a positive integer lucky if dd occurs at least once in its decimal representation. 
+Given qq integers a1,a2,…,aqa1,a2,…,aq, for each 1≤i≤q1≤i≤q Nezzar would like to know if aiai can be equal to a sum of several (one or more) lucky numbers.

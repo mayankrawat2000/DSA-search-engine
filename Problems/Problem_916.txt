@@ -1,0 +1,2 @@
+A sequence of nn non-negative integers (n≥2n≥2) a1,a2,…,ana1,a2,…,an is called good if for all ii from 11 to n−1n−1 the following condition holds true: a1&a2&…&ai=ai+1&ai+2&…&an,a1&a2&…&ai=ai+1&ai+2&…&an, where && denotes the bitwise AND operation.
+You are given an array aa of size nn (n≥2n≥2). Find the number of permutations pp of numbers ranging from 11 to nn, for which the sequence ap1ap1, ap2ap2, ... ,apnapn is good. Since this number can be large, output it modulo 109+7109+7.

@@ -1,0 +1,6 @@
+There are nn detachments on the surface, numbered from 11 to nn, the ii-th detachment is placed in a point with coordinates (xi,yi)(xi,yi). All detachments are placed in different points.
+Brimstone should visit each detachment at least once. You can choose the detachment where Brimstone starts.
+To move from one detachment to another he should first choose one of four directions of movement (up, right, left or down) and then start moving with the constant speed of one unit interval in a second until he comes to a detachment. After he reaches an arbitrary detachment, he can repeat the same process.
+Each tt seconds an orbital strike covers the whole surface, so at that moment Brimstone should be in a point where some detachment is located. He can stay with any detachment as long as needed.
+Brimstone is a good commander, that's why he can create at most one detachment and place it in any empty point with integer coordinates he wants before his trip. Keep in mind that Brimstone will need to visit this detachment, too.
+Help Brimstone and find such minimal tt that it is possible to check each detachment. If there is no such tt report about it.

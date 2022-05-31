@@ -1,0 +1,8 @@
+For the simplicity, let's say that the "Death Note" is a notebook that kills a person when their name is written in it.
+It's easy to kill with it, but it's pretty hard to keep track of people you haven't killed and still plan to. You decided to make a "Death Database Management System" — a computer program that provides the easy access to the database of possible victims. Let me describe its specifications to you.
+Let's define a victim entity: a victim has a name (not necessarily unique) that consists only of lowercase Latin letters and an integer suspicion value.
+At the start of the program the user enters a list of nn victim names into a database, each suspicion value is set to 00.
+Then the user makes queries of two types: 
+  1 i x1 i x — set the suspicion value of the ii-th victim to xx;  2 q2 q — given a string qq find the maximum suspicion value of a victim whose name is a contiguous substring of qq. 
+Just to remind you, this program doesn't kill people, it only helps to search for the names to write down in an actual notebook. Thus, the list of the victims in the database doesn't change throughout the queries.
+What are you waiting for? Write that program now!

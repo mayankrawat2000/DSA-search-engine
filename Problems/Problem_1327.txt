@@ -1,0 +1,2 @@
+You are given a string ss. You have to reverse it — that is, the first letter should become equal to the last letter before the reversal, the second letter should become equal to the second-to-last letter before the reversal — and so on. For example, if your goal is to reverse the string "abddea", you should get the string "aeddba". To accomplish your goal, you can swap the neighboring elements of the string. 
+Your task is to calculate the minimum number of swaps you have to perform to reverse the given string.

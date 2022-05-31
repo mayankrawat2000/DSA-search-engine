@@ -1,0 +1,7 @@
+There is a string of length n+1n+1 of characters 'A' and 'B'. The first character and last character of the string are equal to 'A'.
+You are given mm indices p1,p2,…,pmp1,p2,…,pm (00-indexation) denoting the other indices of characters 'A' in the string.
+ Let's denote the minimum distance between two neighboring 'A' as ll, and maximum distance between neighboring 'A' as rr.
+For example, (l,r)(l,r) of string "ABBAABBBA" is (1,4)(1,4).
+And let's denote the balance degree of a string as the value of r−lr−l.
+Now Dreamoon wants to change exactly kk characters from 'B' to 'A', and he wants to make the balance degree of the string as small as possible.
+Please calculate the required minimum possible value of balance degree.

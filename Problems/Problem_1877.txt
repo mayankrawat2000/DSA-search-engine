@@ -1,0 +1,4 @@
+Dreamoon likes strings. Today he created a game about strings:
+String s1,s2,…,sns1,s2,…,sn is beautiful if and only if for each 1≤i<n,si≠si+11≤i<n,si≠si+1.
+Initially, Dreamoon has a string aa. In each step Dreamoon can choose a beautiful substring of aa and remove it. Then he should concatenate the remaining characters (in the same order).
+Dreamoon wants to use the smallest number of steps to make aa empty. Please help Dreamoon, and print any sequence of the smallest number of steps to make aa empty.

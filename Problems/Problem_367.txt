@@ -1,0 +1,4 @@
+You are given two strings ss and tt of equal length nn. In one move, you can swap any two adjacent characters of the string ss.
+You need to find the minimal number of operations you need to make string ss lexicographically smaller than string tt.
+A string aa is lexicographically smaller than a string bb if and only if one of the following holds: 
+  aa is a prefix of bb, but a≠ba≠b;  in the first position where aa and bb differ, the string aa has a letter that appears earlier in the alphabet than the corresponding letter in bb. 

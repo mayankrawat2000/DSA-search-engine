@@ -1,0 +1,1 @@
+You are given a tree consisting of nn vertices, and mm simple vertex paths. Your task is to find how many pairs of those paths intersect at exactly one vertex. More formally you have to find the number of pairs (i,j)(i,j) (1≤i<j≤m)(1≤i<j≤m) such that pathipathi and pathjpathj have exactly one vertex in common. 

@@ -1,0 +1,1 @@
+For a given array aa consisting of nn integers and a given integer mm find if it is possible to reorder elements of the array aa in such a way that ∑ni=1∑nj=iajj∑i=1n∑j=inajj equals mm? It is forbidden to delete elements as well as insert new elements. Please note that no rounding occurs during division, for example, 52=2.552=2.5.

@@ -1,0 +1,2 @@
+A sequence of nn integers is called a permutation if it contains all integers from 11 to nn exactly once.
+Given two integers nn and kk, construct a permutation aa of numbers from 11 to nn which has exactly kk peaks. An index ii of an array aa of size nn is said to be a peak if 1<i<n1<i<n and ai>ai−1ai>ai−1 and ai>ai+1ai>ai+1. If such permutation is not possible, then print −1−1.

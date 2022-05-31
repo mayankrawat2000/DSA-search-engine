@@ -1,0 +1,5 @@
+You wrote down all integers from 00 to 10n−110n−1, padding them with leading zeroes so their lengths are exactly nn. For example, if n=3n=3 then you wrote out 000, 001, ..., 998, 999.
+A block in an integer xx is a consecutive segment of equal digits that cannot be extended to the left or to the right.
+For example, in the integer 0002773400000027734000 there are three blocks of length 11, one block of length 22 and two blocks of length 33.
+For all integers ii from 11 to nn count the number of blocks of length ii among the written down integers.
+Since these integers may be too large, print them modulo 998244353998244353.

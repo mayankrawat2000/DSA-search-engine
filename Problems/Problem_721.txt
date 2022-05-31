@@ -1,0 +1,8 @@
+When you play the game of thrones, you win, or you die. There is no middle ground.Cersei Lannister, A Game of Thrones by George R. R. Martin
+There are nn nobles, numbered from 11 to nn. Noble ii has a power of ii. There are also mm "friendships". A friendship between nobles aa and bb is always mutual.
+A noble is defined to be vulnerable if both of the following conditions are satisfied: 
+  the noble has at least one friend, and  all of that noble's friends have a higher power. 
+You will have to process the following three types of queries. 
+  Add a friendship between nobles uu and vv.  Remove a friendship between nobles uu and vv.  Calculate the answer to the following process. 
+The process: all vulnerable nobles are simultaneously killed, and all their friendships end. Then, it is possible that new nobles become vulnerable. The process repeats itself until no nobles are vulnerable. It can be proven that the process will end in finite time. After the process is complete, you need to calculate the number of remaining nobles.
+Note that the results of the process are not carried over between queries, that is, every process starts with all nobles being alive!

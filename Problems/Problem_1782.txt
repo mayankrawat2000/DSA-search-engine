@@ -1,0 +1,5 @@
+Phoenix has decided to become a scientist! He is currently investigating the growth of bacteria.
+Initially, on day 11, there is one bacterium with mass 11.
+Every day, some number of bacteria will split (possibly zero or all). When a bacterium of mass mm splits, it becomes two bacteria of mass m2m2 each. For example, a bacterium of mass 33 can split into two bacteria of mass 1.51.5.
+Also, every night, the mass of every bacteria will increase by one.
+Phoenix is wondering if it is possible for the total mass of all the bacteria to be exactly nn. If it is possible, he is interested in the way to obtain that mass using the minimum possible number of nights. Help him become the best scientist!

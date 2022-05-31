@@ -1,0 +1,3 @@
+Bessie is out grazing on the farm, which consists of nn fields connected by mm bidirectional roads. She is currently at field 11, and will return to her home at field nn at the end of the day.
+The Cowfederation of Barns has ordered Farmer John to install one extra bidirectional road. The farm has kk special fields and he has decided to install the road between two different special fields. He may add the road between two special fields that already had a road directly connecting them.
+After the road is added, Bessie will return home on the shortest path from field 11 to field nn. Since Bessie needs more exercise, Farmer John must maximize the length of this shortest path. Help him!

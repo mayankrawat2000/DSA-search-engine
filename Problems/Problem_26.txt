@@ -1,0 +1,3 @@
+Timur has nn candies. The ii-th candy has a quantity of sugar equal to aiai. So, by eating the ii-th candy, Timur consumes a quantity of sugar equal to aiai.
+Timur will ask you qq queries regarding his candies. For the jj-th query you have to answer what is the minimum number of candies he needs to eat in order to reach a quantity of sugar greater than or equal to xjxj or print -1 if it's not possible to obtain such a quantity. In other words, you should print the minimum possible kk such that after eating kk candies, Timur consumes a quantity of sugar of at least xjxj or say that no possible kk exists.
+Note that he can't eat the same candy twice and queries are independent of each other (Timur can use the same candy in different queries).

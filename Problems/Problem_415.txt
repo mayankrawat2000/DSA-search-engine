@@ -1,0 +1,4 @@
+You are playing a game on a n×mn×m grid, in which the computer has selected some cell (x,y)(x,y) of the grid, and you have to determine which one. 
+To do so, you will choose some kk and some kk cells (x1,y1),(x2,y2),…,(xk,yk)(x1,y1),(x2,y2),…,(xk,yk), and give them to the computer. In response, you will get kk numbers b1,b2,…bkb1,b2,…bk, where bibi is the manhattan distance from (xi,yi)(xi,yi) to the hidden cell (x,y)(x,y) (so you know which distance corresponds to which of kk input cells). 
+After receiving these b1,b2,…,bkb1,b2,…,bk, you have to be able to determine the hidden cell. What is the smallest kk for which is it possible to always guess the hidden cell correctly, no matter what cell computer chooses?
+As a reminder, the manhattan distance between cells (a1,b1)(a1,b1) and (a2,b2)(a2,b2) is equal to |a1−a2|+|b1−b2||a1−a2|+|b1−b2|.

@@ -1,0 +1,4 @@
+One of my most productive days was throwing away 1,000 lines of code.— Ken Thompson
+Fibonacci addition is an operation on an array XX of integers, parametrized by indices ll and rr. Fibonacci addition increases XlXl by F1F1, increases Xl+1Xl+1 by F2F2, and so on up to XrXr which is increased by Fr−l+1Fr−l+1.
+FiFi denotes the ii-th Fibonacci number (F1=1F1=1, F2=1F2=1, Fi=Fi−1+Fi−2Fi=Fi−1+Fi−2 for i>2i>2), and all operations are performed modulo MODMOD.
+You are given two arrays AA and BB of the same length. We will ask you to perform several Fibonacci additions on these arrays with different parameters, and after each operation you have to report whether arrays AA and BB are equal modulo MODMOD.

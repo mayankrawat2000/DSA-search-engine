@@ -1,0 +1,5 @@
+There are nn robots driving along an OX axis. There are also two walls: one is at coordinate 00 and one is at coordinate mm.
+The ii-th robot starts at an integer coordinate xi (0<xi<m)xi (0<xi<m) and moves either left (towards the 00) or right with the speed of 11 unit per second. No two robots start at the same coordinate.
+Whenever a robot reaches a wall, it turns around instantly and continues his ride in the opposite direction with the same speed.
+Whenever several robots meet at the same integer coordinate, they collide and explode into dust. Once a robot has exploded, it doesn't collide with any other robot. Note that if several robots meet at a non-integer coordinate, nothing happens.
+For each robot find out if it ever explodes and print the time of explosion if it happens and −1−1 otherwise.

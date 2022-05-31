@@ -1,0 +1,2 @@
+Polycarp plays a well-known computer game (we won't mention its name). In this game, he can craft tools of two types — shovels and swords. To craft a shovel, Polycarp spends two sticks and one diamond; to craft a sword, Polycarp spends two diamonds and one stick.
+Each tool can be sold for exactly one emerald. How many emeralds can Polycarp earn, if he has aa sticks and bb diamonds?

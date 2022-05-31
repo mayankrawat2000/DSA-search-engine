@@ -1,0 +1,5 @@
+Alicia has an array, a1,a2,…,ana1,a2,…,an, of non-negative integers. For each 1≤i≤n1≤i≤n, she has found a non-negative integer xi=max(0,a1,…,ai−1)xi=max(0,a1,…,ai−1). Note that for i=1i=1, xi=0xi=0.
+For example, if Alicia had the array a={0,1,2,0,3}a={0,1,2,0,3}, then x={0,0,1,2,2}x={0,0,1,2,2}.
+Then, she calculated an array, b1,b2,…,bnb1,b2,…,bn: bi=ai−xibi=ai−xi.
+For example, if Alicia had the array a={0,1,2,0,3}a={0,1,2,0,3}, b={0−0,1−0,2−1,0−2,3−2}={0,1,1,−2,1}b={0−0,1−0,2−1,0−2,3−2}={0,1,1,−2,1}.
+Alicia gives you the values b1,b2,…,bnb1,b2,…,bn and asks you to restore the values a1,a2,…,ana1,a2,…,an. Can you help her solve the problem?

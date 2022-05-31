@@ -1,0 +1,6 @@
+She does her utmost to flawlessly carry out a person's last rites and preserve the world's balance of yin and yang.
+Hu Tao, being the little prankster she is, has tried to scare you with this graph problem! You are given a connected undirected graph of nn nodes with mm edges. You also have qq queries. Each query consists of two nodes aa and bb.
+Initially, all edges in the graph have a weight of 00. For each query, you must choose a simple path starting from aa and ending at bb. Then you add 11 to every edge along this path. Determine if it's possible, after processing all qq queries, for all edges in this graph to have an even weight. If so, output the choice of paths for each query. 
+If it is not possible, determine the smallest number of extra queries you could add to make it possible. It can be shown that this number will not exceed 10181018 under the given constraints.
+A simple path is defined as any path that does not visit a node more than once.
+An edge is said to have an even weight if its value is divisible by 22.

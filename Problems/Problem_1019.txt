@@ -1,0 +1,2 @@
+You are given two integers ll and rr in binary representation. Let g(x,y)g(x,y) be equal to the bitwise XOR of all integers from xx to yy inclusive (that is x⊕(x+1)⊕⋯⊕(y−1)⊕yx⊕(x+1)⊕⋯⊕(y−1)⊕y). Let's define f(l,r)f(l,r) as the maximum of all values of g(x,y)g(x,y) satisfying l≤x≤y≤rl≤x≤y≤r.
+Output f(l,r)f(l,r).

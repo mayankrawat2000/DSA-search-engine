@@ -1,0 +1,4 @@
+A brick is defined as a rectangle with integer side lengths with either width 11 or height 11 (or both).
+There is an n×mn×m grid, and each cell is colored either black or white. A tiling is a way to place bricks onto the grid such that each black cell is covered by exactly one brick, and each white cell is not covered by any brick. In other words, bricks are placed on black cells only, cover all black cells, and no two bricks overlap.
+  An example tiling of the first test case using 55 bricks. It is possible to do better, using only 44 bricks. 
+What is the minimum number of bricks required to make a valid tiling?

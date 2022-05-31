@@ -1,0 +1,6 @@
+You are playing a very popular game called Cubecraft. Initially, you have one stick and want to craft kk torches. One torch can be crafted using one stick and one coal.
+Hopefully, you've met a very handsome wandering trader who has two trade offers:
+  exchange 11 stick for xx sticks (you lose 11 stick and gain xx sticks).  exchange yy sticks for 11 coal (you lose yy sticks and gain 11 coal). 
+During one trade, you can use only one of these two trade offers. You can use each trade offer any number of times you want to, in any order.
+Your task is to find the minimum number of trades you need to craft at least kk torches. The answer always exists under the given constraints.
+You have to answer tt independent test cases.

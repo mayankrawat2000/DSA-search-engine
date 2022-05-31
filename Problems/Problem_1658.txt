@@ -1,0 +1,5 @@
+Alice guesses the strings that Bob made for her.
+At first, Bob came up with the secret string aa consisting of lowercase English letters. The string aa has a length of 22 or more characters. Then, from string aa he builds a new string bb and offers Alice the string bb so that she can guess the string aa.
+Bob builds bb from aa as follows: he writes all the substrings of length 22 of the string aa in the order from left to right, and then joins them in the same order into the string bb.
+For example, if Bob came up with the string aa="abac", then all the substrings of length 22 of the string aa are: "ab", "ba", "ac". Therefore, the string bb="abbaac".
+You are given the string bb. Help Alice to guess the string aa that Bob came up with. It is guaranteed that bb was built according to the algorithm given above. It can be proved that the answer to the problem is unique.

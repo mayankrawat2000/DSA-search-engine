@@ -1,0 +1,5 @@
+Polycarp decided to generate a biome map for his game. A map is a matrix divided into cells 1×11×1. Each cell of the map must contain one of the available biomes.
+Each biome is defined by two parameters: temperature (an integer from 11 to nn) and humidity (an integer from 11 to mm). But not for every temperature/humidity combination, a corresponding biome is available.
+The biome map should be generated according to the following rules:
+  each cell of the map belongs to exactly one biome;  each available biome has at least one cell on the map;  if two cells of the map are adjacent by the side and they belong to biomes with parameters (t1,h1t1,h1) and (t2,h2t2,h2), respectively, then the equality |t1−t2|+|h1−h2|=1|t1−t2|+|h1−h2|=1 holds;  let the number of available biomes be equal to kk, then the number of rows and columns of the map (separately) should not exceed kk. 
+Help Polycarp generate a biome map that meets all the conditions described above (or report that this is impossible).

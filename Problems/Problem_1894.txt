@@ -1,0 +1,11 @@
+Let's call a graph with nn vertices, each of which has it's own point Ai=(xi,yi)Ai=(xi,yi) with integer coordinates, a planar tree if:
+  All points A1,A2,…,AnA1,A2,…,An are different and no three points lie on the same line.  The graph is a tree, i.e. there are exactly n−1n−1 edges there exists a path between any pair of vertices.  For all pairs of edges (s1,f1)(s1,f1) and (s2,f2)(s2,f2), such that s1≠s2,s1≠f2,s1≠s2,s1≠f2, f1≠s2f1≠s2, and f1≠f2f1≠f2, the segments As1Af1As1Af1 and As2Af2As2Af2 don't intersect. 
+Imagine a planar tree with nn vertices. Consider the convex hull of points A1,A2,…,AnA1,A2,…,An. Let's call this tree a spiderweb tree if for all 1≤i≤n1≤i≤n the following statements are true:
+  All leaves (vertices with degree ≤1≤1) of the tree lie on the border of the convex hull.  All vertices on the border of the convex hull are leaves. 
+An example of a spiderweb tree: 
+  
+The points A3,A6,A7,A4A3,A6,A7,A4 lie on the convex hull and the leaf vertices of the tree are 3,6,7,43,6,7,4.
+Refer to the notes for more examples.
+Let's call the subset S⊂{1,2,…,n}S⊂{1,2,…,n} of vertices a subtree of the tree if for all pairs of vertices in SS, there exists a path that contains only vertices from SS. Note that any subtree of the planar tree is a planar tree.
+You are given a planar tree with nn vertexes. Let's call a partition of the set {1,2,…,n}{1,2,…,n} into non-empty subsets A1,A2,…,AkA1,A2,…,Ak (i.e. Ai∩Aj=∅Ai∩Aj=∅ for all 1≤i<j≤k1≤i<j≤k and A1∪A2∪…∪Ak={1,2,…,n}A1∪A2∪…∪Ak={1,2,…,n}) good if for all 1≤i≤k1≤i≤k, the subtree AiAi is a spiderweb tree. Two partitions are different if there exists some set that lies in one parition, but not the other.
+Find the number of good partitions. Since this number can be very large, find it modulo 998244353998244353.

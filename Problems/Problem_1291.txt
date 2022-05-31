@@ -1,0 +1,6 @@
+Artem is building a new robot. He has a matrix aa consisting of nn rows and mm columns. The cell located on the ii-th row from the top and the jj-th column from the left has a value ai,jai,j written in it. 
+If two adjacent cells contain the same value, the robot will break. A matrix is called good if no two adjacent cells contain the same value, where two cells are called adjacent if they share a side. 
+Artem wants to increment the values in some cells by one to make aa good.
+More formally, find a good matrix bb that satisfies the following condition — 
+  For all valid (i,ji,j), either bi,j=ai,jbi,j=ai,j or bi,j=ai,j+1bi,j=ai,j+1. 
+For the constraints of this problem, it can be shown that such a matrix bb always exists. If there are several such tables, you can output any of them. Please note that you do not have to minimize the number of increments.

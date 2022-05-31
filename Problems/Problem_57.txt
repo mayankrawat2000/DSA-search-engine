@@ -1,0 +1,3 @@
+There is an array aa of length nn. You may perform the following operation any number of times:
+  Choose two indices ll and rr where 1≤l<r≤n1≤l<r≤n and al=aral=ar. Then, set a[l…r]=[al+1,al+2,…,ar,al]a[l…r]=[al+1,al+2,…,ar,al]. 
+You are also given another array bb of length nn which is a permutation of aa. Determine whether it is possible to transform array aa into an array bb using the above operation some number of times.

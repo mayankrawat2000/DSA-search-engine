@@ -1,0 +1,5 @@
+Sam lives in Awesomeburg, its downtown has a triangular shape. Also, the following is true about the triangle:
+  its vertices have integer coordinates,  the coordinates of vertices are non-negative, and  its vertices are not on a single line. 
+He calls a point on the downtown's border (that is the border of the triangle) safe if he can reach this point from at least one point of the line y=0y=0 walking along some straight line, without crossing the interior of the triangle.
+  In the picture the downtown is marked with grey color. The first path is invalid because it does not go along a straight line. The second path is invalid because it intersects with the interior of the downtown. The third and fourth paths are correct. 
+Find the total length of the unsafe parts of the downtown border. It can be proven that these parts are segments and their number is finite.

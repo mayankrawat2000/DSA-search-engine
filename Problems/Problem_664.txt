@@ -1,0 +1,4 @@
+  
+As mentioned previously William really likes playing video games. In one of his favorite games, the player character is in a universe where every planet is designated by a binary number from 00 to 2n−12n−1. On each planet, there are gates that allow the player to move from planet ii to planet jj if the binary representations of ii and jj differ in exactly one bit.
+William wants to test you and see how you can handle processing the following queries in this game universe:
+  Destroy planets with numbers from ll to rr inclusively. These planets cannot be moved to anymore. Figure out if it is possible to reach planet bb from planet aa using some number of planetary gates. It is guaranteed that the planets aa and bb are not destroyed. 

@@ -1,0 +1,7 @@
+Some time ago Homer lived in a beautiful city. There were nn blocks numbered from 11 to nn and mm directed roads between them. Each road had a positive length, and each road went from the block with the smaller index to the block with the larger index. For every two (different) blocks, there was at most one road between them. 
+Homer discovered that for some two numbers LL and RR the city was (L,R)(L,R)-continuous. 
+The city is said to be (L,R)(L,R)-continuous, if 
+  all paths from block 11 to block nn are of length between LL and RR (inclusive); and  for every L≤d≤RL≤d≤R, there is exactly one path from block 11 to block nn whose length is dd. 
+A path from block uu to block vv is a sequence u=x0→x1→x2→⋯→xk=vu=x0→x1→x2→⋯→xk=v, where there is a road from block xi−1xi−1 to block xixi for every 1≤i≤k1≤i≤k. The length of a path is the sum of lengths over all roads in the path. Two paths x0→x1→⋯→xkx0→x1→⋯→xk and y0→y1→⋯→yly0→y1→⋯→yl are different, if k≠lk≠l or xi≠yixi≠yi for some 0≤i≤min{k,l}0≤i≤min{k,l}. 
+After moving to another city, Homer only remembers the two special numbers LL and RR but forgets the numbers nn and mm of blocks and roads, respectively, and how blocks are connected by roads. However, he believes the number of blocks should be no larger than 3232 (because the city was small).
+As the best friend of Homer, please tell him whether it is possible to find a (L,R)(L,R)-continuous city or not. 

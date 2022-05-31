@@ -1,0 +1,7 @@
+This is an interactive problem.
+Homer likes arrays a lot and he wants to play a game with you. 
+Homer has hidden from you a permutation a1,a2,…,ana1,a2,…,an of integers 11 to nn. You are asked to find any index kk (1≤k≤n1≤k≤n) which is a local minimum. 
+For an array a1,a2,…,ana1,a2,…,an, an index ii (1≤i≤n1≤i≤n) is said to be a local minimum if ai<min{ai−1,ai+1}ai<min{ai−1,ai+1}, where a0=an+1=+∞a0=an+1=+∞. An array is said to be a permutation of integers 11 to nn, if it contains all integers from 11 to nn exactly once.
+Initially, you are only given the value of nn without any other information about this permutation.
+At each interactive step, you are allowed to choose any ii (1≤i≤n1≤i≤n) and make a query with it. As a response, you will be given the value of aiai. 
+You are asked to find any index kk which is a local minimum after at most 100100 queries.

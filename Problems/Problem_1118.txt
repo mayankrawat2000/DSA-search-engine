@@ -1,0 +1,4 @@
+Polycarp remembered the 20202020-th year, and he is happy with the arrival of the new 20212021-th year. To remember such a wonderful moment, Polycarp wants to represent the number nn as the sum of a certain number of 20202020 and a certain number of 20212021.
+For example, if: 
+  n=4041n=4041, then the number nn can be represented as the sum 2020+20212020+2021;  n=4042n=4042, then the number nn can be represented as the sum 2021+20212021+2021;  n=8081n=8081, then the number nn can be represented as the sum 2020+2020+2020+20212020+2020+2020+2021;  n=8079n=8079, then the number nn cannot be represented as the sum of the numbers 20202020 and 20212021. 
+Help Polycarp to find out whether the number nn can be represented as the sum of a certain number of numbers 20202020 and a certain number of numbers 20212021.

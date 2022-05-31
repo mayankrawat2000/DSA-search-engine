@@ -1,0 +1,3 @@
+Integers from 11 to nn (inclusive) were sorted lexicographically (considering integers as strings). As a result, array a1,a2,…,ana1,a2,…,an was obtained.
+Calculate value of (∑ni=1((i−ai)mod998244353))mod109+7(∑i=1n((i−ai)mod998244353))mod109+7.
+xmodyxmody here means the remainder after division xx by yy. This remainder is always non-negative and doesn't exceed y−1y−1. For example, 5mod3=25mod3=2, (−1)mod6=5(−1)mod6=5. 

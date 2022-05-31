@@ -1,0 +1,4 @@
+You are given a program that consists of nn instructions. Initially a single variable xx is assigned to 00. Afterwards, the instructions are of two types: 
+  increase xx by 11;  decrease xx by 11. 
+You are given mm queries of the following format: 
+  query ll rr — how many distinct values is xx assigned to if all the instructions between the ll-th one and the rr-th one inclusive are ignored and the rest are executed without changing the order? 

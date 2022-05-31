@@ -1,0 +1,5 @@
+In number world, two different numbers are friends if they have a lot in common, but also each one has unique perks.
+More precisely, two different numbers aa and bb are friends if gcd(a,b)gcd(a,b), agcd(a,b)agcd(a,b), bgcd(a,b)bgcd(a,b) can form sides of a triangle.
+Three numbers aa, bb and cc can form sides of a triangle if a+b>ca+b>c, b+c>ab+c>a and c+a>bc+a>b.
+In a group of numbers, a number is lonely if it doesn't have any friends in that group.
+Given a group of numbers containing all numbers from 1,2,3,...,n1,2,3,...,n, how many numbers in that group are lonely?

@@ -1,0 +1,10 @@
+Eikooc and Sushi play a game.
+The game is played on a tree having nn nodes numbered 11 to nn. Recall that a tree having nn nodes is an undirected, connected graph with n−1n−1 edges.
+They take turns alternately moving a token on the tree. Eikooc makes the first move, placing the token on any node of her choice. Sushi makes the next move, followed by Eikooc, followed by Sushi, and so on. In each turn after the first, a player must move the token to a node uu such that 
+  uu is adjacent to the node vv the token is currently on  uu has not been visited before  u⊕v≤min(u,v)u⊕v≤min(u,v) 
+Here x⊕yx⊕y denotes the bitwise XOR operation on integers xx and yy.
+Both the players play optimally. The player who is unable to make a move loses.
+The following are examples which demonstrate the rules of the game. 
+    Suppose Eikooc starts the game by placing the token at node 44. Sushi then moves the token to node 66, which is unvisited and adjacent to 44. It also holds that 6⊕4=2≤min(6,4)6⊕4=2≤min(6,4). In the next turn, Eikooc moves the token to node 55, which is unvisited and adjacent to 66. It holds that 5⊕6=3≤min(5,6)5⊕6=3≤min(5,6). Sushi has no more moves to play, so she loses.   Suppose Eikooc starts the game by placing the token at node 33. Sushi moves the token to node 22, which is unvisited and adjacent to 33. It also holds that 3⊕2=1≤min(3,2)3⊕2=1≤min(3,2). Eikooc cannot move the token to node 66 since 6⊕2=4≰min(6,2)6⊕2=4≰min(6,2). Since Eikooc has no moves to play, she loses. 
+Before the game begins, Eikooc decides to sneakily relabel the nodes of the tree in her favour. Formally, a relabeling is a permutation pp of length nn (sequence of nn integers wherein each integer from 11 to nn occurs exactly once) where pipi denotes the new numbering of node ii.
+She wants to maximize the number of nodes she can choose in the first turn which will guarantee her a win. Help Eikooc find any relabeling which will help her do so. 

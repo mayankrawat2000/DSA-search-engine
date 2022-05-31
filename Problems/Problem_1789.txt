@@ -1,0 +1,7 @@
+You're at the last mission in one very old and very popular strategy game Dune II: Battle For Arrakis. The map of the mission can be represented as a rectangular matrix of size n×mn×m. Initially, there are ai,jai,j units of your army in the cell (i,j)(i,j).
+You want to prepare for the final battle, so you want to move all your army into exactly one cell of the map (i.e. nm−1nm−1 cells should contain 00 units of the army and the remaining cell should contain the entire army).
+To do this, you can do some (possibly, zero) number of moves. During one move, you can select exactly one unit from some cell and move it to one of the adjacent by side cells. I.e. from the cell (i,j)(i,j) you can move the unit to cells:
+  (i−1,j)(i−1,j);  (i,j−1)(i,j−1);  (i+1,j)(i+1,j);  (i,j+1)(i,j+1). 
+Of course, you want to move all your army into exactly one cell as fast as possible. So, you want to know the minimum number of moves you need to do that.
+And, of course, life goes on, so the situation on the map changes. There are qq updates, the ii-th update is denoted by three integers x,y,zx,y,z. This update affects the army in the cell (x,y)(x,y): after this update, the number of units in the cell (x,y)(x,y) becomes zz (i.e. you replace ax,yax,y with zz).
+Also, you want to determine, for each ii, the minimum number of moves needed to move your entire army into exactly one cell with the first ii updates applied to the initial map. In other words, the map after the ii-th update equals the initial map with the first ii updates applied to it.

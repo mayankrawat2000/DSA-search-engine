@@ -1,0 +1,13 @@
+Logical quantifiers are very useful tools for expressing claims about a set. For this problem, let's focus on the set of real numbers specifically. The set of real numbers includes zero and negatives. There are two kinds of quantifiers: universal (∀∀) and existential (∃∃). You can read more about them here.
+The universal quantifier is used to make a claim that a statement holds for all real numbers. For example:
+  ∀x,x<100∀x,x<100 is read as: for all real numbers xx, xx is less than 100100. This statement is false.  ∀x,x>x−1∀x,x>x−1 is read as: for all real numbers xx, xx is greater than x−1x−1. This statement is true. 
+The existential quantifier is used to make a claim that there exists some real number for which the statement holds. For example:
+  ∃x,x<100∃x,x<100 is read as: there exists a real number xx such that xx is less than 100100. This statement is true.  ∃x,x>x−1∃x,x>x−1 is read as: there exists a real number xx such that xx is greater than x−1x−1. This statement is true. 
+Moreover, these quantifiers can be nested. For example:
+  ∀x,∃y,x<y∀x,∃y,x<y is read as: for all real numbers xx, there exists a real number yy such that xx is less than yy. This statement is true since for every xx, there exists y=x+1y=x+1.  ∃y,∀x,x<y∃y,∀x,x<y is read as: there exists a real number yy such that for all real numbers xx, xx is less than yy. This statement is false because it claims that there is a maximum real number: a number yy larger than every xx. 
+Note that the order of variables and quantifiers is important for the meaning and veracity of a statement.
+There are nn variables x1,x2,…,xnx1,x2,…,xn, and you are given some formula of the form f(x1,…,xn):=(xj1<xk1)∧(xj2<xk2)∧⋯∧(xjm<xkm),f(x1,…,xn):=(xj1<xk1)∧(xj2<xk2)∧⋯∧(xjm<xkm),
+where ∧∧ denotes logical AND. That is, f(x1,…,xn)f(x1,…,xn) is true if every inequality xji<xkixji<xki holds. Otherwise, if at least one inequality does not hold, then f(x1,…,xn)f(x1,…,xn) is false.
+Your task is to assign quantifiers Q1,…,QnQ1,…,Qn to either universal (∀∀) or existential (∃∃) so that the statement Q1x1,Q2x2,…,Qnxn,f(x1,…,xn)Q1x1,Q2x2,…,Qnxn,f(x1,…,xn)
+is true, and the number of universal quantifiers is maximized, or determine that the statement is false for every possible assignment of quantifiers.
+Note that the order the variables appear in the statement is fixed. For example, if f(x1,x2):=(x1<x2)f(x1,x2):=(x1<x2) then you are not allowed to make x2x2 appear first and use the statement ∀x2,∃x1,x1<x2∀x2,∃x1,x1<x2. If you assign Q1=∃Q1=∃ and Q2=∀Q2=∀, it will only be interpreted as ∃x1,∀x2,x1<x2∃x1,∀x2,x1<x2.

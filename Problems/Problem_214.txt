@@ -1,0 +1,4 @@
+You are given an array a1,a2,…,ana1,a2,…,an, consisting of nn integers. You are also given an integer value xx.
+Let f(k)f(k) be the maximum sum of a contiguous subarray of aa after applying the following operation: add xx to the elements on exactly kk distinct positions. An empty subarray should also be considered, it has sum 00.
+Note that the subarray doesn't have to include all of the increased elements.
+Calculate the maximum value of f(k)f(k) for all kk from 00 to nn independently.

@@ -1,0 +1,6 @@
+Given an array aa of length nn and an integer kk, you are tasked to find any two numbers ll and rr (l≤rl≤r) such that: 
+  For each xx (l≤x≤r)(l≤x≤r), xx appears in aa at least kk times (i.e. kk or more array elements are equal to xx).  The value r−lr−l is maximized. 
+If no numbers satisfy the conditions, output -1.
+For example, if a=[11,11,12,13,13,14,14]a=[11,11,12,13,13,14,14] and k=2k=2, then: 
+  for l=12l=12, r=14r=14 the first condition fails because 1212 does not appear at least k=2k=2 times.  for l=13l=13, r=14r=14 the first condition holds, because 1313 occurs at least k=2k=2 times in aa and 1414 occurs at least k=2k=2 times in aa.  for l=11l=11, r=11r=11 the first condition holds, because 1111 occurs at least k=2k=2 times in aa. 
+A pair of ll and rr for which the first condition holds and r−lr−l is maximal is l=13l=13, r=14r=14.

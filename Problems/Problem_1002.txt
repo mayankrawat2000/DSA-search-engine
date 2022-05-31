@@ -1,0 +1,4 @@
+You are given an array a1,a2,…,ana1,a2,…,an consisting of nn positive integers and a positive integer mm.
+You should divide elements of this array into some arrays. You can order the elements in the new arrays as you want.
+Let's call an array mm-divisible if for each two adjacent numbers in the array (two numbers on the positions ii and i+1i+1 are called adjacent for each ii) their sum is divisible by mm. An array of one element is mm-divisible.
+Find the smallest number of mm-divisible arrays that a1,a2,…,ana1,a2,…,an is possible to divide into.

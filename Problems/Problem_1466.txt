@@ -1,0 +1,3 @@
+Let a1,…,ana1,…,an be an array of nn positive integers. In one operation, you can choose an index ii such that ai=iai=i, and remove aiai from the array (after the removal, the remaining parts are concatenated).
+The weight of aa is defined as the maximum number of elements you can remove.
+You must answer qq independent queries (x,y)(x,y): after replacing the xx first elements of aa and the yy last elements of aa by n+1n+1 (making them impossible to remove), what would be the weight of aa?

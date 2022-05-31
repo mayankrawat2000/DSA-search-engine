@@ -1,0 +1,4 @@
+Let's call a sequence b1,b2,b3…,bk−1,bkb1,b2,b3…,bk−1,bk almost increasing if min(b1,b2)≤min(b2,b3)≤⋯≤min(bk−1,bk).min(b1,b2)≤min(b2,b3)≤⋯≤min(bk−1,bk). In particular, any sequence with no more than two elements is almost increasing.
+You are given a sequence of integers a1,a2,…,ana1,a2,…,an. Calculate the length of its longest almost increasing subsequence.
+You'll be given tt test cases. Solve each test case independently.
+Reminder: a subsequence is a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements.

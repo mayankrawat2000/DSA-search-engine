@@ -1,0 +1,4 @@
+Petya and Vasya are competing with each other in a new interesting game as they always do.
+At the beginning of the game Petya has to come up with an array of NN positive integers. Sum of all elements in his array should be equal to SS. Then Petya has to select an integer KK such that 0≤K≤S0≤K≤S.
+In order to win, Vasya has to find a non-empty subarray in Petya's array such that the sum of all selected elements equals to either KK or S−KS−K. Otherwise Vasya loses.
+You are given integers NN and SS. You should determine if Petya can win, considering Vasya plays optimally. If Petya can win, help him to do that.

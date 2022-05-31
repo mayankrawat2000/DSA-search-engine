@@ -1,0 +1,7 @@
+You are given three multisets of pairs of colored sticks: 
+  RR pairs of red sticks, the first pair has length r1r1, the second pair has length r2r2, ……, the RR-th pair has length rRrR;  GG pairs of green sticks, the first pair has length g1g1, the second pair has length g2g2, ……, the GG-th pair has length gGgG;  BB pairs of blue sticks, the first pair has length b1b1, the second pair has length b2b2, ……, the BB-th pair has length bBbB; 
+You are constructing rectangles from these pairs of sticks with the following process: 
+  take a pair of sticks of one color;  take a pair of sticks of another color different from the first one;  add the area of the resulting rectangle to the total area. 
+Thus, you get such rectangles that their opposite sides are the same color and their adjacent sides are not the same color.
+Each pair of sticks can be used at most once, some pairs can be left unused. You are not allowed to split a pair into independent sticks.
+What is the maximum area you can achieve?

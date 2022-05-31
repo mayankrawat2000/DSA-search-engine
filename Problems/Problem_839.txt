@@ -1,0 +1,4 @@
+You are given an array aa of nn integers. Define the cost of some array tt as follows:
+cost(t)=∑x∈set(t)last(x)−first(x),cost(t)=∑x∈set(t)last(x)−first(x), 
+where set(t)set(t) is the set of all values in tt without repetitions, first(x)first(x), and last(x)last(x) are the indices of the first and last occurrence of xx in tt, respectively. In other words, we compute the distance between the first and last occurrences for each distinct element and sum them up.
+You need to split the array aa into kk consecutive segments such that each element of aa belongs to exactly one segment and the sum of the cost of individual segments is minimum.

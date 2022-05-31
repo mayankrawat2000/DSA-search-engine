@@ -1,0 +1,7 @@
+Everybody knows that Balázs has the fanciest fence in the whole town. It's built up from NN fancy sections. The sections are rectangles standing closely next to each other on the ground. The iith section has integer height hihi and integer width wiwi.  We are looking for fancy rectangles on this fancy fence.  A rectangle is fancy if: 
+  its sides are either horizontal or vertical and have integer lengths  the distance between the rectangle and the ground is integer  the distance between the rectangle and the left side of the first section is integer  it's lying completely on sections 
+ What is the number of fancy rectangles?  This number can be very big, so we are interested in it modulo 
+
+109+7109+7
+10^9+7
+.

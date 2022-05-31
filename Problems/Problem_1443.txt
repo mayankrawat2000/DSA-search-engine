@@ -1,0 +1,4 @@
+You are given a positive integer kk and an array a1,a2,…,ana1,a2,…,an of non-negative distinct integers not smaller than kk and not greater than 2c−12c−1.
+In each of the next kk seconds, one element is chosen randomly equiprobably out of all nn elements and decreased by 11.
+For each integer xx, 0≤x≤2c−10≤x≤2c−1, you need to find the probability that in the end the bitwise XOR of all elements of the array is equal to xx. 
+Each of these values can be represented as an irreducible fraction pqpq, and you need to find the value of p⋅q−1p⋅q−1 modulo 998244353998244353. 

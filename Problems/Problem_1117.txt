@@ -1,0 +1,8 @@
+At the school where Vasya is studying, preparations are underway for the graduation ceremony. One of the planned performances is a ball, which will be attended by pairs of boys and girls.
+Each class must present two couples to the ball. In Vasya's class, aa boys and bb girls wish to participate. But not all boys and not all girls are ready to dance in pairs.
+Formally, you know kk possible one-boy-one-girl pairs. You need to choose two of these pairs so that no person is in more than one pair.
+For example, if a=3a=3, b=4b=4, k=4k=4 and the couples (1,2)(1,2), (1,3)(1,3), (2,2)(2,2), (3,4)(3,4) are ready to dance together (in each pair, the boy's number comes first, then the girl's number), then the following combinations of two pairs are possible (not all possible options are listed below): 
+  (1,3)(1,3) and (2,2)(2,2);  (3,4)(3,4) and (1,3)(1,3); 
+But the following combinations are not possible: 
+  (1,3)(1,3) and (1,2)(1,2) — the first boy enters two pairs;  (1,2)(1,2) and (2,2)(2,2) — the second girl enters two pairs; 
+Find the number of ways to select two pairs that match the condition above. Two ways are considered different if they consist of different pairs.

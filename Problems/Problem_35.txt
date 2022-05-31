@@ -1,0 +1,6 @@
+Polycarp bought a new expensive painting and decided to show it to his nn friends. He hung it in his room. nn of his friends entered and exited there one by one. At one moment there was no more than one person in the room. In other words, the first friend entered and left first, then the second, and so on.
+It is known that at the beginning (before visiting friends) a picture hung in the room. At the end (after the nn-th friend) it turned out that it disappeared. At what exact moment it disappeared — there is no information.
+Polycarp asked his friends one by one. He asked each one if there was a picture when he entered the room. Each friend answered one of three:
+  no (response encoded with 0);  yes (response encoded as 1);  can't remember (response is encoded with ?). 
+Everyone except the thief either doesn't remember or told the truth. The thief can say anything (any of the three options).
+Polycarp cannot understand who the thief is. He asks you to find out the number of those who can be considered a thief according to the answers.

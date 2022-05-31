@@ -1,0 +1,15 @@
+As Kevin is in BigMan's house, suddenly a trap sends him onto a grid with nn rows and mm columns.
+BigMan's trap is configured by two arrays: an array a1,a2,…,ana1,a2,…,an and an array b1,b2,…,bmb1,b2,…,bm.
+In the ii-th row there is a heater which heats the row by aiai degrees, and in the jj-th column there is a heater which heats the column by bjbj degrees, so that the temperature of cell (i,j)(i,j) is ai+bjai+bj.
+Fortunately, Kevin has a suit with one parameter xx and two modes:
+  heat resistance. In this mode suit can stand all temperatures greater or equal to xx, but freezes as soon as reaches a cell with temperature less than xx.  cold resistance. In this mode suit can stand all temperatures less than xx, but will burn as soon as reaches a cell with temperature at least xx.
+Once Kevin lands on a cell the suit automatically turns to cold resistance mode if the cell has temperature less than xx, or to heat resistance mode otherwise, and cannot change after that.
+We say that two cells are adjacent if they share an edge.
+Let a path be a sequence c1,c2,…,ckc1,c2,…,ck of cells such that cici and ci+1ci+1 are adjacent for 1≤i≤k−11≤i≤k−1.
+We say that two cells are connected if there is a path between the two cells consisting only of cells that Kevin can step on.
+A connected component is a maximal set of pairwise connected cells.
+We say that a connected component is good if Kevin can escape the grid starting from it  — when it contains at least one border cell of the grid, and that it's bad otherwise.
+To evaluate the situation, Kevin gives a score of 11 to each good component and a score of 22 for each bad component.
+The final score will be the difference between the total score of components with temperatures bigger than or equal to xx and the score of components with temperatures smaller than xx.
+There are qq possible values of xx that Kevin can use, and for each of them Kevin wants to know the final score.
+Help Kevin defeat BigMan!

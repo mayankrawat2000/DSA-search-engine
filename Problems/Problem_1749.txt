@@ -1,0 +1,4 @@
+You are given an undirected graph without self-loops or multiple edges which consists of nn vertices and mm edges. Also you are given three integers n1n1, n2n2 and n3n3.
+Can you label each vertex with one of three numbers 1, 2 or 3 in such way, that: 
+  Each vertex should be labeled by exactly one number 1, 2 or 3;  The total number of vertices with label 1 should be equal to n1n1;  The total number of vertices with label 2 should be equal to n2n2;  The total number of vertices with label 3 should be equal to n3n3;  |colu−colv|=1|colu−colv|=1 for each edge (u,v)(u,v), where colxcolx is the label of vertex xx. 
+If there are multiple valid labelings, print any of them.

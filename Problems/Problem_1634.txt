@@ -1,0 +1,6 @@
+Ashishgup and FastestFinger play a game. 
+They start with a number nn and play in turns. In each turn, a player can make any one of the following moves:
+  Divide nn by any of its odd divisors greater than 11.  Subtract 11 from nn if nn is greater than 11. 
+Divisors of a number include the number itself.
+The player who is unable to make a move loses the game.
+Ashishgup moves first. Determine the winner of the game if both of them play optimally.

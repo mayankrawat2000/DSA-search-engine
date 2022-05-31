@@ -1,0 +1,6 @@
+Boboniu has a directed graph with nn vertices and mm edges.
+The out-degree of each vertex is at most kk.
+Each edge has an integer weight between 11 and mm. No two edges have equal weights.
+Boboniu likes to walk on the graph with some specific rules, which is represented by a tuple (c1,c2,…,ck)(c1,c2,…,ck). If he now stands on a vertex uu with out-degree ii, then he will go to the next vertex by the edge with the cici-th (1≤ci≤i)(1≤ci≤i) smallest weight among all edges outgoing from uu.
+Now Boboniu asks you to calculate the number of tuples (c1,c2,…,ck)(c1,c2,…,ck) such that
+  1≤ci≤i1≤ci≤i for all ii (1≤i≤k1≤i≤k).  Starting from any vertex uu, it is possible to go back to uu in finite time by walking on the graph under the described rules. 

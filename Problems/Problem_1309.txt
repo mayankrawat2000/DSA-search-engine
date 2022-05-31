@@ -1,0 +1,4 @@
+You are given a matrix aa of size n×mn×m consisting of integers.
+You can choose no more than ⌊m2⌋⌊m2⌋ elements in each row. Your task is to choose these elements in such a way that their sum is divisible by kk and this sum is the maximum.
+In other words, you can choose no more than a half (rounded down) of elements in each row, you have to find the maximum sum of these elements divisible by kk.
+Note that you can choose zero elements (and the sum of such set is 00).

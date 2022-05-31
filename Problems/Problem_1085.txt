@@ -1,0 +1,6 @@
+Your friend Salem is Warawreh's brother and only loves math and geometry problems. He has solved plenty of such problems, but according to Warawreh, in order to graduate from university he has to solve more graph problems. Since Salem is not good with graphs he asked your help with the following problem.
+  
+You are given a complete directed graph with nn vertices without self-loops. In other words, you have nn vertices and each pair of vertices uu and vv (u≠vu≠v) has both directed edges (u,v)(u,v) and (v,u)(v,u).
+Every directed edge of the graph is labeled with a single character: either 'a' or 'b' (edges (u,v)(u,v) and (v,u)(v,u) may have different labels).
+You are also given an integer m>0m>0. You should find a path of length mm such that the string obtained by writing out edges' labels when going along the path is a palindrome. The length of the path is the number of edges in it.
+You can visit the same vertex and the same directed edge any number of times.

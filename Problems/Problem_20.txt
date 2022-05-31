@@ -1,0 +1,7 @@
+Tokitsukaze is arranging a meeting. There are nn rows and mm columns of seats in the meeting hall.
+There are exactly n⋅mn⋅m students attending the meeting, including several naughty students and several serious students. The students are numerated from 11 to n⋅mn⋅m. The students will enter the meeting hall in order. When the ii-th student enters the meeting hall, he will sit in the 11-st column of the 11-st row, and the students who are already seated will move back one seat. Specifically, the student sitting in the jj-th (1≤j≤m−11≤j≤m−1) column of the ii-th row will move to the (j+1)(j+1)-th column of the ii-th row, and the student sitting in mm-th column of the ii-th row will move to the 11-st column of the (i+1)(i+1)-th row.
+For example, there is a meeting hall with 22 rows and 22 columns of seats shown as below:
+  
+There will be 44 students entering the meeting hall in order, represented as a binary string "1100", of which '0' represents naughty students and '1' represents serious students. The changes of seats in the meeting hall are as follows:
+  
+Denote a row or a column good if and only if there is at least one serious student in this row or column. Please predict the number of good rows and columns just after the ii-th student enters the meeting hall, for all ii.

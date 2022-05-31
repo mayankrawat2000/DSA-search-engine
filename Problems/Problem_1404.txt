@@ -1,0 +1,4 @@
+You are given four integers nn, mm, ll and rr.
+Let's name a tuple (x1,y1,x2,y2)(x1,y1,x2,y2) as good if: 
+  1≤x1<x2≤n1≤x1<x2≤n;  1≤y2<y1≤m1≤y2<y1≤m;  x1⋅y1=x2⋅y2x1⋅y1=x2⋅y2;  l≤x1⋅y1≤rl≤x1⋅y1≤r. 
+Find any good tuple for each x1x1 from 11 to nn inclusive.

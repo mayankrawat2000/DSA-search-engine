@@ -1,0 +1,7 @@
+Phoenix has a string ss consisting of lowercase Latin letters. He wants to distribute all the letters of his string into kk non-empty strings a1,a2,…,aka1,a2,…,ak such that every letter of ss goes to exactly one of the strings aiai. The strings aiai do not need to be substrings of ss. Phoenix can distribute letters of ss and rearrange the letters within each string aiai however he wants.
+For example, if s=s= baba and k=2k=2, Phoenix may distribute the letters of his string in many ways, such as: 
+  ba and ba  a and abb  ab and ab  aa and bb 
+But these ways are invalid: 
+  baa and ba  b and ba  baba and empty string (aiai should be non-empty) 
+Phoenix wants to distribute the letters of his string ss into kk strings a1,a2,…,aka1,a2,…,ak to minimize the lexicographically maximum string among them, i. e. minimize max(a1,a2,…,ak)max(a1,a2,…,ak). Help him find the optimal distribution and print the minimal possible value of max(a1,a2,…,ak)max(a1,a2,…,ak).
+String xx is lexicographically less than string yy if either xx is a prefix of yy and x≠yx≠y, or there exists an index ii (1≤i≤min(|x|,|y|))1≤i≤min(|x|,|y|)) such that xixi < yiyi and for every jj (1≤j<i)(1≤j<i) xj=yjxj=yj. Here |x||x| denotes the length of the string xx.

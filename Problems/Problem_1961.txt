@@ -1,0 +1,5 @@
+Masha lives in a country with nn cities numbered from 11 to nn. She lives in the city number 11. 
+There is a direct train route between each pair of distinct cities ii and jj, where i≠ji≠j. In total there are n(n−1)n(n−1) distinct routes. Every route has a cost, cost for route from ii to jj may be different from the cost of route from jj to ii.
+Masha wants to start her journey in city 11, take exactly kk routes from one city to another and as a result return to the city 11. Masha is really careful with money, so she wants the journey to be as cheap as possible. To do so Masha doesn't mind visiting a city multiple times or even taking the same route multiple times.
+Masha doesn't want her journey to have odd cycles. Formally, if you can select visited by Masha city vv, take odd number of routes used by Masha in her journey and return to the city vv, such journey is considered unsuccessful.
+Help Masha to find the cheapest (with minimal total cost of all taken routes) successful journey.

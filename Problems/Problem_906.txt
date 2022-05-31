@@ -1,0 +1,3 @@
+Phoenix has collected nn pieces of gold, and he wants to weigh them together so he can feel rich. The ii-th piece of gold has weight wiwi. All weights are distinct. He will put his nn pieces of gold on a weight scale, one piece at a time. 
+The scale has an unusual defect: if the total weight on it is exactly xx, it will explode. Can he put all nn gold pieces onto the scale in some order, without the scale exploding during the process? If so, help him find some possible order. 
+Formally, rearrange the array ww so that for each ii (1≤i≤n)(1≤i≤n), ∑j=1iwj≠x∑j=1iwj≠x.

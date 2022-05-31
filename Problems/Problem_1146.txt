@@ -1,0 +1,5 @@
+Let us call two integers xx and yy adjacent if lcm(x,y)gcd(x,y)lcm(x,y)gcd(x,y) is a perfect square. For example, 33 and 1212 are adjacent, but 66 and 99 are not.
+Here gcd(x,y)gcd(x,y) denotes the greatest common divisor (GCD) of integers xx and yy, and lcm(x,y)lcm(x,y) denotes the least common multiple (LCM) of integers xx and yy.
+You are given an array aa of length nn. Each second the following happens: each element aiai of the array is replaced by the product of all elements of the array (including itself), that are adjacent to the current value. 
+Let didi be the number of adjacent elements to aiai (including aiai itself). The beauty of the array is defined as max1≤i≤ndimax1≤i≤ndi. 
+You are given qq queries: each query is described by an integer ww, and you have to output the beauty of the array after ww seconds.

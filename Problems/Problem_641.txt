@@ -1,0 +1,7 @@
+Polycarp has a string ss. Polycarp performs the following actions until the string ss is empty (tt is initially an empty string):
+  he adds to the right to the string tt the string ss, i.e. he does t=t+st=t+s, where t+st+s is a concatenation of the strings tt and ss;  he selects an arbitrary letter of ss and removes from ss all its occurrences (the selected letter must occur in the string ss at the moment of performing this action). 
+Polycarp performs this sequence of actions strictly in this order.
+Note that after Polycarp finishes the actions, the string ss will be empty and the string tt will be equal to some value (that is undefined and depends on the order of removing).
+E.g. consider ss="abacaba" so the actions may be performed as follows:
+  tt="abacaba", the letter 'b' is selected, then ss="aacaa";  tt="abacabaaacaa", the letter 'a' is selected, then ss="c";  tt="abacabaaacaac", the letter 'c' is selected, then ss="" (the empty string). 
+You need to restore the initial value of the string ss using only the final value of tt and find the order of removing letters from ss.

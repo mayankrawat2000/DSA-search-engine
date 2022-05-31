@@ -1,0 +1,3 @@
+Mr. Chanek gives you a sequence aa indexed from 11 to nn. Define f(a)f(a) as the number of indices where ai=iai=i. 
+You can pick an element from the current sequence and remove it, then concatenate the remaining elements together. For example, if you remove the 33-rd element from the sequence [4,2,3,1][4,2,3,1], the resulting sequence will be [4,2,1][4,2,1]. 
+You want to remove some elements from aa in order to maximize f(a)f(a), using zero or more operations. Find the largest possible f(a)f(a).

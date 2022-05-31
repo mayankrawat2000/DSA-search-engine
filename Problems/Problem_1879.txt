@@ -1,0 +1,4 @@
+Dreamoon likes sequences very much. So he created a problem about the sequence that you can't find in OEIS: 
+You are given two integers d,md,m, find the number of arrays aa, satisfying the following constraints:
+  The length of aa is nn, n≥1n≥1  1≤a1<a2<⋯<an≤d1≤a1<a2<⋯<an≤d  Define an array bb of length nn as follows: b1=a1b1=a1, ∀i>1,bi=bi−1⊕ai∀i>1,bi=bi−1⊕ai, where ⊕⊕ is the bitwise exclusive-or (xor). After constructing an array bb, the constraint b1<b2<⋯<bn−1<bnb1<b2<⋯<bn−1<bn should hold. 
+Since the number of possible arrays may be too large, you need to find the answer modulo mm.

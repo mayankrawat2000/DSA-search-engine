@@ -1,0 +1,7 @@
+You have a permutation: an array a=[a1,a2,…,an]a=[a1,a2,…,an] of distinct integers from 11 to nn. The length of the permutation nn is odd.
+Consider the following algorithm of sorting the permutation in increasing order.
+A helper procedure of the algorithm, f(i)f(i), takes a single argument ii (1≤i≤n−11≤i≤n−1) and does the following. If ai>ai+1ai>ai+1, the values of aiai and ai+1ai+1 are exchanged. Otherwise, the permutation doesn't change.
+The algorithm consists of iterations, numbered with consecutive integers starting with 11. On the ii-th iteration, the algorithm does the following: 
+  if ii is odd, call f(1),f(3),…,f(n−2)f(1),f(3),…,f(n−2);  if ii is even, call f(2),f(4),…,f(n−1)f(2),f(4),…,f(n−1). 
+It can be proven that after a finite number of iterations the permutation will be sorted in increasing order.
+After how many iterations will this happen for the first time?

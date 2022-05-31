@@ -1,0 +1,6 @@
+Note that the memory limit in this problem is lower than in others.
+You have a vertical strip with nn cells, numbered consecutively from 11 to nn from top to bottom.
+You also have a token that is initially placed in cell nn. You will move the token up until it arrives at cell 11.
+Let the token be in cell x>1x>1 at some moment. One shift of the token can have either of the following kinds: 
+  Subtraction: you choose an integer yy between 11 and x−1x−1, inclusive, and move the token from cell xx to cell x−yx−y.  Floored division: you choose an integer zz between 22 and xx, inclusive, and move the token from cell xx to cell ⌊xz⌋⌊xz⌋ (xx divided by zz rounded down). 
+Find the number of ways to move the token from cell nn to cell 11 using one or more shifts, and print it modulo mm. Note that if there are several ways to move the token from one cell to another in one shift, all these ways are considered distinct (check example explanation for a better understanding).

@@ -1,0 +1,5 @@
+You're given an array bb of length nn. Let's define another array aa, also of length nn, for which ai=2biai=2bi (1≤i≤n1≤i≤n). 
+Valerii says that every two non-intersecting subarrays of aa have different sums of elements. You want to determine if he is wrong. More formally, you need to determine if there exist four integers l1,r1,l2,r2l1,r1,l2,r2 that satisfy the following conditions: 
+  1≤l1≤r1<l2≤r2≤n1≤l1≤r1<l2≤r2≤n;  al1+al1+1+…+ar1−1+ar1=al2+al2+1+…+ar2−1+ar2al1+al1+1+…+ar1−1+ar1=al2+al2+1+…+ar2−1+ar2. 
+If such four integers exist, you will prove Valerii wrong. Do they exist?
+An array cc is a subarray of an array dd if cc can be obtained from dd by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.

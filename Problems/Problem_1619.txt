@@ -1,0 +1,3 @@
+Danny, the local Math Maniac, is fascinated by circles, Omkar's most recent creation. Help him solve this circle problem!
+You are given nn nonnegative integers a1,a2,…,ana1,a2,…,an arranged in a circle, where nn must be odd (ie. n−1n−1 is divisible by 22). Formally, for all ii such that 2≤i≤n2≤i≤n, the elements ai−1ai−1 and aiai are considered to be adjacent, and anan and a1a1 are also considered to be adjacent. In one operation, you pick a number on the circle, replace it with the sum of the two elements adjacent to it, and then delete the two adjacent elements from the circle. This is repeated until only one number remains in the circle, which we call the circular value.
+Help Danny find the maximum possible circular value after some sequences of operations. 

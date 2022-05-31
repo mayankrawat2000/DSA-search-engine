@@ -1,0 +1,4 @@
+A string a=a1a2…ana=a1a2…an is called even if it consists of a concatenation (joining) of strings of length 22 consisting of the same characters. In other words, a string aa is even if two conditions are satisfied at the same time:
+  its length nn is even;  for all odd ii (1≤i≤n−11≤i≤n−1), ai=ai+1ai=ai+1 is satisfied. 
+For example, the following strings are even: "" (empty string), "tt", "aabb", "oooo", and "ttrrrroouuuuuuuukk". The following strings are not even: "aaa", "abab" and "abba".
+Given a string ss consisting of lowercase Latin letters. Find the minimum number of characters to remove from the string ss to make it even. The deleted characters do not have to be consecutive.

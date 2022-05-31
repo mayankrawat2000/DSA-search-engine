@@ -1,0 +1,8 @@
+There are two infinite sources of water:
+  hot water of temperature hh;  cold water of temperature cc (c<hc<h). 
+You perform the following procedure of alternating moves:
+  take one cup of the hot water and pour it into an infinitely deep barrel;  take one cup of the cold water and pour it into an infinitely deep barrel;  take one cup of the hot water ……  and so on …… 
+Note that you always start with the cup of hot water.
+The barrel is initially empty. You have to pour at least one cup into the barrel. The water temperature in the barrel is an average of the temperatures of the poured cups.
+You want to achieve a temperature as close as possible to tt. So if the temperature in the barrel is tbtb, then the absolute difference of tbtb and tt (|tb−t||tb−t|) should be as small as possible.
+How many cups should you pour into the barrel, so that the temperature in it is as close as possible to tt? If there are multiple answers with the minimum absolute difference, then print the smallest of them.

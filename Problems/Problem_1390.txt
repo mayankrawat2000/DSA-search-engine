@@ -1,0 +1,6 @@
+A lighthouse keeper Peter commands an army of nn battle lemmings. He ordered his army to stand in a line and numbered the lemmings from 11 to nn from left to right. Some of the lemmings hold shields. Each lemming cannot hold more than one shield.
+The more protected Peter's army is, the better. To calculate the protection of the army, he finds the number of protected pairs of lemmings, that is such pairs that both lemmings in the pair don't hold a shield, but there is a lemming with a shield between them.
+Now it's time to prepare for defence and increase the protection of the army. To do this, Peter can give orders. He chooses a lemming with a shield and gives him one of the two orders: 
+  give the shield to the left neighbor if it exists and doesn't have a shield;  give the shield to the right neighbor if it exists and doesn't have a shield. 
+In one second Peter can give exactly one order.
+It's not clear how much time Peter has before the defence. So he decided to determine the maximal value of army protection for each kk from 00 to n(n−1)2n(n−1)2, if he gives no more that kk orders. Help Peter to calculate it!

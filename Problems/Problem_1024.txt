@@ -1,0 +1,4 @@
+You are storing an integer array of length mm in a database. To maintain internal integrity and protect data, the database stores nn copies of this array.
+Unfortunately, the recent incident may have altered the stored information in every copy in the database.
+It's believed, that the incident altered at most two elements in every copy. You need to recover the original array based on the current state of the database.
+In case there are multiple ways to restore the array, report any. If there is no array that differs from every copy in no more than two positions, report that as well.

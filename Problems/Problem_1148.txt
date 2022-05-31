@@ -1,0 +1,8 @@
+// We decided to drop the legend about the power sockets but feel free to come up with your own :^)
+Define a chain: 
+  a chain of length 11 is a single vertex;  a chain of length xx is a chain of length x−1x−1 with a new vertex connected to the end of it with a single edge. 
+You are given nn chains of lengths l1,l2,…,lnl1,l2,…,ln. You plan to build a tree using some of them.
+  Each vertex of the tree is either white or black.  The tree initially only has a white root vertex.  All chains initially consist only of white vertices.  You can take one of the chains and connect any of its vertices to any white vertex of the tree with an edge. The chain becomes part of the tree. Both endpoints of this edge become black.  Each chain can be used no more than once.  Some chains can be left unused. 
+The distance between two vertices of the tree is the number of edges on the shortest path between them.
+If there is at least kk white vertices in the resulting tree, then the value of the tree is the distance between the root and the kk-th closest white vertex.
+What's the minimum value of the tree you can obtain? If there is no way to build a tree with at least kk white vertices, then print -1.

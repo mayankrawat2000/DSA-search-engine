@@ -1,0 +1,5 @@
+We define xmodyxmody as the remainder of division of xx by yy (%% operator in C++ or Java, mod operator in Pascal).
+Let's call an array of positive integers [a1,a2,…,ak][a1,a2,…,ak] stable if for every permutation pp of integers from 11 to kk, and for every non-negative integer xx, the following condition is met:
+ (((xmoda1)moda2)…modak−1)modak=(((xmodap1)modap2)…modapk−1)modapk(((xmoda1)moda2)…modak−1)modak=(((xmodap1)modap2)…modapk−1)modapk 
+That is, for each non-negative integer xx, the value of (((xmoda1)moda2)…modak−1)modak(((xmoda1)moda2)…modak−1)modak does not change if we reorder the elements of the array aa.
+For two given integers nn and kk, calculate the number of stable arrays [a1,a2,…,ak][a1,a2,…,ak] such that 1≤a1<a2<⋯<ak≤n1≤a1<a2<⋯<ak≤n.

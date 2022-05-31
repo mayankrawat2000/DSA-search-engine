@@ -1,0 +1,3 @@
+It is a simplified version of problem F2. The difference between them is the constraints (F1: k≤2k≤2, F2: k≤10k≤10).
+You are given an integer nn. Find the minimum integer xx such that x≥nx≥n and the number xx is kk-beautiful.
+A number is called kk-beautiful if its decimal representation having no leading zeroes contains no more than kk different digits. E.g. if k=2k=2, the numbers 34344433434443, 5555055550, 777777 and 2121 are kk-beautiful whereas the numbers 120120, 445435445435 and 998244353998244353 are not.

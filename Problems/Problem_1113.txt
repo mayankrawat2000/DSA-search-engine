@@ -1,0 +1,6 @@
+Polycarp found on the street an array aa of nn elements.
+Polycarp invented his criterion for the beauty of an array. He calls an array aa beautiful if at least one of the following conditions must be met for each different pair of indices i≠ji≠j: 
+  aiai is divisible by ajaj;  or ajaj is divisible by aiai. 
+For example, if: 
+  n=5n=5 and a=[7,9,3,14,63]a=[7,9,3,14,63], then the aa array is not beautiful (for i=4i=4 and j=2j=2, none of the conditions above is met);  n=3n=3 and a=[2,14,42]a=[2,14,42], then the aa array is beautiful;  n=4n=4 and a=[45,9,3,18]a=[45,9,3,18], then the aa array is not beautiful (for i=1i=1 and j=4j=4 none of the conditions above is met); 
+Ugly arrays upset Polycarp, so he wants to remove some elements from the array aa so that it becomes beautiful. Help Polycarp determine the smallest number of elements to remove to make the array aa beautiful.

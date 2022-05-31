@@ -1,0 +1,2 @@
+You are given a positive integer nn. In one move, you can increase nn by one (i.e. make n:=n+1n:=n+1). Your task is to find the minimum number of moves you need to perform in order to make the sum of digits of nn be less than or equal to ss.
+You have to answer tt independent test cases.

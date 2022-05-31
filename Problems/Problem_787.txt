@@ -1,0 +1,5 @@
+You are given a string ss consisting of the characters 0, 1, and ?.
+Let's call a string unstable if it consists of the characters 0 and 1 and any two adjacent characters are different (i. e. it has the form 010101... or 101010...).
+Let's call a string beautiful if it consists of the characters 0, 1, and ?, and you can replace the characters ? to 0 or 1 (for each character, the choice is independent), so that the string becomes unstable.
+For example, the strings 0??10, 0, and ??? are beautiful, and the strings 00 and ?1??1 are not.
+Calculate the number of beautiful contiguous substrings of the string ss.

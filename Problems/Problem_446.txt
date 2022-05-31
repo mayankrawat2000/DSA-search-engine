@@ -1,0 +1,5 @@
+Jeevan has two arrays aa and bb of size nn. He is fond of performing weird operations on arrays. This time, he comes up with two types of operations:
+  Choose any ii (1≤i≤n1≤i≤n) and increment ajaj by 11 for every jj which is a multiple of ii and 1≤j≤n1≤j≤n.  Choose any ii (1≤i≤n1≤i≤n) and decrement ajaj by 11 for every jj which is a multiple of ii and 1≤j≤n1≤j≤n. 
+He wants to convert array aa into an array bb using the minimum total number of operations. However, Jeevan seems to have forgotten the value of b1b1. So he makes some guesses. He will ask you qq questions corresponding to his qq guesses, the ii-th of which is of the form: 
+  If b1=xib1=xi, what is the minimum number of operations required to convert aa to bb? 
+Help him by answering each question.

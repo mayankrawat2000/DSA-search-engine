@@ -1,0 +1,7 @@
+You are given some Tetris field consisting of nn columns. The initial height of the ii-th column of the field is aiai blocks. On top of these columns you can place only figures of size 2×12×1 (i.e. the height of this figure is 22 blocks and the width of this figure is 11 block). Note that you cannot rotate these figures.
+Your task is to say if you can clear the whole field by placing such figures.
+More formally, the problem can be described like this:
+The following process occurs while at least one aiai is greater than 00:
+  You place one figure 2×12×1 (choose some ii from 11 to nn and replace aiai with ai+2ai+2);  then, while all aiai are greater than zero, replace each aiai with ai−1ai−1. 
+And your task is to determine if it is possible to clear the whole field (i.e. finish the described process), choosing the places for new figures properly.
+You have to answer tt independent test cases.

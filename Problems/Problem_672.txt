@@ -1,0 +1,4 @@
+You are given nn segments on a number line, numbered from 11 to nn. The ii-th segments covers all integer points from lili to riri and has a value wiwi.
+You are asked to select a subset of these segments (possibly, all of them). Once the subset is selected, it's possible to travel between two integer points if there exists a selected segment that covers both of them. A subset is good if it's possible to reach point mm starting from point 11 in arbitrary number of moves.
+The cost of the subset is the difference between the maximum and the minimum values of segments in it. Find the minimum cost of a good subset.
+In every test there exists at least one good subset.

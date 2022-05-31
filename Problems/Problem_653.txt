@@ -1,0 +1,9 @@
+In a certain video game, the player controls a hero characterized by a single integer value: power.
+On the current level, the hero got into a system of nn caves numbered from 11 to nn, and mm tunnels between them. Each tunnel connects two distinct caves. Any two caves are connected with at most one tunnel. Any cave can be reached from any other cave by moving via tunnels.
+The hero starts the level in cave 11, and every other cave contains a monster.
+The hero can move between caves via tunnels. If the hero leaves a cave and enters a tunnel, he must finish his movement and arrive at the opposite end of the tunnel.
+The hero can use each tunnel to move in both directions. However, the hero can not use the same tunnel twice in a row. Formally, if the hero has just moved from cave ii to cave jj via a tunnel, he can not head back to cave ii immediately after, but he can head to any other cave connected to cave jj with a tunnel.
+It is known that at least two tunnels come out of every cave, thus, the hero will never find himself in a dead end even considering the above requirement.
+To pass the level, the hero must beat the monsters in all the caves. When the hero enters a cave for the first time, he will have to fight the monster in it. The hero can beat the monster in cave ii if and only if the hero's power is strictly greater than aiai. In case of beating the monster, the hero's power increases by bibi. If the hero can't beat the monster he's fighting, the game ends and the player loses.
+After the hero beats the monster in cave ii, all subsequent visits to cave ii won't have any consequences: the cave won't have any monsters, and the hero's power won't change either.
+Find the smallest possible power the hero must start the level with to be able to beat all the monsters and pass the level.

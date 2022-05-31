@@ -1,0 +1,1 @@
+Given a positive integer nn. Find three distinct positive integers aa, bb, cc such that a+b+c=na+b+c=n and gcd(a,b)=cgcd⁡(a,b)=c, where gcd(x,y)gcd⁡(x,y) denotes the greatest common divisor (GCD) of integers xx and yy.

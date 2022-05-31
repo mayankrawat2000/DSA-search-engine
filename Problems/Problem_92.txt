@@ -1,0 +1,4 @@
+This is an interactive problem.
+There is a grid of n×mn×m cells. Two treasure chests are buried in two different cells of the grid. Your task is to find both of them. You can make two types of operations:  
+  DIG rr cc: try to find the treasure in the cell (r,c)(r,c). The interactor will tell you if you found the treasure or not.  SCAN rr cc: scan from the cell (r,c)(r,c). The result of this operation is the sum of Manhattan distances from the cell (r,c)(r,c) to the cells where the treasures are hidden. Manhattan distance from a cell (r1,c1)(r1,c1) to a cell (r2,c2)(r2,c2) is calculated as |r1−r2|+|c1−c2||r1−r2|+|c1−c2|. 
+You need to find the treasures in at most 7 operations. This includes both DIG and SCAN operations in total. To solve the test you need to call DIG operation at least once in both of the cells where the treasures are hidden.

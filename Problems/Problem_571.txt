@@ -1,0 +1,4 @@
+Mr. Chanek's city can be represented as a plane. He wants to build a housing complex in the city.
+There are some telephone poles on the plane, which is represented by a grid aa of size (n+1)×(m+1)(n+1)×(m+1). There is a telephone pole at (x,y)(x,y) if ax,y=1ax,y=1.
+For each point (x,y)(x,y), define S(x,y)S(x,y) as the square of the Euclidean distance between the nearest pole and (x,y)(x,y). Formally, the square of the Euclidean distance between two points (x1,y1)(x1,y1) and (x2,y2)(x2,y2) is (x2−x1)2+(y2−y1)2(x2−x1)2+(y2−y1)2.
+To optimize the building plan, the project supervisor asks you the sum of all S(x,y)S(x,y) for each 0≤x≤n0≤x≤n and 0≤y≤m0≤y≤m. Help him by finding the value of ∑nx=0∑my=0S(x,y)∑x=0n∑y=0mS(x,y).

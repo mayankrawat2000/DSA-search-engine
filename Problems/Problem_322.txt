@@ -1,0 +1,4 @@
+Petya is a math teacher. nn of his students has written a test consisting of mm questions. For each student, it is known which questions he has answered correctly and which he has not.
+If the student answers the jj-th question correctly, he gets pjpj points (otherwise, he gets 00 points). Moreover, the points for the questions are distributed in such a way that the array pp is a permutation of numbers from 11 to mm.
+For the ii-th student, Petya knows that he expects to get xixi points for the test. Petya wonders how unexpected the results could be. Petya believes that the surprise value of the results for students is equal to ∑i=1n|xi−ri|∑i=1n|xi−ri|, where riri is the number of points that the ii-th student has got for the test.
+Your task is to help Petya find such a permutation pp for which the surprise value of the results is maximum possible. If there are multiple answers, print any of them.

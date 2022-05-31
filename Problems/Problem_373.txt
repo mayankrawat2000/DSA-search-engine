@@ -1,0 +1,4 @@
+You are given an array aa consisting of nn non-negative integers.
+You have to replace each 00 in aa with an integer from 11 to nn (different elements equal to 00 can be replaced by different integers).
+The value of the array you obtain is the number of integers kk from 11 to nn such that the following condition holds: there exist a pair of adjacent elements equal to kk (i. e. there exists some i∈[1,n−1]i∈[1,n−1] such that ai=ai+1=kai=ai+1=k). If there are multiple such pairs for some integer kk, this integer is counted in the value only once.
+Your task is to obtain the array with the maximum possible value.

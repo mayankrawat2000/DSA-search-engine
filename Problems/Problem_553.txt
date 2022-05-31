@@ -1,0 +1,4 @@
+An important meeting is to be held and there are exactly nn people invited. At any moment, any two people can step back and talk in private. The same two people can talk several (as many as they want) times per meeting.
+Each person has limited sociability. The sociability of the ii-th person is a non-negative integer aiai. This means that after exactly aiai talks this person leaves the meeting (and does not talk to anyone else anymore). If ai=0ai=0, the ii-th person leaves the meeting immediately after it starts.
+A meeting is considered most productive if the maximum possible number of talks took place during it.
+You are given an array of sociability aa, determine which people should talk to each other so that the total number of talks is as large as possible.

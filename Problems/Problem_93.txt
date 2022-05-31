@@ -1,0 +1,5 @@
+Fox Ciel is participating in a party in Prime Kingdom. There are n foxes there (include Fox Ciel). The i-th fox is ai years old.
+They will have dinner around some round tables. You want to distribute foxes such that:
+  Each fox is sitting at some table.  Each table has at least 3 foxes sitting around it.  The sum of ages of any two adjacent foxes around each table should be a prime number. 
+If k foxes f1, f2, ..., fk are sitting around table in clockwise order, then for 1 ≤ i ≤ k - 1: fi and fi + 1 are adjacent, and f1 and fk are also adjacent.
+If it is possible to distribute the foxes in the desired manner, find out a way to do that.

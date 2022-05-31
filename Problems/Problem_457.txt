@@ -1,0 +1,1 @@
+YouKn0wWho has two even integers xx and yy. Help him to find an integer nn such that 1≤n≤2⋅10181≤n≤2⋅1018 and nmodx=ymodnnmodx=ymodn. Here, amodbamodb denotes the remainder of aa after division by bb. If there are multiple such integers, output any. It can be shown that such an integer always exists under the given constraints.

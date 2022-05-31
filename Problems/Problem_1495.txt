@@ -1,0 +1,8 @@
+A running competition is going to be held soon. The stadium where the competition will be held can be represented by several segments on the coordinate plane:
+  two horizontal segments: one connecting the points (0,0)(0,0) and (x,0)(x,0), the other connecting the points (0,y)(0,y) and (x,y)(x,y);  n+1n+1 vertical segments, numbered from 00 to nn. The ii-th segment connects the points (ai,0)(ai,0) and (ai,y)(ai,y); 0=a0<a1<a2<⋯<an−1<an=x0=a0<a1<a2<⋯<an−1<an=x. 
+For example, here is a picture of the stadium with x=10x=10, y=5y=5, n=3n=3 and a=[0,3,5,10]a=[0,3,5,10]:
+  
+A lap is a route that goes along the segments, starts and finishes at the same point, and never intersects itself (the only two points of a lap that coincide are its starting point and ending point). The length of a lap is a total distance travelled around it. For example, the red route in the picture representing the stadium is a lap of length 2424.
+The competition will be held in qq stages. The ii-th stage has length lili, and the organizers want to choose a lap for each stage such that the length of the lap is a divisor of lili. The organizers don't want to choose short laps for the stages, so for each stage, they want to find the maximum possible length of a suitable lap.
+Help the organizers to calculate the maximum possible lengths of the laps for the stages! In other words, for every lili, find the maximum possible integer LL such that limodL=0limodL=0, and there exists a lap of length exactly LL.
+If it is impossible to choose such a lap then print −1−1.

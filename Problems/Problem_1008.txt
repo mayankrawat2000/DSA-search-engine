@@ -1,0 +1,3 @@
+We define a spanning tree of a graph to be a BFS tree rooted at vertex ss if and only if for every node tt the shortest distance between ss and tt in the graph is equal to the shortest distance between ss and tt in the spanning tree. 
+Given a graph, we define f(x,y)f(x,y) to be the number of spanning trees of that graph that are BFS trees rooted at vertices xx and yy at the same time.
+You are given an undirected connected graph with nn vertices and mm edges. Calculate f(i,j)f(i,j) for all ii, jj by modulo 998244353998244353.

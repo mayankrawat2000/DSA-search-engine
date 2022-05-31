@@ -1,0 +1,13 @@
+Alice has just learned addition. However, she hasn't learned the concept of "carrying" fully — instead of carrying to the next column, she carries to the column two columns to the left.
+For example, the regular way to evaluate the sum 2039+29762039+2976 would be as shown: 
+  
+However, Alice evaluates it as shown: 
+  
+In particular, this is what she does: 
+  add 99 and 66 to make 1515, and carry the 11 to the column two columns to the left, i. e. to the column "00 99";  add 33 and 77 to make 1010 and carry the 11 to the column two columns to the left, i. e. to the column "22 22";  add 11, 00, and 99 to make 1010 and carry the 11 to the column two columns to the left, i. e. to the column above the plus sign;  add 11, 22 and 22 to make 55;  add 11 to make 11. 
+ Thus, she ends up with the incorrect result of 
+
+1500515005
+15005
+.
+Alice comes up to Bob and says that she has added two numbers to get a result of nn. However, Bob knows that Alice adds in her own way. Help Bob find the number of ordered pairs of positive integers such that when Alice adds them, she will get a result of nn. Note that pairs (a,b)(a,b) and (b,a)(b,a) are considered different if a≠ba≠b.

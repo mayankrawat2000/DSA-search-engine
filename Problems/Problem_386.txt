@@ -1,0 +1,3 @@
+You are given a rooted tree consisting of nn vertices numbered from 11 to nn. The root of the tree is the vertex 11.
+You have to color all vertices of the tree into nn colors (also numbered from 11 to nn) so that there is exactly one vertex for each color. Let cici be the color of vertex ii, and pipi be the parent of vertex ii in the rooted tree. The coloring is considered beautiful if there is no vertex kk (k>1k>1) such that ck=cpk−1ck=cpk−1, i. e. no vertex such that its color is less than the color of its parent by exactly 11.
+Calculate the number of beautiful colorings, and print it modulo 998244353998244353.

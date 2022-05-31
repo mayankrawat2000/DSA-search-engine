@@ -1,0 +1,7 @@
+There are many sunflowers in the Garden of the Sun.
+Garden of the Sun is a rectangular table with nn rows and mm columns, where the cells of the table are farmlands. All of the cells grow a sunflower on it. Unfortunately, one night, the lightning stroke some (possibly zero) cells, and sunflowers on those cells were burned into ashes. In other words, those cells struck by the lightning became empty. Magically, any two empty cells have no common points (neither edges nor corners).
+Now the owner wants to remove some (possibly zero) sunflowers to reach the following two goals: 
+  When you are on an empty cell, you can walk to any other empty cell. In other words, those empty cells are connected.   There is exactly one simple path between any two empty cells. In other words, there is no cycle among the empty cells. 
+You can walk from an empty cell to another if they share a common edge.
+Could you please give the owner a solution that meets all her requirements?
+Note that you are not allowed to plant sunflowers. You don't need to minimize the number of sunflowers you remove. It can be shown that the answer always exists.

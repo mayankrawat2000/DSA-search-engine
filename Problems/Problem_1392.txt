@@ -1,0 +1,9 @@
+This is the hard version of the problem. The difference between the versions is that the easy version has no swap operations. You can make hacks only if all versions of the problem are solved.
+Pikachu is a cute and friendly pokémon living in the wild pikachu herd.
+But it has become known recently that infamous team R wanted to steal all these pokémon! Pokémon trainer Andrew decided to help Pikachu to build a pokémon army to resist.
+First, Andrew counted all the pokémon — there were exactly nn pikachu. The strength of the ii-th pokémon is equal to aiai, and all these numbers are distinct.
+As an army, Andrew can choose any non-empty subsequence of pokemons. In other words, Andrew chooses some array bb from kk indices such that 1≤b1<b2<⋯<bk≤n1≤b1<b2<⋯<bk≤n, and his army will consist of pokémons with forces ab1,ab2,…,abkab1,ab2,…,abk.
+The strength of the army is equal to the alternating sum of elements of the subsequence; that is, ab1−ab2+ab3−ab4+…ab1−ab2+ab3−ab4+….
+Andrew is experimenting with pokémon order. He performs qq operations. In ii-th operation Andrew swaps lili-th and riri-th pokémon.
+Andrew wants to know the maximal stregth of the army he can achieve with the initial pokémon placement. He also needs to know the maximal strength after each operation.
+Help Andrew and the pokémon, or team R will realize their tricky plan!

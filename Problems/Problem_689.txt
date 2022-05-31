@@ -1,0 +1,5 @@
+You have a string ss and a chip, which you can place onto any character of this string. 
+After placing the chip, you move it to the right several (maybe zero) times, i. e. you perform the following operation several times: if the current position of the chip is ii, you move it to the position i+1i+1. Of course, moving the chip to the right is impossible if it is already in the last position.
+After moving the chip to the right, you move it to the left several (maybe zero) times, i. e. you perform the following operation several times: if the current position of the chip is ii, you move it to the position i−1i−1. Of course, moving the chip to the left is impossible if it is already in the first position.
+When you place a chip or move it, you write down the character where the chip ends up after your action. For example, if ss is abcdef, you place the chip onto the 33-rd character, move it to the right 22 times and then move it to the left 33 times, you write down the string cdedcb.
+You are given two strings ss and tt. Your task is to determine whether it's possible to perform the described operations with ss so that you write down the string tt as a result.

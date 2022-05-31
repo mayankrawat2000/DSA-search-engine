@@ -1,0 +1,2 @@
+A number is called powerful if it is a power of two or a factorial. In other words, the number mm is powerful if there exists a non-negative integer dd such that m=2dm=2d or m=d!m=d!, where d!=1⋅2⋅…⋅dd!=1⋅2⋅…⋅d (in particular, 0!=10!=1). For example 11, 44, and 66 are powerful numbers, because 1=1!1=1!, 4=224=22, and 6=3!6=3! but 77, 1010, or 1818 are not.
+You are given a positive integer nn. Find the minimum number kk such that nn can be represented as the sum of kk distinct powerful numbers, or say that there is no such kk.

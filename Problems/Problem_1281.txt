@@ -1,0 +1,5 @@
+You are given four integers nn, c0c0, c1c1 and hh and a binary string ss of length nn.
+A binary string is a string consisting of characters 00 and 11.
+You can change any character of the string ss (the string should be still binary after the change). You should pay hh coins for each change.
+After some changes (possibly zero) you want to buy the string. To buy the string you should buy all its characters. To buy the character 00 you should pay c0c0 coins, to buy the character 11 you should pay c1c1 coins.
+Find the minimum number of coins needed to buy the string.

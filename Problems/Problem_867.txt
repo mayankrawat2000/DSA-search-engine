@@ -1,0 +1,4 @@
+Nastia has an unweighted tree with nn vertices and wants to play with it!
+The girl will perform the following operation with her tree, as long as she needs:
+  Remove any existing edge.  Add an edge between any pair of vertices. 
+What is the minimum number of operations Nastia needs to get a bamboo from a tree? A bamboo is a tree in which no node has a degree greater than 22.

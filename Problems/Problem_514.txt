@@ -1,0 +1,4 @@
+Petya has an array of integers a1,a2,…,ana1,a2,…,an. He only likes sorted arrays. Unfortunately, the given array could be arbitrary, so Petya wants to sort it.
+Petya likes to challenge himself, so he wants to sort array using only 33-cycles. More formally, in one operation he can pick 33 pairwise distinct indices ii, jj, and kk (1≤i,j,k≤n1≤i,j,k≤n) and apply i→j→k→ii→j→k→i cycle to the array aa. It simultaneously places aiai on position jj, ajaj on position kk, and akak on position ii, without changing any other element.
+For example, if aa is [10,50,20,30,40,60][10,50,20,30,40,60] and he chooses i=2i=2, j=1j=1, k=5k=5, then the array becomes [50–––,40–––,20,30,10–––,60][50_,40_,20,30,10_,60].
+Petya can apply arbitrary number of 33-cycles (possibly, zero). You are to determine if Petya can sort his array aa, i. e. make it non-decreasing.

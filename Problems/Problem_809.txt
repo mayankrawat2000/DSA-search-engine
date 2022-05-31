@@ -1,0 +1,3 @@
+Ivan wants to play a game with you. He picked some string ss of length nn consisting only of lowercase Latin letters. 
+You don't know this string. Ivan has informed you about all its improper prefixes and suffixes (i.e. prefixes and suffixes of lengths from 11 to n−1n−1), but he didn't tell you which strings are prefixes and which are suffixes.
+Ivan wants you to guess which of the given 2n−22n−2 strings are prefixes of the given string and which are suffixes. It may be impossible to guess the string Ivan picked (since multiple strings may give the same set of suffixes and prefixes), but Ivan will accept your answer if there is at least one string that is consistent with it. Let the game begin!

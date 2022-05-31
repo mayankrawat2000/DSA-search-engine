@@ -1,0 +1,6 @@
+You got a job as a marketer in a pet shop, and your current task is to boost sales of cat food. One of the strategies is to sell cans of food in packs with discounts. 
+Suppose you decided to sell packs with aa cans in a pack with a discount and some customer wants to buy xx cans of cat food. Then he follows a greedy strategy: 
+  he buys ⌊xa⌋⌊xa⌋ packs with a discount;  then he wants to buy the remaining (xmoda)(xmoda) cans one by one. 
+⌊xa⌋⌊xa⌋ is xx divided by aa rounded down, xmodaxmoda is the remainer of xx divided by aa.
+But customers are greedy in general, so if the customer wants to buy (xmoda)(xmoda) cans one by one and it happens that (xmoda)≥a2(xmoda)≥a2 he decides to buy the whole pack of aa cans (instead of buying (xmoda)(xmoda) cans). It makes you, as a marketer, happy since the customer bought more than he wanted initially.
+You know that each of the customers that come to your shop can buy any number of cans from ll to rr inclusive. Can you choose such size of pack aa that each customer buys more cans than they wanted initially?

@@ -1,0 +1,2 @@
+This time around, Baby Ehab will play with permutations. He has nn cubes arranged in a row, with numbers from 11 to nn written on them. He'll make exactly jj operations. In each operation, he'll pick up 22 cubes and switch their positions.
+He's wondering: how many different sequences of cubes can I have at the end? Since Baby Ehab is a turbulent person, he doesn't know how many operations he'll make, so he wants the answer for every possible jj between 11 and kk.

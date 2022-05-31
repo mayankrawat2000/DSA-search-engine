@@ -1,0 +1,6 @@
+You are given the sequence of integers a1,a2,…,ana1,a2,…,an of length nn. 
+The sequence of indices i1<i2<…<iki1<i2<…<ik of length kk denotes the subsequence ai1,ai2,…,aikai1,ai2,…,aik of length kk of sequence aa.
+The subsequence ai1,ai2,…,aikai1,ai2,…,aik of length kk of sequence aa is called increasing subsequence if aij<aij+1aij<aij+1 for each 1≤j<k1≤j<k.
+The weight of the increasing subsequence ai1,ai2,…,aikai1,ai2,…,aik of length kk of sequence aa is the number of 1≤j≤k1≤j≤k, such that exists index ik<x≤nik<x≤n and ax>aijax>aij.
+For example, if a=[6,4,8,6,5]a=[6,4,8,6,5], then the sequence of indices i=[2,4]i=[2,4] denotes increasing subsequence [4,6][4,6] of sequence aa. The weight of this increasing subsequence is 11, because for j=1j=1 exists x=5x=5 and a5=5>ai1=4a5=5>ai1=4, but for j=2j=2 such xx doesn't exist.
+Find the sum of weights of all increasing subsequences of aa modulo 109+7109+7.

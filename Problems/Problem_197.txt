@@ -1,0 +1,2 @@
+You are given an array aa of nn positive integers numbered from 11 to nn. Let's call an array integral if for any two, not necessarily different, numbers xx and yy from this array, x≥yx≥y, the number ⌊xy⌋⌊xy⌋ (xx divided by yy with rounding down) is also in this array.
+You are guaranteed that all numbers in aa do not exceed cc. Your task is to check whether this array is integral.

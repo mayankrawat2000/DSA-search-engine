@@ -1,0 +1,4 @@
+The sequence of mm integers is called the permutation if it contains all integers from 11 to mm exactly once. The number mm is called the length of the permutation.
+Dreamoon has two permutations p1p1 and p2p2 of non-zero lengths l1l1 and l2l2.
+Now Dreamoon concatenates these two permutations into another sequence aa of length l1+l2l1+l2. First l1l1 elements of aa is the permutation p1p1 and next l2l2 elements of aa is the permutation p2p2. 
+You are given the sequence aa, and you need to find two permutations p1p1 and p2p2. If there are several possible ways to restore them, you should find all of them. (Note that it is also possible that there will be no ways.)

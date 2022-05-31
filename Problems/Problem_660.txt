@@ -1,0 +1,5 @@
+Moamen and Ezzat are playing a game. They create an array aa of nn non-negative integers where every element is less than 2k2k.
+Moamen wins if a1&a2&a3&…&an≥a1⊕a2⊕a3⊕…⊕ana1&a2&a3&…&an≥a1⊕a2⊕a3⊕…⊕an.
+Here && denotes the bitwise AND operation, and ⊕⊕ denotes the bitwise XOR operation.
+Please calculate the number of winning for Moamen arrays aa.
+As the result may be very large, print the value modulo 10000000071000000007 (109+7109+7).

@@ -1,0 +1,7 @@
+Let's denote the median of a sequence ss with odd length as the value in the middle of ss if we sort ss in non-decreasing order. For example, let s=[1,2,5,7,2,3,12]s=[1,2,5,7,2,3,12]. After sorting, we get sequence [1,2,2,3–,5,7,12][1,2,2,3_,5,7,12], and the median is equal to 33.
+You have a sequence of nn integers [1,2,…,n][1,2,…,n] and an odd integer kk.
+In one step, you choose any kk elements from the sequence and erase all chosen elements except their median. These elements do not have to go continuously (gaps are allowed between them).
+For example, if you have a sequence [1,2,3,4,5,6,7][1,2,3,4,5,6,7] (i.e. n=7n=7) and k=3k=3, then the following options for the first step are possible:
+  choose [1,2–,3][1,2_,3]; 22 is their median, so it is not erased, and the resulting sequence is [2,4,5,6,7][2,4,5,6,7];  choose [2,4–,6][2,4_,6]; 44 is their median, so it is not erased, and the resulting sequence is [1,3,4,5,7][1,3,4,5,7];  choose [1,6–,7][1,6_,7]; 66 is their median, so it is not erased, and the resulting sequence is [2,3,4,5,6][2,3,4,5,6];  and several others. 
+You can do zero or more steps. Can you get a sequence b1b1, b2b2, ..., bmbm after several steps?
+You'll be given tt test cases. Solve each test case independently.

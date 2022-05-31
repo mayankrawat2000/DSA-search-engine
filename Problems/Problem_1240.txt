@@ -1,0 +1,4 @@
+Utkarsh is forced to play yet another one of Ashish's games. The game progresses turn by turn and as usual, Ashish moves first.
+Consider the 2D plane. There is a token which is initially at (0,0)(0,0). In one move a player must increase either the xx coordinate or the yy coordinate of the token by exactly kk. In doing so, the player must ensure that the token stays within a (Euclidean) distance dd from (0,0)(0,0).
+In other words, if after a move the coordinates of the token are (p,q)(p,q), then p2+q2≤d2p2+q2≤d2 must hold.
+The game ends when a player is unable to make a move. It can be shown that the game will end in a finite number of moves. If both players play optimally, determine who will win.

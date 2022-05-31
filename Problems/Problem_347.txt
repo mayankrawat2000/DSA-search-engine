@@ -1,0 +1,7 @@
+Vlad has nn friends, for each of whom he wants to buy one gift for the New Year.
+There are mm shops in the city, in each of which he can buy a gift for any of his friends. If the jj-th friend (1≤j≤n1≤j≤n) receives a gift bought in the shop with the number ii (1≤i≤m1≤i≤m), then the friend receives pijpij units of joy. The rectangular table pijpij is given in the input.
+Vlad has time to visit at most n−1n−1 shops (where nn is the number of friends). He chooses which shops he will visit and for which friends he will buy gifts in each of them.
+Let the jj-th friend receive ajaj units of joy from Vlad's gift. Let's find the value α=min{a1,a2,…,an}α=min{a1,a2,…,an}. Vlad's goal is to buy gifts so that the value of αα is as large as possible. In other words, Vlad wants to maximize the minimum of the joys of his friends.
+For example, let m=2m=2, n=2n=2. Let the joy from the gifts that we can buy in the first shop: p11=1p11=1, p12=2p12=2, in the second shop: p21=3p21=3, p22=4p22=4.
+Then it is enough for Vlad to go only to the second shop and buy a gift for the first friend, bringing joy 33, and for the second — bringing joy 44. In this case, the value αα will be equal to min{3,4}=3min{3,4}=3
+Help Vlad choose gifts for his friends so that the value of αα is as high as possible. Please note that each friend must receive one gift. Vlad can visit at most n−1n−1 shops (where nn is the number of friends). In the shop, he can buy any number of gifts.

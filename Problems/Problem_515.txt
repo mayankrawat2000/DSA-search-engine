@@ -1,0 +1,3 @@
+A total of nn depots are located on a number line. Depot ii lies at the point xixi for 1≤i≤n1≤i≤n.
+You are a salesman with nn bags of goods, attempting to deliver one bag to each of the nn depots. You and the nn bags are initially at the origin 00. You can carry up to kk bags at a time. You must collect the required number of goods from the origin, deliver them to the respective depots, and then return to the origin to collect your next batch of goods.
+Calculate the minimum distance you need to cover to deliver all the bags of goods to the depots. You do not have to return to the origin after you have delivered all the bags.

@@ -1,0 +1,5 @@
+Mr. Chanek has a new game called Dropping Balls. Initially, Mr. Chanek has a grid aa of size n×mn×m
+Each cell (x,y)(x,y) contains an integer ax,yax,y denoting the direction of how the ball will move.
+  ax,y=1ax,y=1 — the ball will move to the right (the next cell is (x,y+1)(x,y+1));  ax,y=2ax,y=2 — the ball will move to the bottom (the next cell is (x+1,y)(x+1,y));  ax,y=3ax,y=3 — the ball will move to the left (the next cell is (x,y−1)(x,y−1)). 
+Every time a ball leaves a cell (x,y)(x,y), the integer ax,yax,y will change to 22. Mr. Chanek will drop kk balls sequentially, each starting from the first row, and on the c1,c2,…,ckc1,c2,…,ck-th (1≤ci≤m1≤ci≤m) columns.
+Determine in which column each ball will end up in (position of the ball after leaving the grid).

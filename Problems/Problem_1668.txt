@@ -1,0 +1,4 @@
+Ridhiman challenged Ashish to find the maximum valued subsequence of an array aa of size nn consisting of positive integers. 
+The value of a non-empty subsequence of kk elements of aa is defined as ∑2i∑2i over all integers i≥0i≥0 such that at least max(1,k−2)max(1,k−2) elements of the subsequence have the ii-th bit set in their binary representation (value xx has the ii-th bit set in its binary representation if ⌊x2i⌋mod2⌊x2i⌋mod2 is equal to 11). 
+Recall that bb is a subsequence of aa, if bb can be obtained by deleting some(possibly zero) elements from aa.
+Help Ashish find the maximum value he can get by choosing some subsequence of aa.

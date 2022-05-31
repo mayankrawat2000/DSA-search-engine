@@ -1,0 +1,8 @@
+This is an interactive problem.
+Jury initially had a sequence aa of length nn, such that ai=iai=i.
+The jury chose three integers ii, jj, kk, such that 1≤i<j<k≤n1≤i<j<k≤n, j−i>1j−i>1. After that, Jury reversed subsegments [i,j−1][i,j−1] and [j,k][j,k] of the sequence aa.
+Reversing a subsegment [l,r][l,r] of the sequence aa means reversing the order of elements al,al+1,…,aral,al+1,…,ar in the sequence, i. e. alal is swapped with arar, al+1al+1 is swapped with ar−1ar−1, etc.
+You are given the number nn and you should find ii, jj, kk after asking some questions.
+In one question you can choose two integers ll and rr (1≤l≤r≤n1≤l≤r≤n) and ask the number of inversions on the subsegment [l,r][l,r] of the sequence aa. You will be given the number of pairs (i,j)(i,j) such that l≤i<j≤rl≤i<j≤r, and ai>ajai>aj.
+Find the chosen numbers ii, jj, kk after at most 4040 questions.
+The numbers ii, jj, and kk are fixed before the start of your program and do not depend on your queries.

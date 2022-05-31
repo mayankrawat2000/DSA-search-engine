@@ -1,0 +1,9 @@
+Polycarp often uses his smartphone. He has already installed nn applications on it. Application with number ii takes up aiai units of memory.
+Polycarp wants to free at least mm units of memory (by removing some applications).
+Of course, some applications are more important to Polycarp than others. He came up with the following scoring system — he assigned an integer bibi to each application: 
+  bi=1bi=1 — regular application;  bi=2bi=2 — important application. 
+According to this rating system, his phone has b1+b2+…+bnb1+b2+…+bn convenience points.
+Polycarp believes that if he removes applications with numbers i1,i2,…,iki1,i2,…,ik, then he will free ai1+ai2+…+aikai1+ai2+…+aik units of memory and lose bi1+bi2+…+bikbi1+bi2+…+bik convenience points.
+For example, if n=5n=5, m=7m=7, a=[5,3,2,1,4]a=[5,3,2,1,4], b=[2,1,1,2,1]b=[2,1,1,2,1], then Polycarp can uninstall the following application sets (not all options are listed below): 
+  applications with numbers 1,41,4 and 55. In this case, it will free a1+a4+a5=10a1+a4+a5=10 units of memory and lose b1+b4+b5=5b1+b4+b5=5 convenience points;  applications with numbers 11 and 33. In this case, it will free a1+a3=7a1+a3=7 units of memory and lose b1+b3=3b1+b3=3 convenience points.  applications with numbers 22 and 55. In this case, it will free a2+a5=7a2+a5=7 memory units and lose b2+b5=2b2+b5=2 convenience points. 
+Help Polycarp, choose a set of applications, such that if removing them will free at least mm units of memory and lose the minimum number of convenience points, or indicate that such a set does not exist.

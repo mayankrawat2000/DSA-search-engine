@@ -1,0 +1,5 @@
+You are given three arrays aa, bb and cc. Initially, array aa consists of nn elements, arrays bb and cc are empty.
+You are performing the following algorithm that consists of two steps: 
+  Step 11: while aa is not empty, you take the last element from aa and move it in the middle of array bb. If bb currently has odd length, you can choose: place the element from aa to the left or to the right of the middle element of bb. As a result, aa becomes empty and bb consists of nn elements.  Step 22: while bb is not empty, you take the middle element from bb and move it to the end of array cc. If bb currently has even length, you can choose which of two middle elements to take. As a result, bb becomes empty and cc now consists of nn elements. 
+ Refer to the Note section for examples.
+Can you make array cc sorted in non-decreasing order?

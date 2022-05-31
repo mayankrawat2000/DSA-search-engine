@@ -1,0 +1,4 @@
+You are given an array aa consisting of nn integers. For each ii (1≤i≤n1≤i≤n) the following inequality is true: −2≤ai≤2−2≤ai≤2.
+You can remove any number (possibly 00) of elements from the beginning of the array and any number (possibly 00) of elements from the end of the array. You are allowed to delete the whole array.
+You need to answer the question: how many elements should be removed from the beginning of the array, and how many elements should be removed from the end of the array, so that the result will be an array whose product (multiplication) of elements is maximal. If there is more than one way to get an array with the maximum product of elements on it, you are allowed to output any of them. 
+The product of elements of an empty array (array of length 00) should be assumed to be 11.

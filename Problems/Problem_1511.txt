@@ -1,0 +1,5 @@
+Boboniu gives you
+  rr red balls,  gg green balls,  bb blue balls,  ww white balls. 
+He allows you to do the following operation as many times as you want: 
+  Pick a red ball, a green ball, and a blue ball and then change their color to white. 
+You should answer if it's possible to arrange all the balls into a palindrome after several (possibly zero) number of described operations. 

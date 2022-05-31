@@ -1,0 +1,6 @@
+Mihai plans to watch a movie. He only likes palindromic movies, so he wants to skip some (possibly zero) scenes to make the remaining parts of the movie palindromic.
+You are given a list ss of nn non-empty strings of length at most 33, representing the scenes of Mihai's movie.
+A subsequence of ss is called awesome if it is non-empty and the concatenation of the strings in the subsequence, in order, is a palindrome.
+Can you help Mihai check if there is at least one awesome subsequence of ss?
+A palindrome is a string that reads the same backward as forward, for example strings "z", "aaa", "aba", "abccba" are palindromes, but strings "codeforces", "reality", "ab" are not.
+A sequence aa is a non-empty subsequence of a non-empty sequence bb if aa can be obtained from bb by deletion of several (possibly zero, but not all) elements.

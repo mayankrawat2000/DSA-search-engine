@@ -1,0 +1,2 @@
+Monocarp wrote down two numbers on a whiteboard. Both numbers follow a specific format: a positive integer xx with pp zeros appended to its end.
+Now Monocarp asks you to compare these two numbers. Can you help him?

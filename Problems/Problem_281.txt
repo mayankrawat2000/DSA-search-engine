@@ -1,0 +1,4 @@
+You are given a set of nn (nn is always a power of 22) elements containing all integers 0,1,2,…,n−10,1,2,…,n−1 exactly once.
+Find n2n2 pairs of elements such that:
+  Each element in the set is in exactly one pair.  The sum over all pairs of the bitwise AND of its elements must be exactly equal to kk. Formally, if aiai and bibi are the elements of the ii-th pair, then the following must hold: ∑i=1n/2ai&bi=k,∑i=1n/2ai&bi=k, where && denotes the bitwise AND operation. 
+If there are many solutions, print any of them, if there is no solution, print −1−1 instead.

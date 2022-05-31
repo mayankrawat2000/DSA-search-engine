@@ -1,0 +1,4 @@
+You are given an integer array a0,a1,…,an−1a0,a1,…,an−1, and an integer kk. You perform the following code with it:
+long long ans = 0; // create a 64-bit signed variable which is initially equal to 0for(int i = 1; i <= k; i++){  int idx = rnd.next(0, n - 1); // generate a random integer between 0 and n - 1, both inclusive                                // each integer from 0 to n - 1 has the same probability of being chosen  ans += a[idx];  a[idx] -= (a[idx] % i);}
+Your task is to calculate the expected value of the variable ans after performing this code.
+Note that the input is generated according to special rules (see the input format section).

@@ -1,0 +1,5 @@
+Please note the non-standard memory limit.
+There are nn problems numbered with integers from 11 to nn. ii-th problem has the complexity ci=2ici=2i, tag tagitagi and score sisi.
+After solving the problem ii it's allowed to solve problem jj if and only if IQ<|ci−cj|IQ<|ci−cj| and tagi≠tagjtagi≠tagj. After solving it your IQIQ changes and becomes IQ=|ci−cj|IQ=|ci−cj| and you gain |si−sj||si−sj| points.
+Any problem can be the first. You can solve problems in any order and as many times as you want.
+Initially your IQ=0IQ=0. Find the maximum number of points that can be earned.

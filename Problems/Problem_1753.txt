@@ -1,0 +1,2 @@
+You are given a string ss such that each its character is either 1, 2, or 3. You have to choose the shortest contiguous substring of ss such that it contains each of these three characters at least once.
+A contiguous substring of string ss is a string that can be obtained from ss by removing some (possibly zero) characters from the beginning of ss and some (possibly zero) characters from the end of ss.

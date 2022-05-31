@@ -1,0 +1,3 @@
+There are nn weighted points on the OXOX-axis. The coordinate and the weight of the ii-th point is xixi and wiwi, respectively. All points have distinct coordinates and positive weights. Also, xi<xi+1xi<xi+1 holds for any 1≤i<n1≤i<n. 
+The weighted distance between ii-th point and jj-th point is defined as |xi−xj|⋅(wi+wj)|xi−xj|⋅(wi+wj), where |val||val| denotes the absolute value of valval.
+You should answer qq queries, where the ii-th query asks the following: Find the minimum weighted distance among all pairs of distinct points among the points in subarray [li,ri][li,ri].

@@ -1,0 +1,18 @@
+Getting so far in this contest is not an easy feat. By solving all the previous problems, you have impressed the gods greatly. Thus, they decided to spare you the story for this problem and grant a formal statement instead.
+Consider nn agents. Each one of them initially has exactly one item, ii-th agent has the item number ii. We are interested in reassignments of these items among the agents. An assignment is valid iff each item is assigned to exactly one agent, and each agent is assigned exactly one item.
+Each agent has a preference over the items, which can be described by a permutation pp of items sorted from the most to the least desirable. In other words, the agent prefers item ii to item jj iff ii appears earlier in the permutation pp. A preference profile is a list of nn permutations of length nn each, such that ii-th permutation describes preferences of the ii-th agent.
+It is possible that some of the agents are not happy with the assignment of items. A set of dissatisfied agents may choose not to cooperate with other agents. In such a case, they would exchange the items they possess initially (ii-th item belongs to ii-th agent) only between themselves. Agents from this group don't care about the satisfaction of agents outside of it. However, they need to exchange their items in such a way that will make at least one of them happier, and none of them less happy (in comparison to the given assignment).
+Formally, consider a valid assignment of items — AA. Let A(i)A(i) denote the item assigned to ii-th agent. Also, consider a subset of agents. Let SS be the set of their indices. We will say this subset of agents is dissatisfied iff there exists a valid assignment B(i)B(i) such that: 
+  For each i∈Si∈S, B(i)∈SB(i)∈S.  No agent i∈Si∈S prefers A(i)A(i) to B(i)B(i) (no agent from the SS is less happy).  At least one agent i∈Si∈S prefers B(i)B(i) to A(i)A(i) (at least one agent from the SS is happier). 
+An assignment is optimal if no subset of the agents is dissatisfied. Note that the empty subset cannot be dissatisfied. It can be proven that for each preference profile, there is precisely one optimal assignment.
+Example: Consider 33 agents with the following preference profile: 
+  [2,1,3][2,1,3]  [1,2,3][1,2,3]  [1,3,2][1,3,2] 
+And such an assignment: 
+  First agent gets item 22  Second agent gets item 33.  Third agent gets item 11. 
+See that the set of agents {1,2}{1,2} is dissatisfied, because they can reassign their (initial) items in the following way: 
+  First agent gets item 22.  Second agent gets item 11.  Third agent gets item 33. 
+This reassignment will make the second agent happier and make no difference to the first agent. As a result, the third agent got an item that is worse for him, but this does not prevent the set {1,2}{1,2} from being dissatisfied (he is not in this set).
+The following assignment would be optimal: 
+  First agent gets item 22.  Second agent gets item 11.  Third agent gets item 33. 
+Given an assignment AA, calculate the number of distinct preference profiles for which assignment AA is optimal. As the answer can be huge, output it modulo 109+7109+7.
+Two preference profiles are different iff they assign different preference permutations to any agent.

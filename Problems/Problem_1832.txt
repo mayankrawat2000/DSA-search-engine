@@ -1,0 +1,5 @@
+In the wilds far beyond lies the Land of Sacredness, which can be viewed as a tree  — connected undirected graph consisting of nn nodes and n−1n−1 edges. The nodes are numbered from 11 to nn. 
+There are mm travelers attracted by its prosperity and beauty. Thereupon, they set off their journey on this land. The ii-th traveler will travel along the shortest path from sisi to titi. In doing so, they will go through all edges in the shortest path from sisi to titi, which is unique in the tree.
+During their journey, the travelers will acquaint themselves with the others. Some may even become friends. To be specific, the ii-th traveler and the jj-th traveler will become friends if and only if there are at least kk edges that both the ii-th traveler and the jj-th traveler will go through. 
+Your task is to find out the number of pairs of travelers (i,j)(i,j) satisfying the following conditions: 
+  1≤i<j≤m1≤i<j≤m.  the ii-th traveler and the jj-th traveler will become friends. 

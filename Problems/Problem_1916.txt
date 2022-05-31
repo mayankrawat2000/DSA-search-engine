@@ -1,0 +1,2 @@
+You are given an array aa consisting of nn positive integers. Find a non-empty subset of its elements such that their sum is even (i.e. divisible by 22) or determine that there is no such subset.
+Both the given array and required subset may contain equal values.

@@ -1,0 +1,3 @@
+A tree is an undirected connected graph without cycles.
+You are given a tree of nn vertices. Find the number of ways to choose exactly kk vertices in this tree (i. e. a kk-element subset of vertices) so that all pairwise distances between the selected vertices are equal (in other words, there exists an integer cc such that for all u,vu,v (u≠vu≠v, u,vu,v are in selected vertices) du,v=cdu,v=c, where du,vdu,v is the distance from uu to vv).
+Since the answer may be very large, you need to output it modulo 109+7109+7.

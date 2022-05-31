@@ -1,0 +1,4 @@
+Alice has an empty grid with nn rows and mm columns. Some of the cells are marked, and no marked cells are adjacent to the edge of the grid. (Two squares are adjacent if they share a side.) 
+Alice wants to fill each cell with a number such that the following statements are true: 
+  every unmarked cell contains either the number 11 or 44;  every marked cell contains the sum of the numbers in all unmarked cells adjacent to it (if a marked cell is not adjacent to any unmarked cell, this sum is 00);  every marked cell contains a multiple of 55. 
+ Alice couldn't figure it out, so she asks Bob to help her. Help Bob find any such grid, or state that no such grid exists.

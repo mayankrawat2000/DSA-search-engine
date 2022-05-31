@@ -1,0 +1,6 @@
+The only difference between the easy and hard versions is the constraints on the number of queries.
+This is an interactive problem.
+Ridbit has a hidden array aa of nn integers which he wants Ashish to guess. Note that nn is a power of two. Ashish is allowed to ask three different types of queries. They are of the form 
+  AND ii jj: ask for the bitwise AND of elements aiai and ajaj (1≤i,j≤n(1≤i,j≤n, i≠j)i≠j)  OR ii jj: ask for the bitwise OR of elements aiai and ajaj (1≤i,j≤n(1≤i,j≤n, i≠j)i≠j)  XOR ii jj: ask for the bitwise XOR of elements aiai and ajaj (1≤i,j≤n(1≤i,j≤n, i≠j)i≠j) 
+Can you help Ashish guess the elements of the array?
+In this version, each element takes a value in the range [0,n−1][0,n−1] (inclusive) and Ashish can ask no more than n+1n+1 queries.

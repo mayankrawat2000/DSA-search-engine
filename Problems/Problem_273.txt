@@ -1,0 +1,4 @@
+Recently, the students of School 179 have developed a unique algorithm, which takes in a binary string ss as input. However, they soon found out that if some substring tt of ss is a palindrome of length greater than 1, the algorithm will work incorrectly. Can the students somehow reorder the characters of ss so that the algorithm will work correctly on the string?
+A binary string is a string where each character is either 0 or 1.
+A string aa is a substring of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.
+A palindrome is a string that reads the same backwards as forwards.

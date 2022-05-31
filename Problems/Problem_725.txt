@@ -1,0 +1,8 @@
+A sequence of non-negative integers a1,a2,…,ana1,a2,…,an is called growing if for all ii from 11 to n−1n−1 all ones (of binary representation) in aiai are in the places of ones (of binary representation) in ai+1ai+1 (in other words, ai&ai+1=aiai&ai+1=ai, where && denotes bitwise AND). If n=1n=1 then the sequence is considered growing as well.
+For example, the following four sequences are growing: 
+  [2,3,15,175][2,3,15,175] — in binary it's [102,112,11112,101011112][102,112,11112,101011112];  [5][5] — in binary it's [1012][1012];  [1,3,7,15][1,3,7,15] — in binary it's [12,112,1112,11112][12,112,1112,11112];  [0,0,0][0,0,0] — in binary it's [02,02,02][02,02,02]. 
+The following three sequences are non-growing: 
+  [3,4,5][3,4,5] — in binary it's [112,1002,1012][112,1002,1012];  [5,4,3][5,4,3] — in binary it's [1012,1002,0112][1012,1002,0112];  [1,2,4,8][1,2,4,8] — in binary it's [00012,00102,01002,10002][00012,00102,01002,10002]. 
+Consider two sequences of non-negative integers x1,x2,…,xnx1,x2,…,xn and y1,y2,…,yny1,y2,…,yn. Let's call this pair of sequences co-growing if the sequence x1⊕y1,x2⊕y2,…,xn⊕ynx1⊕y1,x2⊕y2,…,xn⊕yn is growing where ⊕⊕ denotes bitwise XOR.
+You are given a sequence of integers x1,x2,…,xnx1,x2,…,xn. Find the lexicographically minimal sequence y1,y2,…,yny1,y2,…,yn such that sequences xixi and yiyi are co-growing.
+The sequence a1,a2,…,ana1,a2,…,an is lexicographically smaller than the sequence b1,b2,…,bnb1,b2,…,bn if there exists 1≤k≤n1≤k≤n such that ai=biai=bi for any 1≤i<k1≤i<k but ak<bkak<bk.

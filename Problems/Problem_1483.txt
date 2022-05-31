@@ -1,0 +1,4 @@
+You have a multiset containing several integers. Initially, it contains a1a1 elements equal to 11, a2a2 elements equal to 22, ..., anan elements equal to nn.
+You may apply two types of operations:
+  choose two integers ll and rr (l≤rl≤r), then remove one occurrence of ll, one occurrence of l+1l+1, ..., one occurrence of rr from the multiset. This operation can be applied only if each number from ll to rr occurs at least once in the multiset;  choose two integers ii and xx (x≥1x≥1), then remove xx occurrences of ii from the multiset. This operation can be applied only if the multiset contains at least xx occurrences of ii. 
+What is the minimum number of operations required to delete all elements from the multiset?

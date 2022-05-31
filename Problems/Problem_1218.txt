@@ -1,0 +1,7 @@
+You are given an array aa consisting of nn integers.
+Let min(l,r)min(l,r) be the minimum value among al,al+1,…,aral,al+1,…,ar and max(l,r)max(l,r) be the maximum value among al,al+1,…,aral,al+1,…,ar.
+Your task is to choose three positive (greater than 00) integers xx, yy and zz such that:
+  x+y+z=nx+y+z=n;  max(1,x)=min(x+1,x+y)=max(x+y+1,n)max(1,x)=min(x+1,x+y)=max(x+y+1,n). 
+In other words, you have to split the array aa into three consecutive non-empty parts that cover the whole array and the maximum in the first part equals the minimum in the second part and equals the maximum in the third part (or determine it is impossible to find such a partition).
+Among all such triples (partitions), you can choose any.
+You have to answer tt independent test cases.

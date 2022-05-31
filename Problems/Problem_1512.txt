@@ -1,0 +1,14 @@
+No matter what trouble you're in, don't be afraid, but face it with a smile.
+I've made another billion dollars!
+ — Boboniu
+Boboniu has issued his currencies, named Bobo Yuan. Bobo Yuan (BBY) is a series of currencies. Boboniu gives each of them a positive integer identifier, such as BBY-1, BBY-2, etc.
+Boboniu has a BBY collection. His collection looks like a sequence. For example:
+  
+We can use sequence a=[1,2,3,3,2,1,4,4,1]a=[1,2,3,3,2,1,4,4,1] of length n=9n=9 to denote it.
+Now Boboniu wants to fold his collection. You can imagine that Boboniu stick his collection to a long piece of paper and fold it between currencies:
+  
+Boboniu will only fold the same identifier of currencies together. In other words, if aiai is folded over ajaj (1≤i,j≤n1≤i,j≤n), then ai=ajai=aj must hold. Boboniu doesn't care if you follow this rule in the process of folding. But once it is finished, the rule should be obeyed.
+A formal definition of fold is described in notes.
+According to the picture above, you can fold aa two times. In fact, you can fold a=[1,2,3,3,2,1,4,4,1]a=[1,2,3,3,2,1,4,4,1] at most two times. So the maximum number of folds of it is 22.
+As an international fan of Boboniu, you're asked to calculate the maximum number of folds. 
+You're given a sequence aa of length nn, for each ii (1≤i≤n1≤i≤n), you need to calculate the maximum number of folds of [a1,a2,…,ai][a1,a2,…,ai].

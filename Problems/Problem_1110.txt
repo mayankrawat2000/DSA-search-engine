@@ -1,0 +1,6 @@
+You have nn chains, the ii-th chain consists of cici vertices. Vertices in each chain are numbered independently from 11 to cici along the chain. In other words, the ii-th chain is the undirected graph with cici vertices and (ci−1)(ci−1) edges connecting the jj-th and the (j+1)(j+1)-th vertices for each 1≤j<ci1≤j<ci.
+Now you decided to unite chains in one graph in the following way: 
+  the first chain is skipped;  the 11-st vertex of the ii-th chain is connected by an edge with the aiai-th vertex of the (i−1)(i−1)-th chain;  the last (cici-th) vertex of the ii-th chain is connected by an edge with the bibi-th vertex of the (i−1)(i−1)-th chain. 
+  Picture of the first test case. Dotted lines are the edges added during uniting process 
+Calculate the length of the longest simple cycle in the resulting graph.
+A simple cycle is a chain where the first and last vertices are connected as well. If you travel along the simple cycle, each vertex of this cycle will be visited exactly once.

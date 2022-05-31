@@ -1,0 +1,3 @@
+Petya organized a strange birthday party. He invited nn friends and assigned an integer kiki to the ii-th of them. Now Petya would like to give a present to each of them. In the nearby shop there are mm unique presents available, the jj-th present costs cjcj dollars (1≤c1≤c2≤…≤cm1≤c1≤c2≤…≤cm). It's not allowed to buy a single present more than once.
+For the ii-th friend Petya can either buy them a present j≤kij≤ki, which costs cjcj dollars, or just give them ckicki dollars directly.
+Help Petya determine the minimum total cost of hosting his party.

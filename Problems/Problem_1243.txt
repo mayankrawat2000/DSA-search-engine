@@ -1,0 +1,5 @@
+Ridbit starts with an integer nn.
+In one move, he can perform one of the following operations: 
+  divide nn by one of its proper divisors, or  subtract 11 from nn if nn is greater than 11. 
+A proper divisor is a divisor of a number, excluding itself. For example, 11, 22, 44, 55, and 1010 are proper divisors of 2020, but 2020 itself is not.
+What is the minimum number of moves Ridbit is required to make to reduce nn to 11?

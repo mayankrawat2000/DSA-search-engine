@@ -1,0 +1,2 @@
+You are given two integers ll and rr, l≤rl≤r. Find the largest possible value of amodbamodb over all pairs (a,b)(a,b) of integers for which r≥a≥b≥lr≥a≥b≥l.
+As a reminder, amodbamodb is a remainder we get when dividing aa by bb. For example, 26mod8=226mod8=2.

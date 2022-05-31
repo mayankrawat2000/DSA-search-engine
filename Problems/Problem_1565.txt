@@ -1,0 +1,6 @@
+The length of the longest common prefix of two strings s=s1s2…sns=s1s2…sn and t=t1t2…tmt=t1t2…tm is defined as the maximum integer kk (0≤k≤min(n,m)0≤k≤min(n,m)) such that s1s2…sks1s2…sk equals t1t2…tkt1t2…tk.
+Koa the Koala initially has n+1n+1 strings s1,s2,…,sn+1s1,s2,…,sn+1.
+For each ii (1≤i≤n1≤i≤n) she calculated aiai — the length of the longest common prefix of sisi and si+1si+1.
+Several days later Koa found these numbers, but she couldn't remember the strings.
+So Koa would like to find some strings s1,s2,…,sn+1s1,s2,…,sn+1 which would have generated numbers a1,a2,…,ana1,a2,…,an. Can you help her?
+If there are many answers print any. We can show that answer always exists for the given constraints. 

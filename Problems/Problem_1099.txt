@@ -1,0 +1,6 @@
+Nezzar has nn balls, numbered with integers 1,2,…,n1,2,…,n. Numbers a1,a2,…,ana1,a2,…,an are written on them, respectively. Numbers on those balls form a non-decreasing sequence, which means that ai≤ai+1ai≤ai+1 for all 1≤i<n1≤i<n.
+Nezzar wants to color the balls using the minimum number of colors, such that the following holds.
+  For any color, numbers on balls will form a strictly increasing sequence if he keeps balls with this chosen color and discards all other balls. 
+ 
+Note that a sequence with the length at most 11 is considered as a strictly increasing sequence.
+Please help Nezzar determine the minimum number of colors.

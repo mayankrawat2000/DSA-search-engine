@@ -1,0 +1,4 @@
+You are given an array aa consisting of nn positive integers, numbered from 11 to nn. You can perform the following operation no more than 3n3n times:
+  choose three integers ii, jj and xx (1≤i,j≤n1≤i,j≤n; 0≤x≤1090≤x≤109);  assign ai:=ai−x⋅iai:=ai−x⋅i, aj:=aj+x⋅iaj:=aj+x⋅i. 
+After each operation, all elements of the array should be non-negative.
+Can you find a sequence of no more than 3n3n operations after which all elements of the array are equal?

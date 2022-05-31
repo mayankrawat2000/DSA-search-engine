@@ -1,0 +1,4 @@
+You are given a tree with nn vertices numbered 1,…,n1,…,n. A tree is a connected simple graph without cycles.
+Let dist(u,v)dist(u,v) be the number of edges in the unique simple path connecting vertices uu and vv.
+Let diam(l,r)=maxdist(u,v)diam(l,r)=maxdist(u,v) over all pairs u,vu,v such that l≤u,v≤rl≤u,v≤r.
+Compute ∑1≤l≤r≤ndiam(l,r)∑1≤l≤r≤ndiam(l,r).

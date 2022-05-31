@@ -1,0 +1,4 @@
+Oleg's favorite subjects are History and Math, and his favorite branch of mathematics is division.
+To improve his division skills, Oleg came up with tt pairs of integers pipi and qiqi and for each pair decided to find the greatest integer xixi, such that: 
+  pipi is divisible by xixi;  xixi is not divisible by qiqi. 
+ Oleg is really good at division and managed to find all the answers quickly, how about you?

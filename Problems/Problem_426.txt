@@ -1,0 +1,3 @@
+On an endless checkered sheet of paper, nn cells are chosen and colored in three colors, where nn is divisible by 33. It turns out that there are exactly n3n3 marked cells of each of three colors! 
+Find the largest such kk that it's possible to choose k3k3 cells of each color, remove all other marked cells, and then select three rectangles with sides parallel to the grid lines so that the following conditions hold:
+  No two rectangles can intersect (but they can share a part of the boundary). In other words, the area of intersection of any two of these rectangles must be 00. The ii-th rectangle contains all the chosen cells of the ii-th color and no chosen cells of other colors, for i=1,2,3i=1,2,3. 

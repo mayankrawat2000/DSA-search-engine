@@ -1,0 +1,5 @@
+Polycarp plays a computer game. In this game, the players summon armies of magical minions, which then fight each other.
+Polycarp can summon nn different minions. The initial power level of the ii-th minion is aiai, and when it is summoned, all previously summoned minions' power levels are increased by bibi. The minions can be summoned in any order.
+Unfortunately, Polycarp cannot have more than kk minions under his control. To get rid of unwanted minions after summoning them, he may destroy them. Each minion can be summoned (and destroyed) only once.
+Polycarp's goal is to summon the strongest possible army. Formally, he wants to maximize the sum of power levels of all minions under his control (those which are summoned and not destroyed).
+Help Polycarp to make up a plan of actions to summon the strongest possible army!

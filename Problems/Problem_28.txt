@@ -1,0 +1,5 @@
+You are given nn words of equal length mm, consisting of lowercase Latin alphabet letters. The ii-th word is denoted sisi.
+In one move you can choose any position in any single word and change the letter at that position to the previous or next letter in alphabetical order. For example:
+  you can change 'e' to 'd' or to 'f';  'a' can only be changed to 'b';  'z' can only be changed to 'y'. 
+The difference between two words is the minimum number of moves required to make them equal. For example, the difference between "best" and "cost" is 1+10+0+0=111+10+0+0=11.
+Find the minimum difference of sisi and sjsj such that (i<j)(i<j). In other words, find the minimum difference over all possible pairs of the nn words.

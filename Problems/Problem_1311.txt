@@ -1,0 +1,5 @@
+There are nn districts in the town, the ii-th district belongs to the aiai-th bandit gang. Initially, no districts are connected to each other.
+You are the mayor of the city and want to build n−1n−1 two-way roads to connect all districts (two districts can be connected directly or through other connected districts).
+If two districts belonging to the same gang are connected directly with a road, this gang will revolt.
+You don't want this so your task is to build n−1n−1 two-way roads in such a way that all districts are reachable from each other (possibly, using intermediate districts) and each pair of directly connected districts belong to different gangs, or determine that it is impossible to build n−1n−1 roads to satisfy all the conditions.
+You have to answer tt independent test cases.

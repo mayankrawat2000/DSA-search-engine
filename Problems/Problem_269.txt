@@ -1,0 +1,5 @@
+This version of the problem differs from the next one only in the constraint on nn.
+A tree is a connected undirected graph without cycles. A weighted tree has a weight assigned to each edge. The distance between two vertices is the minimum sum of weights on the path connecting them.
+You are given a weighted tree with nn vertices, each edge has a weight of 11. Denote d(v)d(v) as the distance between vertex 11 and vertex vv.
+Let f(x)f(x) be the minimum possible value of max1≤v≤n d(v)max1≤v≤n d(v) if you can temporarily add an edge with weight xx between any two vertices aa and bb (1≤a,b≤n)(1≤a,b≤n). Note that after this operation, the graph is no longer a tree.
+For each integer xx from 11 to nn, find f(x)f(x).

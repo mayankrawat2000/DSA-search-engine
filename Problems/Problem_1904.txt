@@ -1,0 +1,2 @@
+You are given an array aa of length nn that has a special condition: every element in this array has at most 7 divisors. Find the length of the shortest non-empty subsequence of this array product of whose elements is a perfect square.
+A sequence aa is a subsequence of an array bb if aa can be obtained from bb by deletion of several (possibly, zero or all) elements.

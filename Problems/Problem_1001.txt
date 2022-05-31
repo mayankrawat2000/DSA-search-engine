@@ -1,0 +1,5 @@
+It is the easy version of the problem. The only difference is that in this version k=3k=3.
+You are given a positive integer nn. Find kk positive integers a1,a2,…,aka1,a2,…,ak, such that:
+  a1+a2+…+ak=na1+a2+…+ak=n  LCM(a1,a2,…,ak)≤n2LCM(a1,a2,…,ak)≤n2 
+Here LCMLCM is the least common multiple of numbers a1,a2,…,aka1,a2,…,ak.
+We can show that for given constraints the answer always exists.

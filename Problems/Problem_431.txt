@@ -1,0 +1,5 @@
+The chef has cooked nn dishes yet again: the ii-th dish consists of aiai grams of fish and bibi grams of meat. 
+Banquet organizers consider two dishes ii and jj equal if ai=ajai=aj and bi=bjbi=bj at the same time.
+The banquet organizers estimate the variety of nn dishes as follows. The variety of a set of dishes is equal to the number of different dishes in it. The less variety is, the better.
+In order to reduce the variety, a taster was invited. He will eat exactly mimi grams of food from each dish. For each dish, the taster determines separately how much fish and how much meat he will eat. The only condition is that he will eat exactly mimi grams of the ii-th dish in total.
+Determine how much of what type of food the taster should eat from each dish so that the value of variety is the minimum possible. If there are several correct answers, you may output any of them.

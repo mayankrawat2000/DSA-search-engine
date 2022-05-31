@@ -1,0 +1,3 @@
+A penguin Rocher has nn sticks. He has exactly one stick with length ii for all 1≤i≤n1≤i≤n.
+He can connect some sticks. If he connects two sticks that have lengths aa and bb, he gets one stick with length a+ba+b. Two sticks, that were used in the operation disappear from his set and the new connected stick appears in his set and can be used for the next connections.
+He wants to create the maximum number of sticks that have the same length. It is not necessary to make all sticks have the same length, some sticks can have the other length. How many sticks with the equal length he can create?

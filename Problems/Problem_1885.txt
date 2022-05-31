@@ -1,0 +1,6 @@
+For the given integer nn (n>2n>2) let's write down all the strings of length nn which contain n−2n−2 letters 'a' and two letters 'b' in lexicographical (alphabetical) order.
+Recall that the string ss of length nn is lexicographically less than string tt of length nn, if there exists such ii (1≤i≤n1≤i≤n), that si<tisi<ti, and for any jj (1≤j<i1≤j<i) sj=tjsj=tj. The lexicographic comparison of strings is implemented by the operator < in modern programming languages.
+For example, if n=5n=5 the strings are (the order does matter):
+  aaabb  aabab  aabba  abaab  ababa  abbaa  baaab  baaba  babaa  bbaaa 
+It is easy to show that such a list of strings will contain exactly n⋅(n−1)2n⋅(n−1)2 strings.
+You are given nn (n>2n>2) and kk (1≤k≤n⋅(n−1)21≤k≤n⋅(n−1)2). Print the kk-th string from the list.

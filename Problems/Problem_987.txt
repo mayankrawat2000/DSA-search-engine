@@ -1,0 +1,2 @@
+You are given three positive (greater than zero) integers cc, dd and xx. 
+You have to find the number of pairs of positive integers (a,b)(a,b) such that equality c⋅lcm(a,b)−d⋅gcd(a,b)=xc⋅lcm(a,b)−d⋅gcd(a,b)=x holds. Where lcm(a,b)lcm(a,b) is the least common multiple of aa and bb and gcd(a,b)gcd(a,b) is the greatest common divisor of aa and bb.

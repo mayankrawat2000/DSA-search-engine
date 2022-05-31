@@ -1,0 +1,2 @@
+Let's define S(x)S(x) to be the sum of digits of number xx written in decimal system. For example, S(5)=5S(5)=5, S(10)=1S(10)=1, S(322)=7S(322)=7.
+We will call an integer xx interesting if S(x+1)<S(x)S(x+1)<S(x). In each test you will be given one integer nn. Your task is to calculate the number of integers xx such that 1≤x≤n1≤x≤n and xx is interesting.

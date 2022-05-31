@@ -1,0 +1,6 @@
+Alice and Bob are two poachers who cut trees in a forest.
+A forest is a set of zero or more trees. A tree is a connected graph without cycles. A rooted tree has a special vertex called the root. The parent of a node vv is the next vertex on the shortest path from vv to the root. Children of vertex vv are all nodes for which vv is the parent. A vertex is a leaf if it has no children.
+In this problem we define the depth of vertex as number of vertices on the simple path from this vertex to the root. The rank of a tree is the minimum depth among its leaves.
+Initially there is a forest of rooted trees. Alice and Bob play a game on this forest. They play alternating turns with Alice going first. At the beginning of their turn, the player chooses a tree from the forest. Then the player chooses a positive cutting depth, which should not exceed the rank of the chosen tree. Then the player removes all vertices of that tree whose depth is less that or equal to the cutting depth. All other vertices of the tree form a set of rooted trees with root being the vertex with the smallest depth before the cut. All these trees are included in the game forest and the game continues.
+A player loses if the forest is empty at the beginning of his move.
+You are to determine whether Alice wins the game if both players play optimally.

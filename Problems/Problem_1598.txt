@@ -1,0 +1,5 @@
+Madeline has an array aa of nn integers. A pair (u,v)(u,v) of integers forms an inversion in aa if:
+  1≤u<v≤n1≤u<v≤n.  au>avau>av. 
+Madeline recently found a magical paper, which allows her to write two indices uu and vv and swap the values auau and avav. Being bored, she decided to write a list of pairs (ui,vi)(ui,vi) with the following conditions:
+  all the pairs in the list are distinct and form an inversion in aa.  all the pairs that form an inversion in aa are in the list.  Starting from the given array, if you swap the values at indices u1u1 and v1v1, then the values at indices u2u2 and v2v2 and so on, then after all pairs are processed, the array aa will be sorted in non-decreasing order. 
+Construct such a list or determine that no such list exists. If there are multiple possible answers, you may find any of them.

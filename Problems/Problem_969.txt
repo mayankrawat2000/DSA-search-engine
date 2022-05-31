@@ -1,0 +1,3 @@
+A palindrome is a string that reads the same backward as forward. For example, the strings "z", "aaa", "aba", and "abccba" are palindromes, but "codeforces" and "ab" are not. You hate palindromes because they give you déjà vu.
+There is a string ss. You must insert exactly one character 'a' somewhere in ss. If it is possible to create a string that is not a palindrome, you should find one example. Otherwise, you should report that it is impossible.
+For example, suppose s=s= "cbabc". By inserting an 'a', you can create "acbabc", "cababc", "cbaabc", "cbabac", or "cbabca". However "cbaabc" is a palindrome, so you must output one of the other options.

@@ -1,0 +1,6 @@
+You have a binary string aa of length nn consisting only of digits 00 and 11. 
+You are given qq queries. In the ii-th query, you are given two indices ll and rr such that 1≤l≤r≤n1≤l≤r≤n. 
+Let s=a[l,r]s=a[l,r]. You are allowed to do the following operation on ss:
+  Choose two indices xx and yy such that 1≤x≤y≤|s|1≤x≤y≤|s|. Let tt be the substring t=s[x,y]t=s[x,y]. Then for all 1≤i≤|t|−11≤i≤|t|−1, the condition ti≠ti+1ti≠ti+1 has to hold. Note that x=yx=y is always a valid substring.  Delete the substring s[x,y]s[x,y] from ss. 
+For each of the qq queries, find the minimum number of operations needed to make ss an empty string.
+Note that for a string ss, s[l,r]s[l,r] denotes the subsegment sl,sl+1,…,srsl,sl+1,…,sr.

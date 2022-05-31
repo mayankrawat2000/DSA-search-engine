@@ -1,0 +1,4 @@
+There is a binary string aa of length nn. In one operation, you can select any prefix of aa with an equal number of 00 and 11 symbols. Then all symbols in the prefix are inverted: each 00 becomes 11 and each 11 becomes 00.
+For example, suppose a=0111010000a=0111010000. 
+  In the first operation, we can select the prefix of length 88 since it has four 00's and four 11's: [01110100]00→[10001011]00[01110100]00→[10001011]00.  In the second operation, we can select the prefix of length 22 since it has one 00 and one 11: [10]00101100→[01]00101100[10]00101100→[01]00101100.  It is illegal to select the prefix of length 44 for the third operation, because it has three 00's and one 11. 
+Can you transform the string aa into the string bb using some finite number of operations (possibly, none)?

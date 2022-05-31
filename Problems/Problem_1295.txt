@@ -1,0 +1,5 @@
+nn fishermen have just returned from a fishing vacation. The ii-th fisherman has caught a fish of weight aiai.
+Fishermen are going to show off the fish they caught to each other. To do so, they firstly choose an order in which they show their fish (each fisherman shows his fish exactly once, so, formally, the order of showing fish is a permutation of integers from 11 to nn). Then they show the fish they caught according to the chosen order. When a fisherman shows his fish, he might either become happy, become sad, or stay content.
+Suppose a fisherman shows a fish of weight xx, and the maximum weight of a previously shown fish is yy (y=0y=0 if that fisherman is the first to show his fish). Then:
+  if x≥2yx≥2y, the fisherman becomes happy;  if 2x≤y2x≤y, the fisherman becomes sad;  if none of these two conditions is met, the fisherman stays content. 
+Let's call an order in which the fishermen show their fish emotional if, after all fishermen show their fish according to this order, each fisherman becomes either happy or sad. Calculate the number of emotional orders modulo 998244353998244353.

@@ -1,0 +1,8 @@
+Yuu Koito and Touko Nanami are newlyweds! On the wedding day, Yuu gifted Touko a directed tree with nn nodes and rooted at 11, and a labeling aa which is some DFS order of the tree. Every edge in this tree is directed away from the root.
+After calling dfs(1) the following algorithm returns aa as a DFS order of a tree rooted at 11 :
+order := 0a := array of length n function dfs(u):    order := order + 1    a[u] := order    for all v such that there is a directed edge (u -> v):        dfs(v)
+Note that there may be different DFS orders for a given tree.
+Touko likes the present so much she decided to play with it! On each day following the wedding day, Touko performs this procedure once:
+ Among all directed edges u→vu→v such that au<avau<av, select the edge u′→v′u′→v′ with the lexicographically smallest pair (au′,av′)(au′,av′).  Swap au′au′ and av′av′.
+Days have passed since their wedding, and Touko has somehow forgotten which date the wedding was and what was the original labeling aa! Fearing that Yuu might get angry, Touko decided to ask you to derive these two pieces of information using the current labeling.
+Being her good friend, you need to find the number of days that have passed since the wedding, and the original labeling of the tree. However, there is a chance that Touko might have messed up her procedures, which result in the current labeling being impossible to obtain from some original labeling; in that case, please inform Touko as well.

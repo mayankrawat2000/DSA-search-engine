@@ -1,0 +1,19 @@
+You are given a sequence aa of length nn consisting of 00s and 11s.
+You can perform the following operation on this sequence: 
+  Pick an index ii from 11 to n−2n−2 (inclusive).  Change all of aiai, ai+1ai+1, ai+2ai+2 to ai⊕ai+1⊕ai+2ai⊕ai+1⊕ai+2 simultaneously, where ⊕⊕ denotes the bitwise XOR operation 
+ Find a sequence of 
+at most
+ 
+
+nn
+n
+ operations that changes all elements of 
+
+aa
+a
+ to 
+
+00
+0
+s or report that it's impossible.
+We can prove that if there exists a sequence of operations of any length that changes all elements of aa to 00s, then there is also such a sequence of length not greater than nn.

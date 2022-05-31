@@ -1,0 +1,4 @@
+Let's call a string ss perfectly balanced if for all possible triplets (t,u,v)(t,u,v) such that tt is a non-empty substring of ss and uu and vv are characters present in ss, the difference between the frequencies of uu and vv in tt is not more than 11.
+For example, the strings "aba" and "abc" are perfectly balanced but "abb" is not because for the triplet ("bb",'a','b'), the condition is not satisfied.
+You are given a string ss consisting of lowercase English letters only. Your task is to determine whether ss is perfectly balanced or not.
+A string bb is called a substring of another string aa if bb can be obtained by deleting some characters (possibly 00) from the start and some characters (possibly 00) from the end of aa.

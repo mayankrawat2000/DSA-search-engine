@@ -1,0 +1,6 @@
+To satisfy his love of matching socks, Phoenix has brought his nn socks (nn is even) to the sock store. Each of his socks has a color cici and is either a left sock or right sock. 
+Phoenix can pay one dollar to the sock store to either: 
+  recolor a sock to any color c′c′ (1≤c′≤n)(1≤c′≤n)  turn a left sock into a right sock  turn a right sock into a left sock 
+ 
+The sock store may perform each of these changes any number of times. Note that the color of a left sock doesn't change when it turns into a right sock, and vice versa. 
+A matching pair of socks is a left and right sock with the same color. What is the minimum cost for Phoenix to make n/2n/2 matching pairs? Each sock must be included in exactly one matching pair.

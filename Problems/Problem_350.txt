@@ -1,0 +1,2 @@
+A string is called square if it is some string written twice in a row. For example, the strings "aa", "abcabc", "abab" and "baabaa" are square. But the strings "aaa", "abaaab" and "abcdabc" are not square.
+For a given string ss determine if it is square.

@@ -1,0 +1,4 @@
+You are given an array aa consisting of nn integers. Indices of the array start from zero (i. e. the first element is a0a0, the second one is a1a1, and so on).
+You can reverse at most one subarray (continuous subsegment) of this array. Recall that the subarray of aa with borders ll and rr is a[l;r]=al,al+1,…,ara[l;r]=al,al+1,…,ar.
+Your task is to reverse such a subarray that the sum of elements on even positions of the resulting array is maximized (i. e. the sum of elements a0,a2,…,a2ka0,a2,…,a2k for integer k=⌊n−12⌋k=⌊n−12⌋ should be maximum possible).
+You have to answer tt independent test cases.

@@ -1,0 +1,2 @@
+You are given a sequence of nn integers a1a1, a2a2, ..., anan. Let us call an index jj (2≤j≤n−12≤j≤n−1) a hill if aj>aj+1aj>aj+1 and aj>aj−1aj>aj−1; and let us call it a valley if aj<aj+1aj<aj+1 and aj<aj−1aj<aj−1.
+Let us define the intimidation value of a sequence as the sum of the number of hills and the number of valleys in the sequence. You can change exactly one integer in the sequence to any number that you want, or let the sequence remain unchanged. What is the minimum intimidation value that you can achieve?

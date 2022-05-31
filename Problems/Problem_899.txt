@@ -1,0 +1,3 @@
+Phoenix loves playing with bits — specifically, by using the bitwise operations AND, OR, and XOR. He has nn integers a1,a2,…,ana1,a2,…,an, and will perform qq of the following queries:
+  replace all numbers aiai where l≤ai≤rl≤ai≤r with aiai AND xx;  replace all numbers aiai where l≤ai≤rl≤ai≤r with aiai OR xx;  replace all numbers aiai where l≤ai≤rl≤ai≤r with aiai XOR xx;  output how many distinct integers aiai where l≤ai≤rl≤ai≤r. 
+For each query, Phoenix is given ll, rr, and xx. Note that he is considering the values of the numbers, not their indices.

@@ -1,0 +1,5 @@
+You are given four positive integers nn, mm, aa, bb (1≤b≤n≤501≤b≤n≤50; 1≤a≤m≤501≤a≤m≤50). Find any such rectangular matrix of size n×mn×m that satisfies all of the following conditions:
+  each row of the matrix contains exactly aa ones;  each column of the matrix contains exactly bb ones;  all other elements are zeros. 
+If the desired matrix does not exist, indicate this.
+For example, for n=3n=3, m=6m=6, a=2a=2, b=1b=1, there exists a matrix satisfying the conditions above:
+∣∣∣∣010100001010001100∣∣∣∣|010001100100001010|

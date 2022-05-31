@@ -1,0 +1,3 @@
+  
+William has an array of nn integers a1,a2,…,ana1,a2,…,an. In one move he can swap two neighboring items. Two items aiai and ajaj are considered neighboring if the condition |i−j|=1|i−j|=1 is satisfied.
+William wants you to calculate the minimal number of swaps he would need to perform to make it so that the array does not contain two neighboring items with the same parity.

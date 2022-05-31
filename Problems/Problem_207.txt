@@ -1,0 +1,3 @@
+You are given a tree of nn vertices numbered from 11 to nn. A tree is a connected undirected graph without cycles. 
+For each i=1,2,…,ni=1,2,…,n, let wiwi be the weight of the ii-th vertex. A vertex is called good if its weight is equal to the sum of the weights of all its neighbors.
+Initially, the weights of all nodes are unassigned. Assign positive integer weights to each vertex of the tree, such that the number of good vertices in the tree is maximized. If there are multiple ways to do it, you have to find one that minimizes the sum of weights of all vertices in the tree.

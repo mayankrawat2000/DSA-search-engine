@@ -1,0 +1,8 @@
+A permutation is a sequence of integers from 11 to nn of length nn containing each number exactly once. For example, [1][1], [4,3,5,1,2][4,3,5,1,2], [3,2,1][3,2,1] — are permutations, and [1,1][1,1], [4,3,1][4,3,1], [2,3,4][2,3,4] — no.
+Permutation aa is lexicographically smaller than permutation bb (they have the same length nn), if in the first index ii in which they differ, a[i]<b[i]a[i]<b[i]. For example, the permutation [1,3,2,4][1,3,2,4] is lexicographically smaller than the permutation [1,3,4,2][1,3,4,2], because the first two elements are equal, and the third element in the first permutation is smaller than in the second.
+The next permutation for a permutation aa of length nn — is the lexicographically smallest permutation bb of length nn that lexicographically larger than aa. For example: 
+  for permutation [2,1,4,3][2,1,4,3] the next permutation is [2,3,1,4][2,3,1,4];  for permutation [1,2,3][1,2,3] the next permutation is [1,3,2][1,3,2];  for permutation [2,1][2,1] next permutation does not exist. 
+You are given the number nn — the length of the initial permutation. The initial permutation has the form a=[1,2,…,n]a=[1,2,…,n]. In other words, a[i]=ia[i]=i (1≤i≤n1≤i≤n).
+You need to process qq queries of two types: 
+  11 ll rr: query for the sum of all elements on the segment [l,r][l,r]. More formally, you need to find a[l]+a[l+1]+…+a[r]a[l]+a[l+1]+…+a[r].  22 xx: xx times replace the current permutation with the next permutation. For example, if x=2x=2 and the current permutation has the form [1,3,4,2][1,3,4,2], then we should perform such a chain of replacements [1,3,4,2]→[1,4,2,3]→[1,4,3,2][1,3,4,2]→[1,4,2,3]→[1,4,3,2]. 
+For each query of the 11-st type output the required sum.

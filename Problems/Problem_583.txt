@@ -1,0 +1,4 @@
+Andi and Budi were given an assignment to tidy up their bookshelf of nn books. Each book is represented by the book title — a string sisi numbered from 11 to nn, each with length mm. Andi really wants to sort the book lexicographically ascending, while Budi wants to sort it lexicographically descending.
+Settling their fight, they decided to combine their idea and sort it asc-desc-endingly, where the odd-indexed characters will be compared ascendingly, and the even-indexed characters will be compared descendingly.
+A string aa occurs before a string bb in asc-desc-ending order if and only if in the first position where aa and bb differ, the following holds:
+  if it is an odd position, the string aa has a letter that appears earlier in the alphabet than the corresponding letter in bb;  if it is an even position, the string aa has a letter that appears later in the alphabet than the corresponding letter in bb. 

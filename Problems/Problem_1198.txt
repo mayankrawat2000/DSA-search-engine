@@ -1,0 +1,7 @@
+Mike received an array aa of length nn as a birthday present and decided to test how pretty it is.
+An array would pass the ii-th prettiness test if there is a way to get an array with a sum of elements totaling sisi, using some number (possibly zero) of slicing operations.
+  
+An array slicing operation is conducted in the following way: 
+  assume mid=⌊max(array)+min(array)2⌋mid=⌊max(array)+min(array)2⌋, where maxmax and minmin — are functions that find the maximum and the minimum array elements. In other words, midmid is the sum of the maximum and the minimum element of arrayarray divided by 22 rounded down.  Then the array is split into two parts leftleft and rightright. The leftleft array contains all elements which are less than or equal midmid, and the rightright array contains all elements which are greater than midmid. Elements in leftleft and rightright keep their relative order from arrayarray.  During the third step we choose which of the leftleft and rightright arrays we want to keep. The chosen array replaces the current one and the other is permanently discarded. 
+You need to help Mike find out the results of qq prettiness tests.
+Note that you test the prettiness of the array aa, so you start each prettiness test with the primordial (initial) array aa. Thus, the first slice (if required) is always performed on the array aa.

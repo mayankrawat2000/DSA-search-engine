@@ -1,0 +1,10 @@
+There are nn piranhas with sizes a1,a2,…,ana1,a2,…,an in the aquarium. Piranhas are numbered from left to right in order they live in the aquarium.
+Scientists of the Berland State University want to find if there is dominant piranha in the aquarium. The piranha is called dominant if it can eat all the other piranhas in the aquarium (except itself, of course). Other piranhas will do nothing while the dominant piranha will eat them.
+Because the aquarium is pretty narrow and long, the piranha can eat only one of the adjacent piranhas during one move. Piranha can do as many moves as it needs (or as it can). More precisely: 
+  The piranha ii can eat the piranha i−1i−1 if the piranha i−1i−1 exists and ai−1<aiai−1<ai.  The piranha ii can eat the piranha i+1i+1 if the piranha i+1i+1 exists and ai+1<aiai+1<ai. 
+When the piranha ii eats some piranha, its size increases by one (aiai becomes ai+1ai+1).
+Your task is to find any dominant piranha in the aquarium or determine if there are no such piranhas.
+Note that you have to find any (exactly one) dominant piranha, you don't have to find all of them.
+For example, if a=[5,3,4,4,5]a=[5,3,4,4,5], then the third piranha can be dominant. Consider the sequence of its moves: 
+  The piranha eats the second piranha and aa becomes [5,5–,4,5][5,5_,4,5] (the underlined piranha is our candidate).  The piranha eats the third piranha and aa becomes [5,6–,5][5,6_,5].  The piranha eats the first piranha and aa becomes [7–,5][7_,5].  The piranha eats the second piranha and aa becomes [8–][8_]. 
+You have to answer tt independent test cases.

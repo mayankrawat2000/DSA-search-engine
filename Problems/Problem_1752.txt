@@ -1,0 +1,4 @@
+The statement of this problem is the same as the statement of problem C2. The only difference is that, in problem C1, nn is always even, and in C2, nn is always odd.
+You are given a regular polygon with 2⋅n2⋅n vertices (it's convex and has equal sides and equal angles) and all its sides have length 11. Let's name it as 2n2n-gon.
+Your task is to find the square of the minimum size such that you can embed 2n2n-gon in the square. Embedding 2n2n-gon in the square means that you need to place 2n2n-gon in the square in such way that each point which lies inside or on a border of 2n2n-gon should also lie inside or on a border of the square.
+You can rotate 2n2n-gon and/or the square.

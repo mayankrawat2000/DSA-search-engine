@@ -1,0 +1,6 @@
+Polycarp plans to undergo a full physical examination at his local clinic. There are nn doctors, numbered from 11 to nn. The ii-th doctor takes patients from minute LiLi to minute RiRi, so Polycarp can visit him at any minute in this range. It takes each doctor exactly one minute to examine Polycarp's health.
+Polycarp wants to arrive at the clinic at some minute xx and visit all nn doctors in some order without waiting or visiting any doctor several times.
+More formally, he chooses an integer xx and a permutation p1,p2,…,pnp1,p2,…,pn (a sequence of nn integers from 11 to nn such that each integer appears exactly once), then proceeds to visit: 
+  doctor p1p1 at minute xx;  doctor p2p2 at minute x+1x+1;  ...  doctor pnpn at minute x+n−1x+n−1. 
+The pipi-th doctor should be able to take patients at minute x+i−1x+i−1, so the following should hold: L[pi]≤x+i−1≤R[pi]L[pi]≤x+i−1≤R[pi].
+Determine if it's possible for Polycarp to choose such a minute xx and a permutation pp that he'll be able to visit all nn doctors in without waiting or visiting any doctor several times. If there are multiple answers, print any of them.

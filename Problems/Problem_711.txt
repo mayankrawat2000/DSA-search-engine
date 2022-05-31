@@ -1,0 +1,5 @@
+Suppose you have two points p=(xp,yp)p=(xp,yp) and q=(xq,yq)q=(xq,yq). Let's denote the Manhattan distance between them as d(p,q)=|xp−xq|+|yp−yq|d(p,q)=|xp−xq|+|yp−yq|.
+Let's say that three points pp, qq, rr form a bad triple if d(p,r)=d(p,q)+d(q,r)d(p,r)=d(p,q)+d(q,r).
+Let's say that an array b1,b2,…,bmb1,b2,…,bm is good if it is impossible to choose three distinct indices ii, jj, kk such that the points (bi,i)(bi,i), (bj,j)(bj,j) and (bk,k)(bk,k) form a bad triple.
+You are given an array a1,a2,…,ana1,a2,…,an. Calculate the number of good subarrays of aa. A subarray of the array aa is the array al,al+1,…,aral,al+1,…,ar for some 1≤l≤r≤n1≤l≤r≤n.
+Note that, according to the definition, subarrays of length 11 and 22 are good.

@@ -1,0 +1,6 @@
+Monocarp is playing a computer game. In this game, his character fights different monsters.
+A fight between a character and a monster goes as follows. Suppose the character initially has health hChC and attack dCdC; the monster initially has health hMhM and attack dMdM. The fight consists of several steps:
+  the character attacks the monster, decreasing the monster's health by dCdC;  the monster attacks the character, decreasing the character's health by dMdM;  the character attacks the monster, decreasing the monster's health by dCdC;  the monster attacks the character, decreasing the character's health by dMdM;  and so on, until the end of the fight. 
+The fight ends when someone's health becomes non-positive (i. e. 00 or less). If the monster's health becomes non-positive, the character wins, otherwise the monster wins.
+Monocarp's character currently has health equal to hChC and attack equal to dCdC. He wants to slay a monster with health equal to hMhM and attack equal to dMdM. Before the fight, Monocarp can spend up to kk coins to upgrade his character's weapon and/or armor; each upgrade costs exactly one coin, each weapon upgrade increases the character's attack by ww, and each armor upgrade increases the character's health by aa.
+Can Monocarp's character slay the monster if Monocarp spends coins on upgrades optimally?

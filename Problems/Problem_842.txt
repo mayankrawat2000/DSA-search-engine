@@ -1,0 +1,7 @@
+The only difference between the easy and hard versions is that the given string ss in the easy version is initially a palindrome, this condition is not always true for the hard version.
+A palindrome is a string that reads the same left to right and right to left. For example, "101101" is a palindrome, while "0101" is not.
+Alice and Bob are playing a game on a string ss of length nn consisting of the characters '0' and '1'. Both players take alternate turns with Alice going first.
+In each turn, the player can perform one of the following operations: 
+  Choose any ii (1≤i≤n1≤i≤n), where s[i]=s[i]= '0' and change s[i]s[i] to '1'. Pay 1 dollar.  Reverse the whole string, pay 0 dollars. This operation is only allowed if the string is currently not a palindrome, and the last operation was not reverse. That is, if Alice reverses the string, then Bob can't reverse in the next move, and vice versa. 
+Reversing a string means reordering its letters from the last to the first. For example, "01001" becomes "10010" after reversing.
+The game ends when every character of string becomes '1'. The player who spends minimum dollars till this point wins the game and it is a draw if both spend equal dollars. If both players play optimally, output whether Alice wins, Bob wins, or if it is a draw.

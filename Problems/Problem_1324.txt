@@ -1,0 +1,2 @@
+There are nn customers in the cafeteria. Each of them wants to buy a hamburger. The ii-th customer has aiai coins, and they will buy a hamburger if it costs at most aiai coins.
+Suppose the cost of the hamburger is mm. Then the number of coins the cafeteria earns is mm multiplied by the number of people who buy a hamburger if it costs mm. Your task is to calculate the maximum number of coins the cafeteria can earn.

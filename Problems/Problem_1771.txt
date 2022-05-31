@@ -1,0 +1,5 @@
+There are nn models in the shop numbered from 11 to nn, with sizes s1,s2,…,sns1,s2,…,sn.
+Orac will buy some of the models and will arrange them in the order of increasing numbers (i.e. indices, but not sizes).
+Orac thinks that the obtained arrangement is beatiful, if for any two adjacent models with indices ijij and ij+1ij+1 (note that ij<ij+1ij<ij+1, because Orac arranged them properly), ij+1ij+1 is divisible by ijij and sij<sij+1sij<sij+1.
+For example, for 66 models with sizes {3,6,7,7,7,7}{3,6,7,7,7,7}, he can buy models with indices 11, 22, and 66, and the obtained arrangement will be beautiful. Also, note that the arrangement with exactly one model is also considered beautiful.
+Orac wants to know the maximum number of models that he can buy, and he may ask you these queries many times.

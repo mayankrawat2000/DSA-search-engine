@@ -1,0 +1,5 @@
+You are given an array aa consisting of nn distinct positive integers.
+Let's consider an infinite integer set SS which contains all integers xx that satisfy at least one of the following conditions:
+ x=aix=ai for some 1≤i≤n1≤i≤n. x=2y+1x=2y+1 and yy is in SS. x=4yx=4y and yy is in SS.
+For example, if a=[1,2]a=[1,2] then the 1010 smallest elements in SS will be {1,2,3,4,5,7,8,9,11,12}{1,2,3,4,5,7,8,9,11,12}.
+Find the number of elements in SS that are strictly smaller than 2p2p. Since this number may be too large, print it modulo 109+7109+7.

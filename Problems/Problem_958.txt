@@ -1,0 +1,8 @@
+Polycarp found a rectangular table consisting of nn rows and mm columns. He noticed that each cell of the table has its number, obtained by the following algorithm "by columns": 
+  cells are numbered starting from one;  cells are numbered from left to right by columns, and inside each column from top to bottom;  number of each cell is an integer one greater than in the previous cell. 
+For example, if n=3n=3 and m=5m=5, the table will be numbered as follows:
+123456789101112131415147101325811143691215
+However, Polycarp considers such numbering inconvenient. He likes the numbering "by rows": 
+  cells are numbered starting from one;  cells are numbered from top to bottom by rows, and inside each row from left to right;  number of each cell is an integer one greater than the number of the previous cell. 
+For example, if n=3n=3 and m=5m=5, then Polycarp likes the following table numbering: 161127123813491451015123456789101112131415
+Polycarp doesn't have much time, so he asks you to find out what would be the cell number in the numbering "by rows", if in the numbering "by columns" the cell has the number xx?

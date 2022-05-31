@@ -1,0 +1,7 @@
+You are given a matrix aa, consisting of 33 rows and nn columns. Each cell of the matrix is either free or taken.
+A free cell yy is reachable from a free cell xx if at least one of these conditions hold: 
+  xx and yy share a side;  there exists a free cell zz such that zz is reachable from xx and yy is reachable from zz. 
+A connected component is a set of free cells of the matrix such that all cells in it are reachable from one another, but adding any other free cell to the set violates this rule.
+You are asked qq queries about the matrix. Each query is the following: 
+  ll rr — count the number of connected components of the matrix, consisting of columns from ll to rr of the matrix aa, inclusive. 
+Print the answers to all queries.

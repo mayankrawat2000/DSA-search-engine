@@ -1,0 +1,6 @@
+Ashish has a string ss of length nn containing only characters 'a', 'b' and 'c'.
+He wants to find the length of the smallest substring, which satisfies the following conditions: 
+  Length of the substring is at least 22  'a' occurs strictly more times in this substring than 'b'  'a' occurs strictly more times in this substring than 'c' 
+ 
+Ashish is busy planning his next Codeforces round. Help him solve the problem.
+A string aa is a substring of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.

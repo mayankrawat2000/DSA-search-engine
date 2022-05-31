@@ -1,0 +1,6 @@
+You are given two positive integers aa and bb.
+In one move, you can change aa in the following way:
+  Choose any positive odd integer xx (x>0x>0) and replace aa with a+xa+x;  choose any positive even integer yy (y>0y>0) and replace aa with a−ya−y. 
+You can perform as many such operations as you want. You can choose the same numbers xx and yy in different moves.
+Your task is to find the minimum number of moves required to obtain bb from aa. It is guaranteed that you can always obtain bb from aa.
+You have to answer tt independent test cases.

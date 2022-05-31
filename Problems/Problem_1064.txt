@@ -1,0 +1,3 @@
+You are a given an array aa of length nn. Find a subarray a[l..r]a[l..r] with length at least kk with the largest median.
+A median in an array of length nn is an element which occupies position number ⌊n+12⌋⌊n+12⌋ after we sort the elements in non-decreasing order. For example: median([1,2,3,4])=2median([1,2,3,4])=2, median([3,2,1])=2median([3,2,1])=2, median([2,1,2,1])=1median([2,1,2,1])=1.
+Subarray a[l..r]a[l..r] is a contiguous part of the array aa, i. e. the array al,al+1,…,aral,al+1,…,ar for some 1≤l≤r≤n1≤l≤r≤n, its length is r−l+1r−l+1.

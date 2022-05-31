@@ -1,0 +1,4 @@
+Petya has got an interesting flower. Petya is a busy person, so he sometimes forgets to water it. You are given nn days from Petya's live and you have to determine what happened with his flower in the end.
+The flower grows as follows: 
+  If the flower isn't watered for two days in a row, it dies.  If the flower is watered in the ii-th day, it grows by 11 centimeter.  If the flower is watered in the ii-th and in the (i−1)(i−1)-th day (i>1i>1), then it grows by 55 centimeters instead of 11.  If the flower is not watered in the ii-th day, it does not grow. 
+At the beginning of the 11-st day the flower is 11 centimeter tall. What is its height after nn days?

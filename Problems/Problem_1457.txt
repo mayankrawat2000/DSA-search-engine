@@ -1,0 +1,6 @@
+This is an interactive problem.
+There is an unknown integer xx (1≤x≤n1≤x≤n). You want to find xx.
+At first, you have a set of integers {1,2,…,n}{1,2,…,n}. You can perform the following operations no more than 1000010000 times:
+  A aa: find how many numbers are multiples of aa in the current set.  B aa: find how many numbers are multiples of aa in this set, and then delete all multiples of aa, but xx will never be deleted (even if it is a multiple of aa). In this operation, aa must be greater than 11.  C aa: it means that you know that x=ax=a. This operation can be only performed once. 
+Remember that in the operation of type B a>1a>1 must hold.
+Write a program, that will find the value of xx.

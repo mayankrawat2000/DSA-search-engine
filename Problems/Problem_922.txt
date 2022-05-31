@@ -1,0 +1,5 @@
+You are given a string ss consisting of the characters '0', '1', and '?'. You need to replace all the characters with '?' in the string ss by '0' or '1' so that the string becomes a palindrome and has exactly aa characters '0' and exactly bb characters '1'. Note that each of the characters '?' is replaced independently from the others.
+A string tt of length nn is called a palindrome if the equality t[i]=t[n−i+1]t[i]=t[n−i+1] is true for all ii (1≤i≤n1≤i≤n).
+For example, if s=s="01?????0", a=4a=4 and b=4b=4, then you can replace the characters '?' in the following ways: 
+  "01011010";  "01100110". 
+For the given string ss and the numbers aa and bb, replace all the characters with '?' in the string ss by '0' or '1' so that the string becomes a palindrome and has exactly aa characters '0' and exactly bb characters '1'.

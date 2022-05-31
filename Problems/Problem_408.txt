@@ -1,0 +1,7 @@
+After watching the new over-rated series Squid Game, Mashtali and Soroush decided to hold their own Squid Games! Soroush agreed to be the host and will provide money for the winner's prize, and Mashtali became the Front Man!
+mm players registered to play in the games to win the great prize, but when Mashtali found out how huge the winner's prize is going to be, he decided to kill eliminate all the players so he could take the money for himself!
+Here is how evil Mashtali is going to eliminate players:
+There is an unrooted tree with nn vertices. Every player has 22 special vertices xixi and yiyi.
+In one operation, Mashtali can choose any vertex vv of the tree. Then, for each remaining player ii he finds a vertex ww on the simple path from xixi to yiyi, which is the closest to vv. If w≠xiw≠xi and w≠yiw≠yi, player ii will be eliminated.
+Now Mashtali wondered: "What is the minimum number of operations I should perform so that I can remove every player from the game and take the money for myself?"
+Since he was only thinking about the money, he couldn't solve the problem by himself and asked for your help!

@@ -1,0 +1,4 @@
+ — Hey folks, how do you like this problem?— That'll do it. 
+BThero is a powerful magician. He has got nn piles of candies, the ii-th pile initially contains aiai candies. BThero can cast a copy-paste spell as follows: 
+  He chooses two piles (i,j)(i,j) such that 1≤i,j≤n1≤i,j≤n and i≠ji≠j.  All candies from pile ii are copied into pile jj. Formally, the operation aj:=aj+aiaj:=aj+ai is performed. 
+BThero can cast this spell any number of times he wants to — but unfortunately, if some pile contains strictly more than kk candies, he loses his magic power. What is the maximum number of times BThero can cast the spell without losing his power?

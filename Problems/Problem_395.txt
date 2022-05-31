@@ -1,0 +1,19 @@
+You are given a pair of integers (a,b)(a,b) and an integer xx.
+You can change the pair in two different ways: 
+  set (assign) a:=|a−b|a:=|a−b|;  set (assign) b:=|a−b|b:=|a−b|, 
+ where 
+
+|a−b||a−b|
+|a - b|
+ is the absolute difference between 
+
+aa
+a
+ and 
+
+bb
+b
+.
+The pair (a,b)(a,b) is called xx-magic if xx is obtainable either as aa or as bb using only the given operations (i.e. the pair (a,b)(a,b) is xx-magic if a=xa=x or b=xb=x after some number of operations applied). You can apply the operations any number of times (even zero).
+Your task is to find out if the pair (a,b)(a,b) is xx-magic or not.
+You have to answer tt independent test cases.

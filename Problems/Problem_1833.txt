@@ -1,0 +1,7 @@
+This is the hard version of the problem. The only difference between easy and hard versions is the constraint of mm. You can make hacks only if both versions are solved.
+Chiori loves dolls and now she is going to decorate her bedroom!
+
+ 
+As a doll collector, Chiori has got nn dolls. The ii-th doll has a non-negative integer value aiai (ai<2mai<2m, mm is given). Chiori wants to pick some (maybe zero) dolls for the decoration, so there are 2n2n different picking ways.
+Let xx be the bitwise-xor-sum of values of dolls Chiori picks (in case Chiori picks no dolls x=0x=0). The value of this picking way is equal to the number of 11-bits in the binary representation of xx. More formally, it is also equal to the number of indices 0≤i<m0≤i<m, such that ⌊x2i⌋⌊x2i⌋ is odd.
+Tell her the number of picking ways with value ii for each integer ii from 00 to mm. Due to the answers can be very huge, print them by modulo 998244353998244353.

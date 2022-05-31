@@ -1,0 +1,4 @@
+  
+William is hosting a party for nn of his trader friends. They started a discussion on various currencies they trade, but there's an issue: not all of his trader friends like every currency. They like some currencies, but not others.
+For each William's friend ii it is known whether he likes currency jj. There are mm currencies in total. It is also known that a trader may not like more than pp currencies.
+Because friends need to have some common topic for discussions they need to find the largest by cardinality (possibly empty) subset of currencies, such that there are at least ⌈n2⌉⌈n2⌉ friends (rounded up) who like each currency in this subset.

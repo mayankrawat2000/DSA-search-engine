@@ -1,0 +1,7 @@
+Please notice the unusual memory limit of this problem.
+Orac likes games. Recently he came up with the new game, "Game of Life".
+You should play this game on a black and white grid with nn rows and mm columns. Each cell is either black or white.
+For each iteration of the game (the initial iteration is 00), the color of each cell will change under the following rules:
+ If there are no adjacent cells with the same color as this cell on the current iteration, the color of it on the next iteration will be the same. Otherwise, the color of the cell on the next iteration will be different.
+Two cells are adjacent if they have a mutual edge.
+Now Orac has set an initial situation, and he wants to know for the cell (i,j)(i,j) (in ii-th row and jj-th column), what will be its color at the iteration pp. He may ask you these questions several times. 

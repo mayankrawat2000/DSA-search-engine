@@ -1,0 +1,3 @@
+There are nn heaps of stone. The ii-th heap has hihi stones. You want to change the number of stones in the heap by performing the following process once: 
+  You go through the heaps from the 33-rd heap to the nn-th heap, in this order.  Let ii be the number of the current heap.  You can choose a number dd (0≤3⋅d≤hi0≤3⋅d≤hi), move dd stones from the ii-th heap to the (i−1)(i−1)-th heap, and 2⋅d2⋅d stones from the ii-th heap to the (i−2)(i−2)-th heap.  So after that hihi is decreased by 3⋅d3⋅d, hi−1hi−1 is increased by dd, and hi−2hi−2 is increased by 2⋅d2⋅d.  You can choose different or same dd for different operations. Some heaps may become empty, but they still count as heaps. 
+What is the maximum number of stones in the smallest heap after the process?

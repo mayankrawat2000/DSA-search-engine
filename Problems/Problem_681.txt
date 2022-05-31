@@ -1,0 +1,1 @@
+You are given nn integers a1,a2,…,ana1,a2,…,an. Find the maximum value of max(al,al+1,…,ar)⋅min(al,al+1,…,ar)max(al,al+1,…,ar)⋅min(al,al+1,…,ar) over all pairs (l,r)(l,r) of integers for which 1≤l<r≤n1≤l<r≤n.

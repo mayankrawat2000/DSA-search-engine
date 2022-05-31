@@ -1,0 +1,6 @@
+You are given n−1n−1 integers a2,…,ana2,…,an and a tree with nn vertices rooted at vertex 11. The leaves are all at the same distance dd from the root. 
+Recall that a tree is a connected undirected graph without cycles. The distance between two vertices is the number of edges on the simple path between them. All non-root vertices with degree 11 are leaves. If vertices ss and ff are connected by an edge and the distance of ff from the root is greater than the distance of ss from the root, then ff is called a child of ss.
+Initially, there are a red coin and a blue coin on the vertex 11. Let rr be the vertex where the red coin is and let bb be the vertex where the blue coin is. You should make dd moves. A move consists of three steps: 
+  Move the red coin to any child of rr.  Move the blue coin to any vertex b′b′ such that dist(1,b′)=dist(1,b)+1dist(1,b′)=dist(1,b)+1. Here dist(x,y)dist(x,y) indicates the length of the simple path between xx and yy. Note that bb and b′b′ are not necessarily connected by an edge.  You can optionally swap the two coins (or skip this step). 
+Note that rr and bb can be equal at any time, and there is no number written on the root.
+After each move, you gain |ar−ab||ar−ab| points. What's the maximum number of points you can gain after dd moves?

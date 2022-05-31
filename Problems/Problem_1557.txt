@@ -1,0 +1,4 @@
+You are given a tree (connected graph without cycles) consisting of nn vertices. The tree is unrooted — it is just a connected undirected graph without cycles.
+In one move, you can choose exactly kk leaves (leaf is such a vertex that is connected to only one another vertex) connected to the same vertex and remove them with edges incident to them. I.e. you choose such leaves u1,u2,…,uku1,u2,…,uk that there are edges (u1,v)(u1,v), (u2,v)(u2,v), ……, (uk,v)(uk,v) and remove these leaves and these edges.
+Your task is to find the maximum number of moves you can perform if you remove leaves optimally.
+You have to answer tt independent test cases.

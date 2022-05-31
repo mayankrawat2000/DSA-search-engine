@@ -1,0 +1,4 @@
+You are given two arrays of integers a1,a2,…,ana1,a2,…,an and b1,b2,…,bnb1,b2,…,bn.
+Let's define a transformation of the array aa:
+  Choose any non-negative integer kk such that 0≤k≤n0≤k≤n.  Choose kk distinct array indices 1≤i1<i2<…<ik≤n1≤i1<i2<…<ik≤n.  Add 11 to each of ai1,ai2,…,aikai1,ai2,…,aik, all other elements of array aa remain unchanged.  Permute the elements of array aa in any order. 
+Is it possible to perform some transformation of the array aa exactly once, so that the resulting array is equal to bb?

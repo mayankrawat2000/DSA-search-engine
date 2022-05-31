@@ -1,0 +1,5 @@
+A squad of nn warriors is defending a castle from a dragon attack. There are mm barricades between the castle and the dragon.
+The warriors are numbered from 11 to nn. The ii-th warrior knows kiki attacks: the jj-th of them deals ai,jai,j damage to the dragon and can only be applied if there are exactly bi,jbi,j barricades between the castle and the dragon.
+The warriors make turns one after another, starting from warrior 11. After warrior nn makes his turn, the total damage to the dragon is calculated. The ii-th warrior performs exactly one of three possible moves in his turn:
+  destroys one barricade (if there are any left);  deploys one of his kiki attacks;  skips a turn. 
+The total damage is the sum of damages dealt by the warriors who chose to deploy their attacks in their turn. What is the maximum total damage the warriors can deal to the dragon?

@@ -1,0 +1,5 @@
+Seiji Maki doesn't only like to observe relationships being unfolded, he also likes to observe sequences of numbers, especially permutations. Today, he has his eyes on almost sorted permutations.
+A permutation a1,a2,…,ana1,a2,…,an of 1,2,…,n1,2,…,n is said to be almost sorted if the condition ai+1≥ai−1ai+1≥ai−1 holds for all ii between 11 and n−1n−1 inclusive.
+Maki is considering the list of all almost sorted permutations of 1,2,…,n1,2,…,n, given in lexicographical order, and he wants to find the kk-th permutation in this list. Can you help him to find such permutation?
+Permutation pp is lexicographically smaller than a permutation qq if and only if the following holds:
+ in the first position where pp and qq differ, the permutation pp has a smaller element than the corresponding element in qq.

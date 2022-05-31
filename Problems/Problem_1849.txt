@@ -1,0 +1,5 @@
+You are given a complete directed graph KnKn with nn vertices: each pair of vertices u≠vu≠v in KnKn have both directed edges (u,v)(u,v) and (v,u)(v,u); there are no self-loops.
+You should find such a cycle in KnKn that visits every directed edge exactly once (allowing for revisiting vertices).
+We can write such cycle as a list of n(n−1)+1n(n−1)+1 vertices v1,v2,v3,…,vn(n−1)−1,vn(n−1),vn(n−1)+1=v1v1,v2,v3,…,vn(n−1)−1,vn(n−1),vn(n−1)+1=v1 — a visiting order, where each (vi,vi+1)(vi,vi+1) occurs exactly once.
+Find the lexicographically smallest such cycle. It's not hard to prove that the cycle always exists.
+Since the answer can be too large print its [l,r][l,r] segment, in other words, vl,vl+1,…,vrvl,vl+1,…,vr.

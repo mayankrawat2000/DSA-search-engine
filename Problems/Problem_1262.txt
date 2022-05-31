@@ -1,0 +1,4 @@
+You have a knapsack with the capacity of WW. There are also nn items, the ii-th one has weight wiwi. 
+You want to put some of these items into the knapsack in such a way that their total weight CC is at least half of its size, but (obviously) does not exceed it. Formally, CC should satisfy: ⌈W2⌉≤C≤W⌈W2⌉≤C≤W. 
+Output the list of items you will put into the knapsack or determine that fulfilling the conditions is impossible. 
+If there are several possible lists of items satisfying the conditions, you can output any. Note that you don't have to maximize the sum of weights of items in the knapsack.

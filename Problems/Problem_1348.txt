@@ -1,0 +1,4 @@
+You are given an array of nn integers a1,a2,…,ana1,a2,…,an.
+You have to create an array of nn integers b1,b2,…,bnb1,b2,…,bn such that: 
+  The array bb is a rearrangement of the array aa, that is, it contains the same values and each value appears the same number of times in the two arrays. In other words, the multisets {a1,a2,…,an}{a1,a2,…,an} and {b1,b2,…,bn}{b1,b2,…,bn} are equal.For example, if a=[1,−1,0,1]a=[1,−1,0,1], then b=[−1,1,1,0]b=[−1,1,1,0] and b=[0,1,−1,1]b=[0,1,−1,1] are rearrangements of aa, but b=[1,−1,−1,0]b=[1,−1,−1,0] and b=[1,0,2,−3]b=[1,0,2,−3] are not rearrangements of aa.  For all k=1,2,…,nk=1,2,…,n the sum of the first kk elements of bb is nonzero. Formally, for all k=1,2,…,nk=1,2,…,n, it must hold b1+b2+⋯+bk≠0.b1+b2+⋯+bk≠0. 
+If an array b1,b2,…,bnb1,b2,…,bn with the required properties does not exist, you have to print NO.

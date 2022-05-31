@@ -1,0 +1,4 @@
+We will consider the numbers aa and bb as adjacent if they differ by exactly one, that is, |a−b|=1|a−b|=1.
+We will consider cells of a square matrix n×nn×n as adjacent if they have a common side, that is, for cell (r,c)(r,c) cells (r,c−1)(r,c−1), (r,c+1)(r,c+1), (r−1,c)(r−1,c) and (r+1,c)(r+1,c) are adjacent to it.
+For a given number nn, construct a square matrix n×nn×n such that: 
+  Each integer from 11 to n2n2 occurs in this matrix exactly once;  If (r1,c1)(r1,c1) and (r2,c2)(r2,c2) are adjacent cells, then the numbers written in them must not be adjacent. 

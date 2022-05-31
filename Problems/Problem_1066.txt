@@ -1,0 +1,4 @@
+The only difference between the easy and the hard version is the limit to the number of queries.
+This is an interactive problem.
+There is an array aa of nn different numbers. In one query you can ask the position of the second maximum element in a subsegment a[l..r]a[l..r]. Find the position of the maximum element in the array in no more than 40 queries.
+A subsegment a[l..r]a[l..r] is all the elements al,al+1,...,aral,al+1,...,ar. After asking this subsegment you will be given the position of the second maximum from this subsegment in the whole array.

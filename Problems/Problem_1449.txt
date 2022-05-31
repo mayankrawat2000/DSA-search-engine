@@ -1,0 +1,4 @@
+There is a road with length ll meters. The start of the road has coordinate 00, the end of the road has coordinate ll.
+There are two cars, the first standing at the start of the road and the second standing at the end of the road. They will start driving simultaneously. The first car will drive from the start to the end and the second car will drive from the end to the start.
+Initially, they will drive with a speed of 11 meter per second. There are nn flags at different coordinates a1,a2,…,ana1,a2,…,an. Each time when any of two cars drives through a flag, the speed of that car increases by 11 meter per second.
+Find how long will it take for cars to meet (to reach the same coordinate). 

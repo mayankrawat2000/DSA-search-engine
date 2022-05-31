@@ -1,0 +1,7 @@
+To improve the boomerang throwing skills of the animals, Zookeeper has set up an n×nn×n grid with some targets, where each row and each column has at most 22 targets each. The rows are numbered from 11 to nn from top to bottom, and the columns are numbered from 11 to nn from left to right. 
+ For each column, Zookeeper will throw a boomerang from the bottom of the column (below the grid) upwards. When the boomerang hits any target, it will bounce off, make a 9090 degree turn to the right and fly off in a straight line in its new direction. The boomerang can hit multiple targets and does not stop until it leaves the grid.
+ 
+  
+In the above example, n=6n=6 and the black crosses are the targets. The boomerang in column 11 (blue arrows) bounces 22 times while the boomerang in column 33 (red arrows) bounces 33 times.
+ The boomerang in column ii hits exactly aiai targets before flying out of the grid. It is known that ai≤3ai≤3.
+However, Zookeeper has lost the original positions of the targets. Thus, he asks you to construct a valid configuration of targets that matches the number of hits for each column, or tell him that no such configuration exists. If multiple valid configurations exist, you may print any of them.

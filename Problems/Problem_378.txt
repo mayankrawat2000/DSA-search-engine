@@ -1,0 +1,2 @@
+You are given an array consisting of all integers from [l,r][l,r] inclusive. For example, if l=2l=2 and r=5r=5, the array would be [2,3,4,5][2,3,4,5]. What's the minimum number of elements you can delete to make the bitwise AND of the array non-zero?
+A bitwise AND is a binary operation that takes two equal-length binary representations and performs the AND operation on each pair of the corresponding bits.

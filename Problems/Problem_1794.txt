@@ -1,0 +1,5 @@
+Hmm, how long has it been since the last color revolution? 5 years?! It's totally the time to make a new one!
+So the general idea is the following. Division 11 should have n1n1 participants. Division 22 should have n2n2 and be exactly kk times bigger than division 11 (n2=k⋅n1n2=k⋅n1). Division 33 should have n3=k⋅n2n3=k⋅n2 participants. Finally, division 44 should have n4=k⋅n3n4=k⋅n3 participants.
+There are nn participants on Codeforces in total. So n1+n2+n3+n4n1+n2+n3+n4 should be exactly equal to nn.
+You know the values of nn and kk. You also know that nn and kk are chosen in such a way that there exist values n1,n2,n3n1,n2,n3 and n4n4 such that all the conditions are satisfied.
+What will be the number of participants in each division (n1,n2,n3n1,n2,n3 and n4n4) after the revolution?

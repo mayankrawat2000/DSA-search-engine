@@ -1,0 +1,3 @@
+You are given a set of nn segments on a line [Li;Ri][Li;Ri]. All 2n2n segment endpoints are pairwise distinct integers.
+The set is laminar — any two segments are either disjoint or one of them contains the other.
+Choose a non-empty subsegment [li,ri][li,ri] with integer endpoints in each segment (Li≤li<ri≤RiLi≤li<ri≤Ri) in such a way that no two subsegments intersect (they are allowed to have common endpoints though) and the sum of their lengths (∑ni=1ri−li∑i=1nri−li) is maximized.

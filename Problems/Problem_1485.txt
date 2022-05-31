@@ -1,0 +1,3 @@
+Consider the following process. You have a binary string (a string where each character is either 0 or 1) ww of length nn and an integer xx. You build a new binary string ss consisting of nn characters. The ii-th character of ss is chosen as follows:
+  if the character wi−xwi−x exists and is equal to 1, then sisi is 1 (formally, if i>xi>x and wi−x=wi−x= 1, then si=si= 1);  if the character wi+xwi+x exists and is equal to 1, then sisi is 1 (formally, if i+x≤ni+x≤n and wi+x=wi+x= 1, then si=si= 1);  if both of the aforementioned conditions are false, then sisi is 0. 
+You are given the integer xx and the resulting string ss. Reconstruct the original string ww.

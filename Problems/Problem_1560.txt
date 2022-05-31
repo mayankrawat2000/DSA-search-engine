@@ -1,0 +1,9 @@
+You are given an array aa consisting of nn integers. You have to find the length of the smallest (shortest) prefix of elements you need to erase from aa to make it a good array. Recall that the prefix of the array a=[a1,a2,…,an]a=[a1,a2,…,an] is a subarray consisting several first elements: the prefix of the array aa of length kk is the array [a1,a2,…,ak][a1,a2,…,ak] (0≤k≤n0≤k≤n).
+The array bb of length mm is called good, if you can obtain a non-decreasing array cc (c1≤c2≤⋯≤cmc1≤c2≤⋯≤cm) from it, repeating the following operation mm times (initially, cc is empty):
+  select either the first or the last element of bb, remove it from bb, and append it to the end of the array cc. 
+For example, if we do 44 operations: take b1b1, then bmbm, then bm−1bm−1 and at last b2b2, then bb becomes [b3,b4,…,bm−3][b3,b4,…,bm−3] and c=[b1,bm,bm−1,b2]c=[b1,bm,bm−1,b2].
+Consider the following example: b=[1,2,3,4,4,2,1]b=[1,2,3,4,4,2,1]. This array is good because we can obtain non-decreasing array cc from it by the following sequence of operations:
+  take the first element of bb, so b=[2,3,4,4,2,1]b=[2,3,4,4,2,1], c=[1]c=[1];  take the last element of bb, so b=[2,3,4,4,2]b=[2,3,4,4,2], c=[1,1]c=[1,1];  take the last element of bb, so b=[2,3,4,4]b=[2,3,4,4], c=[1,1,2]c=[1,1,2];  take the first element of bb, so b=[3,4,4]b=[3,4,4], c=[1,1,2,2]c=[1,1,2,2];  take the first element of bb, so b=[4,4]b=[4,4], c=[1,1,2,2,3]c=[1,1,2,2,3];  take the last element of bb, so b=[4]b=[4], c=[1,1,2,2,3,4]c=[1,1,2,2,3,4];  take the only element of bb, so b=[]b=[], c=[1,1,2,2,3,4,4]c=[1,1,2,2,3,4,4] — cc is non-decreasing. 
+Note that the array consisting of one element is good.
+Print the length of the shortest prefix of aa to delete (erase), to make aa to be a good array. Note that the required length can be 00.
+You have to answer tt independent test cases.

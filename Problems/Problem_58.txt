@@ -1,0 +1,3 @@
+You are given an array aa of length nn. We define the equality of the array as the number of indices 1≤i≤n−11≤i≤n−1 such that ai=ai+1ai=ai+1. We are allowed to do the following operation:
+  Select two integers ii and xx such that 1≤i≤n−11≤i≤n−1 and 1≤x≤1091≤x≤109. Then, set aiai and ai+1ai+1 to be equal to xx. 
+Find the minimum number of operations needed such that the equality of the array is less than or equal to 11.

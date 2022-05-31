@@ -1,0 +1,4 @@
+Dmitry has an array of nn non-negative integers a1,a2,…,ana1,a2,…,an.
+In one operation, Dmitry can choose any index jj (1≤j≤n1≤j≤n) and increase the value of the element ajaj by 11. He can choose the same index jj multiple times.
+For each ii from 00 to nn, determine whether Dmitry can make the MEXMEX of the array equal to exactly ii. If it is possible, then determine the minimum number of operations to do it.
+The MEXMEX of the array is equal to the minimum non-negative integer that is not in the array. For example, the MEXMEX of the array [3,1,0][3,1,0] is equal to 22, and the array [3,3,1,4][3,3,1,4] is equal to 00.

@@ -1,0 +1,4 @@
+You are given a directed acyclic graph (a directed graph that does not contain cycles) of nn vertices and mm arcs. The ii-th arc leads from the vertex xixi to the vertex yiyi and has the weight wiwi.
+Your task is to select an integer avav for each vertex vv, and then write a number bibi on each arcs ii such that bi=axi−ayibi=axi−ayi. You must select the numbers so that:
+  all bibi are positive;  the value of the expression ∑i=1mwibi∑i=1mwibi is the lowest possible. 
+It can be shown that for any directed acyclic graph with non-negative wiwi, such a way to choose numbers exists.

@@ -1,0 +1,4 @@
+You are given an array of integers aa of size nn. This array is non-decreasing, i. e. a1≤a2≤⋯≤ana1≤a2≤⋯≤an.
+You have to find arrays of integers bb of size 2n−12n−1, such that:
+  b2i−1=aib2i−1=ai (1≤i≤n1≤i≤n);  array bb is non-decreasing;  b1⊕b2⊕⋯⊕b2n−1=0b1⊕b2⊕⋯⊕b2n−1=0 (⊕⊕ denotes bitwise XOR operation: https://en.wikipedia.org/wiki/Exclusive_or. In Kotlin, it is xor function). 
+Calculate the number of arrays that meet all the above conditions, modulo 998244353998244353.

@@ -1,0 +1,2 @@
+You are given a tree (connected, undirected, acyclic graph) with nn vertices. Two edges are adjacent if they share exactly one endpoint. In one move you can remove an arbitrary edge, if that edge is adjacent to an even number of remaining edges.
+Remove all of the edges, or determine that it is impossible. If there are multiple solutions, print any.

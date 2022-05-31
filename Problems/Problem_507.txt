@@ -1,0 +1,4 @@
+Hemose was shopping with his friends Samez, AhmedZ, AshrafEzz, TheSawan and O_E in Germany. As you know, Hemose and his friends are problem solvers, so they are very clever. Therefore, they will go to all discount markets in Germany.
+Hemose has an array of nn integers. He wants Samez to sort the array in the non-decreasing order. Since it would be a too easy problem for Samez, Hemose allows Samez to use only the following operation:
+Choose indices ii and jj such that 1≤i,j≤n1≤i,j≤n, and |i−j|≥x|i−j|≥x. Then, swap elements aiai and ajaj.
+Can you tell Samez if there's a way to sort the array in the non-decreasing order by using the operation written above some finite number of times (possibly 00)?

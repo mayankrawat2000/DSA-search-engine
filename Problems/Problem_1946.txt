@@ -1,0 +1,5 @@
+You are given a set of strings SS. Each string consists of lowercase Latin letters.
+For each string in this set, you want to calculate the minimum number of seconds required to type this string. To type a string, you have to start with an empty string and transform it into the string you want to type using the following actions:
+  if the current string is tt, choose some lowercase Latin letter cc and append it to the back of tt, so the current string becomes t+ct+c. This action takes 11 second;  use autocompletion. When you try to autocomplete the current string tt, a list of all strings s∈Ss∈S such that tt is a prefix of ss is shown to you. This list includes tt itself, if tt is a string from SS, and the strings are ordered lexicographically. You can transform tt into the ii-th string from this list in ii seconds. Note that you may choose any string from this list you want, it is not necessarily the string you are trying to type. 
+What is the minimum number of seconds that you have to spend to type each string from SS?
+Note that the strings from SS are given in an unusual way.

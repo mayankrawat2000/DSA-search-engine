@@ -1,0 +1,4 @@
+Polycarp has decided to do a problemsolving marathon. He wants to solve ss problems in nn days. Let aiai be the number of problems he solves during the ii-th day. He wants to find a distribution of problems into days such that: 
+  aiai is an integer value for all ii from 11 to nn;  ai≥1ai≥1 for all ii from 11 to nn;  ai+1≥aiai+1≥ai for all ii from 11 to n−1n−1;  ai+1≤2⋅aiai+1≤2⋅ai for all ii from 11 to n−1n−1;  anan is maximized. 
+Note that a1a1 can be arbitrarily large.
+What is the largest value of anan Polycarp can obtain?

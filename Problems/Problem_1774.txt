@@ -1,0 +1,5 @@
+Note that the only differences between easy and hard versions are the constraints on nn and the time limit. You can make hacks only if all versions are solved.
+Slime is interested in sequences. He defined good positive integer sequences pp of length nn as follows:
+ For each k>1k>1 that presents in pp, there should be at least one pair of indices i,ji,j, such that 1≤i<j≤n1≤i<j≤n, pi=k−1pi=k−1 and pj=kpj=k.
+For the given integer nn, the set of all good sequences of length nn is snsn. For the fixed integer kk and the sequence pp, let fp(k)fp(k) be the number of times that kk appears in pp. For each kk from 11 to nn, Slime wants to know the following value:
+(∑p∈snfp(k)) mod 998244353(∑p∈snfp(k)) mod 998244353

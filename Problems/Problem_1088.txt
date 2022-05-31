@@ -1,0 +1,7 @@
+You were dreaming that you are traveling to a planet named Planetforces on your personal spaceship. Unfortunately, its piloting system was corrupted and now you need to fix it in order to reach Planetforces.
+  
+Space can be represented as the XYXY plane. You are starting at point (0,0)(0,0), and Planetforces is located in point (px,py)(px,py).
+The piloting system of your spaceship follows its list of orders which can be represented as a string ss. The system reads ss from left to right. Suppose you are at point (x,y)(x,y) and current order is sisi: 
+  if si=Usi=U, you move to (x,y+1)(x,y+1);  if si=Dsi=D, you move to (x,y−1)(x,y−1);  if si=Rsi=R, you move to (x+1,y)(x+1,y);  if si=Lsi=L, you move to (x−1,y)(x−1,y). 
+Since string ss could be corrupted, there is a possibility that you won't reach Planetforces in the end. Fortunately, you can delete some orders from ss but you can't change their positions.
+Can you delete several orders (possibly, zero) from ss in such a way, that you'll reach Planetforces after the system processes all orders?

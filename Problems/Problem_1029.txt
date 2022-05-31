@@ -1,0 +1,6 @@
+After realizing that Zookeeper is just a duck, the animals have overthrown Zookeeper. They now have to decide a new ruler among themselves through a fighting tournament of the following format:
+Initially, animal 00 is king, while everyone else queues up with animal 11 at the front of the queue and animal n−1n−1 at the back. The animal at the front of the queue will challenge the king to a fight, and the animal with greater strength will win the fight. The winner will become king, while the loser joins the back of the queue.
+An animal who wins 33 times consecutively will be crowned ruler for the whole zoo. The strength of each animal depends on how many consecutive fights he won. Animal ii has strength AiAi with 00 consecutive win, BiBi with 11 consecutive win, and CiCi with 22 consecutive wins. Initially, everyone has 00 consecutive win.
+For all animals, Ai>BiAi>Bi and Ci>BiCi>Bi. Also, the values of AiAi, BiBi, CiCi are distinct (all 3n3n values are pairwise different). 
+In other words, an animal who is not a king has strength AiAi. A king usually has a strength of BiBi or CiCi. The exception is on the first turn, the first king (animal 00) has strength AiAi.
+Who is the new ruler, and after how many fights? Or will it end up that animals fight forever with no one ending up as ruler?

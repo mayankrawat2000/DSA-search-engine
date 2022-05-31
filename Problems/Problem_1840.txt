@@ -1,0 +1,6 @@
+The only difference between easy and hard versions is constraints.
+You are given a sequence aa consisting of nn positive integers.
+Let's define a three blocks palindrome as the sequence, consisting of at most two distinct elements (let these elements are aa and bb, aa can be equal bb) and is as follows: [a,a,…,ax,b,b,…,by,a,a,…,ax][a,a,…,a⏟x,b,b,…,b⏟y,a,a,…,a⏟x]. There x,yx,y are integers greater than or equal to 00. For example, sequences [][], [2][2], [1,1][1,1], [1,2,1][1,2,1], [1,2,2,1][1,2,2,1] and [1,1,2,1,1][1,1,2,1,1] are three block palindromes but [1,2,3,2,1][1,2,3,2,1], [1,2,1,2,1][1,2,1,2,1] and [1,2][1,2] are not.
+Your task is to choose the maximum by length subsequence of aa that is a three blocks palindrome.
+You have to answer tt independent test cases.
+Recall that the sequence tt is a a subsequence of the sequence ss if tt can be derived from ss by removing zero or more elements without changing the order of the remaining elements. For example, if s=[1,2,1,3,1,2,1]s=[1,2,1,3,1,2,1], then possible subsequences are: [1,1,1,1][1,1,1,1], [3][3] and [1,2,1,3,1,2,1][1,2,1,3,1,2,1], but not [3,2,3][3,2,3] and [1,1,1,1,2][1,1,1,1,2].

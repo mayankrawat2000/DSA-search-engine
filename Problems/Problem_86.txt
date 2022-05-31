@@ -1,0 +1,5 @@
+You are given a board with nn rows and nn columns, numbered from 11 to nn. The intersection of the aa-th row and bb-th column is denoted by (a,b)(a,b).
+A half-queen attacks cells in the same row, same column, and on one diagonal. More formally, a half-queen on (a,b)(a,b) attacks the cell (c,d)(c,d) if a=ca=c or b=db=d or a−b=c−da−b=c−d.
+  The blue cells are under attack. 
+ What is the minimum number of half-queens that can be placed on that board so as to ensure that each square is attacked by at least one half-queen?
+Construct an optimal solution.

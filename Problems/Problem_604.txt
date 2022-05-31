@@ -1,0 +1,5 @@
+Kotlin Heroes competition is nearing completion. This time nn programmers took part in the competition. Now organizers are thinking how to entertain spectators as well. One of the possibilities is holding sweepstakes. So for now they decided to conduct a survey among spectators.
+In total, organizers asked mm viewers two questions: 
+  Who will take the first place?  Who will take the last place? 
+After receiving answers, organizers ranked all spectators based on the number of programmers they guessed right. Suppose, there are c2c2 viewers who guessed right both first and last place, c1c1 viewers who guessed either first or last place right and c0c0 viewers who didn't guess at all. All c2c2 viewers will get rank 11, all viewers with one right answer will get rank c2+1c2+1 and all remaining viewers — rank c2+c1+1c2+c1+1.
+You were one of the interviewed spectators. Also, as one of the organizers, you have access to survey results, but not to competition results. Calculate, what is the worst rank you can possibly get according to organizers' ranking system?

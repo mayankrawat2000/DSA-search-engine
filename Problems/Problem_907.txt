@@ -1,0 +1,6 @@
+This is an interactive problem.
+Baby Ehab loves crawling around his apartment. It has nn rooms numbered from 00 to n−1n−1. For every pair of rooms, aa and bb, there's either a direct passage from room aa to room bb, or from room bb to room aa, but never both.
+Baby Ehab wants to go play with Baby Badawy. He wants to know if he could get to him. However, he doesn't know anything about his apartment except the number of rooms. He can ask the baby sitter two types of questions: 
+  is the passage between room aa and room bb directed from aa to bb or the other way around?  does room xx have a passage towards any of the rooms s1s1, s2s2, ..., sksk? 
+He can ask at most 9n9n queries of the first type and at most 2n2n queries of the second type.
+After asking some questions, he wants to know for every pair of rooms aa and bb whether there's a path from aa to bb or not. A path from aa to bb is a sequence of passages that starts from room aa and ends at room bb.

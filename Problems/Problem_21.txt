@@ -1,0 +1,4 @@
+Tokitsukaze has a permutation pp of length nn. Recall that a permutation pp of length nn is a sequence p1,p2,…,pnp1,p2,…,pn consisting of nn distinct integers, each of which from 11 to nn (1≤pi≤n1≤pi≤n).
+She wants to know how many different indices tuples [a,b,c,d][a,b,c,d] (1≤a<b<c<d≤n1≤a<b<c<d≤n) in this permutation satisfy the following two inequalities:
+ pa<pcpa<pc and pb>pdpb>pd. 
+Note that two tuples [a1,b1,c1,d1][a1,b1,c1,d1] and [a2,b2,c2,d2][a2,b2,c2,d2] are considered to be different if a1≠a2a1≠a2 or b1≠b2b1≠b2 or c1≠c2c1≠c2 or d1≠d2d1≠d2.

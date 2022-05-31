@@ -1,0 +1,5 @@
+You are given a positive integer nn, it is guaranteed that nn is even (i.e. divisible by 22).
+You want to construct the array aa of length nn such that: 
+  The first n2n2 elements of aa are even (divisible by 22);  the second n2n2 elements of aa are odd (not divisible by 22);  all elements of aa are distinct and positive;  the sum of the first half equals to the sum of the second half (∑i=1n2ai=∑i=n2+1nai∑i=1n2ai=∑i=n2+1nai). 
+If there are multiple answers, you can print any. It is not guaranteed that the answer exists.
+You have to answer tt independent test cases.

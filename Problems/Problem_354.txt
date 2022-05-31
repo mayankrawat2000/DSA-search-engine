@@ -1,0 +1,4 @@
+You are given an array aa of nn integers, and another integer kk such that 2k≤n2k≤n.
+You have to perform exactly kk operations with this array. In one operation, you have to choose two elements of the array (let them be aiai and ajaj; they can be equal or different, but their positions in the array must not be the same), remove them from the array, and add ⌊aiaj⌋⌊aiaj⌋ to your score, where ⌊xy⌋⌊xy⌋ is the maximum integer not exceeding xyxy.
+Initially, your score is 00. After you perform exactly kk operations, you add all the remaining elements of the array to the score.
+Calculate the minimum possible score you can get.

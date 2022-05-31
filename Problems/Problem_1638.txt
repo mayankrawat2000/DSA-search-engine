@@ -1,0 +1,5 @@
+Lee bought some food for dinner time, but Lee's friends eat dinner in a deadly way. Lee is so scared, he doesn't want to die, at least not before seeing Online IOI 2020...
+There are nn different types of food and mm Lee's best friends. Lee has wiwi plates of the ii-th type of food and each friend has two different favorite types of food: the ii-th friend's favorite types of food are xixi and yiyi (xi≠yixi≠yi).
+Lee will start calling his friends one by one. Whoever is called will go to the kitchen and will try to eat one plate of each of his favorite food types. Each of the friends will go to the kitchen exactly once.
+The only problem is the following: if a friend will eat at least one plate of food (in total) then he will be harmless. But if there is nothing left for him to eat (neither xixi nor yiyi), he will eat Lee instead ×_××_×.
+Lee can choose the order of friends to call, so he'd like to determine if he can survive dinner or not. Also, he'd like to know the order itself.

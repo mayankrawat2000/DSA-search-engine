@@ -1,0 +1,5 @@
+Given a set of integers (it can contain equal elements).
+You have to split it into two subsets AA and BB (both of them can contain equal elements or be empty). You have to maximize the value of mex(A)+mex(B)mex(A)+mex(B).
+Here mexmex of a set denotes the smallest non-negative integer that doesn't exist in the set. For example: 
+  mex({1,4,0,2,2,1})=3mex({1,4,0,2,2,1})=3  mex({3,3,2,1,3,0,0})=4mex({3,3,2,1,3,0,0})=4  mex(∅)=0mex(∅)=0 (mexmex for empty set) 
+The set is splitted into two subsets AA and BB if for any integer number xx the number of occurrences of xx into this set is equal to the sum of the number of occurrences of xx into AA and the number of occurrences of xx into BB.

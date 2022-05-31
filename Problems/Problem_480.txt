@@ -1,0 +1,4 @@
+Let's call a positive integer good if there is no digit 0 in its decimal representation.
+For an array of a good numbers aa, one found out that the sum of some two neighboring elements is equal to xx (i.e. x=ai+ai+1x=ai+ai+1 for some ii). xx had turned out to be a good number as well.
+Then the elements of the array aa were written out one after another without separators into one string ss. For example, if a=[12,5,6,133]a=[12,5,6,133], then s=1256133s=1256133.
+You are given a string ss and a number xx. Your task is to determine the positions in the string that correspond to the adjacent elements of the array that have sum xx. If there are several possible answers, you can print any of them.

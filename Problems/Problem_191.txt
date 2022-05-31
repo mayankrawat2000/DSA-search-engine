@@ -1,0 +1,3 @@
+Daniel is watching a football team playing a game during their training session. They want to improve their passing skills during that session.
+The game involves nn players, making multiple passes towards each other. Unfortunately, since the balls were moving too fast, after the session Daniel is unable to know how many balls were involved during the game. The only thing he knows is the number of passes delivered by each player during all the session.
+Find the minimum possible amount of balls that were involved in the game.

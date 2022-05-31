@@ -1,0 +1,4 @@
+AquaMoon has three integer arrays aa, bb, cc of length nn, where 1≤ai,bi,ci≤n1≤ai,bi,ci≤n for all ii.
+In order to accelerate her potato farming, she organizes her farm in a manner based on these three arrays. She is now going to complete mm operations to count how many potatoes she can get. Each operation will have one of the two types:
+  AquaMoon reorganizes their farm and makes the kk-th element of the array aa equal to xx. In other words, perform the assignment ak:=xak:=x.  Given a positive integer rr, AquaMoon receives a potato for each triplet (i,j,k)(i,j,k), such that 1≤i<j<k≤r1≤i<j<k≤r, and bai=aj=cakbai=aj=cak. Count the number of such triplets. 
+As AquaMoon is busy finding the library, help her complete all of their operations.

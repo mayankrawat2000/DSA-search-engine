@@ -1,0 +1,2 @@
+A pair of positive integers (a,b)(a,b) is called special if ⌊ab⌋=amodb⌊ab⌋=amodb. Here, ⌊ab⌋⌊ab⌋ is the result of the integer division between aa and bb, while amodbamodb is its remainder.
+You are given two integers xx and yy. Find the number of special pairs (a,b)(a,b) such that 1≤a≤x1≤a≤x and 1≤b≤y1≤b≤y.

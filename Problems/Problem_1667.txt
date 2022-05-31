@@ -1,0 +1,6 @@
+Ayush, Ashish and Vivek are busy preparing a new problem for the next Codeforces round and need help checking if their test cases are valid.
+Each test case consists of an integer nn and two arrays aa and bb, of size nn. If after some (possibly zero) operations described below, array aa can be transformed into array bb, the input is said to be valid. Otherwise, it is invalid.
+An operation on array aa is: 
+  select an integer kk (1≤k≤⌊n2⌋)(1≤k≤⌊n2⌋)  swap the prefix of length kk with the suffix of length kk 
+For example, if array aa initially is {1,2,3,4,5,6}{1,2,3,4,5,6}, after performing an operation with k=2k=2, it is transformed into {5,6,3,4,1,2}{5,6,3,4,1,2}.
+Given the set of test cases, help them determine if each one is valid or invalid.

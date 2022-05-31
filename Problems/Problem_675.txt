@@ -1,0 +1,7 @@
+You have an axis-aligned rectangle room with width WW and height HH, so the lower left corner is in point (0,0)(0,0) and the upper right corner is in (W,H)(W,H).
+There is a rectangular table standing in this room. The sides of the table are parallel to the walls, the lower left corner is in (x1,y1)(x1,y1), and the upper right corner in (x2,y2)(x2,y2).
+You want to place another rectangular table in this room with width ww and height hh with the width of the table parallel to the width of the room.
+The problem is that sometimes there is not enough space to place the second table without intersecting with the first one (there are no problems with tables touching, though).
+You can't rotate any of the tables, but you can move the first table inside the room. 
+  Example of how you may move the first table. 
+What is the minimum distance you should move the first table to free enough space for the second one?

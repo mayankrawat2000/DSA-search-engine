@@ -1,0 +1,2 @@
+You have an array a1,a2,…,ana1,a2,…,an. Each element initially has value 00 and color 11. You are also given qq queries to perform: 
+  Color ll rr cc: Change the color of elements al,al+1,⋯,aral,al+1,⋯,ar to cc (1≤l≤r≤n1≤l≤r≤n, 1≤c≤n1≤c≤n).  Add cc xx: Add xx to values of all elements aiai (1≤i≤n1≤i≤n) of color cc (1≤c≤n1≤c≤n, −109≤x≤109−109≤x≤109).  Query ii: Print aiai (1≤i≤n1≤i≤n). 

@@ -1,0 +1,3 @@
+Pasha loves to send strictly positive integers to his friends. Pasha cares about security, therefore when he wants to send an integer nn, he encrypts it in the following way: he picks three integers aa, bb and cc such that l≤a,b,c≤rl≤a,b,c≤r, and then he computes the encrypted value m=n⋅a+b−cm=n⋅a+b−c.
+Unfortunately, an adversary intercepted the values ll, rr and mm. Is it possible to recover the original values of aa, bb and cc from this information? More formally, you are asked to find any values of aa, bb and cc such that
+  aa, bb and cc are integers,  l≤a,b,c≤rl≤a,b,c≤r,  there exists a strictly positive integer nn, such that n⋅a+b−c=mn⋅a+b−c=m. 

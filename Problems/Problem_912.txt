@@ -1,0 +1,2 @@
+You are given 2 arrays aa and bb, both of size nn. You can swap two elements in bb at most once (or leave it as it is), and you are required to minimize the value ∑i|ai−bi|.∑i|ai−bi|.
+Find the minimum possible value of this sum.

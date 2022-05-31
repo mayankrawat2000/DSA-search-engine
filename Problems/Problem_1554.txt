@@ -1,0 +1,10 @@
+Serge, the chef of the famous restaurant "Salt, Pepper & Garlic" is trying to obtain his first Michelin star. He has been informed that a secret expert plans to visit his restaurant this evening.
+Even though the expert's name hasn't been disclosed, Serge is certain he knows which dish from the menu will be ordered as well as what the taste preferences of the expert are. Namely, the expert requires an extremely precise proportion of salt, pepper and garlic powder in his dish.
+Serge keeps a set of bottles with mixtures of salt, pepper and garlic powder on a special shelf in the kitchen. For each bottle, he knows the exact amount of each of the ingredients in kilograms. Serge can combine any number of bottled mixtures (or just use one of them directly) to get a mixture of particular proportions needed for a certain dish.
+Luckily, the absolute amount of a mixture that needs to be added to a dish is so small that you can assume that the amounts in the bottles will always be sufficient. However, the numeric values describing the proportions may be quite large.
+Serge would like to know whether it is possible to obtain the expert's favourite mixture from the available bottles, and if so—what is the smallest possible number of bottles needed to achieve that.
+Furthermore, the set of bottles on the shelf may change over time as Serge receives new ones or lends his to other chefs. So he would like to answer this question after each such change.
+For example, assume that expert's favorite mixture is 1:1:11:1:1 and there are three bottles of mixtures on the shelf:
+ Mixture123Salt1030012Pepper2020015Garlic powder3010027MixtureSaltPepperGarlic powder110203023002001003121527 Amount of ingredient in the bottle, kg 
+To obtain the desired mixture it is enough to use an equivalent amount of mixtures from bottles 1 and 2. If bottle 2 is removed, then it is no longer possible to obtain it.
+Write a program that helps Serge to solve this task!

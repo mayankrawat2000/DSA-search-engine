@@ -1,0 +1,5 @@
+Dasha has 1010010100 coins. Recently, she found a binary string ss of length nn and some operations that allows to change this string (she can do each operation any number of times):
+  Replace substring 00 of ss by 0 and receive aa coins.  Replace substring 11 of ss by 1 and receive bb coins.  Remove 0 from any position in ss and pay cc coins. 
+It turned out that while doing this operations Dasha should follow the rule:
+  It is forbidden to do two operations with the same parity in a row. Operations are numbered by integers 11-33 in the order they are given above. 
+Please, calculate what is the maximum profit Dasha can get by doing these operations and following this rule.

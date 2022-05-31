@@ -1,0 +1,8 @@
+Dreamoon is a big fan of the Codeforces contests.
+One day, he claimed that he will collect all the places from 11 to 5454 after two more rated contests. It's amazing!
+Based on this, you come up with the following problem:
+There is a person who participated in nn Codeforces rounds. His place in the first round is a1a1, his place in the second round is a2a2, ..., his place in the nn-th round is anan.
+You are given a positive non-zero integer xx.
+Please, find the largest vv such that this person can collect all the places from 11 to vv after xx more rated contests.
+In other words, you need to find the largest vv, such that it is possible, that after xx more rated contests, for each 1≤i≤v1≤i≤v, there will exist a contest where this person took the ii-th place.
+For example, if n=6n=6, x=2x=2 and a=[3,1,1,5,7,10]a=[3,1,1,5,7,10] then answer is v=5v=5, because if on the next two contest he will take places 22 and 44, then he will collect all places from 11 to 55, so it is possible to get v=5v=5.

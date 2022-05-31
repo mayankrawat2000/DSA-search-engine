@@ -1,0 +1,6 @@
+Polycarp has 33 positive integers aa, bb and cc. He can perform the following operation exactly once.
+  Choose a positive integer mm and multiply exactly one of the integers aa, bb or cc by mm. 
+Can Polycarp make it so that after performing the operation, the sequence of three numbers aa, bb, cc (in this order) forms an arithmetic progression? Note that you cannot change the order of aa, bb and cc.
+Formally, a sequence x1,x2,…,xnx1,x2,…,xn is called an arithmetic progression (AP) if there exists a number dd (called "common difference") such that xi+1=xi+dxi+1=xi+d for all ii from 11 to n−1n−1. In this problem, n=3n=3.
+For example, the following sequences are AP: [5,10,15][5,10,15], [3,2,1][3,2,1], [1,1,1][1,1,1], and [13,10,7][13,10,7]. The following sequences are not AP: [1,2,4][1,2,4], [0,1,0][0,1,0] and [1,3,2][1,3,2].
+You need to answer tt independent test cases.

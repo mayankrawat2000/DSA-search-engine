@@ -1,0 +1,4 @@
+A sequence of brackets is called balanced if one can turn it into a valid math expression by adding characters '+' and '1'. For example, sequences '(())()', '()', and '(()(()))' are balanced, while ')(', '(()', and '(()))(' are not.
+You are given a binary string ss of length nn. Construct two balanced bracket sequences aa and bb of length nn such that for all 1≤i≤n1≤i≤n: 
+  if si=1si=1, then ai=biai=bi  if si=0si=0, then ai≠biai≠bi 
+If it is impossible, you should report about it.

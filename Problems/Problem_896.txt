@@ -1,0 +1,3 @@
+Baby Ehab is known for his love for a certain operation. He has an array aa of length nn, and he decided to keep doing the following operation on it: 
+  he picks 22 adjacent elements; he then removes them and places a single integer in their place: their bitwise XOR. Note that the length of the array decreases by one. 
+Now he asks you if he can make all elements of the array equal. Since babies like to make your life harder, he requires that you leave at least 22 elements remaining.

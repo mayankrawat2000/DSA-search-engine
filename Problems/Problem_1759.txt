@@ -1,0 +1,4 @@
+You are given two arrays aa and bb both consisting of nn positive (greater than zero) integers. You are also given an integer kk.
+In one move, you can choose two indices ii and jj (1≤i,j≤n1≤i,j≤n) and swap aiai and bjbj (i.e. aiai becomes bjbj and vice versa). Note that ii and jj can be equal or different (in particular, swap a2a2 with b2b2 or swap a3a3 and b9b9 both are acceptable moves).
+Your task is to find the maximum possible sum you can obtain in the array aa if you can do no more than (i.e. at most) kk such moves (swaps).
+You have to answer tt independent test cases.

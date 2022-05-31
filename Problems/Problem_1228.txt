@@ -1,0 +1,5 @@
+Gildong has an interesting machine that has an array aa with nn integers. The machine supports two kinds of operations:
+  Increase all elements of a suffix of the array by 11.  Decrease all elements of a suffix of the array by 11. 
+A suffix is a subsegment (contiguous elements) of the array that contains anan. In other words, for all ii where aiai is included in the subsegment, all ajaj's where i<j≤ni<j≤n must also be included in the subsegment.
+Gildong wants to make all elements of aa equal — he will always do so using the minimum number of operations necessary. To make his life even easier, before Gildong starts using the machine, you have the option of changing one of the integers in the array to any other integer. You are allowed to leave the array unchanged. You want to minimize the number of operations Gildong performs. With your help, what is the minimum number of operations Gildong will perform?
+Note that even if you change one of the integers in the array, you should not count that as one of the operations because Gildong did not perform it.

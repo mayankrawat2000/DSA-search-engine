@@ -1,0 +1,4 @@
+Bessie is planning a vacation! In Cow-lifornia, there are nn cities, with n−1n−1 bidirectional roads connecting them. It is guaranteed that one can reach any city from any other city. 
+Bessie is considering vv possible vacation plans, with the ii-th one consisting of a start city aiai and destination city bibi.
+It is known that only rr of the cities have rest stops. Bessie gets tired easily, and cannot travel across more than kk consecutive roads without resting. In fact, she is so desperate to rest that she may travel through the same city multiple times in order to do so.
+For each of the vacation plans, does there exist a way for Bessie to travel from the starting city to the destination city?

@@ -1,0 +1,3 @@
+In Omkar's last class of math, he learned about the least common multiple, or LCMLCM. LCM(a,b)LCM(a,b) is the smallest positive integer xx which is divisible by both aa and bb.
+Omkar, having a laudably curious mind, immediately thought of a problem involving the LCMLCM operation: given an integer nn, find positive integers aa and bb such that a+b=na+b=n and LCM(a,b)LCM(a,b) is the minimum value possible.
+Can you help Omkar solve his ludicrously challenging math problem?

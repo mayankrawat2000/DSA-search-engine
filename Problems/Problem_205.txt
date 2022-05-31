@@ -1,0 +1,4 @@
+There are nn players, numbered from 11 to nn sitting around a round table. The (i+1)(i+1)-th player sits to the right of the ii-th player for 1≤i<n1≤i<n, and the 11-st player sits to the right of the nn-th player.
+There are n2n2 cards, each of which has an integer between 11 and nn written on it. For each integer from 11 to nn, there are exactly nn cards having this number.
+Initially, all these cards are distributed among all the players, in such a way that each of them has exactly nn cards. In one operation, each player chooses one of his cards and passes it to the player to his right. All these actions are performed simultaneously. 
+Player ii is called solid if all his cards have the integer ii written on them. Their objective is to reach a configuration in which everyone is solid. Find a way to do it using at most (n2−n)(n2−n) operations. You do not need to minimize the number of operations.

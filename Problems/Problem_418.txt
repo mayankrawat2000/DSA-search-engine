@@ -1,0 +1,3 @@
+  
+William has an array of non-negative numbers a1,a2,…,ana1,a2,…,an. He wants you to find out how many segments l≤rl≤r pass the check. The check is performed in the following manner: 
+  The minimum and maximum numbers are found on the segment of the array starting at ll and ending at rr.  The check is considered to be passed if the binary representation of the minimum and maximum numbers have the same number of bits equal to 1. 

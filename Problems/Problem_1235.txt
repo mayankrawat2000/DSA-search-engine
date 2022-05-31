@@ -1,0 +1,9 @@
+You are asked to watch your nephew who likes to play with toy blocks in a strange way.
+He has nn boxes and the ii-th box has aiai blocks. His game consists of two steps: 
+  he chooses an arbitrary box ii;  he tries to move all blocks from the ii-th box to other boxes. 
+ If he can make the same number of blocks in each of 
+
+n−1n−1
+n - 1
+ other boxes then he will be happy, otherwise, will be sad. Note that your nephew can only move the blocks from the chosen box to the other boxes; he cannot move blocks from the other boxes.
+You don't want to make your nephew sad, so you decided to put several extra blocks into some boxes in such a way that no matter which box ii he chooses he won't be sad. What is the minimum number of extra blocks you need to put?

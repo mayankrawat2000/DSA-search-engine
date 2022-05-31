@@ -1,0 +1,5 @@
+You are given a string ss. You can build new string pp from ss using the following operation no more than two times: 
+  choose any subsequence si1,si2,…,siksi1,si2,…,sik where 1≤i1<i2<⋯<ik≤|s|1≤i1<i2<⋯<ik≤|s|;  erase the chosen subsequence from ss (ss can become empty);  concatenate chosen subsequence to the right of the string pp (in other words, p=p+si1si2…sikp=p+si1si2…sik). 
+Of course, initially the string pp is empty. 
+For example, let s=ababcds=ababcd. At first, let's choose subsequence s1s4s5=abcs1s4s5=abc — we will get s=bads=bad and p=abcp=abc. At second, let's choose s1s2=bas1s2=ba — we will get s=ds=d and p=abcbap=abcba. So we can build abcbaabcba from ababcdababcd.
+Can you build a given string tt using the algorithm above?

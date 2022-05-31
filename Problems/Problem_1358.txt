@@ -1,0 +1,5 @@
+Mr. Chanek is currently participating in a science fair that is popular in town. He finds an exciting puzzle in the fair and wants to solve it.
+There are NN atoms numbered from 11 to NN. These atoms are especially quirky. Initially, each atom is in normal state. Each atom can be in an excited. Exciting atom ii requires DiDi energy. When atom ii is excited, it will give AiAi energy. You can excite any number of atoms (including zero).
+These atoms also form a peculiar one-way bond. For each ii, (1≤i<N)(1≤i<N), if atom ii is excited, atom EiEi will also be excited at no cost. Initially, EiEi = i+1i+1. Note that atom NN cannot form a bond to any atom.
+Mr. Chanek must change exactly KK bonds. Exactly KK times, Mr. Chanek chooses an atom ii, (1≤i<N)(1≤i<N) and changes EiEi to a different value other than ii and the current EiEi. Note that an atom's bond can remain unchanged or changed more than once. Help Mr. Chanek determine the maximum energy that he can achieve!
+note: You must first change exactly KK bonds before you can start exciting atoms.

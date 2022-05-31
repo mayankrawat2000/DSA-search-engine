@@ -1,0 +1,6 @@
+This is a simplified version of the problem B2. Perhaps you should read the problem B2 before you start solving B1.
+Paul and Mary have a favorite string ss which consists of lowercase letters of the Latin alphabet. They want to paint it using pieces of chalk of two colors: red and green. Let's call a coloring of a string wonderful if the following conditions are met:
+  each letter of the string is either painted in exactly one color (red or green) or isn't painted;  each two letters which are painted in the same color are different;  the number of letters painted in red is equal to the number of letters painted in green;  the number of painted letters of this coloring is maximum among all colorings of the string which meet the first three conditions. 
+E. g. consider a string ss equal to "kzaaa". One of the wonderful colorings of the string is shown in the figure.
+  The example of a wonderful coloring of the string "kzaaa". 
+Paul and Mary want to learn by themselves how to find a wonderful coloring of the string. But they are very young, so they need a hint. Help them find kk — the number of red (or green, these numbers are equal) letters in a wonderful coloring.

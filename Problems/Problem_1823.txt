@@ -1,0 +1,4 @@
+You have array of nn numbers a1,a2,…,ana1,a2,…,an. 
+Rearrange these numbers to satisfy |a1−a2|≤|a2−a3|≤…≤|an−1−an||a1−a2|≤|a2−a3|≤…≤|an−1−an|, where |x||x| denotes absolute value of xx. It's always possible to find such rearrangement.
+Note that all numbers in aa are not necessarily different. In other words, some numbers of aa may be same.
+You have to answer independent tt test cases.

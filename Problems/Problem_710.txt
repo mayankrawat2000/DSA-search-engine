@@ -1,0 +1,5 @@
+Let's call an integer array a1,a2,…,ana1,a2,…,an good if ai≠iai≠i for each ii.
+Let F(a)F(a) be the number of pairs (i,j)(i,j) (1≤i<j≤n1≤i<j≤n) such that ai+aj=i+jai+aj=i+j.
+Let's say that an array a1,a2,…,ana1,a2,…,an is excellent if: 
+  aa is good;  l≤ai≤rl≤ai≤r for each ii;  F(a)F(a) is the maximum possible among all good arrays of size nn. 
+Given nn, ll and rr, calculate the number of excellent arrays modulo 109+7109+7.

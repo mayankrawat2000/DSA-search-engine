@@ -1,0 +1,4 @@
+This is an interactive problem.
+There is a positive integer 1≤x≤1091≤x≤109 that you have to guess.
+In one query you can choose two positive integers a≠ba≠b. As an answer to this query you will get gcd(x+a,x+b)gcd(x+a,x+b), where gcd(n,m)gcd(n,m) is the greatest common divisor of the numbers nn and mm.
+To guess one hidden number xx you are allowed to make no more than 3030 queries.

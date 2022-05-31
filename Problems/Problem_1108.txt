@@ -1,0 +1,4 @@
+You are given nn patterns p1,p2,…,pnp1,p2,…,pn and mm strings s1,s2,…,sms1,s2,…,sm. Each pattern pipi consists of kk characters that are either lowercase Latin letters or wildcard characters (denoted by underscores). All patterns are pairwise distinct. Each string sjsj consists of kk lowercase Latin letters.
+A string aa matches a pattern bb if for each ii from 11 to kk either bibi is a wildcard character or bi=aibi=ai.
+You are asked to rearrange the patterns in such a way that the first pattern the jj-th string matches is p[mtj]p[mtj]. You are allowed to leave the order of the patterns unchanged.
+Can you perform such a rearrangement? If you can, then print any valid order.

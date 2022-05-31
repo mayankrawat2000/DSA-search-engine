@@ -1,0 +1,5 @@
+You are given a sequence aa consisting of nn integers a1,a2,…,ana1,a2,…,an, and an integer xx. Your task is to make the sequence aa sorted (it is considered sorted if the condition a1≤a2≤a3≤⋯≤ana1≤a2≤a3≤⋯≤an holds).
+To make the sequence sorted, you may perform the following operation any number of times you want (possibly zero): choose an integer ii such that 1≤i≤n1≤i≤n and ai>xai>x, and swap the values of aiai and xx.
+For example, if a=[0,2,3,5,4]a=[0,2,3,5,4], x=1x=1, the following sequence of operations is possible:
+  choose i=2i=2 (it is possible since a2>xa2>x), then a=[0,1,3,5,4]a=[0,1,3,5,4], x=2x=2;  choose i=3i=3 (it is possible since a3>xa3>x), then a=[0,1,2,5,4]a=[0,1,2,5,4], x=3x=3;  choose i=4i=4 (it is possible since a4>xa4>x), then a=[0,1,2,3,4]a=[0,1,2,3,4], x=5x=5. 
+Calculate the minimum number of operations you have to perform so that aa becomes sorted, or report that it is impossible.

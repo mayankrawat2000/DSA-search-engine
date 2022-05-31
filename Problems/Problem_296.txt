@@ -1,0 +1,4 @@
+There is a grid with nn rows and mm columns. Some cells are colored black, and the rest of the cells are colored white.
+In one operation, you can select some black cell and do exactly one of the following: 
+  color all cells in its row black, or  color all cells in its column black. 
+You are given two integers rr and cc. Find the minimum number of operations required to make the cell in row rr and column cc black, or determine that it is impossible.

@@ -1,0 +1,6 @@
+This problem is split into two tasks. In this task, you are required to find the maximum possible answer. In the task Village (Minimum) you are required to find the minimum possible answer. Each task is worth 5050 points.
+There are NN houses in a certain village. A single villager lives in each of the houses. The houses are connected by roads. Each road connects two houses and is exactly 11 kilometer long. From each house it is possible to reach any other using one or several consecutive roads. In total there are N−1N−1 roads in the village.
+One day all villagers decided to move to different houses — that is, after moving each house should again have a single villager living in it, but no villager should be living in the same house as before. We would like to know the largest possible total length in kilometers of the shortest paths between the old and the new houses for all villagers.
+ Example village with seven houses 
+For example, if there are seven houses connected by roads as shown on the figure, the largest total length is 1818 km (this can be achieved by moving 1→71→7, 2→32→3, 3→43→4, 4→14→1, 5→25→2, 6→56→5, 7→67→6).
+Write a program that finds the largest total length of the shortest paths in kilometers and an example assignment of the new houses to the villagers.

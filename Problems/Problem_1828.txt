@@ -1,0 +1,6 @@
+You have unweighted tree of nn vertices. You have to assign a positive weight to each edge so that the following condition would hold:
+  For every two different leaves v1v1 and v2v2 of this tree, bitwise XOR of weights of all edges on the simple path between v1v1 and v2v2 has to be equal to 00. 
+Note that you can put very large positive integers (like 10(1010)10(1010)).
+It's guaranteed that such assignment always exists under given constraints. Now let's define ff as the number of distinct weights in assignment.
+  In this example, assignment is valid, because bitwise XOR of all edge weights between every pair of leaves is 00. ff value is 22 here, because there are 22 distinct edge weights(44 and 55). In this example, assignment is invalid, because bitwise XOR of all edge weights between vertex 11 and vertex 66 (3,4,5,43,4,5,4) is not 00. 
+What are the minimum and the maximum possible values of ff for the given tree? Find and print both.

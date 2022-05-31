@@ -1,0 +1,9 @@
+Mr. Chanek opened a letter from his fellow, who is currently studying at Singanesia. Here is what it says.
+Define an array bb (0≤bi<k0≤bi<k) with nn integers. While there exists a pair (i,j)(i,j) such that bi≠bjbi≠bj, do the following operation:
+  Randomly pick a number ii satisfying 0≤i<n0≤i<n. Note that each number ii has a probability of 1n1n to be picked.  Randomly Pick a number jj satisfying 0≤j<k0≤j<k.  Change the value of bibi to jj. It is possible for bibi to be changed to the same value. 
+Denote f(b)f(b) as the expected number of operations done to bb until all elements of bb are equal. 
+You are given two integers nn and kk, and an array aa (−1≤ai<k−1≤ai<k) of nn integers. 
+For every index ii with ai=−1ai=−1, replace aiai with a random number jj satisfying 0≤j<k0≤j<k. Let cc be the number of occurrences of −1−1 in aa. There are kckc possibilites of aa after the replacement, each with equal probability of being the final array.
+Find the expected value of f(a)f(a) modulo 109+7109+7. 
+Formally, let M=109+7M=109+7. It can be shown that the answer can be expressed as an irreducible fraction pqpq, where pp and qq are integers and q≢0(modM)q≢0(modM). Output the integer equal to p⋅q−1modMp⋅q−1modM. In other words, output such an integer xx that 0≤x<M0≤x<M and x⋅q≡p(modM)x⋅q≡p(modM).
+After reading the letter, Mr. Chanek gave the task to you. Solve it for the sake of their friendship!

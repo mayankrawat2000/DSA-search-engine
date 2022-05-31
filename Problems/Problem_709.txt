@@ -1,0 +1,5 @@
+You are given a string ss of length nn. Each character is either one of the first kk lowercase Latin letters or a question mark.
+You are asked to replace every question mark with one of the first kk lowercase Latin letters in such a way that the following value is maximized.
+Let fifi be the maximum length substring of string ss, which consists entirely of the ii-th Latin letter. A substring of a string is a contiguous subsequence of that string. If the ii-th letter doesn't appear in a string, then fifi is equal to 00.
+The value of a string ss is the minimum value among fifi for all ii from 11 to kk.
+What is the maximum value the string can have?

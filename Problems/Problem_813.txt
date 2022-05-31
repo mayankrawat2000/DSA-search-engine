@@ -1,0 +1,5 @@
+A frog is currently at the point 00 on a coordinate axis OxOx. It jumps by the following algorithm: the first jump is aa units to the right, the second jump is bb units to the left, the third jump is aa units to the right, the fourth jump is bb units to the left, and so on.
+Formally: 
+  if the frog has jumped an even number of times (before the current jump), it jumps from its current position xx to position x+ax+a;  otherwise it jumps from its current position xx to position x−bx−b. 
+Your task is to calculate the position of the frog after kk jumps.
+But... One more thing. You are watching tt different frogs so you have to answer tt independent queries.

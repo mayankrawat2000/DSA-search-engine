@@ -1,0 +1,4 @@
+This is the easy version of the problem. The difference is constraints on the number of wise men and the time limit. You can make hacks only if all versions of this task are solved.
+nn wise men live in a beautiful city. Some of them know each other.
+For each of the n!n! possible permutations p1,p2,…,pnp1,p2,…,pn of the wise men, let's generate a binary string of length n−1n−1: for each 1≤i<n1≤i<n set si=1si=1 if pipi and pi+1pi+1 know each other, and si=0si=0 otherwise. 
+For all possible 2n−12n−1 binary strings, find the number of permutations that produce this binary string.

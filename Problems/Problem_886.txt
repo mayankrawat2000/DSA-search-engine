@@ -1,0 +1,4 @@
+At the foot of Liyushan Mountain, nn tents will be carefully arranged to provide accommodation for those who are willing to experience the joy of approaching nature, the tranquility of the night, and the bright starry sky.
+The ii-th tent is located at the point of (xi,yi)(xi,yi) and has a weight of wiwi. A tent is important if and only if both xixi and yiyi are even. You need to remove some tents such that for each remaining important tent (x,y)(x,y), there do not exist 33 other tents (x′1,y′1)(x1′,y1′), (x′2,y′2)(x2′,y2′) and (x′3,y′3)(x3′,y3′) such that both conditions are true: 
+  |x′j−x|,|y′j−y|≤1|xj′−x|,|yj′−y|≤1 for all j∈{1,2,3}j∈{1,2,3}, and  these four tents form a parallelogram (or a rectangle) and one of its sides is parallel to the xx-axis. 
+Please maximize the sum of the weights of the tents that are not removed. Print the maximum value.

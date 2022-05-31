@@ -1,0 +1,5 @@
+There is a classroom with two rows of computers. There are nn computers in each row and each computer has its own grade. Computers in the first row has grades a1,a2,…,ana1,a2,…,an and in the second row — b1,b2,…,bnb1,b2,…,bn.
+Initially, all pairs of neighboring computers in each row are connected by wire (pairs (i,i+1)(i,i+1) for all 1≤i<n1≤i<n), so two rows form two independent computer networks.
+Your task is to combine them in one common network by connecting one or more pairs of computers from different rows. Connecting the ii-th computer from the first row and the jj-th computer from the second row costs |ai−bj||ai−bj|.
+You can connect one computer to several other computers, but you need to provide at least a basic fault tolerance: you need to connect computers in such a way that the network stays connected, despite one of its computer failing. In other words, if one computer is broken (no matter which one), the network won't split in two or more parts.
+That is the minimum total cost to make a fault-tolerant network?

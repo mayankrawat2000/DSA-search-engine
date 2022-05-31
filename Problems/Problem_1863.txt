@@ -1,0 +1,8 @@
+Word ss of length nn is called kk-complete if 
+  ss is a palindrome, i.e. si=sn+1−isi=sn+1−i for all 1≤i≤n1≤i≤n;  ss has a period of kk, i.e. si=sk+isi=sk+i for all 1≤i≤n−k1≤i≤n−k. 
+For example, "abaaba" is a 33-complete word, while "abccba" is not.
+Bob is given a word ss of length nn consisting of only lowercase Latin letters and an integer kk, such that nn is divisible by kk. He wants to convert ss to any kk-complete word.
+To do this Bob can choose some ii (1≤i≤n1≤i≤n) and replace the letter at position ii with some other lowercase Latin letter.
+So now Bob wants to know the minimum number of letters he has to replace to convert ss to any kk-complete word.
+Note that Bob can do zero changes if the word ss is already kk-complete.
+You are required to answer tt test cases independently.

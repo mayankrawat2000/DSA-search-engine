@@ -1,0 +1,4 @@
+Given an array aa of nn integers, find a range of values [x,y][x,y] (x≤yx≤y), and split aa into exactly kk (1≤k≤n1≤k≤n) subarrays in such a way that:
+  Each subarray is formed by several continuous elements of aa, that is, it is equal to al,al+1,…,aral,al+1,…,ar for some ll and rr (1≤l≤r≤n1≤l≤r≤n).  Each element from aa belongs to exactly one subarray.  In each subarray the number of elements inside the range [x,y][x,y] (inclusive) is strictly greater than the number of elements outside the range. An element with index ii is inside the range [x,y][x,y] if and only if x≤ai≤yx≤ai≤y. 
+ 
+Print any solution that minimizes y−xy−x.

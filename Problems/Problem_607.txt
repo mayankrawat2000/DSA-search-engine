@@ -1,0 +1,4 @@
+Once upon a time, Petya had an array of integers aa of length nn. But over time, the array itself was lost, and only n−1n−1 results of comparisons of neighboring array elements remained. In other words, for every ii from 11 to n−1n−1, Petya knows exactly one of these three facts:
+  ai<ai+1ai<ai+1;  ai=ai+1ai=ai+1;  ai>ai+1ai>ai+1. 
+Petya wonders if it is possible to uniquely determine the result of comparing a1a1 and anan.
+You have to help Petya determine the result of comparing a1a1 and anan or report that the result cannot be determined unambiguously.

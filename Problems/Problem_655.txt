@@ -1,0 +1,4 @@
+You have a permutation: an array a=[a1,a2,…,an]a=[a1,a2,…,an] of distinct integers from 11 to nn. The length of the permutation nn is odd.
+You need to sort the permutation in increasing order.
+In one step, you can choose any prefix of the permutation with an odd length and reverse it. Formally, if a=[a1,a2,…,an]a=[a1,a2,…,an], you can choose any odd integer pp between 11 and nn, inclusive, and set aa to [ap,ap−1,…,a1,ap+1,ap+2,…,an][ap,ap−1,…,a1,ap+1,ap+2,…,an].
+Find a way to sort aa using no more than 5n25n2 reversals of the above kind, or determine that such a way doesn't exist. The number of reversals doesn't have to be minimized.

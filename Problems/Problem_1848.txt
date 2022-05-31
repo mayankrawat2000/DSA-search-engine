@@ -1,0 +1,12 @@
+You are given a positive integer DD. Let's build the following graph from it: 
+  each vertex is a divisor of DD (not necessarily prime, 11 and DD itself are also included);  two vertices xx and yy (x>yx>y) have an undirected edge between them if xx is divisible by yy and xyxy is a prime;  the weight of an edge is the number of divisors of xx that are not divisors of yy. 
+For example, here is the graph for D=12D=12: 
+  
+Edge (4,12)(4,12) has weight 33 because 1212 has divisors [1,2,3,4,6,12][1,2,3,4,6,12] and 44 has divisors [1,2,4][1,2,4]. Thus, there are 33 divisors of 1212 that are not divisors of 44 — [3,6,12][3,6,12].
+There is no edge between 33 and 22 because 33 is not divisible by 22. There is no edge between 1212 and 33 because 123=4123=4 is not a prime.
+Let the length of the path between some vertices vv and uu in the graph be the total weight of edges on it. For example, path [(1,2),(2,6),(6,12),(12,4),(4,2),(2,6)][(1,2),(2,6),(6,12),(12,4),(4,2),(2,6)] has length 1+2+2+3+1+2=111+2+2+3+1+2=11. The empty path has length 00.
+So the shortest path between two vertices vv and uu is the path that has the minimal possible length.
+Two paths aa and bb are different if there is either a different number of edges in them or there is a position ii such that aiai and bibi are different edges.
+You are given qq queries of the following form: 
+  vv uu — calculate the number of the shortest paths between vertices vv and uu. 
+The answer for each query might be large so print it modulo 998244353998244353.

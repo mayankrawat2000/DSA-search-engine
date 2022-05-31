@@ -1,0 +1,4 @@
+Ashish has a binary string ss of length nn that he wants to sort in non-decreasing order.
+He can perform the following operation: 
+  Choose a subsequence of any length such that its elements are in non-increasing order. Formally, choose any kk such that 1≤k≤n1≤k≤n and any sequence of kk indices 1≤i1<i2<…<ik≤n1≤i1<i2<…<ik≤n such that si1≥si2≥…≥siksi1≥si2≥…≥sik.  Reverse this subsequence in-place. Formally, swap si1si1 with siksik, swap si2si2 with sik−1sik−1, …… and swap si⌊k/2⌋si⌊k/2⌋ with si⌈k/2⌉+1si⌈k/2⌉+1 (Here ⌊x⌋⌊x⌋ denotes the largest integer not exceeding xx, and ⌈x⌉⌈x⌉ denotes the smallest integer not less than xx) 
+Find the minimum number of operations required to sort the string in non-decreasing order. It can be proven that it is always possible to sort the given binary string in at most nn operations.

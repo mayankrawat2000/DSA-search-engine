@@ -1,0 +1,2 @@
+You are given a tree with nn nodes, numerated from 00 to n−1n−1. For each kk between 00 and nn, inclusive, you have to count the number of unordered pairs (u,v)(u,v), u≠vu≠v, such that the MEX of all the node labels in the shortest path from uu to vv (including end points) is kk.
+The MEX of a sequence of integers is the smallest non-negative integer that does not belong to the sequence.

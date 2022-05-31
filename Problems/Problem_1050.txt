@@ -1,0 +1,4 @@
+A subsequence is a sequence that can be obtained from another sequence by removing some elements without changing the order of the remaining elements.
+A palindromic sequence is a sequence that is equal to the reverse of itself.
+You are given a sequence of nn integers a1,a2,…,ana1,a2,…,an. Any integer value appears in aa no more than twice.
+What is the length of the longest palindromic subsequence of sequence aa?

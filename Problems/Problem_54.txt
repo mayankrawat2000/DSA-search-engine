@@ -1,0 +1,5 @@
+oolimry has an array aa of length nn which he really likes. Today, you have changed his array to bb, a permutation of aa, to make him sad.
+Because oolimry is only a duck, he can only perform the following operation to restore his array: 
+  Choose two integers i,ji,j such that 1≤i,j≤n1≤i,j≤n.  Swap bibi and bjbj. 
+The sadness of the array bb is the minimum number of operations needed to transform bb into aa.
+Given the arrays aa and bb, where bb is a permutation of aa, determine if bb has the maximum sadness over all permutations of aa.

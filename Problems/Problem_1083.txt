@@ -1,0 +1,8 @@
+Kilani and Abd are neighbors for 3000 years, but then the day came and Kilani decided to move to another house. As a farewell gift, Kilani is going to challenge Abd with a problem written by their other neighbor with the same name Abd.
+  
+The problem is:
+You are given a connected tree rooted at node 11.
+You should assign a character a or b to every node in the tree so that the total number of a's is equal to xx and the total number of b's is equal to n−xn−x.
+Let's define a string for each node vv of the tree as follows: 
+  if vv is root then the string is just one character assigned to vv:  otherwise, let's take a string defined for the vv's parent pvpv and add to the end of it a character assigned to vv. 
+You should assign every node a character in a way that minimizes the number of distinct strings among the strings of all nodes.

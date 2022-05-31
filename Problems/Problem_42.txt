@@ -1,0 +1,4 @@
+You are given a string ss, consisting only of Latin letters 'a', and a string tt, consisting of lowercase Latin letters.
+In one move, you can replace any letter 'a' in the string ss with a string tt. Note that after the replacement string ss might contain letters other than 'a'.
+You can perform an arbitrary number of moves (including zero). How many different strings can you obtain? Print the number, or report that it is infinitely large.
+Two strings are considered different if they have different length, or they differ at some index.

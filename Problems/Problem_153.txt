@@ -1,0 +1,2 @@
+Marin wants you to count number of permutations that are beautiful. A beautiful permutation of length nn is a permutation that has the following property: gcd(1⋅p1,2⋅p2,…,n⋅pn)>1,gcd(1⋅p1,2⋅p2,…,n⋅pn)>1, where gcdgcd is the greatest common divisor.
+A permutation is an array consisting of nn distinct integers from 11 to nn in arbitrary order. For example, [2,3,1,5,4][2,3,1,5,4] is a permutation, but [1,2,2][1,2,2] is not a permutation (22 appears twice in the array) and [1,3,4][1,3,4] is also not a permutation (n=3n=3 but there is 44 in the array).

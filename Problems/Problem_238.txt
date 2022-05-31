@@ -1,0 +1,5 @@
+You found a painting on a canvas of size n×mn×m. The canvas can be represented as a grid with nn rows and mm columns. Each cell has some color. Cell (i,j)(i,j) has color ci,jci,j.
+Near the painting you also found a brush in the shape of a 2×22×2 square, so the canvas was surely painted in the following way: initially, no cell was painted. Then, the following painting operation has been performed some number of times:
+  Choose two integers ii and jj (1≤i<n1≤i<n, 1≤j<m1≤j<m) and some color kk (1≤k≤nm1≤k≤nm).  Paint cells (i,j)(i,j), (i+1,j)(i+1,j), (i,j+1)(i,j+1), (i+1,j+1)(i+1,j+1) in color kk. 
+All cells must be painted at least once. A cell can be painted multiple times. In this case, its final color will be the last one.
+Find any sequence of at most nmnm operations that could have led to the painting you found or state that it's impossible.

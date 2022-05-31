@@ -1,0 +1,9 @@
+Divan's new cottage is finally complete! However, after a thorough inspection, it turned out that the workers had installed the insulation incorrectly, and now the temperature in the house directly depends on the temperature outside. More precisely, if the temperature in the house is PP in the morning, and the street temperature is TT, then by the next morning the temperature in the house changes according to the following rule: 
+  Pnew=P+1Pnew=P+1, if P<TP<T,  Pnew=P−1Pnew=P−1, if P>TP>T,  Pnew=PPnew=P, if P=TP=T. 
+ Here 
+
+PnewPnew
+P_{new}
+ is the temperature in the house next morning.
+Divan is a very busy businessman, so sometimes he is not at home for long periods and does not know what the temperature is there now, so he hired you to find it. You will work for nn days. In the beginning of the ii-th day, the temperature outside TiTi is first given to you. After that, on the ii-th day, you will receive kiki queries. Each query asks the following: "if the temperature in the house was xixi at the morning of the first day, what would be the temperature in the house next morning (after day ii)?"
+Please answer all the businessman's queries.

@@ -1,0 +1,5 @@
+You like numbers, don't you? Nastia has a lot of numbers and she wants to share them with you! Isn't it amazing?
+Let aiai be how many numbers ii (1≤i≤k1≤i≤k) you have.
+An n×nn×n matrix is called beautiful if it contains all the numbers you have, and for each 2×22×2 submatrix of the original matrix is satisfied: 
+  The number of occupied cells doesn't exceed 33;  The numbers on each diagonal are distinct. 
+Make a beautiful matrix of minimum size.

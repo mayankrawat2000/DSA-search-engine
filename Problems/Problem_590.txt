@@ -1,0 +1,13 @@
+You are given two arrays aa and bb of length nn. Array aa contains each odd integer from 11 to 2n2n in an arbitrary order, and array bb contains each even integer from 11 to 2n2n in an arbitrary order.
+You can perform the following operation on those arrays: 
+  choose one of the two arrays  pick an index ii from 11 to n−1n−1  swap the ii-th and the (i+1)(i+1)-th elements of the chosen array 
+ Compute the minimum number of operations needed to make array 
+
+aa
+a
+ lexicographically smaller than array 
+
+bb
+b
+.
+For two different arrays xx and yy of the same length nn, we say that xx is lexicographically smaller than yy if in the first position where xx and yy differ, the array xx has a smaller element than the corresponding element in yy.

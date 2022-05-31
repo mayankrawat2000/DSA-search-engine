@@ -1,0 +1,6 @@
+Andre has very specific tastes. Recently he started falling in love with arrays.
+Andre calls an nonempty array bb good, if sum of its elements is divisible by the length of this array. For example, array [2,3,1][2,3,1] is good, as sum of its elements — 66 — is divisible by 33, but array [1,1,2,3][1,1,2,3] isn't good, as 77 isn't divisible by 44. 
+Andre calls an array aa of length nn perfect if the following conditions hold: 
+  Every nonempty subarray of this array is good.  For every ii (1≤i≤n1≤i≤n), 1≤ai≤1001≤ai≤100. 
+Given a positive integer nn, output any perfect array of length nn. We can show that for the given constraints such an array always exists.
+An array cc is a subarray of an array dd if cc can be obtained from dd by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.

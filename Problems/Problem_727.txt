@@ -1,0 +1,5 @@
+A string ss of length nn (1≤n≤261≤n≤26) is called alphabetical if it can be obtained using the following algorithm:
+  first, write an empty string to ss (i.e. perform the assignment ss := "");  then perform the next step nn times;  at the ii-th step take ii-th lowercase letter of the Latin alphabet and write it either to the left of the string ss or to the right of the string ss (i.e. perform the assignment ss := c+sc+s or ss := s+cs+c, where cc is the ii-th letter of the Latin alphabet). 
+In other words, iterate over the nn first letters of the Latin alphabet starting from 'a' and etc. Each time we prepend a letter to the left of the string ss or append a letter to the right of the string ss. Strings that can be obtained in that way are alphabetical.
+For example, the following strings are alphabetical: "a", "ba", "ab", "bac" and "ihfcbadeg". The following strings are not alphabetical: "z", "aa", "ca", "acb", "xyz" and "ddcba".
+From the given string, determine if it is alphabetical.

@@ -1,0 +1,3 @@
+Omkar is building a house. He wants to decide how to make the floor plan for the last floor.
+Omkar's floor starts out as nn rows of mm zeros (1≤n,m≤1001≤n,m≤100). Every row is divided into intervals such that every 00 in the row is in exactly 11 interval. For every interval for every row, Omkar can change exactly one of the 00s contained in that interval to a 11. Omkar defines the quality of a floor as the sum of the squares of the sums of the values in each column, i. e. if the sum of the values in the ii-th column is qiqi, then the quality of the floor is ∑mi=1q2i∑i=1mqi2.
+Help Omkar find the maximum quality that the floor can have.

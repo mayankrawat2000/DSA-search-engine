@@ -1,0 +1,1 @@
+You have an array aa consisting of nn distinct positive integers, numbered from 11 to nn. Define pkpk as pk=∑1≤i,j≤kaimodaj,pk=∑1≤i,j≤kaimodaj, where xmodyxmody denotes the remainder when xx is divided by yy. You have to find and print p1,p2,…,pnp1,p2,…,pn. 

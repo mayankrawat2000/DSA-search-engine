@@ -1,0 +1,8 @@
+Kuroni has nn daughters. As gifts for them, he bought nn necklaces and nn bracelets:
+  the ii-th necklace has a brightness aiai, where all the aiai are pairwise distinct (i.e. all aiai are different),  the ii-th bracelet has a brightness bibi, where all the bibi are pairwise distinct (i.e. all bibi are different). 
+Kuroni wants to give exactly one necklace and exactly one bracelet to each of his daughters. To make sure that all of them look unique, the total brightnesses of the gifts given to each daughter should be pairwise distinct. Formally, if the ii-th daughter receives a necklace with brightness xixi and a bracelet with brightness yiyi, then the sums xi+yixi+yi should be pairwise distinct. Help Kuroni to distribute the gifts.
+For example, if the brightnesses are a=[1,7,5]a=[1,7,5] and b=[6,1,2]b=[6,1,2], then we may distribute the gifts as follows:
+  Give the third necklace and the first bracelet to the first daughter, for a total brightness of a3+b1=11a3+b1=11. Give the first necklace and the third bracelet to the second daughter, for a total brightness of a1+b3=3a1+b3=3. Give the second necklace and the second bracelet to the third daughter, for a total brightness of a2+b2=8a2+b2=8. 
+Here is an example of an invalid distribution: 
+  Give the first necklace and the first bracelet to the first daughter, for a total brightness of a1+b1=7a1+b1=7. Give the second necklace and the second bracelet to the second daughter, for a total brightness of a2+b2=8a2+b2=8. Give the third necklace and the third bracelet to the third daughter, for a total brightness of a3+b3=7a3+b3=7. 
+This distribution is invalid, as the total brightnesses of the gifts received by the first and the third daughter are the same. Don't make them this upset!

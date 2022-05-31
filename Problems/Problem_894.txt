@@ -1,0 +1,3 @@
+This time Baby Ehab will only cut and not stick. He starts with a piece of paper with an array aa of length nn written on it, and then he does the following:
+  he picks a range (l,r)(l,r) and cuts the subsegment al,al+1,…,aral,al+1,…,ar out, removing the rest of the array.  he then cuts this range into multiple subranges.  to add a number theory spice to it, he requires that the elements of every subrange must have their product equal to their least common multiple (LCM). 
+Formally, he partitions the elements of al,al+1,…,aral,al+1,…,ar into contiguous subarrays such that the product of every subarray is equal to its LCM. Now, for qq independent ranges (l,r)(l,r), tell Baby Ehab the minimum number of subarrays he needs.

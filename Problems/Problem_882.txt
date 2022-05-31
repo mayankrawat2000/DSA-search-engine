@@ -1,0 +1,5 @@
+Polycarp is an organizer of a Berland ICPC regional event. There are nn universities in Berland numbered from 11 to nn. Polycarp knows all competitive programmers in the region. There are nn students: the ii-th student is enrolled at a university uiui and has a programming skill sisi.
+Polycarp has to decide on the rules now. In particular, the number of members in the team.
+Polycarp knows that if he chooses the size of the team to be some integer kk, each university will send their kk strongest (with the highest programming skill ss) students in the first team, the next kk strongest students in the second team and so on. If there are fewer than kk students left, then the team can't be formed. Note that there might be universities that send zero teams.
+The strength of the region is the total skill of the members of all present teams. If there are no teams present, then the strength is 00.
+Help Polycarp to find the strength of the region for each choice of kk from 11 to nn.

@@ -1,0 +1,2 @@
+You are given two integers nn and kk. You are asked to choose maximum number of distinct integers from 11 to nn so that there is no subset of chosen numbers with sum equal to kk.
+A subset of a set is a set that can be obtained from initial one by removing some (possibly all or none) elements of it.

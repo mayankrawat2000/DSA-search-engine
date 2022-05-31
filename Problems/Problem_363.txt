@@ -1,0 +1,6 @@
+You are given strings SS and TT, consisting of lowercase English letters. It is guaranteed that TT is a permutation of the string abc. 
+Find string S′S′, the lexicographically smallest permutation of SS such that TT is not a subsequence of S′S′.
+String aa is a permutation of string bb if the number of occurrences of each distinct character is the same in both strings.
+A string aa is a subsequence of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) elements.
+A string aa is lexicographically smaller than a string bb if and only if one of the following holds:
+ aa is a prefix of bb, but a≠ba≠b; in the first position where aa and bb differ, the string aa has a letter that appears earlier in the alphabet than the corresponding letter in bb.

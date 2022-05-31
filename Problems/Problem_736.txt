@@ -1,0 +1,4 @@
+Cirno gave AquaMoon a chessboard of size 1×n1×n. Its cells are numbered with integers from 11 to nn from left to right. In the beginning, some of the cells are occupied with at most one pawn, and other cells are unoccupied.
+In each operation, AquaMoon can choose a cell ii with a pawn, and do either of the following (if possible): 
+  Move pawn from it to the (i+2)(i+2)-th cell, if i+2≤ni+2≤n and the (i+1)(i+1)-th cell is occupied and the (i+2)(i+2)-th cell is unoccupied.  Move pawn from it to the (i−2)(i−2)-th cell, if i−2≥1i−2≥1 and the (i−1)(i−1)-th cell is occupied and the (i−2)(i−2)-th cell is unoccupied. 
+You are given an initial state of the chessboard. AquaMoon wants to count the number of states reachable from the initial state with some sequence of operations. But she is not good at programming. Can you help her? As the answer can be large find it modulo 998244353998244353.

@@ -1,0 +1,5 @@
+You are given three integers nn, kk, mm and mm conditions (l1,r1,x1),(l2,r2,x2),…,(lm,rm,xm)(l1,r1,x1),(l2,r2,x2),…,(lm,rm,xm).
+Calculate the number of distinct arrays aa, consisting of nn integers such that: 
+  0≤ai<2k0≤ai<2k for each 1≤i≤n1≤i≤n;  bitwise AND of numbers a[li]&a[li+1]&…&a[ri]=xia[li]&a[li+1]&…&a[ri]=xi for each 1≤i≤m1≤i≤m. 
+Two arrays aa and bb are considered different if there exists such a position ii that ai≠biai≠bi. 
+The number can be pretty large so print it modulo 998244353998244353.

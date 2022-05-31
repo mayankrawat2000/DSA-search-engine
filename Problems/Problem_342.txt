@@ -1,0 +1,2 @@
+You had nn positive integers a1,a2,…,ana1,a2,…,an arranged in a circle. For each pair of neighboring numbers (a1a1 and a2a2, a2a2 and a3a3, ..., an−1an−1 and anan, and anan and a1a1), you wrote down: are the numbers in the pair equal or not.
+Unfortunately, you've lost a piece of paper with the array aa. Moreover, you are afraid that even information about equality of neighboring elements may be inconsistent. So, you are wondering: is there any array aa which is consistent with information you have about equality or non-equality of corresponding pairs?

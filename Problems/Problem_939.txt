@@ -1,0 +1,2 @@
+Diana loves playing with numbers. She's got nn cards with positive integer numbers aiai written on them. She spends her free time multiplying the numbers on the cards. She picks a non-empty subset of the cards and multiplies all the numbers aiai written on them.
+Diana is happy when the product of the numbers ends with her favorite digit dd. Now she is curious what cards she should pick so that the product of the numbers on them is the largest possible and the last decimal digit of the product is dd. Please, help her.

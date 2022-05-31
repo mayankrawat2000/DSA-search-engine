@@ -1,0 +1,5 @@
+You have nn barrels lined up in a row, numbered from left to right from one. Initially, the ii-th barrel contains aiai liters of water.
+You can pour water from one barrel to another. In one act of pouring, you can choose two different barrels xx and yy (the xx-th barrel shouldn't be empty) and pour any possible amount of water from barrel xx to barrel yy (possibly, all water). You may assume that barrels have infinite capacity, so you can pour any amount of water in each of them. 
+Calculate the maximum possible difference between the maximum and the minimum amount of water in the barrels, if you can pour water at most kk times.
+Some examples: 
+  if you have four barrels, each containing 55 liters of water, and k=1k=1, you may pour 55 liters from the second barrel into the fourth, so the amounts of water in the barrels are [5,0,5,10][5,0,5,10], and the difference between the maximum and the minimum is 1010;  if all barrels are empty, you can't make any operation, so the difference between the maximum and the minimum amount is still 00. 

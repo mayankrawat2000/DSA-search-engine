@@ -1,0 +1,7 @@
+Alexey is travelling on a train. Unfortunately, due to the bad weather, the train moves slower that it should!
+Alexey took the train at the railroad terminal. Let's say that the train starts from the terminal at the moment 00. Also, let's say that the train will visit nn stations numbered from 11 to nn along its way, and that Alexey destination is the station nn.
+Alexey learned from the train schedule nn integer pairs (ai,bi)(ai,bi) where aiai is the expected time of train's arrival at the ii-th station and bibi is the expected time of departure.
+Also, using all information he has, Alexey was able to calculate nn integers tm1,tm2,…,tmntm1,tm2,…,tmn where tmitmi is the extra time the train need to travel from the station i−1i−1 to the station ii. Formally, the train needs exactly ai−bi−1+tmiai−bi−1+tmi time to travel from station i−1i−1 to station ii (if i=1i=1 then b0b0 is the moment the train leave the terminal, and it's equal to 00).
+The train leaves the station ii, if both conditions are met: 
+  it's on the station for at least ⌈bi−ai2⌉⌈bi−ai2⌉ units of time (division with ceiling);  current time ≥bi≥bi. 
+Since Alexey spent all his energy on prediction of time delays, help him to calculate the time of arrival at the station nn.

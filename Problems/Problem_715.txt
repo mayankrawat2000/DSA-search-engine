@@ -1,0 +1,4 @@
+Gregor is learning about RSA cryptography, and although he doesn't understand how RSA works, he is now fascinated with prime numbers and factoring them.
+Gregor's favorite prime number is PP. Gregor wants to find two bases of PP. Formally, Gregor is looking for two integers aa and bb which satisfy both of the following properties.
+  Pmoda=PmodbPmoda=Pmodb, where xmodyxmody denotes the remainder when xx is divided by yy, and  2≤a<b≤P2≤a<b≤P. 
+Help Gregor find two bases of his favorite prime number!

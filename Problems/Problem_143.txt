@@ -1,0 +1,6 @@
+There is an undirected, connected graph with nn vertices and mm weighted edges. A walk from vertex uu to vertex vv is defined as a sequence of vertices p1,p2,…,pkp1,p2,…,pk (which are not necessarily distinct) starting with uu and ending with vv, such that pipi and pi+1pi+1 are connected by an edge for 1≤i<k1≤i<k.
+We define the length of a walk as follows: take the ordered sequence of edges and write down the weights on each of them in an array. Now, write down the bitwise AND of every nonempty prefix of this array. The length of the walk is the MEX of all these values.
+More formally, let us have [w1,w2,…,wk−1][w1,w2,…,wk−1] where wiwi is the weight of the edge between pipi and pi+1pi+1. Then the length of the walk is given by MEX({w1,w1&w2,…,w1&w2&…&wk−1})MEX({w1,w1&w2,…,w1&w2&…&wk−1}), where && denotes the bitwise AND operation.
+Now you must process qq queries of the form u v. For each query, find the minimum possible length of a walk from uu to vv.
+The MEX (minimum excluded) of a set is the smallest non-negative integer that does not belong to the set. For instance: 
+  The MEX of {2,1}{2,1} is 00, because 00 does not belong to the set.  The MEX of {3,1,0}{3,1,0} is 22, because 00 and 11 belong to the set, but 22 does not.  The MEX of {0,3,1,2}{0,3,1,2} is 44 because 00, 11, 22 and 33 belong to the set, but 44 does not. 

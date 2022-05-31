@@ -1,0 +1,3 @@
+Karl likes Codeforces and subsequences. He wants to find a string of lowercase English letters that contains at least kk subsequences codeforces. Out of all possible strings, Karl wants to find a shortest one.
+Formally, a codeforces subsequence of a string ss is a subset of ten characters of ss that read codeforces from left to right. For example, codeforces contains codeforces a single time, while codeforcesisawesome contains codeforces four times: codeforcesisawesome, codeforcesisawesome, codeforcesisawesome, codeforcesisawesome.
+Help Karl find any shortest string that contains at least kk codeforces subsequences.

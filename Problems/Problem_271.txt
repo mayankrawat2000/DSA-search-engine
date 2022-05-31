@@ -1,0 +1,5 @@
+Igor is in 11th grade. Tomorrow he will have to write an informatics test by the strictest teacher in the school, Pavel Denisovich. 
+Igor knows how the test will be conducted: first of all, the teacher will give each student two positive integers aa and bb (a<ba<b). After that, the student can apply any of the following operations any number of times: 
+  a:=a+1a:=a+1 (increase aa by 11),  b:=b+1b:=b+1 (increase bb by 11),  a:=a | ba:=a | b (replace aa with the bitwise OR of aa and bb). 
+To get full marks on the test, the student has to tell the teacher the minimum required number of operations to make aa and bb equal.
+Igor already knows which numbers the teacher will give him. Help him figure out what is the minimum number of operations needed to make aa equal to bb.

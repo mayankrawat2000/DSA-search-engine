@@ -1,0 +1,19 @@
+Koa the Koala has a matrix AA of nn rows and mm columns. Elements of this matrix are distinct integers from 11 to n⋅mn⋅m (each number from 11 to n⋅mn⋅m appears exactly once in the matrix).
+For any matrix MM of nn rows and mm columns let's define the following:
+  The ii-th row of MM is defined as Ri(M)=[Mi1,Mi2,…,Mim]Ri(M)=[Mi1,Mi2,…,Mim] for all ii (1≤i≤n1≤i≤n).  The jj-th column of MM is defined as Cj(M)=[M1j,M2j,…,Mnj]Cj(M)=[M1j,M2j,…,Mnj] for all jj (1≤j≤m1≤j≤m). 
+Koa defines S(A)=(X,Y)S(A)=(X,Y) as the spectrum of AA, where XX is the set of the maximum values in rows of AA and YY is the set of the maximum values in columns of AA.
+More formally:
+  X={max(R1(A)),max(R2(A)),…,max(Rn(A))}X={max(R1(A)),max(R2(A)),…,max(Rn(A))}  Y={max(C1(A)),max(C2(A)),…,max(Cm(A))}Y={max(C1(A)),max(C2(A)),…,max(Cm(A))}
+Koa asks you to find some matrix A′A′ of nn rows and mm columns, such that each number from 11 to n⋅mn⋅m appears exactly once in the matrix, and the following conditions hold:
+  S(A′)=S(A)S(A′)=S(A)  Ri(A′)Ri(A′) is bitonic for all ii (1≤i≤n1≤i≤n)  Cj(A′)Cj(A′) is bitonic for all jj (1≤j≤m1≤j≤m) 
+ An array 
+
+tt
+t
+ (
+
+t1,t2,…,tkt1,t2,…,tk
+t_1, t_2, \ldots, t_k
+) is called bitonic if it first increases and then decreases.
+ More formally: tt is bitonic if there exists some position pp (1≤p≤k1≤p≤k) such that: t1<t2<…<tp>tp+1>…>tkt1<t2<…<tp>tp+1>…>tk.
+Help Koa to find such matrix or to determine that it doesn't exist.

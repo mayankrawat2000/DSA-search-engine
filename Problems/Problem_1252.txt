@@ -1,0 +1,5 @@
+You have nn distinct points (x1,y1),…,(xn,yn)(x1,y1),…,(xn,yn) on the plane and a non-negative integer parameter kk. Each point is a microscopic steel ball and kk is the attract power of a ball when it's charged. The attract power is the same for all balls.
+In one operation, you can select a ball ii to charge it. Once charged, all balls with Manhattan distance at most kk from ball ii move to the position of ball ii. Many balls may have the same coordinate after an operation.
+More formally, for all balls jj such that |xi−xj|+|yi−yj|≤k|xi−xj|+|yi−yj|≤k, we assign xj:=xixj:=xi and yj:=yiyj:=yi.
+  An example of an operation. After charging the ball in the center, two other balls move to its position. On the right side, the red dot in the center is the common position of those balls. 
+Your task is to find the minimum number of operations to move all balls to the same position, or report that this is impossible.

@@ -1,0 +1,3 @@
+Alice gave Bob two integers aa and bb (a>0a>0 and b≥0b≥0). Being a curious boy, Bob wrote down an array of non-negative integers with MEXMEX value of all elements equal to aa and XORXOR value of all elements equal to bb.
+What is the shortest possible length of the array Bob wrote?
+Recall that the MEXMEX (Minimum EXcluded) of an array is the minimum non-negative integer that does not belong to the array and the XORXOR of an array is the bitwise XOR of all the elements of the array.

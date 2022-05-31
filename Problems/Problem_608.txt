@@ -1,0 +1,6 @@
+You are given a simple undirected graph with nn vertices, nn is even. You are going to write a letter on each vertex. Each letter should be one of the first kk letters of the Latin alphabet.
+A path in the graph is called Hamiltonian if it visits each vertex exactly once. A string is called palindromic if it reads the same from left to right and from right to left. A path in the graph is called palindromic if the letters on the vertices in it spell a palindromic string without changing the order.
+A string of length nn is good if: 
+  each letter is one of the first kk lowercase Latin letters;  if you write the ii-th letter of the string on the ii-th vertex of the graph, there will exist a palindromic Hamiltonian path in the graph. 
+Note that the path doesn't necesserily go through the vertices in order 1,2,…,n1,2,…,n.
+Count the number of good strings.

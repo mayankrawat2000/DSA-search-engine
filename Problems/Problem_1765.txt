@@ -1,0 +1,2 @@
+You are given two positive integers nn and kk. Print the kk-th positive integer that is not divisible by nn.
+For example, if n=3n=3, and k=7k=7, then all numbers that are not divisible by 33 are: 1,2,4,5,7,8,10,11,13…1,2,4,5,7,8,10,11,13…. The 77-th number among them is 1010.

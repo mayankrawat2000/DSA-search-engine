@@ -1,0 +1,9 @@
+You are given a circular maze such as the ones shown in the figures. 
+  
+ Determine if it can be solved, i.e., if there is a path which goes from the center to the outside of the maze which does not touch any wall. The maze is described by 
+
+nn
+n
+ walls. Each wall can be either circular or straight. 
+  Circular walls are described by a radius rr, the distance from the center, and two angles θ1,θ2θ1,θ2 describing the beginning and the end of the wall in the clockwise direction. Notice that swapping the two angles changes the wall.  Straight walls are described by an angle θθ, the direction of the wall, and two radii r1<r2r1<r2 describing the beginning and the end of the wall. 
+Angles are measured in degrees; the angle 00 corresponds to the upward pointing direction; and angles increase clockwise (hence the east direction corresponds to the angle 9090).

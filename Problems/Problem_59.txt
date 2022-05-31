@@ -1,0 +1,5 @@
+Let's call a string good if its length is at least 22 and all of its characters are AA except for the last character which is BB. The good strings are AB,AAB,AAAB,…AB,AAB,AAAB,…. Note that BB is not a good string.
+You are given an initially empty string s1s1.
+You can perform the following operation any number of times: 
+  Choose any position of s1s1 and insert some good string in that position. 
+Given a string s2s2, can we turn s1s1 into s2s2 after some number of operations?

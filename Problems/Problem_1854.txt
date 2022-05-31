@@ -1,0 +1,8 @@
+Egor wants to achieve a rating of 1600 points on the well-known chess portal ChessForces and he needs your help!
+Before you start solving the problem, Egor wants to remind you how the chess pieces move. Chess rook moves along straight lines up and down, left and right, as many squares as it wants. And when it wants, it can stop. The queen walks in all directions vertically and diagonally at any distance. You can see the examples below.
+  
+To reach the goal, Egor should research the next topic:
+There is an N×NN×N board. Each cell of the board has a number from 11 to N2N2 in it and numbers in all cells are distinct.
+In the beginning, some chess figure stands in the cell with the number 11. Note that this cell is already considered as visited. After that every move is determined by the following rules: 
+  Among all not visited yet cells to which the figure can get in one move, it goes to the cell that has minimal number. If all accessible cells were already visited and some cells are not yet visited, then the figure is teleported to the not visited cell that has minimal number. If this step happens, the piece pays a fee of 11 vun. If all cells are already visited, the process is stopped. 
+Egor should find an N×NN×N board on which the rook pays strictly less vuns than the queen during the round with this numbering. Help him to find such N×NN×N numbered board, or tell that it doesn't exist.

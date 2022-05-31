@@ -1,0 +1,4 @@
+You are given a simple connected undirected graph, consisting of nn vertices and mm edges. The vertices are numbered from 11 to nn.
+A vertex cover of a graph is a set of vertices such that each edge has at least one of its endpoints in the set.
+Let's call a lenient vertex cover such a vertex cover that at most one edge in it has both endpoints in the set.
+Find a lenient vertex cover of a graph or report that there is none. If there are multiple answers, then print any of them.

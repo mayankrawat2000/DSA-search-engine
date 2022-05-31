@@ -1,0 +1,5 @@
+Let's say string ss has period kk if si=si+ksi=si+k for all ii from 11 to |s|−k|s|−k (|s||s| means length of string ss) and kk is the minimum positive integer with this property.
+Some examples of a period: for ss="0101" the period is k=2k=2, for ss="0000" the period is k=1k=1, for ss="010" the period is k=2k=2, for ss="0011" the period is k=4k=4.
+You are given string tt consisting only of 0's and 1's and you need to find such string ss that:
+  String ss consists only of 0's and 1's;  The length of ss doesn't exceed 2⋅|t|2⋅|t|;  String tt is a subsequence of string ss;  String ss has smallest possible period among all strings that meet conditions 1—3. 
+Let us recall that tt is a subsequence of ss if tt can be derived from ss by deleting zero or more elements (any) without changing the order of the remaining elements. For example, tt="011" is a subsequence of ss="10101".

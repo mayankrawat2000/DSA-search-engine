@@ -1,0 +1,2 @@
+You are given three points on a plane. You should choose some segments on the plane that are parallel to coordinate axes, so that all three points become connected. The total length of the chosen segments should be the minimal possible.
+Two points aa and bb are considered connected if there is a sequence of points p0=a,p1,…,pk=bp0=a,p1,…,pk=b such that points pipi and pi+1pi+1 lie on the same segment.

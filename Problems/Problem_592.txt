@@ -1,0 +1,44 @@
+There are nn cities in a row numbered from 11 to nn.
+The cities will be building broadcasting stations. The station in the ii-th city has height hihi and range wiwi. It can broadcast information to city jj if the following constraints are met: 
+  i≤j≤wii≤j≤wi, and  for each kk such that i<k≤ji<k≤j, the following condition holds: hk<hihk<hi. 
+ In other words, the station in city 
+
+ii
+i
+ can broadcast information to city 
+
+jj
+j
+ if 
+
+j≥ij≥i
+j \ge i
+, 
+
+jj
+j
+ is in the range of 
+
+ii
+i
+-th station, and 
+
+ii
+i
+ is strictly highest on the range from 
+
+ii
+i
+ to 
+
+jj
+j
+ (including city 
+
+jj
+j
+).
+At the beginning, for every city ii, hi=0hi=0 and wi=iwi=i.
+Then qq events will take place. During ii-th event one of the following will happen: 
+  City cici will rebuild its station so that its height will be strictly highest among all stations and wciwci will be set to gigi.  Let bjbj be the number of stations that can broadcast information to city jj. Print the sum of bjbj over all jj satisfying li≤j≤rili≤j≤ri. 
+Your task is to react to all events and print answers to all queries.

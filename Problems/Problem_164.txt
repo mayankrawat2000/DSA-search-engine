@@ -1,0 +1,2 @@
+You are given nn integers a1,a2,…,ana1,a2,…,an. For any real number tt, consider the complete weighted graph on nn vertices Kn(t)Kn(t) with weight of the edge between vertices ii and jj equal to wij(t)=ai⋅aj+t⋅(ai+aj)wij(t)=ai⋅aj+t⋅(ai+aj). 
+Let f(t)f(t) be the cost of the minimum spanning tree of Kn(t)Kn(t). Determine whether f(t)f(t) is bounded above and, if so, output the maximum value it attains.

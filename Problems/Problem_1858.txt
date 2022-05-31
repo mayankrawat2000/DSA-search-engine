@@ -1,0 +1,6 @@
+Young boy Artem tries to paint a picture, and he asks his mother Medina to help him. Medina is very busy, that's why she asked for your help.
+Artem wants to paint an n×mn×m board. Each cell of the board should be colored in white or black. 
+Lets BB be the number of black cells that have at least one white neighbor adjacent by the side. Let WW be the number of white cells that have at least one black neighbor adjacent by the side. A coloring is called good if B=W+1B=W+1. 
+The first coloring shown below has B=5B=5 and W=4W=4 (all cells have at least one neighbor with the opposite color). However, the second coloring is not good as it has B=4B=4, W=4W=4 (only the bottom right cell doesn't have a neighbor with the opposite color).
+  
+Please, help Medina to find any good coloring. It's guaranteed that under given constraints the solution always exists. If there are several solutions, output any of them.

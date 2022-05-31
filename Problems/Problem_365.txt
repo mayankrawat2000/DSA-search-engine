@@ -1,0 +1,2 @@
+You are given a directed acyclic graph with nn vertices and mm edges. For all edges a→ba→b in the graph, a<ba<b holds.
+You need to find the number of pairs of vertices xx, yy, such that x>yx>y and after adding the edge x→yx→y to the graph, it has a Hamiltonian path. 

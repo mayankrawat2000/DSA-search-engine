@@ -1,0 +1,2 @@
+On the board, Bob wrote nn positive integers in base 1010 with sum ss (i. e. in decimal numeral system). Alice sees the board, but accidentally interprets the numbers on the board as base-1111 integers and adds them up (in base 1111).
+What numbers should Bob write on the board, so Alice's sum is as large as possible?

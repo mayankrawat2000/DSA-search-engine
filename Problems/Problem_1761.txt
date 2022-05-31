@@ -1,0 +1,3 @@
+A permutation of length nn is an array p=[p1,p2,…,pn]p=[p1,p2,…,pn], which contains every integer from 11 to nn (inclusive) and, moreover, each number appears exactly once. For example, p=[3,1,4,2,5]p=[3,1,4,2,5] is a permutation of length 55.
+For a given number nn (n≥2n≥2), find a permutation pp in which absolute difference (that is, the absolute value of difference) of any two neighboring (adjacent) elements is between 22 and 44, inclusive. Formally, find such permutation pp that 2≤|pi−pi+1|≤42≤|pi−pi+1|≤4 for each ii (1≤i<n1≤i<n).
+Print any such permutation for the given integer nn or determine that it does not exist.

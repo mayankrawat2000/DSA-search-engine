@@ -1,0 +1,5 @@
+Monocarp wants to draw four line segments on a sheet of paper. He wants the ii-th segment to have its length equal to aiai (1≤i≤41≤i≤4). These segments can intersect with each other, and each segment should be either horizontal or vertical.
+Monocarp wants to draw the segments in such a way that they enclose a rectangular space, and the area of that rectangular space should be maximum possible.
+For example, if Monocarp wants to draw four segments with lengths 11, 22, 33 and 44, he can do it the following way:
+  Here, Monocarp has drawn segments ABAB (with length 11), CDCD (with length 22), BCBC (with length 33) and EFEF (with length 44). He got a rectangle ABCFABCF with area equal to 33 that is enclosed by the segments. 
+Calculate the maximum area of a rectangle Monocarp can enclose with four segments.

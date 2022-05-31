@@ -1,0 +1,2 @@
+Ehab has an array aa of length nn. He has just enough free time to make a new array consisting of nn copies of the old array, written back-to-back. What will be the length of the new array's longest increasing subsequence?
+A sequence aa is a subsequence of an array bb if aa can be obtained from bb by deletion of several (possibly, zero or all) elements. The longest increasing subsequence of an array is the longest subsequence such that its elements are ordered in strictly increasing order.

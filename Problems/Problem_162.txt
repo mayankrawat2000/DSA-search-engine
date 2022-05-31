@@ -1,0 +1,1 @@
+You are given two sets of positive integers AA and BB. You have to find two non-empty subsets SA⊆ASA⊆A, SB⊆BSB⊆B so that the least common multiple (LCM) of the elements of SASA is equal to the least common multiple (LCM) of the elements of SBSB.

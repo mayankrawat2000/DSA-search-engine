@@ -1,0 +1,5 @@
+You are given a matrix n×mn×m, initially filled with zeroes. We define ai,jai,j as the element in the ii-th row and the jj-th column of the matrix.
+Two cells of the matrix are connected if they share a side, and the elements in these cells are equal. Two cells of the matrix belong to the same connected component if there exists a sequence s1s1, s2s2, ..., sksk such that s1s1 is the first cell, sksk is the second cell, and for every i∈[1,k−1]i∈[1,k−1], sisi and si+1si+1 are connected.
+You are given qq queries of the form xixi yiyi cici (i∈[1,q]i∈[1,q]). For every such query, you have to do the following:
+  replace the element ax,yax,y with cc;  count the number of connected components in the matrix. 
+There is one additional constraint: for every i∈[1,q−1]i∈[1,q−1], ci≤ci+1ci≤ci+1.

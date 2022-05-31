@@ -1,0 +1,6 @@
+Consider a road consisting of several rows. Each row is divided into several rectangular tiles, and all tiles in the same row are equal. The first row contains exactly one rectangular tile. Look at the picture below which shows how the tiles are arranged.
+The road is constructed as follows: 
+  the first row consists of 11 tile;  then a1a1 rows follow; each of these rows contains 11 tile greater than the previous row;  then b1b1 rows follow; each of these rows contains 11 tile less than the previous row;  then a2a2 rows follow; each of these rows contains 11 tile greater than the previous row;  then b2b2 rows follow; each of these rows contains 11 tile less than the previous row;  ...  then anan rows follow; each of these rows contains 11 tile greater than the previous row;  then bnbn rows follow; each of these rows contains 11 tile less than the previous row. 
+  An example of the road with n=2n=2, a1=4a1=4, b1=2b1=2, a2=2a2=2, b2=3b2=3. Rows are arranged from left to right. 
+You start from the only tile in the first row and want to reach the last row (any tile of it). From your current tile, you can move to any tile in the next row which touches your current tile.
+Calculate the number of different paths from the first row to the last row. Since it can be large, print it modulo 998244353998244353.

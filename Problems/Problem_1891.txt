@@ -1,0 +1,9 @@
+Petya has a rectangular Board of size n×mn×m. Initially, kk chips are placed on the board, ii-th chip is located in the cell at the intersection of sxisxi-th row and syisyi-th column.
+In one action, Petya can move all the chips to the left, right, down or up by 11 cell.
+If the chip was in the (x,y)(x,y) cell, then after the operation: 
+  left, its coordinates will be (x,y−1)(x,y−1);  right, its coordinates will be (x,y+1)(x,y+1);  down, its coordinates will be (x+1,y)(x+1,y);  up, its coordinates will be (x−1,y)(x−1,y). 
+If the chip is located by the wall of the board, and the action chosen by Petya moves it towards the wall, then the chip remains in its current position.
+Note that several chips can be located in the same cell.
+For each chip, Petya chose the position which it should visit. Note that it's not necessary for a chip to end up in this position.
+Since Petya does not have a lot of free time, he is ready to do no more than 2nm2nm actions.
+You have to find out what actions Petya should do so that each chip visits the position that Petya selected for it at least once. Or determine that it is not possible to do this in 2nm2nm actions.

@@ -1,0 +1,3 @@
+Aleksey has nn friends. He is also on a vacation right now, so he has mm days to play this new viral cooperative game! But since it's cooperative, Aleksey will need one teammate in each of these mm days.
+On each of these days some friends will be available for playing, and all others will not. On each day Aleksey must choose one of his available friends to offer him playing the game (and they, of course, always agree). However, if any of them happens to be chosen strictly more than ⌈m2⌉⌈m2⌉ times, then all other friends are offended. Of course, Aleksey doesn't want to offend anyone.
+Help him to choose teammates so that nobody is chosen strictly more than ⌈m2⌉⌈m2⌉ times.

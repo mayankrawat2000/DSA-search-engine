@@ -1,0 +1,5 @@
+nn heroes fight against each other in the Arena. Initially, the ii-th hero has level aiai.
+Each minute, a fight between two different heroes occurs. These heroes can be chosen arbitrarily (it's even possible that it is the same two heroes that were fighting during the last minute).
+When two heroes of equal levels fight, nobody wins the fight. When two heroes of different levels fight, the one with the higher level wins, and his level increases by 11.
+The winner of the tournament is the first hero that wins in at least 100500100500 fights (note that it's possible that the tournament lasts forever if no hero wins this number of fights, then there is no winner). A possible winner is a hero such that there exists a sequence of fights that this hero becomes the winner of the tournament.
+Calculate the number of possible winners among nn heroes.

@@ -1,0 +1,6 @@
+Given an undirected connected graph with nn vertices and mm edges. The graph contains no loops (edges from a vertex to itself) and multiple edges (i.e. no more than one edge between each pair of vertices). The vertices of the graph are numbered from 11 to nn. 
+Find the number of paths from a vertex ss to tt whose length differs from the shortest path from ss to tt by no more than 11. It is necessary to consider all suitable paths, even if they pass through the same vertex or edge more than once (i.e. they are not simple).
+  Graph consisting of 66 of vertices and 88 of edges 
+For example, let n=6n=6, m=8m=8, s=6s=6 and t=1t=1, and let the graph look like the figure above. Then the length of the shortest path from ss to tt is 11. Consider all paths whose length is at most 1+1=21+1=2. 
+  6→16→1. The length of the path is 11.  6→4→16→4→1. Path length is 22.  6→2→16→2→1. Path length is 22.  6→5→16→5→1. Path length is 22. 
+There is a total of 44 of matching paths.

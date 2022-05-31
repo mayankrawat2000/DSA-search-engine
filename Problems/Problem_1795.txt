@@ -1,0 +1,3 @@
+A card pyramid of height 11 is constructed by resting two cards against each other. For h>1h>1, a card pyramid of height hh is constructed by placing a card pyramid of height h−1h−1 onto a base. A base consists of hh pyramids of height 11, and h−1h−1 cards on top. For example, card pyramids of heights 11, 22, and 33 look as follows:
+  
+You start with nn cards and build the tallest pyramid that you can. If there are some cards remaining, you build the tallest pyramid possible with the remaining cards. You repeat this process until it is impossible to build another pyramid. In the end, how many pyramids will you have constructed?

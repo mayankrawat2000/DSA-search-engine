@@ -1,0 +1,3 @@
+We define the sum of prefix sums of an array [s1,s2,…,sk][s1,s2,…,sk] as s1+(s1+s2)+(s1+s2+s3)+⋯+(s1+s2+⋯+sk)s1+(s1+s2)+(s1+s2+s3)+⋯+(s1+s2+⋯+sk).
+You are given a tree consisting of nn vertices. Each vertex ii has an integer aiai written on it. We define the value of the simple path from vertex uu to vertex vv as follows: consider all vertices appearing on the path from uu to vv, write down all the numbers written on these vertices in the order they appear on the path, and compute the sum of prefix sums of the resulting sequence.
+Your task is to calculate the maximum value over all paths in the tree.

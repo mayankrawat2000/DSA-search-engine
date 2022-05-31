@@ -1,0 +1,6 @@
+You are given three integers aa, bb, kk.
+Find two binary integers xx and yy (x≥yx≥y) such that 
+  both xx and yy consist of aa zeroes and bb ones;  x−yx−y (also written in binary form) has exactly kk ones. 
+ You are 
+not allowed to use leading zeros for xx and yy
+. 

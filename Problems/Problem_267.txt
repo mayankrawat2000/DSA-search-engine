@@ -1,0 +1,2 @@
+You are given an integer nn. You have to change the minimum number of digits in it in such a way that the resulting number does not have any leading zeroes and is divisible by 77.
+If there are multiple ways to do it, print any of them. If the given number is already divisible by 77, leave it unchanged.

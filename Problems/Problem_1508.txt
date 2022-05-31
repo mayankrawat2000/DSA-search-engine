@@ -1,0 +1,4 @@
+You are given an array aa of nn integers.
+You want to make all elements of aa equal to zero by doing the following operation exactly three times:
+  Select a segment, for each number in this segment we can add a multiple of lenlen to it, where lenlen is the length of this segment (added integers can be different). 
+It can be proven that it is always possible to make all elements of aa equal to zero.

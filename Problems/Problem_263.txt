@@ -1,0 +1,4 @@
+You are given a connected weighted undirected graph, consisting of nn vertices and mm edges.
+You are asked kk queries about it. Each query consists of a single integer xx. For each query, you select a spanning tree in the graph. Let the weights of its edges be w1,w2,…,wn−1w1,w2,…,wn−1. The cost of a spanning tree is ∑i=1n−1|wi−x|∑i=1n−1|wi−x| (the sum of absolute differences between the weights and xx). The answer to a query is the lowest cost of a spanning tree.
+The queries are given in a compressed format. The first pp (1≤p≤k)(1≤p≤k) queries q1,q2,…,qpq1,q2,…,qp are provided explicitly. For queries from p+1p+1 to kk, qj=(qj−1⋅a+b)modcqj=(qj−1⋅a+b)modc.
+Print the xor of answers to all queries.

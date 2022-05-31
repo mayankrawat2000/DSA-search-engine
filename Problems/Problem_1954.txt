@@ -1,0 +1,3 @@
+You are given two integers nn and dd. You need to construct a rooted binary tree consisting of nn vertices with a root at the vertex 11 and the sum of depths of all vertices equals to dd.
+A tree is a connected graph without cycles. A rooted tree has a special vertex called the root. A parent of a vertex vv is the last different from vv vertex on the path from the root to the vertex vv. The depth of the vertex vv is the length of the path from the root to the vertex vv. Children of vertex vv are all vertices for which vv is the parent. The binary tree is such a tree that no vertex has more than 22 children.
+You have to answer tt independent test cases.

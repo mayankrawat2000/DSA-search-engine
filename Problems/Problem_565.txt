@@ -1,0 +1,2 @@
+Eonathan Eostar decided to learn the magic of multiprocessor systems. He has a full binary tree of tasks with height hh. In the beginning, there is only one ready task in the tree — the task in the root. At each moment of time, pp processes choose at most pp ready tasks and perform them. After that, tasks whose parents were performed become ready for the next moment of time. Once the task becomes ready, it stays ready until it is performed. 
+You shall calculate the smallest number of time moments the system needs to perform all the tasks.

@@ -1,0 +1,3 @@
+There is a new attraction in Singapore Zoo: The Infinite Zoo.
+The Infinite Zoo can be represented by a graph with an infinite number of vertices labeled 1,2,3,…1,2,3,…. There is a directed edge from vertex uu to vertex u+vu+v if and only if u&v=vu&v=v, where && denotes the bitwise AND operation. There are no other edges in the graph.
+Zookeeper has qq queries. In the ii-th query she will ask you if she can travel from vertex uiui to vertex vivi by going through directed edges.

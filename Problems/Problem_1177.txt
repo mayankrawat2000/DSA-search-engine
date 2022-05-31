@@ -1,0 +1,4 @@
+Only a few know that Pan and Apollo weren't only battling for the title of the GOAT musician. A few millenniums later, they also challenged each other in math (or rather in fast calculations). The task they got to solve is the following:
+Let x1,x2,…,xnx1,x2,…,xn be the sequence of nn non-negative integers. Find this value: ∑i=1n∑j=1n∑k=1n(xi&xj)⋅(xj|xk)∑i=1n∑j=1n∑k=1n(xi&xj)⋅(xj|xk)
+Here && denotes the bitwise and, and || denotes the bitwise or.
+Pan and Apollo could solve this in a few seconds. Can you do it too? For convenience, find the answer modulo 109+7109+7.

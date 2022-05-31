@@ -1,0 +1,3 @@
+You have an array a1,a2,…,ana1,a2,…,an. All aiai are positive integers.
+In one step you can choose three distinct indices ii, jj, and kk (i≠ji≠j; i≠ki≠k; j≠kj≠k) and assign the sum of ajaj and akak to aiai, i. e. make ai=aj+akai=aj+ak.
+Can you make all aiai lower or equal to dd using the operation above any number of times (possibly, zero)?

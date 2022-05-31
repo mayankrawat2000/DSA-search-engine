@@ -1,0 +1,3 @@
+There are some rabbits in Singapore Zoo. To feed them, Zookeeper bought nn carrots with lengths a1,a2,a3,…,ana1,a2,a3,…,an. However, rabbits are very fertile and multiply very quickly. Zookeeper now has kk rabbits and does not have enough carrots to feed all of them. To solve this problem, Zookeeper decided to cut the carrots into kk pieces. For some reason, all resulting carrot lengths must be positive integers.
+Big carrots are very difficult for rabbits to handle and eat, so the time needed to eat a carrot of size xx is x2x2.
+Help Zookeeper split his carrots while minimizing the sum of time taken for rabbits to eat the carrots.

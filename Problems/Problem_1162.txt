@@ -1,0 +1,4 @@
+There are nn persons located on a plane. The ii-th person is located at the point (xi,yi)(xi,yi) and initially looks at the point (ui,vi)(ui,vi).
+At the same moment of time, all persons will start to rotate clockwise synchronously with the same angular speed. They will rotate until they do one full 360360-degree turn. 
+It is said that persons AA and BB made eye contact if person AA looks in person BB's direction at the same moment when person BB looks in person AA's direction. If there is a person CC located between persons AA and BB, that will not obstruct AA and BB from making eye contact. A person can make eye contact with more than one person at the same time.
+Calculate the number of pairs of persons that will make eye contact at least once during the rotation (including the initial moment).

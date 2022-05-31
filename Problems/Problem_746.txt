@@ -1,0 +1,4 @@
+You are given a sequence AA, where its elements are either in the form + x or -, where xx is an integer.
+For such a sequence SS where its elements are either in the form + x or -, define f(S)f(S) as follows:
+  iterate through SS's elements from the first one to the last one, and maintain a multiset TT as you iterate through it.  for each element, if it's in the form + x, add xx to TT; otherwise, erase the smallest element from TT (if TT is empty, do nothing).  after iterating through all SS's elements, compute the sum of all elements in TT. f(S)f(S) is defined as the sum. 
+The sequence bb is a subsequence of the sequence aa if bb can be derived from aa by removing zero or more elements without changing the order of the remaining elements. For all AA's subsequences BB, compute the sum of f(B)f(B), modulo 998244353998244353.

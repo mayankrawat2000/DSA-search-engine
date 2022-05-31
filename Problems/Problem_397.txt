@@ -1,0 +1,2 @@
+A permutation of length nn is an array p=[p1,p2,…,pn]p=[p1,p2,…,pn] which contains every integer from 11 to nn (inclusive) exactly once. For example, p=[4,2,6,5,3,1]p=[4,2,6,5,3,1] is a permutation of length 66.
+You are given three integers nn, aa and bb, where nn is an even number. Print any permutation of length nn that the minimum among all its elements of the left half equals aa and the maximum among all its elements of the right half equals bb. Print -1 if no such permutation exists.

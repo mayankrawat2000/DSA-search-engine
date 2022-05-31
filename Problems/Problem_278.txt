@@ -1,0 +1,6 @@
+You are given an array aa of nn integers and a set BB of mm positive integers such that 1≤bi≤⌊n2⌋1≤bi≤⌊n2⌋ for 1≤i≤m1≤i≤m, where bibi is the ii-th element of BB. 
+You can make the following operation on aa:
+  Select some xx such that xx appears in BB. Select an interval from array aa of size xx and multiply by −1−1 every element in the interval. Formally, select ll and rr such that 1≤l≤r≤n1≤l≤r≤n and r−l+1=xr−l+1=x, then assign ai:=−aiai:=−ai for every ii such that l≤i≤rl≤i≤r. 
+Consider the following example, let a=[0,6,−2,1,−4,5]a=[0,6,−2,1,−4,5] and B={1,2}B={1,2}:
+  [0,6,−2,−1,4,5][0,6,−2,−1,4,5] is obtained after choosing size 22 and l=4l=4, r=5r=5. [0,6,2,−1,4,5][0,6,2,−1,4,5] is obtained after choosing size 11 and l=3l=3, r=3r=3. 
+Find the maximum ∑i=1nai∑i=1nai you can get after applying such operation any number of times (possibly zero).

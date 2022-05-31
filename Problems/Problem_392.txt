@@ -1,0 +1,4 @@
+You are given an array c=[c1,c2,…,cm]c=[c1,c2,…,cm]. An array a=[a1,a2,…,an]a=[a1,a2,…,an] is constructed in such a way that it consists of integers 1,2,…,m1,2,…,m, and for each i∈[1,m]i∈[1,m], there are exactly cici occurrences of integer ii in aa. So, the number of elements in aa is exactly ∑i=1mci∑i=1mci.
+Let's define for such array aa the value f(a)f(a) as f(a)=∑1≤i<j≤nai=ajj−i.f(a)=∑1≤i<j≤nai=ajj−i.
+In other words, f(a)f(a) is the total sum of distances between all pairs of equal elements.
+Your task is to calculate the maximum possible value of f(a)f(a) and the number of arrays yielding the maximum possible value of f(a)f(a). Two arrays are considered different, if elements at some position differ.

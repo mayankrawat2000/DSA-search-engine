@@ -1,0 +1,4 @@
+You are given a directed graph of nn vertices and mm edges. Vertices are numbered from 11 to nn. There is a token in vertex 11.
+The following actions are allowed: 
+  Token movement. To move the token from vertex uu to vertex vv if there is an edge u→vu→v in the graph. This action takes 11 second.  Graph transposition. To transpose all the edges in the graph: replace each edge u→vu→v by an edge v→uv→u. This action takes increasingly more time: kk-th transposition takes 2k−12k−1 seconds, i.e. the first transposition takes 11 second, the second one takes 22 seconds, the third one takes 44 seconds, and so on. 
+The goal is to move the token from vertex 11 to vertex nn in the shortest possible time. Print this time modulo 998244353998244353.

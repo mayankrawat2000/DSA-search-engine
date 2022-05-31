@@ -1,0 +1,4 @@
+Lord Omkar has permitted you to enter the Holy Church of Omkar! To test your worthiness, Omkar gives you a password which you must interpret!
+A password is an array aa of nn positive integers. You apply the following operation to the array: pick any two adjacent numbers that are not equal to each other and replace them with their sum. Formally, choose an index ii such that 1≤i<n1≤i<n and ai≠ai+1ai≠ai+1, delete both aiai and ai+1ai+1 from the array and put ai+ai+1ai+ai+1 in their place. 
+For example, for array [7,4,3,7][7,4,3,7] you can choose i=2i=2 and the array will become [7,4+3,7]=[7,7,7][7,4+3,7]=[7,7,7]. Note that in this array you can't apply this operation anymore.
+Notice that one operation will decrease the size of the password by 11. What is the shortest possible length of the password after some number (possibly 00) of operations?

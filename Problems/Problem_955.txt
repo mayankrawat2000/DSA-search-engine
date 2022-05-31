@@ -1,0 +1,5 @@
+You are given an array aa of length nn consisting of integers. You can apply the following operation, consisting of several steps, on the array aa zero or more times: 
+  you select two different numbers in the array aiai and ajaj;  you remove ii-th and jj-th elements from the array. 
+For example, if n=6n=6 and a=[1,6,1,1,4,4]a=[1,6,1,1,4,4], then you can perform the following sequence of operations: 
+  select i=1,j=5i=1,j=5. The array aa becomes equal to [6,1,1,4][6,1,1,4];  select i=1,j=2i=1,j=2. The array aa becomes equal to [1,4][1,4]. 
+What can be the minimum size of the array after applying some sequence of operations to it?

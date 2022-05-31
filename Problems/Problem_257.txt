@@ -1,0 +1,4 @@
+Even a cat has things it can do that AI cannot.— Fei-Fei Li
+You are given mm arrays of positive integers. Each array is of even length.
+You need to split all these integers into two equal multisets LL and RR, that is, each element of each array should go into one of two multisets (but not both). Additionally, for each of the mm arrays, exactly half of its elements should go into LL, and the rest should go into RR.
+Give an example of such a division or determine that no such division exists.

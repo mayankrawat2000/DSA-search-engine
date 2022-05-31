@@ -1,0 +1,6 @@
+A big football championship will occur soon! nn teams will compete in it, and each pair of teams will play exactly one game against each other.
+There are two possible outcomes of a game:
+  the game may result in a tie, then both teams get 11 point;  one team might win in a game, then the winning team gets 33 points and the losing team gets 00 points. 
+The score of a team is the number of points it gained during all games that it played.
+You are interested in a hypothetical situation when all teams get the same score at the end of the championship. A simple example of that situation is when all games result in ties, but you want to minimize the number of ties as well.
+Your task is to describe a situation (choose the result of each game) so that all teams get the same score, and the number of ties is the minimum possible.

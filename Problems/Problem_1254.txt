@@ -1,0 +1,6 @@
+You are given a rectangular grid with nn rows and mm columns. The cell located on the ii-th row from the top and the jj-th column from the left has a value aijaij written in it.
+You can perform the following operation any number of times (possibly zero):
+  Choose any two adjacent cells and multiply the values in them by −1−1. Two cells are called adjacent if they share a side. 
+Note that you can use a cell more than once in different operations.
+You are interested in XX, the sum of all the numbers in the grid. 
+What is the maximum XX you can achieve with these operations?

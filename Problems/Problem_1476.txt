@@ -1,0 +1,3 @@
+There is a square of size 106×106106×106 on the coordinate plane with four points (0,0)(0,0), (0,106)(0,106), (106,0)(106,0), and (106,106)(106,106) as its vertices.
+You are going to draw segments on the plane. All segments are either horizontal or vertical and intersect with at least one side of the square.
+Now you are wondering how many pieces this square divides into after drawing all segments. Write a program calculating the number of pieces of the square.

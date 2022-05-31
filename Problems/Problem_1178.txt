@@ -1,0 +1,6 @@
+You've probably heard about the twelve labors of Heracles, but do you have any idea about the thirteenth? It is commonly assumed it took him a dozen years to complete the twelve feats, so on average, a year to accomplish every one of them. As time flows faster these days, you have minutes rather than months to solve this task. But will you manage?
+In this problem, you are given a tree with nn weighted vertices. A tree is a connected graph with n−1n−1 edges.
+Let us define its kk-coloring as an assignment of kk colors to the edges so that each edge has exactly one color assigned to it. Note that you don't have to use all kk colors.
+A subgraph of color xx consists of these edges from the original tree, which are assigned color xx, and only those vertices that are adjacent to at least one such edge. So there are no vertices of degree 00 in such a subgraph.
+The value of a connected component is the sum of weights of its vertices. Let us define the value of a subgraph as a maximum of values of its connected components. We will assume that the value of an empty subgraph equals 00.
+There is also a value of a kk-coloring, which equals the sum of values of subgraphs of all kk colors. Given a tree, for each kk from 11 to n−1n−1 calculate the maximal value of a kk-coloring.

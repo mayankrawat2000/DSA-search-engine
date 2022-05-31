@@ -1,0 +1,5 @@
+Nezzar buys his favorite snack — nn chocolate bars with lengths l1,l2,…,lnl1,l2,…,ln. However, chocolate bars might be too long to store them properly! 
+In order to solve this problem, Nezzar designs an interesting process to divide them into small pieces. Firstly, Nezzar puts all his chocolate bars into a black box. Then, he will perform the following operation repeatedly until the maximum length over all chocolate bars does not exceed kk.
+  Nezzar picks a chocolate bar from the box with probability proportional to its length xx.  After step 11, Nezzar uniformly picks a real number r∈(0,x)r∈(0,x) and divides the chosen chocolate bar into two chocolate bars with lengths rr and x−rx−r.  Lastly, he puts those two new chocolate bars into the black box. 
+Nezzar now wonders, what is the expected number of operations he will perform to divide his chocolate bars into small pieces.
+It can be shown that the answer can be represented as PQPQ, where PP and QQ are coprime integers and Q≢0Q≢0 (mod998244353mod998244353). Print the value of P⋅Q−1mod998244353P⋅Q−1mod998244353.

@@ -1,0 +1,8 @@
+Ichihime is the current priestess of the Mahjong Soul Temple. She claims to be human, despite her cat ears.
+These days the temple is holding a math contest. Usually, Ichihime lacks interest in these things, but this time the prize for the winner is her favorite — cookies. Ichihime decides to attend the contest. Now she is solving the following problem.
+
+ 
+You are given four positive integers aa, bb, cc, dd, such that a≤b≤c≤da≤b≤c≤d. 
+Your task is to find three integers xx, yy, zz, satisfying the following conditions:
+ a≤x≤ba≤x≤b. b≤y≤cb≤y≤c. c≤z≤dc≤z≤d. There exists a triangle with a positive non-zero area and the lengths of its three sides are xx, yy, and zz.
+Ichihime desires to get the cookie, but the problem seems too hard for her. Can you help her?

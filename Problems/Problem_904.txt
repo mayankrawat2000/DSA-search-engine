@@ -1,0 +1,2 @@
+Phoenix has nn blocks of height h1,h2,…,hnh1,h2,…,hn, and all hihi don't exceed some value xx. He plans to stack all nn blocks into mm separate towers. The height of a tower is simply the sum of the heights of its blocks. For the towers to look beautiful, no two towers may have a height difference of strictly more than xx. 
+Please help Phoenix build mm towers that look beautiful. Each tower must have at least one block and all blocks must be used.

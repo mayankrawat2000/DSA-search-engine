@@ -1,0 +1,5 @@
+You are given two arrays a1,a2,…,ana1,a2,…,an and b1,b2,…,bmb1,b2,…,bm. Array bb is sorted in ascending order (bi<bi+1bi<bi+1 for each ii from 11 to m−1m−1).
+You have to divide the array aa into mm consecutive subarrays so that, for each ii from 11 to mm, the minimum on the ii-th subarray is equal to bibi. Note that each element belongs to exactly one subarray, and they are formed in such a way: the first several elements of aa compose the first subarray, the next several elements of aa compose the second subarray, and so on.
+For example, if a=[12,10,20,20,25,30]a=[12,10,20,20,25,30] and b=[10,20,30]b=[10,20,30] then there are two good partitions of array aa: 
+  [12,10,20],[20,25],[30][12,10,20],[20,25],[30];  [12,10],[20,20,25],[30][12,10],[20,20,25],[30]. 
+You have to calculate the number of ways to divide the array aa. Since the number can be pretty large print it modulo 998244353.

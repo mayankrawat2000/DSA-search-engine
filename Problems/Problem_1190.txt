@@ -1,0 +1,6 @@
+This is the hard version of this problem. The only difference between the easy and hard versions is the constraints on kk and mm. In this version of the problem, you need to output the answer by modulo 109+7109+7.
+You are given a sequence aa of length nn consisting of integers from 11 to nn. The sequence may contain duplicates (i.e. some elements can be equal).
+Find the number of tuples of mm elements such that the maximum number in the tuple differs from the minimum by no more than kk. Formally, you need to find the number of tuples of mm indices i1<i2<…<imi1<i2<…<im, such that
+max(ai1,ai2,…,aim)−min(ai1,ai2,…,aim)≤k.max(ai1,ai2,…,aim)−min(ai1,ai2,…,aim)≤k.
+For example, if n=4n=4, m=3m=3, k=2k=2, a=[1,2,4,3]a=[1,2,4,3], then there are two such triples (i=1,j=2,z=4i=1,j=2,z=4 and i=2,j=3,z=4i=2,j=3,z=4). If n=4n=4, m=2m=2, k=1k=1, a=[1,1,1,1]a=[1,1,1,1], then all six possible pairs are suitable.
+As the result can be very large, you should print the value modulo 109+7109+7 (the remainder when divided by 109+7109+7).

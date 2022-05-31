@@ -1,0 +1,6 @@
+You are given a string ss, consisting of brackets of two types: '(', ')', '[' and ']'.
+A string is called a regular bracket sequence (RBS) if it's of one of the following types: 
+  empty string;  '(' + RBS + ')';  '[' + RBS + ']';  RBS + RBS. 
+where plus is a concatenation of two strings.
+In one move you can choose a non-empty subsequence of the string ss (not necessarily consecutive) that is an RBS, remove it from the string and concatenate the remaining parts without changing the order.
+What is the maximum number of moves you can perform?

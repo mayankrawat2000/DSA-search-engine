@@ -1,0 +1,4 @@
+Koa the Koala has a directed graph GG with nn nodes and mm edges. Each edge has a capacity associated with it. Exactly kk edges of the graph, numbered from 11 to kk, are special, such edges initially have a capacity equal to 00.
+Koa asks you qq queries. In each query she gives you kk integers w1,w2,…,wkw1,w2,…,wk. This means that capacity of the ii-th special edge becomes wiwi (and other capacities remain the same).
+Koa wonders: what is the maximum flow that goes from node 11 to node nn after each such query?
+Help her!

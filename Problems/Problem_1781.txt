@@ -1,0 +1,5 @@
+Phoenix is picking berries in his backyard. There are nn shrubs, and each shrub has aiai red berries and bibi blue berries.
+Each basket can contain kk berries. But, Phoenix has decided that each basket may only contain berries from the same shrub or berries of the same color (red or blue). In other words, all berries in a basket must be from the same shrub or/and have the same color.
+For example, if there are two shrubs with 55 red and 22 blue berries in the first shrub and 22 red and 11 blue berries in the second shrub then Phoenix can fill 22 baskets of capacity 44 completely: 
+  the first basket will contain 33 red and 11 blue berries from the first shrub;  the second basket will contain the 22 remaining red berries from the first shrub and 22 red berries from the second shrub. 
+Help Phoenix determine the maximum number of baskets he can fill completely!

@@ -1,0 +1,5 @@
+After being discouraged by 13 time-limit-exceeded verdicts on an ugly geometry problem, you decided to take a relaxing break for arts and crafts.
+There is a piece of paper in the shape of a simple polygon with nn vertices. The polygon may be non-convex, but we all know that proper origami paper has the property that any horizontal line intersects the boundary of the polygon in at most two points.
+If you fold the paper along the vertical line x=fx=f, what will be the area of the resulting shape? When you fold, the part of the paper to the left of the line is symmetrically reflected on the right side.
+  
+Your task is to answer qq independent queries for values f1,…,fqf1,…,fq.

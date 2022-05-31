@@ -1,0 +1,5 @@
+You are given two strings ss and tt, each of length nn and consisting of lowercase Latin alphabets. You want to make ss equal to tt. 
+You can perform the following operation on ss any number of times to achieve it — 
+  Choose any substring of ss and rotate it clockwise once, that is, if the selected substring is s[l,l+1...r]s[l,l+1...r], then it becomes s[r,l,l+1...r−1]s[r,l,l+1...r−1]. All the remaining characters of ss stay in their position. For example, on rotating the substring [2,4][2,4] , string "abcde" becomes "adbce". 
+A string aa is a substring of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.
+Find the minimum number of operations required to convert ss to tt, or determine that it's impossible.

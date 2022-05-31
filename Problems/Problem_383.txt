@@ -1,0 +1,5 @@
+Once Divan analyzed a sequence a1,a2,…,ana1,a2,…,an consisting of nn non-negative integers as follows. He considered each non-empty subsequence of the sequence aa, computed the bitwise XOR of its elements and added up all the XORs, obtaining the coziness of the sequence aa.
+A sequence cc is a subsequence of a sequence dd if cc can be obtained from dd by deletion of several (possibly, zero or all) elements. For example, [1,2,3,4][1,2,3,4], [2,4][2,4], and [2][2] are subsequences of [1,2,3,4][1,2,3,4], but [4,3][4,3] and [0][0] are not.
+Divan was very proud of his analysis, but now he lost the sequence aa, and also the coziness value! However, Divan remembers the value of bitwise OR on mm contiguous subsegments of the sequence aa. It turns out that each element of the original sequence is contained in at least one of these mm segments.
+Divan asks you to help find the coziness of the sequence aa using the information he remembers. If several coziness values are possible, print any.
+As the result can be very large, print the value modulo 109+7109+7.

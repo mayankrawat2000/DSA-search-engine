@@ -1,0 +1,7 @@
+A binary tree of nn nodes is given. Nodes of the tree are numbered from 11 to nn and the root is the node 11. Each node can have no child, only one left child, only one right child, or both children. For convenience, let's denote lulu and ruru as the left and the right child of the node uu respectively, lu=0lu=0 if uu does not have the left child, and ru=0ru=0 if the node uu does not have the right child.
+Each node has a string label, initially is a single character cucu. Let's define the string representation of the binary tree as the concatenation of the labels of the nodes in the in-order. Formally, let f(u)f(u) be the string representation of the tree rooted at the node uu. f(u)f(u) is defined as follows: f(u)={<empty string>,f(lu)+cu+f(ru)if u=0;otherwise,f(u)={<empty string>,if u=0;f(lu)+cu+f(ru)otherwise, where ++ denotes the string concatenation operation.
+This way, the string representation of the tree is f(1)f(1).
+For each node, we can duplicate its label at most once, that is, assign cucu with cu+cucu+cu, but only if uu is the root of the tree, or if its parent also has its label duplicated.
+You are given the tree and an integer kk. What is the lexicographically smallest string representation of the tree, if we can duplicate labels of at most kk nodes?
+A string aa is lexicographically smaller than a string bb if and only if one of the following holds: 
+  aa is a prefix of bb, but a≠ba≠b;  in the first position where aa and bb differ, the string aa has a letter that appears earlier in the alphabet than the corresponding letter in bb. 

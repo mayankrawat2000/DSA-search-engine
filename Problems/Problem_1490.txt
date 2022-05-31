@@ -1,0 +1,7 @@
+Easy and hard versions are actually different problems, so we advise you to read both statements carefully.
+You are given a weighted rooted tree, vertex 11 is the root of this tree.
+A tree is a connected graph without cycles. A rooted tree has a special vertex called the root. A parent of a vertex vv is the last different from vv vertex on the path from the root to the vertex vv. Children of vertex vv are all vertices for which vv is the parent. A vertex is a leaf if it has no children. The weighted tree is such a tree that each edge of this tree has some weight.
+The weight of the path is the sum of edges weights on this path. The weight of the path from the vertex to itself is 00.
+You can make a sequence of zero or more moves. On each move, you select an edge and divide its weight by 22 rounding down. More formally, during one move, you choose some edge ii and divide its weight by 22 rounding down (wi:=⌊wi2⌋wi:=⌊wi2⌋).
+Your task is to find the minimum number of moves required to make the sum of weights of paths from the root to each leaf at most SS. In other words, if w(i,j)w(i,j) is the weight of the path from the vertex ii to the vertex jj, then you have to make ∑v∈leavesw(root,v)≤S∑v∈leavesw(root,v)≤S, where leavesleaves is the list of all leaves.
+You have to answer tt independent test cases.

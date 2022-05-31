@@ -1,0 +1,7 @@
+Now Dmitry has a session, and he has to pass nn exams. The session starts on day 11 and lasts dd days. The iith exam will take place on the day of aiai (1≤ai≤d1≤ai≤d), all aiai — are different.
+  Sample, where n=3n=3, d=12d=12, a=[3,5,9]a=[3,5,9]. Orange — exam days. Before the first exam Dmitry will rest 22 days, before the second he will rest 11 day and before the third he will rest 33 days. 
+For the session schedule, Dmitry considers a special value μμ — the smallest of the rest times before the exam for all exams. For example, for the image above, μ=1μ=1. In other words, for the schedule, he counts exactly nn numbers  — how many days he rests between the exam i−1i−1 and ii (for i=0i=0 between the start of the session and the exam ii). Then it finds μμ — the minimum among these nn numbers.
+Dmitry believes that he can improve the schedule of the session. He may ask to change the date of one exam (change one arbitrary value of aiai). Help him change the date so that all aiai remain different, and the value of μμ is as large as possible.
+For example, for the schedule above, it is most advantageous for Dmitry to move the second exam to the very end of the session. The new schedule will take the form:
+  Now the rest periods before exams are equal to [2,2,5][2,2,5]. So, μ=2μ=2. 
+Dmitry can leave the proposed schedule unchanged (if there is no way to move one exam so that it will lead to an improvement in the situation).

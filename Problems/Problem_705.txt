@@ -1,0 +1,6 @@
+This problem is an extension of the problem "Wonderful Coloring - 1". It has quite many differences, so you should read this statement completely.
+Recently, Paul and Mary have found a new favorite sequence of integers a1,a2,…,ana1,a2,…,an. They want to paint it using pieces of chalk of kk colors. The coloring of a sequence is called wonderful if the following conditions are met:
+  each element of the sequence is either painted in one of kk colors or isn't painted;  each two elements which are painted in the same color are different (i. e. there's no two equal values painted in the same color);  let's calculate for each of kk colors the number of elements painted in the color — all calculated numbers must be equal;  the total number of painted elements of the sequence is the maximum among all colorings of the sequence which meet the first three conditions. 
+E. g. consider a sequence a=[3,1,1,1,1,10,3,10,10,2]a=[3,1,1,1,1,10,3,10,10,2] and k=3k=3. One of the wonderful colorings of the sequence is shown in the figure.
+  The example of a wonderful coloring of the sequence a=[3,1,1,1,1,10,3,10,10,2]a=[3,1,1,1,1,10,3,10,10,2] and k=3k=3. Note that one of the elements isn't painted. 
+Help Paul and Mary to find a wonderful coloring of a given sequence aa.

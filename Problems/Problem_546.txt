@@ -1,0 +1,4 @@
+Kawasiro Nitori is excellent in engineering. Thus she has been appointed to help maintain trains.
+There are nn models of trains, and Nitori's department will only have at most one train of each model at any moment. In the beginning, there are no trains, at each of the following mm days, one train will be added, or one train will be removed. When a train of model ii is added at day tt, it works for xixi days (day tt inclusive), then it is in maintenance for yiyi days, then in work for xixi days again, and so on until it is removed.
+In order to make management easier, Nitori wants you to help her calculate how many trains are in maintenance in each day.
+On a day a train is removed, it is not counted as in maintenance.

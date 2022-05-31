@@ -1,0 +1,4 @@
+Let us consider the game "Sticky Tetris". In this game, there is a field of n×mn×m squares. Tiles appear on the field and the player can move the tiles. 
+Each tile is a 44-connected set of at most 77 squares.
+Each new tile appears in any position that fits inside the field, does not intersect any other tile, and the top cell of the tile is at the top row of the field. The player can move the tile left, right, and down, and at any moment the tile must still entirely fit inside the field and must not intersect other tiles. The player can stop the tile at any position at any time. After that, it cannot be moved. Since this is "Sticky Tetris," the tile will not fall once stopped.
+You are given a final configuration of a "Sticky Tetris" game. You need to restore a sequence of steps that leads to that configuration if it exists.

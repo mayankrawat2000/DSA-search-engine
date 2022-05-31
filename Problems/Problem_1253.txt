@@ -1,0 +1,4 @@
+A string bb is a subsequence of a string aa if bb can be obtained from aa by deletion of several (possibly, zero or all) characters. For example, "xy" is a subsequence of "xzyw" and "xy", but not "yx".
+You are given a string aa. Your task is to reorder the characters of aa so that "trygub" is not a subsequence of the resulting string.
+In other words, you should find a string bb which is a permutation of symbols of the string aa and "trygub" is not a subsequence of bb.
+We have a truly marvelous proof that any string can be arranged not to contain "trygub" as a subsequence, but this problem statement is too short to contain it.

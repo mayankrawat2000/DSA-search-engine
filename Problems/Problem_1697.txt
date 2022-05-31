@@ -1,0 +1,5 @@
+Polycarp wants to buy exactly nn shovels. The shop sells packages with shovels. The store has kk types of packages: the package of the ii-th type consists of exactly ii shovels (1≤i≤k1≤i≤k). The store has an infinite number of packages of each type.
+Polycarp wants to choose one type of packages and then buy several (one or more) packages of this type. What is the smallest number of packages Polycarp will have to buy to get exactly nn shovels?
+For example, if n=8n=8 and k=7k=7, then Polycarp will buy 22 packages of 44 shovels.
+Help Polycarp find the minimum number of packages that he needs to buy, given that he: 
+  will buy exactly nn shovels in total;  the sizes of all packages he will buy are all the same and the number of shovels in each package is an integer from 11 to kk, inclusive. 

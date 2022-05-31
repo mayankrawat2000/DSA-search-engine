@@ -1,0 +1,6 @@
+You are given a multiset SS initially consisting of nn distinct non-negative integers. A multiset is a set, that can contain some elements multiple times.
+You will perform the following operation kk times: 
+  Add the element ⌈a+b2⌉⌈a+b2⌉ (rounded up) into SS, where a=mex(S)a=mex⁡(S) and b=max(S)b=max(S). If this number is already in the set, it is added again. 
+Here maxmax of a multiset denotes the maximum integer in the multiset, and mexmex of a multiset denotes the smallest non-negative integer that is not present in the multiset. For example: 
+  mex({1,4,0,2})=3mex⁡({1,4,0,2})=3;   mex({2,5,1})=0mex⁡({2,5,1})=0. 
+Your task is to calculate the number of distinct elements in SS after kk operations will be done.

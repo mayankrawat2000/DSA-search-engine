@@ -1,0 +1,4 @@
+You are given two arrays of length nn: a1,a2,…,ana1,a2,…,an and b1,b2,…,bnb1,b2,…,bn.
+You can perform the following operation any number of times: 
+  Choose integer index ii (1≤i≤n1≤i≤n);  Swap aiai and bibi. 
+What is the minimum possible sum |a1−a2|+|a2−a3|+⋯+|an−1−an||a1−a2|+|a2−a3|+⋯+|an−1−an| ++ |b1−b2|+|b2−b3|+⋯+|bn−1−bn||b1−b2|+|b2−b3|+⋯+|bn−1−bn| (in other words, ∑i=1n−1(|ai−ai+1|+|bi−bi+1|)∑i=1n−1(|ai−ai+1|+|bi−bi+1|)) you can achieve after performing several (possibly, zero) operations?

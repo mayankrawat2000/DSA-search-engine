@@ -1,0 +1,4 @@
+Koa the Koala has a binary string ss of length nn. Koa can perform no more than n−1n−1 (possibly zero) operations of the following form:
+In one operation Koa selects positions ii and i+1i+1 for some ii with 1≤i<|s|1≤i<|s| and sets sisi to max(si,si+1)max(si,si+1). Then Koa deletes position i+1i+1 from ss (after the removal, the remaining parts are concatenated).
+Note that after every operation the length of ss decreases by 11.
+How many different binary strings can Koa obtain by doing no more than n−1n−1 (possibly zero) operations modulo 109+7109+7 (10000000071000000007)?

@@ -1,0 +1,6 @@
+You are given a matrix, consisting of nn rows and mm columns. The jj-th cell of the ii-th row contains an integer aijaij.
+First, you have to color each row of the matrix either red or blue in such a way that at least one row is colored red and at least one row is colored blue.
+Then, you have to choose an integer kk (1≤k<m1≤k<m) and cut the colored matrix in such a way that the first kk columns become a separate matrix (the left matrix) and the last m−km−k columns become a separate matrix (the right matrix).
+The coloring and the cut are called perfect if two properties hold: 
+  every red cell in the left matrix contains an integer greater than every blue cell in the left matrix;  every blue cell in the right matrix contains an integer greater than every red cell in the right matrix. 
+Find any perfect coloring and cut, or report that there are none.

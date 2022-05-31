@@ -1,0 +1,7 @@
+Polycarp was given an array of a[1…n]a[1…n] of nn integers. He can perform the following operation with the array aa no more than nn times:
+  Polycarp selects the index ii and adds the value aiai to one of his choice of its neighbors. More formally, Polycarp adds the value of aiai to ai−1ai−1 or to ai+1ai+1 (if such a neighbor does not exist, then it is impossible to add to it).  After adding it, Polycarp removes the ii-th element from the aa array. During this step the length of aa is decreased by 11. 
+The two items above together denote one single operation.
+For example, if Polycarp has an array a=[3,1,6,6,2]a=[3,1,6,6,2], then it can perform the following sequence of operations with it: 
+  Polycarp selects i=2i=2 and adds the value aiai to (i−1)(i−1)-th element: a=[4,6,6,2]a=[4,6,6,2].  Polycarp selects i=1i=1 and adds the value aiai to (i+1)(i+1)-th element: a=[10,6,2]a=[10,6,2].  Polycarp selects i=3i=3 and adds the value aiai to (i−1)(i−1)-th element: a=[10,8]a=[10,8].  Polycarp selects i=2i=2 and adds the value aiai to (i−1)(i−1)-th element: a=[18]a=[18]. 
+Note that Polycarp could stop performing operations at any time.
+Polycarp wondered how many minimum operations he would need to perform to make all the elements of aa equal (i.e., he wants all aiai are equal to each other).

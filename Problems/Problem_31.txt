@@ -1,0 +1,5 @@
+Nastya baked mm pancakes and spread them on nn dishes. The dishes are in a row and numbered from left to right. She put aiai pancakes on the dish with the index ii.
+Seeing the dishes, Vlad decided to bring order to the stacks and move some pancakes. In one move, he can shift one pancake from any dish to the closest one, that is, select the dish ii (ai>0ai>0) and do one of the following:
+ if i>1i>1, put the pancake on a dish with the previous index, after this move ai=ai−1ai=ai−1 and ai−1=ai−1+1ai−1=ai−1+1; if i<ni<n, put the pancake on a dish with the following index, after this move ai=ai−1ai=ai−1 and ai+1=ai+1+1ai+1=ai+1+1.
+Vlad wants to make the array aanon-increasing, after moving as few pancakes as possible. Help him find the minimum number of moves needed for this.
+The array a=[a1,a2,…,an]a=[a1,a2,…,an] is called non-increasing if ai≥ai+1ai≥ai+1 for all ii from 11 to n−1n−1.

@@ -1,0 +1,4 @@
+  
+William has array of nn numbers a1,a2,…,ana1,a2,…,an. He can perform the following sequence of operations any number of times: 
+  Pick any two items from array aiai and ajaj, where aiai must be a multiple of 22  ai=ai2ai=ai2  aj=aj⋅2aj=aj⋅2 
+Help William find the maximal sum of array elements, which he can get by performing the sequence of operations described above.

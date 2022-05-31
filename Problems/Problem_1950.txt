@@ -1,0 +1,3 @@
+Suppose you are performing the following algorithm. There is an array v1,v2,…,vnv1,v2,…,vn filled with zeroes at start. The following operation is applied to the array several times — at ii-th step (00-indexed) you can: 
+  either choose position pospos (1≤pos≤n1≤pos≤n) and increase vposvpos by kiki;  or not choose any position and skip this step. 
+You can choose how the algorithm would behave on each step and when to stop it. The question is: can you make array vv equal to the given array aa (vj=ajvj=aj for each jj) after some step?

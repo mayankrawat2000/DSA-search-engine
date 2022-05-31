@@ -1,0 +1,4 @@
+Suppose you are given two strings aa and bb. You can apply the following operation any number of times: choose any contiguous substring of aa or bb, and sort the characters in it in non-descending order. Let f(a,b)f(a,b) the minimum number of operations you have to apply in order to make them equal (or f(a,b)=1337f(a,b)=1337 if it is impossible to make aa and bb equal using these operations).
+For example: 
+  f(ab,ab)=0f(ab,ab)=0;  f(ba,ab)=1f(ba,ab)=1 (in one operation, we can sort the whole first string);  f(ebcda,ecdba)=1f(ebcda,ecdba)=1 (in one operation, we can sort the substring of the second string starting from the 22-nd character and ending with the 44-th character);  f(a,b)=1337f(a,b)=1337. 
+You are given nn strings s1,s2,…,sks1,s2,…,sk having equal length. Calculate ∑i=1n∑j=i+1nf(si,sj)∑i=1n∑j=i+1nf(si,sj).

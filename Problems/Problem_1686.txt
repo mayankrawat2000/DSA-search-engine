@@ -1,0 +1,5 @@
+Johnny has recently found an ancient, broken computer. The machine has only one register, which allows one to put in there one variable. Then in one operation, you can shift its bits left or right by at most three positions. The right shift is forbidden if it cuts off some ones. So, in fact, in one operation, you can multiply or divide your number by 22, 44 or 88, and division is only allowed if the number is divisible by the chosen divisor. 
+Formally, if the register contains a positive integer xx, in one operation it can be replaced by one of the following: 
+  x⋅2x⋅2  x⋅4x⋅4  x⋅8x⋅8  x/2x/2, if xx is divisible by 22  x/4x/4, if xx is divisible by 44  x/8x/8, if xx is divisible by 88 
+For example, if x=6x=6, in one operation it can be replaced by 1212, 2424, 4848 or 33. Value 66 isn't divisible by 44 or 88, so there're only four variants of replacement.
+Now Johnny wonders how many operations he needs to perform if he puts aa in the register and wants to get bb at the end.

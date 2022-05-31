@@ -1,0 +1,5 @@
+This problem is interactive.
+We decided to play a game with you and guess the number xx (1≤x<n1≤x<n), where you know the number nn.
+You can make queries like this:
+ + c: this command assigns x=x+cx=x+c (1≤c<n1≤c<n) and then returns you the value ⌊xn⌋⌊xn⌋ (xx divide by nn and round down).
+You win if you guess the current number with no more than 1010 queries.

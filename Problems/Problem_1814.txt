@@ -1,0 +1,4 @@
+You are given two integers xx and yy. You can perform two types of operations: 
+  Pay aa dollars and increase or decrease any of these integers by 11. For example, if x=0x=0 and y=7y=7 there are four possible outcomes after this operation:   x=0x=0, y=6y=6;  x=0x=0, y=8y=8;  x=−1x=−1, y=7y=7;  x=1x=1, y=7y=7.   Pay bb dollars and increase or decrease both integers by 11. For example, if x=0x=0 and y=7y=7 there are two possible outcomes after this operation:   x=−1x=−1, y=6y=6;  x=1x=1, y=8y=8.  
+Your goal is to make both given integers equal zero simultaneously, i.e. x=y=0x=y=0. There are no other requirements. In particular, it is possible to move from x=1x=1, y=0y=0 to x=y=0x=y=0.
+Calculate the minimum amount of dollars you have to spend on it.

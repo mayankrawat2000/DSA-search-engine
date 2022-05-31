@@ -1,0 +1,5 @@
+There are nn computers in the company network. They are numbered from 11 to nn.
+For each pair of two computers 1≤i<j≤n1≤i<j≤n you know the value ai,jai,j: the difficulty of sending data between computers ii and jj. All values ai,jai,j for i<ji<j are different.
+You want to separate all computers into kk sets A1,A2,…,AkA1,A2,…,Ak, such that the following conditions are satisfied: 
+  for each computer 1≤i≤n1≤i≤n there is exactly one set AjAj, such that i∈Aji∈Aj;  for each two pairs of computers (s,f)(s,f) and (x,y)(x,y) (s≠fs≠f, x≠yx≠y), such that ss, ff, xx are from the same set but xx and yy are from different sets, as,f<ax,yas,f<ax,y. 
+For each 1≤k≤n1≤k≤n find the number of ways to divide computers into kk groups, such that all required conditions are satisfied. These values can be large, so you need to find them by modulo 998244353998244353.

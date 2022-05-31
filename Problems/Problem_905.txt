@@ -1,0 +1,3 @@
+Phoenix is playing with a new puzzle, which consists of nn identical puzzle pieces. Each puzzle piece is a right isosceles triangle as shown below.
+  A puzzle piece 
+The goal of the puzzle is to create a square using the nn pieces. He is allowed to rotate and move the pieces around, but none of them can overlap and all nn pieces must be used (of course, the square shouldn't contain any holes as well). Can he do it?

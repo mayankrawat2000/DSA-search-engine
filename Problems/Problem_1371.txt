@@ -1,0 +1,7 @@
+In Bubbleland a group of special programming forces gets a top secret job to calculate the number of potentially infected people by a new unknown virus. The state has a population of nn people and every day there is new information about new contacts between people. The job of special programming forces is to calculate how many contacts in the last kk days a given person had. 
+The new virus has an incubation period of kk days, and after that time people consider as non-infectious. Because the new virus is an extremely dangerous, government mark as suspicious everybody who had direct or indirect contact in the last kk days, independently of the order of contacts.
+This virus is very strange, and people can't get durable immunity.
+You need to help special programming forces to calculate the number of suspicious people for a given person (number of people who had contact with a given person).
+There are 3 given inputs on beginning nn where nn is population, qq number of queries, kk virus incubation time in days. Each query is one of three types: 
+   (xx, yy) person xx and person yy met that day (x≠yx≠y).   (zz) return the number of people in contact with zz, counting himself.   The end of the current day moves on to the next day. 
+ 

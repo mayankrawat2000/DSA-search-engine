@@ -1,0 +1,2 @@
+Your task is to calculate the number of arrays such that:
+  each array contains nn elements;  each element is an integer from 11 to mm;  for each array, there is exactly one pair of equal elements;  for each array aa, there exists an index ii such that the array is strictly ascending before the ii-th element and strictly descending after it (formally, it means that aj<aj+1aj<aj+1, if j<ij<i, and aj>aj+1aj>aj+1, if j≥ij≥i). 

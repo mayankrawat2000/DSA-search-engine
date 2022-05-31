@@ -1,0 +1,2 @@
+There are three cells on an infinite 2-dimensional grid, labeled AA, BB, and FF. Find the length of the shortest path from AA to BB if: 
+  in one move you can go to any of the four adjacent cells sharing a side;  visiting the cell FF is forbidden (it is an obstacle). 

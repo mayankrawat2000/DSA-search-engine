@@ -1,0 +1,5 @@
+Parsa has a humongous tree on nn vertices.
+On each vertex vv he has written two integers lvlv and rvrv.
+To make Parsa's tree look even more majestic, Nima wants to assign a number avav (lv≤av≤rvlv≤av≤rv) to each vertex vv such that the beauty of Parsa's tree is maximized.
+Nima's sense of the beauty is rather bizarre. He defines the beauty of the tree as the sum of |au−av||au−av| over all edges (u,v)(u,v) of the tree.
+Since Parsa's tree is too large, Nima can't maximize its beauty on his own. Your task is to find the maximum possible beauty for Parsa's tree.

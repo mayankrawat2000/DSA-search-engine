@@ -1,0 +1,3 @@
+Alice and Bob received nn candies from their parents. Each candy weighs either 1 gram or 2 grams. Now they want to divide all candies among themselves fairly so that the total weight of Alice's candies is equal to the total weight of Bob's candies.
+Check if they can do that.
+Note that candies are not allowed to be cut in half.

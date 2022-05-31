@@ -1,0 +1,8 @@
+Soroush and Keshi each have a labeled and rooted tree on nn vertices. Both of their trees are rooted from vertex 11.
+Soroush and Keshi used to be at war. After endless decades of fighting, they finally became allies to prepare a Codeforces round. To celebrate this fortunate event, they decided to make a memorial graph on nn vertices.
+They add an edge between vertices uu and vv in the memorial graph if both of the following conditions hold: 
+  One of uu or vv is the ancestor of the other in Soroush's tree.  Neither of uu or vv is the ancestor of the other in Keshi's tree. 
+Here vertex uu is considered ancestor of vertex vv, if uu lies on the path from 11 (the root) to the vv.
+Popping out of nowhere, Mashtali tried to find the maximum clique in the memorial graph for no reason. He failed because the graph was too big. 
+Help Mashtali by finding the size of the maximum clique in the memorial graph.
+As a reminder, clique is a subset of vertices of the graph, each two of which are connected by an edge.

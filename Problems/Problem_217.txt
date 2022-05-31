@@ -1,0 +1,4 @@
+Sam is a kindergartener, and there are nn children in his group. He decided to create a team with some of his children to play "brawl:go 2".
+Sam has nn power-ups, the ii-th has type aiai. A child's strength is equal to the number of different types among power-ups he has.
+For a team of size kk, Sam will distribute all nn power-ups to kk children in such a way that each of the kk children receives at least one power-up, and each power-up is given to someone.
+For each integer kk from 11 to nn, find the minimum sum of strengths of a team of kk children Sam can get.

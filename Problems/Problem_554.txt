@@ -1,0 +1,8 @@
+Casimir has a rectangular piece of paper with a checkered field of size n×mn×m. Initially, all cells of the field are white.
+Let us denote the cell with coordinates ii vertically and jj horizontally by (i,j)(i,j). The upper left cell will be referred to as (1,1)(1,1) and the lower right cell as (n,m)(n,m).
+Casimir draws ticks of different sizes on the field. A tick of size dd (d>0d>0) with its center in cell (i,j)(i,j) is drawn as follows: 
+  First, the center cell (i,j)(i,j) is painted black.  Then exactly dd cells on the top-left diagonally to the center and exactly dd cells on the top-right diagonally to the center are also painted black.  That is all the cells with coordinates (i−h,j±h)(i−h,j±h) for all hh between 00 and dd are painted. In particular, a tick consists of 2d+12d+1 black cells. 
+An already painted cell will remain black if painted again. Below you can find an example of the 4×94×9 box, with two ticks of sizes 22 and 33.
+  
+You are given a description of a checkered field of size n×mn×m. Casimir claims that this field came about after he drew some (possibly 00) ticks on it. The ticks could be of different sizes, but the size of each tick is at least kk (that is, d≥kd≥k for all the ticks).
+Determine whether this field can indeed be obtained by drawing some (possibly none) ticks of sizes d≥kd≥k or not.

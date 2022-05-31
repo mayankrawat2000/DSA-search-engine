@@ -1,0 +1,3 @@
+Alice and Bob play a game. They have a set that initially consists of nn integers. The game is played in kk turns. During each turn, the following events happen:
+  firstly, Alice chooses an integer from the set. She can choose any integer except for the maximum one. Let the integer chosen by Alice be aa;  secondly, Bob chooses an integer from the set. He can choose any integer that is greater than aa. Let the integer chosen by Bob be bb;  finally, both aa and bb are erased from the set, and the value of b−ab−a is added to the score of the game. 
+Initially, the score is 00. Alice wants to maximize the resulting score, Bob wants to minimize it. Assuming that both Alice and Bob play optimally, calculate the resulting score of the game.

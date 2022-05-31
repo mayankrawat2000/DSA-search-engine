@@ -1,0 +1,3 @@
+Recently Vova found nn candy wrappers. He remembers that he bought xx candies during the first day, 2x2x candies during the second day, 4x4x candies during the third day, ……, 2k−1x2k−1x candies during the kk-th day. But there is an issue: Vova remembers neither xx nor kk but he is sure that xx and kk are positive integers and k>1k>1.
+Vova will be satisfied if you tell him any positive integer xx so there is an integer k>1k>1 that x+2x+4x+⋯+2k−1x=nx+2x+4x+⋯+2k−1x=n. It is guaranteed that at least one solution exists. Note that k>1k>1.
+You have to answer tt independent test cases.

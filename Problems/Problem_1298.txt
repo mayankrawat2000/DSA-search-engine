@@ -1,0 +1,3 @@
+Chef Monocarp has just put nn dishes into an oven. He knows that the ii-th dish has its optimal cooking time equal to titi minutes.
+At any positive integer minute TT Monocarp can put no more than one dish out of the oven. If the ii-th dish is put out at some minute TT, then its unpleasant value is |T−ti||T−ti| — the absolute difference between TT and titi. Once the dish is out of the oven, it can't go back in.
+Monocarp should put all the dishes out of the oven. What is the minimum total unpleasant value Monocarp can obtain?

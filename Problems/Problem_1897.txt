@@ -1,0 +1,9 @@
+You are given a permutation, p1,p2,…,pnp1,p2,…,pn.
+Imagine that some positions of the permutation contain bombs, such that there exists at least one position without a bomb.
+For some fixed configuration of bombs, consider the following process. Initially, there is an empty set, AA.
+For each ii from 11 to nn:
+ Add pipi to AA.  If the ii-th position contains a bomb, remove the largest element in AA.
+After the process is completed, AA will be non-empty. The cost of the configuration of bombs equals the largest element in AA.
+You are given another permutation, q1,q2,…,qnq1,q2,…,qn.
+For each 1≤i≤n1≤i≤n, find the cost of a configuration of bombs such that there exists a bomb in positions q1,q2,…,qi−1q1,q2,…,qi−1. 
+For example, for i=1i=1, you need to find the cost of a configuration without bombs, and for i=ni=n, you need to find the cost of a configuration with bombs in positions q1,q2,…,qn−1q1,q2,…,qn−1.

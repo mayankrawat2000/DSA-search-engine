@@ -1,0 +1,3 @@
+Vittorio has three favorite toys: a teddy bear, an owl, and a raccoon. Each of them has a name. 
+Vittorio takes several sheets of paper and writes a letter on each side of every sheet so that it is possible to spell any of the three names by arranging some of the sheets in a row (sheets can be reordered and flipped as needed). The three names do not have to be spelled at the same time, it is sufficient that it is possible to spell each of them using all the available sheets (and the same sheet can be used to spell different names).
+Find the minimum number of sheets required. In addition, produce a list of sheets with minimum cardinality which can be used to spell the three names (if there are multiple answers, print any).

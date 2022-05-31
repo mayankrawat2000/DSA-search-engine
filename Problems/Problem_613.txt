@@ -1,0 +1,4 @@
+You are given a string ss, consisting of nn letters, each letter is either 'a' or 'b'. The letters in the string are numbered from 11 to nn.
+s[l;r]s[l;r] is a continuous substring of letters from index ll to rr of the string inclusive. 
+A string is called balanced if the number of letters 'a' in it is equal to the number of letters 'b'. For example, strings "baba" and "aabbab" are balanced and strings "aaab" and "b" are not.
+Find any non-empty balanced substring s[l;r]s[l;r] of string ss. Print its ll and rr (1≤l≤r≤n1≤l≤r≤n). If there is no such substring, then print −1−1 −1−1.

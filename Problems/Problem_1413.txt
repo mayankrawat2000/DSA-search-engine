@@ -1,0 +1,4 @@
+One day, BThero decided to play around with arrays and came up with the following problem:
+You are given an array aa, which consists of nn positive integers. The array is numerated 11 through nn. You execute the following procedure exactly once:
+  You create a new array bb which consists of 2n2n positive integers, where for each 1≤i≤n1≤i≤n the condition b2i−1+b2i=aib2i−1+b2i=ai holds. For example, for the array a=[6,8,2]a=[6,8,2] you can create b=[2,4,4,4,1,1]b=[2,4,4,4,1,1].  You merge consecutive equal numbers in bb. For example, b=[2,4,4,4,1,1]b=[2,4,4,4,1,1] becomes b=[2,4,1]b=[2,4,1]. 
+Find and print the minimum possible value of |b||b| (size of bb) which can be achieved at the end of the procedure. It can be shown that under the given constraints there is at least one way to construct bb.

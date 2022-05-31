@@ -1,0 +1,2 @@
+You are given nn strings s1,s2,…,sns1,s2,…,sn, each consisting of lowercase and uppercase English letters. In addition, it's guaranteed that each character occurs in each string at most twice. Find the longest common subsequence of these strings.
+A string tt is a subsequence of a string ss if tt can be obtained from ss by deletion of several (possibly, zero or all) symbols.

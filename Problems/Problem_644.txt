@@ -1,0 +1,3 @@
+Some number of people (this number is even) have stood in a circle. The people stand in the circle evenly. They are numbered clockwise starting from a person with the number 11. Each person is looking through the circle's center at the opposite person.
+  A sample of a circle of 66 persons. The orange arrows indicate who is looking at whom. 
+You don't know the exact number of people standing in the circle (but this number is even, no doubt). It is known that the person with the number aa is looking at the person with the number bb (and vice versa, of course). What is the number associated with a person being looked at by the person with the number cc? If, for the specified aa, bb, and cc, no such circle exists, output -1.

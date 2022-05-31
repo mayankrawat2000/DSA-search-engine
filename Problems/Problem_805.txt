@@ -1,0 +1,2 @@
+You are given an array ss consisting of nn different strings. Each string consists of mm lowercase Latin letters.
+You have to respond to qq queries. Each query contains a string tt of length m+1m+1. Count the number of indices ii, such that the string tt can be obtained from the string sisi, if it is allowed to insert one letter in an arbitrary position.

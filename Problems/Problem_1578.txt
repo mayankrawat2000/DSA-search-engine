@@ -1,0 +1,4 @@
+This is the hard version of the problem. The difference between the versions is the constraint on nn and the required number of operations. You can make hacks only if all versions of the problem are solved.
+There are two binary strings aa and bb of length nn (a binary string is a string consisting of symbols 00 and 11). In an operation, you select a prefix of aa, and simultaneously invert the bits in the prefix (00 changes to 11 and 11 changes to 00) and reverse the order of the bits in the prefix.
+For example, if a=001011a=001011 and you select the prefix of length 33, it becomes 011011011011. Then if you select the entire string, it becomes 001001001001.
+Your task is to transform the string aa into bb in at most 2n2n operations. It can be proved that it is always possible.

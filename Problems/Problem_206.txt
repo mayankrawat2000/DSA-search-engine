@@ -1,0 +1,4 @@
+You have a rectangular board of size n×mn×m (nn rows, mm columns). The nn rows are numbered from 11 to nn from top to bottom, and the mm columns are numbered from 11 to mm from left to right. 
+The cell at the intersection of row ii and column jj contains the number ijij (ii raised to the power of jj). For example, if n=3n=3 and m=3m=3 the board is as follows:
+  
+Find the number of distinct integers written on the board.

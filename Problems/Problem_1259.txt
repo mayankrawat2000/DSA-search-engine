@@ -1,0 +1,4 @@
+This is the easy version of the problem. The difference between the versions is in the constraints on the array elements. You can make hacks only if all versions of the problem are solved.
+You are given an array [a1,a2,…,an][a1,a2,…,an]. 
+Your goal is to find the length of the longest subarray of this array such that the most frequent value in it is not unique. In other words, you are looking for a subarray such that if the most frequent value occurs ff times in this subarray, then at least 22 different values should occur exactly ff times.
+An array cc is a subarray of an array dd if cc can be obtained from dd by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.

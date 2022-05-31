@@ -1,0 +1,7 @@
+Polycarp has a rectangular field of n×mn×m cells (the size of the n⋅mn⋅m field does not exceed 106106 cells, m≥2m≥2), in each cell of which there can be candy. There are nn rows and mm columns in the field.
+Let's denote a cell with coordinates xx vertically and yy horizontally by (x,y)(x,y). Then the top-left cell will be denoted as (1,1)(1,1), and the bottom-right cell will be denoted as (n,m)(n,m).
+If there is candy in the cell, then the cell is marked with the symbol '1', otherwise — with the symbol '0'.
+Polycarp made a Robot that can collect candy. The Robot can move from (x,y)(x,y) either to (x+1,y+1)(x+1,y+1), or to (x+1,y−1)(x+1,y−1). If the Robot is in a cell that contains candy, it takes it.
+While there is at least one candy on the field, the following procedure is executed: 
+  Polycarp puts the Robot in an arbitrary cell on the topmost row of the field. He himself chooses in which cell to place the Robot. It is allowed to put the Robot in the same cell multiple times.  The Robot moves across the field and collects candies. He controls the Robot.  When the Robot leaves the field, Polycarp takes it. If there are still candies left, Polycarp repeats the procedure. 
+Find the minimum number of times Polycarp needs to put the Robot on the topmost row of the field in order to collect all the candies. It is guaranteed that Polycarp can always collect all the candies.

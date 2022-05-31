@@ -1,0 +1,6 @@
+Yurii is sure he can do everything. Can he solve this task, though?
+He has an array aa consisting of nn positive integers. Let's call a subarray a[l...r]a[l...r] good if the following conditions are simultaneously satisfied: 
+  l+1≤r−1l+1≤r−1, i. e. the subarray has length at least 33;  (al⊕ar)=(al+1+al+2+…+ar−2+ar−1)(al⊕ar)=(al+1+al+2+…+ar−2+ar−1), where ⊕⊕ denotes the bitwise XOR operation. 
+In other words, a subarray is good if the bitwise XOR of the two border elements is equal to the sum of the rest of the elements. 
+Yurii wants to calculate the total number of good subarrays. What is it equal to?
+An array cc is a subarray of an array dd if cc can be obtained from dd by deletion of several (possibly, zero or all) elements from the beginning and several (possibly, zero or all) elements from the end.

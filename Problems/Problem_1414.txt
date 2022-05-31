@@ -1,0 +1,5 @@
+You are given an undirected graph consisting of nn vertices and mm edges. Initially there is a single integer written on every vertex: the vertex ii has pipi written on it. All pipi are distinct integers from 11 to nn.
+You have to process qq queries of two types:
+  11 vv — among all vertices reachable from the vertex vv using the edges of the graph (including the vertex vv itself), find a vertex uu with the largest number pupu written on it, print pupu and replace pupu with 00;  22 ii — delete the ii-th edge from the graph. 
+ 
+Note that, in a query of the first type, it is possible that all vertices reachable from vv have 00 written on them. In this case, uu is not explicitly defined, but since the selection of uu does not affect anything, you can choose any vertex reachable from vv and print its value (which is 00). 

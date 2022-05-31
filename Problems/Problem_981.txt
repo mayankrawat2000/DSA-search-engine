@@ -1,0 +1,4 @@
+You are given two tables AA and BB of size n×mn×m. 
+We define a sorting by column as the following: we choose a column and reorder the rows of the table by the value in this column, from the rows with the smallest value to the rows with the largest. In case there are two or more rows with equal value in this column, their relative order does not change (such sorting algorithms are called stable).
+You can find this behavior of sorting by column in many office software for managing spreadsheets. Petya works in one, and he has a table AA opened right now. He wants to perform zero of more sortings by column to transform this table to table BB.
+Determine if it is possible to do so, and if yes, find a sequence of columns to sort by. Note that you do not need to minimize the number of sortings.

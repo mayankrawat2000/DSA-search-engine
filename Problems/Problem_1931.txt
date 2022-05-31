@@ -1,0 +1,9 @@
+There are nn officers in the Army of Byteland. Each officer has some power associated with him. The power of the ii-th officer is denoted by pipi. As the war is fast approaching, the General would like to know the strength of the army.
+The strength of an army is calculated in a strange way in Byteland. The General selects a random subset of officers from these nn officers and calls this subset a battalion.(All 2n2n subsets of the nn officers can be chosen equally likely, including empty subset and the subset of all officers).
+The strength of a battalion is calculated in the following way:
+Let the powers of the chosen officers be a1,a2,…,aka1,a2,…,ak, where a1≤a2≤⋯≤aka1≤a2≤⋯≤ak. The strength of this battalion is equal to a1a2+a2a3+⋯+ak−1aka1a2+a2a3+⋯+ak−1ak. (If the size of Battalion is ≤1≤1, then the strength of this battalion is 00).
+The strength of the army is equal to the expected value of the strength of the battalion.
+As the war is really long, the powers of officers may change. Precisely, there will be qq changes. Each one of the form ii xx indicating that pipi is changed to xx.
+You need to find the strength of the army initially and after each of these qq updates.
+Note that the changes are permanent.
+The strength should be found by modulo 109+7109+7. Formally, let M=109+7M=109+7. It can be shown that the answer can be expressed as an irreducible fraction p/qp/q, where pp and qq are integers and q≢0modMq≢0modM). Output the integer equal to p⋅q−1modMp⋅q−1modM. In other words, output such an integer xx that 0≤x<M0≤x<M and x⋅q≡pmodMx⋅q≡pmodM).

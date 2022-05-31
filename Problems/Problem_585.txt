@@ -1,0 +1,4 @@
+A matrix of size n×mn×m, such that each cell of it contains either 00 or 11, is considered beautiful if the sum in every contiguous submatrix of size 2×22×2 is exactly 22, i. e. every "square" of size 2×22×2 contains exactly two 11's and exactly two 00's.
+You are given a matrix of size n×mn×m. Initially each cell of this matrix is empty. Let's denote the cell on the intersection of the xx-th row and the yy-th column as (x,y)(x,y). You have to process the queries of three types:
+  xx yy −1−1 — clear the cell (x,y)(x,y), if there was a number in it;  xx yy 00 — write the number 00 in the cell (x,y)(x,y), overwriting the number that was there previously (if any);  xx yy 11 — write the number 11 in the cell (x,y)(x,y), overwriting the number that was there previously (if any). 
+After each query, print the number of ways to fill the empty cells of the matrix so that the resulting matrix is beautiful. Since the answers can be large, print them modulo 998244353998244353.

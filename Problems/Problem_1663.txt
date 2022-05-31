@@ -1,0 +1,4 @@
+You are given a matrix with nn rows (numbered from 11 to nn) and mm columns (numbered from 11 to mm). A number ai,jai,j is written in the cell belonging to the ii-th row and the jj-th column, each number is either 00 or 11.
+A chip is initially in the cell (1,1)(1,1), and it will be moved to the cell (n,m)(n,m). During each move, it either moves to the next cell in the current row, or in the current column (if the current cell is (x,y)(x,y), then after the move it can be either (x+1,y)(x+1,y) or (x,y+1)(x,y+1)). The chip cannot leave the matrix.
+Consider each path of the chip from (1,1)(1,1) to (n,m)(n,m). A path is called palindromic if the number in the first cell is equal to the number in the last cell, the number in the second cell is equal to the number in the second-to-last cell, and so on.
+Your goal is to change the values in the minimum number of cells so that every path is palindromic.

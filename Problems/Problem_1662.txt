@@ -1,0 +1,2 @@
+You are given nn integers a1,a2,…,ana1,a2,…,an.
+For each aiai find its two divisors d1>1d1>1 and d2>1d2>1 such that gcd(d1+d2,ai)=1gcd(d1+d2,ai)=1 (where gcd(a,b)gcd(a,b) is the greatest common divisor of aa and bb) or say that there is no such pair.

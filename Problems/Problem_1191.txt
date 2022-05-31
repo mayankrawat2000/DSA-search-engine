@@ -1,0 +1,5 @@
+This is the easy version of this problem. The only difference between easy and hard versions is the constraints on kk and mm (in this version k=2k=2 and m=3m=3). Also, in this version of the problem, you DON'T NEED to output the answer by modulo.
+You are given a sequence aa of length nn consisting of integers from 11 to nn. The sequence may contain duplicates (i.e. some elements can be equal).
+Find the number of tuples of m=3m=3 elements such that the maximum number in the tuple differs from the minimum by no more than k=2k=2. Formally, you need to find the number of triples of indices i<j<zi<j<z such that
+max(ai,aj,az)−min(ai,aj,az)≤2.max(ai,aj,az)−min(ai,aj,az)≤2.
+For example, if n=4n=4 and a=[1,2,4,3]a=[1,2,4,3], then there are two such triples (i=1,j=2,z=4i=1,j=2,z=4 and i=2,j=3,z=4i=2,j=3,z=4). If n=4n=4 and a=[1,1,1,1]a=[1,1,1,1], then all four possible triples are suitable.

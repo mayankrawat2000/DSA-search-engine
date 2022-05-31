@@ -1,0 +1,6 @@
+You are given an array aa of nn positive integers.
+You can use the following operation as many times as you like: select any integer 1≤k≤n1≤k≤n and do one of two things: 
+  decrement by one kk of the first elements of the array.  decrement by one kk of the last elements of the array. 
+For example, if n=5n=5 and a=[3,2,2,1,4]a=[3,2,2,1,4], then you can apply one of the following operations to it (not all possible options are listed below): 
+  decrement from the first two elements of the array. After this operation a=[2,1,2,1,4]a=[2,1,2,1,4];  decrement from the last three elements of the array. After this operation a=[3,2,1,0,3]a=[3,2,1,0,3];  decrement from the first five elements of the array. After this operation a=[2,1,1,0,3]a=[2,1,1,0,3]; 
+Determine if it is possible to make all the elements of the array equal to zero by applying a certain number of operations.

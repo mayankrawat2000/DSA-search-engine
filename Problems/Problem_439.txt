@@ -1,0 +1,4 @@
+You are given a tree consisting of nn vertices. Recall that a tree is an undirected connected acyclic graph. The given tree is rooted at the vertex 11.
+You have to process qq queries. In each query, you are given a vertex of the tree vv and an integer kk.
+To process a query, you may delete any vertices from the tree in any order, except for the root and the vertex vv. When a vertex is deleted, its children become the children of its parent. You have to process a query in such a way that maximizes the value of c(v)−m⋅kc(v)−m⋅k (where c(v)c(v) is the resulting number of children of the vertex vv, and mm is the number of vertices you have deleted). Print the maximum possible value you can obtain.
+The queries are independent: the changes you make to the tree while processing a query don't affect the tree in other queries.

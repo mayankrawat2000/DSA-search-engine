@@ -1,0 +1,5 @@
+You finally woke up after this crazy dream and decided to walk around to clear your head. Outside you saw your house's fence — so plain and boring, that you'd like to repaint it.
+  
+You have a fence consisting of nn planks, where the ii-th plank has the color aiai. You want to repaint the fence in such a way that the ii-th plank has the color bibi.
+You've invited mm painters for this purpose. The jj-th painter will arrive at the moment jj and will recolor exactly one plank to color cjcj. For each painter you can choose which plank to recolor, but you can't turn them down, i. e. each painter has to color exactly one plank.
+Can you get the coloring bb you want? If it's possible, print for each painter which plank he must paint.

@@ -1,0 +1,5 @@
+On a circle lie 2n2n distinct points, with the following property: however you choose 33 chords that connect 33 disjoint pairs of points, no point strictly inside the circle belongs to all 33 chords. The points are numbered 1,2,…,2n1,2,…,2n in clockwise order.
+Initially, kk chords connect kk pairs of points, in such a way that all the 2k2k endpoints of these chords are distinct.
+You want to draw n−kn−k additional chords that connect the remaining 2(n−k)2(n−k) points (each point must be an endpoint of exactly one chord).
+In the end, let xx be the total number of intersections among all nn chords. Compute the maximum value that xx can attain if you choose the n−kn−k chords optimally.
+Note that the exact position of the 2n2n points is not relevant, as long as the property stated in the first paragraph holds.

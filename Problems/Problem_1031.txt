@@ -1,0 +1,5 @@
+There are nn coins labeled from 11 to nn. Initially, coin cici is on position ii and is facing upwards ((c1,c2,…,cn)c1,c2,…,cn) is a permutation of numbers from 11 to nn). You can do some operations on these coins. 
+In one operation, you can do the following:
+Choose 22 distinct indices ii and jj.Then, swap the coins on positions ii and jj.Then, flip both coins on positions ii and jj. (If they are initially faced up, they will be faced down after the operation and vice versa)
+Construct a sequence of at most n+1n+1 operations such that after performing all these operations the coin ii will be on position ii at the end, facing up.
+Note that you do not need to minimize the number of operations.

@@ -1,0 +1,4 @@
+Andrea has come up with what he believes to be a novel sorting algorithm for arrays of length nn. The algorithm works as follows.
+Initially there is an array of nn integers a1,a2,…,ana1,a2,…,an. Then, kk steps are executed.
+For each 1≤i≤k1≤i≤k, during the ii-th step the subsequence of the array aa with indexes ji,1<ji,2<⋯<ji,qiji,1<ji,2<⋯<ji,qi is sorted, without changing the values with the remaining indexes. So, the subsequence aji,1,aji,2,…,aji,qiaji,1,aji,2,…,aji,qi is sorted and all other elements of aa are left untouched.
+Andrea, being eager to share his discovery with the academic community, sent a short paper describing his algorithm to the journal "Annals of Sorting Algorithms" and you are the referee of the paper (that is, the person who must judge the correctness of the paper). You must decide whether Andrea's algorithm is correct, that is, if it sorts any array aa of nn integers.

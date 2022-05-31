@@ -1,0 +1,7 @@
+This is an interactive problem.
+This is a hard version of the problem. The difference from the easy version is that in the hard version 1≤t≤min(n,104)1≤t≤min(n,104) and the total number of queries is limited to 6⋅1046⋅104.
+Polycarp is playing a computer game. In this game, an array consisting of zeros and ones is hidden. Polycarp wins if he guesses the position of the kk-th zero from the left tt times.
+Polycarp can make no more than 6⋅1046⋅104 requests totally of the following type: 
+  ? ll rr — find out the sum of all elements in positions from ll to rr (1≤l≤r≤n1≤l≤r≤n) inclusive. 
+To make the game more interesting, each guessed zero turns into one and the game continues on the changed array. More formally, if the position of the kk-th zero was xx, then after Polycarp guesses this position, the xx-th element of the array will be replaced from 00 to 11.
+Help Polycarp win the game.

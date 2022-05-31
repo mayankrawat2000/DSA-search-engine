@@ -1,0 +1,5 @@
+A society can be represented by a connected, undirected graph of nn vertices and mm edges. The vertices represent people, and an edge (i,j)(i,j) represents a friendship between people ii and jj.
+In society, the ii-th person has an income aiai. A person ii is envious of person jj if aj=ai+1aj=ai+1. That is if person jj has exactly 11 more unit of income than person ii.
+The society is called capitalist if for every pair of friends one is envious of the other. For some friendships, you know which friend is envious of the other. For the remaining friendships, you do not know the direction of envy.
+The income inequality of society is defined as max1≤i≤nai−min1≤i≤naimax1≤i≤nai−min1≤i≤nai.
+You only know the friendships and not the incomes. If it is impossible for this society to be capitalist with the given knowledge, you should report about it. Otherwise, you should find an assignment of incomes in which the society is capitalist, and the income inequality is maximized.

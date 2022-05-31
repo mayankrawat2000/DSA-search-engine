@@ -1,0 +1,2 @@
+You are given mm strings and a tree on nn nodes. Each edge has some letter written on it.
+You have to answer qq queries. Each query is described by 44 integers uu, vv, ll and rr. The answer to the query is the total number of occurrences of str(u,v)str(u,v) in strings with indices from ll to rr. str(u,v)str(u,v) is defined as the string that is made by concatenating letters written on the edges on the shortest path from uu to vv (in order that they are traversed).

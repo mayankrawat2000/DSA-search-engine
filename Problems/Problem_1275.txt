@@ -1,0 +1,2 @@
+You are given a tree with each vertex coloured white, black or grey. You can remove elements from the tree by selecting a subset of vertices in a single connected component and removing them and their adjacent edges from the graph. The only restriction is that you are not allowed to select a subset containing a white and a black vertex at once.
+What is the minimum number of removals necessary to remove all vertices from the tree?

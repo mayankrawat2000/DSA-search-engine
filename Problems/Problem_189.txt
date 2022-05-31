@@ -1,0 +1,4 @@
+Not so long ago, Vlad came up with an interesting function:
+ fa(x)=⌊xa⌋+xmodafa(x)=⌊xa⌋+xmoda, where ⌊xa⌋⌊xa⌋ is xaxa, rounded down, xmodaxmoda — the remainder of the integer division of xx by aa.
+For example, with a=3a=3 and x=11x=11, the value f3(11)=⌊113⌋+11mod3=3+2=5f3(11)=⌊113⌋+11mod3=3+2=5.
+The number aa is fixed and known to Vlad. Help Vlad find the maximum value of fa(x)fa(x) if xx can take any integer value from ll to rr inclusive (l≤x≤rl≤x≤r).

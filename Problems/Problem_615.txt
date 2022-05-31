@@ -1,0 +1,4 @@
+Alice has recently received an array a1,a2,…,ana1,a2,…,an for her birthday! She is very proud of her array, and when she showed her friend Bob the array, he was very happy with her present too!
+However, soon Bob became curious, and as any sane friend would do, asked Alice to perform qq operations of two types on her array:
+  11 xx yy: update the element axax to yy (set ax=yax=y).  22 ll rr: calculate how many non-decreasing subarrays exist within the subarray [al,al+1,…,ar][al,al+1,…,ar]. More formally, count the number of pairs of integers (p,q)(p,q) such that l≤p≤q≤rl≤p≤q≤r and ap≤ap+1≤⋯≤aq−1≤aqap≤ap+1≤⋯≤aq−1≤aq. 
+Help Alice answer Bob's queries!

@@ -1,0 +1,3 @@
+Zookeeper is buying a carton of fruit to feed his pet wabbit. The fruits are a sequence of apples and oranges, which is represented by a binary string s1s2…sns1s2…sn of length nn. 11 represents an apple and 00 represents an orange.
+Since wabbit is allergic to eating oranges, Zookeeper would like to find the longest contiguous sequence of apples. Let f(l,r)f(l,r) be the longest contiguous sequence of apples in the substring slsl+1…srslsl+1…sr. 
+Help Zookeeper find ∑nl=1∑nr=lf(l,r)∑l=1n∑r=lnf(l,r), or the sum of ff across all substrings.

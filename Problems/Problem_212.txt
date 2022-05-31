@@ -1,0 +1,7 @@
+Consider a grid of size n×nn×n. The rows are numbered top to bottom from 11 to nn, the columns are numbered left to right from 11 to nn.
+The robot is positioned in a cell (1,1)(1,1). It can perform two types of moves:
+  D — move one cell down;  R — move one cell right. 
+The robot is not allowed to move outside the grid.
+You are given a sequence of moves ss — the initial path of the robot. This path doesn't lead the robot outside the grid.
+You are allowed to perform an arbitrary number of modifications to it (possibly, zero). With one modification, you can duplicate one move in the sequence. That is, replace a single occurrence of D with DD or a single occurrence of R with RR.
+Count the number of cells such that there exists at least one sequence of modifications that the robot visits this cell on the modified path and doesn't move outside the grid.

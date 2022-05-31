@@ -1,0 +1,6 @@
+Madoka as a child was an extremely capricious girl, and one of her favorite pranks was drawing on her wall. According to Madoka's memories, the wall was a table of nn rows and mm columns, consisting only of zeroes and ones. The coordinate of the cell in the ii-th row and the jj-th column (1≤i≤n1≤i≤n, 1≤j≤m1≤j≤m) is (i,j)(i,j).
+One day she saw a picture "Mahou Shoujo Madoka Magica" and decided to draw it on her wall. Initially, the Madoka's table is a table of size n×mn×m filled with zeroes. Then she applies the following operation any number of times:
+Madoka selects any rectangular subtable of the table and paints it in a chess coloring (the upper left corner of the subtable always has the color 00). Note that some cells may be colored several times. In this case, the final color of the cell is equal to the color obtained during the last repainting.
+  White color means 00, black means 11. So, for example, the table in the first picture is painted in a chess coloring, and the others are not. 
+For better understanding of the statement, we recommend you to read the explanation of the first test.
+Help Madoka and find some sequence of no more than n⋅mn⋅m operations that allows you to obtain the picture she wants, or determine that this is impossible.

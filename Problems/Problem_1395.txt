@@ -1,0 +1,7 @@
+  For god's sake, you're boxes with legs! It is literally your only purpose! Walking onto buttons! How can you not do the one thing you were designed for?Oh, that's funny, is it? Oh it's funny? Because we've been at this for twelve hours and you haven't solved it either, so I don't know why you're laughing. You've got one hour! Solve it!  
+Wheatley decided to try to make a test chamber. He made a nice test chamber, but there was only one detail absent — cubes.
+For completing the chamber Wheatley needs nn cubes. ii-th cube has a volume aiai.
+Wheatley has to place cubes in such a way that they would be sorted in a non-decreasing order by their volume. Formally, for each i>1i>1, ai−1≤aiai−1≤ai must hold.
+To achieve his goal, Wheatley can exchange two neighbouring cubes. It means that for any i>1i>1 you can exchange cubes on positions i−1i−1 and ii.
+But there is a problem: Wheatley is very impatient. If Wheatley needs more than n⋅(n−1)2−1n⋅(n−1)2−1 exchange operations, he won't do this boring work.
+Wheatly wants to know: can cubes be sorted under this conditions?

@@ -1,0 +1,5 @@
+Baby Ehab has a piece of Cut and Stick with an array aa of length nn written on it. He plans to grab a pair of scissors and do the following to it:
+  pick a range (l,r)(l,r) and cut out every element alal, al+1al+1, ..., arar in this range;  stick some of the elements together in the same order they were in the array;  end up with multiple pieces, where every piece contains some of the elements and every element belongs to some piece. 
+More formally, he partitions the sequence alal, al+1al+1, ..., arar into subsequences. He thinks a partitioning is beautiful if for every piece (subsequence) it holds that, if it has length xx, then no value occurs strictly more than ⌈x2⌉⌈x2⌉ times in it.
+He didn't pick a range yet, so he's wondering: for qq ranges (l,r)(l,r), what is the minimum number of pieces he needs to partition the elements alal, al+1al+1, ..., arar into so that the partitioning is beautiful.
+A sequence bb is a subsequence of an array aa if bb can be obtained from aa by deleting some (possibly zero) elements. Note that it does not have to be contiguous.

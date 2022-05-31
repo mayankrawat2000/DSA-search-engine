@@ -1,0 +1,2 @@
+This is an unusual problem in an unusual contest, here is the announcement: http://codeforces.com/blog/entry/73543
+Find the distance between vertices 11 and nn in an undirected weighted graph.

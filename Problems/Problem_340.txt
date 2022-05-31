@@ -1,0 +1,7 @@
+You are given an integer kk and a string ss that consists only of characters 'a' (a lowercase Latin letter) and '*' (an asterisk).
+Each asterisk should be replaced with several (from 00 to kk inclusive) lowercase Latin letters 'b'. Different asterisk can be replaced with different counts of letter 'b'.
+The result of the replacement is called a BA-string.
+Two strings aa and bb are different if they either have different lengths or there exists such a position ii that ai≠biai≠bi.
+A string aa is lexicographically smaller than a string bb if and only if one of the following holds: 
+  aa is a prefix of bb, but a≠ba≠b;  in the first position where aa and bb differ, the string aa has a letter that appears earlier in the alphabet than the corresponding letter in bb. 
+Now consider all different BA-strings and find the xx-th lexicographically smallest of them.

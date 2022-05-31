@@ -1,0 +1,5 @@
+Suppose you are living with two cats: A and B. There are nn napping spots where both cats usually sleep.
+Your cats like to sleep and also like all these spots, so they change napping spot each hour cyclically: 
+  Cat A changes its napping place in order: n,n−1,n−2,…,3,2,1,n,n−1,…n,n−1,n−2,…,3,2,1,n,n−1,… In other words, at the first hour it's on the spot nn and then goes in decreasing order cyclically;  Cat B changes its napping place in order: 1,2,3,…,n−1,n,1,2,…1,2,3,…,n−1,n,1,2,… In other words, at the first hour it's on the spot 11 and then goes in increasing order cyclically. 
+The cat B is much younger, so they have a strict hierarchy: A and B don't lie together. In other words, if both cats'd like to go in spot xx then the A takes this place and B moves to the next place in its order (if x<nx<n then to x+1x+1, but if x=nx=n then to 11). Cat B follows his order, so it won't return to the skipped spot xx after A frees it, but will move to the spot x+2x+2 and so on.
+Calculate, where cat B will be at hour kk?

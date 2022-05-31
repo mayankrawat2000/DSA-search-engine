@@ -1,0 +1,3 @@
+You are given a string SS and an array of strings [t1,t2,…,tk][t1,t2,…,tk]. Each string titi consists of lowercase Latin letters from a to n; SS consists of lowercase Latin letters from a to n and no more than 1414 question marks.
+Each string titi has its cost cici — an integer number. The value of some string TT is calculated as ∑i=1kF(T,ti)⋅ci∑i=1kF(T,ti)⋅ci, where F(T,ti)F(T,ti) is the number of occurences of string titi in TT as a substring. For example, F(aaabaaa,aa)=4F(aaabaaa,aa)=4.
+You have to replace all question marks in SS with pairwise distinct lowercase Latin letters from a to n so the value of SS is maximum possible.

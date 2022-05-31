@@ -1,0 +1,6 @@
+Alice and Bob are playing a game. They have a tree consisting of nn vertices. Initially, Bob has kk chips, the ii-th chip is located in the vertex aiai (all these vertices are unique). Before the game starts, Alice will place a chip into one of the vertices of the tree.
+The game consists of turns. Each turn, the following events happen (sequentially, exactly in the following order):
+  Alice either moves her chip to an adjacent vertex or doesn't move it;  for each Bob's chip, he either moves it to an adjacent vertex or doesn't move it. Note that this choice is done independently for each chip. 
+The game ends when Alice's chip shares the same vertex with one (or multiple) of Bob's chips. Note that Bob's chips may share the same vertex, even though they are in different vertices at the beginning of the game.
+Alice wants to maximize the number of turns, Bob wants to minimize it. If the game ends in the middle of some turn (Alice moves her chip to a vertex that contains one or multiple Bob's chips), this turn is counted.
+For each vertex, calculate the number of turns the game will last if Alice places her chip in that vertex.

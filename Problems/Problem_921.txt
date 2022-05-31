@@ -1,0 +1,5 @@
+You are given a number nn and an array b1,b2,…,bn+2b1,b2,…,bn+2, obtained according to the following algorithm: 
+  some array a1,a2,…,ana1,a2,…,an was guessed;  array aa was written to array bb, i.e. bi=aibi=ai (1≤i≤n1≤i≤n);  The (n+1)(n+1)-th element of the array bb is the sum of the numbers in the array aa, i.e. bn+1=a1+a2+…+anbn+1=a1+a2+…+an;  The (n+2)(n+2)-th element of the array bb was written some number xx (1≤x≤1091≤x≤109), i.e. bn+2=xbn+2=x; The  array bb was shuffled. 
+For example, the array b=[2,3,7,12,2]b=[2,3,7,12,2] it could be obtained in the following ways: 
+  a=[2,2,3]a=[2,2,3] and x=12x=12;  a=[3,2,7]a=[3,2,7] and x=2x=2. 
+For the given array bb, find any array aa that could have been guessed initially.

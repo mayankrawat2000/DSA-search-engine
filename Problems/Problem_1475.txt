@@ -1,0 +1,3 @@
+You are given an array aa of length 2n2n. You should process qq queries on it. Each query has one of the following 44 types: 
+  Replace(x,k)Replace(x,k) — change axax to kk;  Reverse(k)Reverse(k) — reverse each subarray [(i−1)⋅2k+1,i⋅2k][(i−1)⋅2k+1,i⋅2k] for all ii (i≥1i≥1);  Swap(k)Swap(k) — swap subarrays [(2i−2)⋅2k+1,(2i−1)⋅2k][(2i−2)⋅2k+1,(2i−1)⋅2k] and [(2i−1)⋅2k+1,2i⋅2k][(2i−1)⋅2k+1,2i⋅2k] for all ii (i≥1i≥1);  Sum(l,r)Sum(l,r) — print the sum of the elements of subarray [l,r][l,r]. 
+Write a program that can quickly process given queries.

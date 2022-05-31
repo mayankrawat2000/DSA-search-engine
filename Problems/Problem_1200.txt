@@ -1,0 +1,8 @@
+Holidays are coming up really soon. Rick realized that it's time to think about buying a traditional spruce tree. But Rick doesn't want real trees to get hurt so he decided to find some in an n×mn×m matrix consisting of "*" and ".".
+  
+To find every spruce first let's define what a spruce in the matrix is. A set of matrix cells is called a spruce of height kk with origin at point (x,y)(x,y) if:
+  All cells in the set contain an "*".  For each 1≤i≤k1≤i≤k all cells with the row number x+i−1x+i−1 and columns in range [y−i+1,y+i−1][y−i+1,y+i−1] must be a part of the set. All other cells cannot belong to the set. 
+ 
+Examples of correct and incorrect spruce trees:
+  
+Now Rick wants to know how many spruces his n×mn×m matrix contains. Help Rick solve this problem.

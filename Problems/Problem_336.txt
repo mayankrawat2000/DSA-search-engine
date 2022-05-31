@@ -1,0 +1,3 @@
+For a sequence of strings [t1,t2,…,tm][t1,t2,…,tm], let's define the function f([t1,t2,…,tm])f([t1,t2,…,tm]) as the number of different strings (including the empty string) that are subsequences of at least one string titi. f([])=0f([])=0 (i. e. the number of such strings for an empty sequence is 00).
+You are given a sequence of strings [s1,s2,…,sn][s1,s2,…,sn]. Every string in this sequence consists of lowercase Latin letters and is sorted (i. e., each string begins with several (maybe zero) characters a, then several (maybe zero) characters b, ..., ends with several (maybe zero) characters z).
+For each of 2n2n subsequences of [s1,s2,…,sn][s1,s2,…,sn], calculate the value of the function ff modulo 998244353998244353.

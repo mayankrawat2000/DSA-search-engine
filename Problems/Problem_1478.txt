@@ -1,0 +1,4 @@
+ You are given an array a1,a2,…,ana1,a2,…,an where all aiai are integers and greater than 00.
+ In one operation, you can choose two different indices ii and jj (1≤i,j≤n1≤i,j≤n). If gcd(ai,aj)gcd(ai,aj) is equal to the minimum element of the whole array aa, you can swap aiai and ajaj. gcd(x,y)gcd(x,y) denotes the greatest common divisor (GCD) of integers xx and yy.
+ Now you'd like to make aa non-decreasing using the operation any number of times (possibly zero). Determine if you can do this.
+ An array aa is non-decreasing if and only if a1≤a2≤…≤ana1≤a2≤…≤an.

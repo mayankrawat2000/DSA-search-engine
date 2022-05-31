@@ -1,0 +1,3 @@
+The gcdSumgcdSum of a positive integer is the gcdgcd of that integer with its sum of digits. Formally, gcdSum(x)=gcd(x, sum of digits of x)gcdSum(x)=gcd(x, sum of digits of x) for a positive integer xx. gcd(a,b)gcd(a,b) denotes the greatest common divisor of aa and bb — the largest integer dd such that both integers aa and bb are divisible by dd.
+For example: gcdSum(762)=gcd(762,7+6+2)=gcd(762,15)=3gcdSum(762)=gcd(762,7+6+2)=gcd(762,15)=3.
+Given an integer nn, find the smallest integer x≥nx≥n such that gcdSum(x)>1gcdSum(x)>1.

@@ -1,0 +1,2 @@
+You are given nn distinct points p1,p2,…,pnp1,p2,…,pn on the plane and a positive integer RR. 
+Find the number of pairs of indices (i,j)(i,j) such that 1≤i<j≤n1≤i<j≤n, and for every possible kk (1≤k≤n1≤k≤n) the distance from the point pkpk to the segment between points pipi and pjpj is at most RR.

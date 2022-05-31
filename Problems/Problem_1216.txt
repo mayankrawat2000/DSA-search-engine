@@ -1,0 +1,4 @@
+You are standing on the OXOX-axis at point 00 and you want to move to an integer point x>0x>0.
+You can make several jumps. Suppose you're currently at point yy (yy may be negative) and jump for the kk-th time. You can: 
+  either jump to the point y+ky+k  or jump to the point y−1y−1. 
+What is the minimum number of jumps you need to reach the point xx?

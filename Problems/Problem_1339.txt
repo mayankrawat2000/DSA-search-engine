@@ -1,0 +1,6 @@
+In the snake exhibition, there are nn rooms (numbered 00 to n−1n−1) arranged in a circle, with a snake in each room. The rooms are connected by nn conveyor belts, and the ii-th conveyor belt connects the rooms ii and (i+1)modn(i+1)modn. In the other words, rooms 00 and 11, 11 and 22, ……, n−2n−2 and n−1n−1, n−1n−1 and 00 are connected with conveyor belts.
+The ii-th conveyor belt is in one of three states:
+  If it is clockwise, snakes can only go from room ii to (i+1)modn(i+1)modn.  If it is anticlockwise, snakes can only go from room (i+1)modn(i+1)modn to ii.  If it is off, snakes can travel in either direction. 
+  
+Above is an example with 44 rooms, where belts 00 and 33 are off, 11 is clockwise, and 22 is anticlockwise.
+Each snake wants to leave its room and come back to it later. A room is returnable if the snake there can leave the room, and later come back to it using the conveyor belts. How many such returnable rooms are there?

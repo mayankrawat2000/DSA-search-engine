@@ -1,0 +1,4 @@
+Alice and Bob are playing yet another card game. This time the rules are the following. There are nn cards lying in a row in front of them. The ii-th card has value aiai. 
+First, Alice chooses a non-empty consecutive segment of cards [l;r][l;r] (l≤rl≤r). After that Bob removes a single card jj from that segment (l≤j≤r)(l≤j≤r). The score of the game is the total value of the remaining cards on the segment (al+al+1+⋯+aj−1+aj+1+⋯+ar−1+ar)(al+al+1+⋯+aj−1+aj+1+⋯+ar−1+ar). In particular, if Alice chooses a segment with just one element, then the score after Bob removes the only card is 00.
+Alice wants to make the score as big as possible. Bob takes such a card that the score is as small as possible.
+What segment should Alice choose so that the score is maximum possible? Output the maximum score.

@@ -1,0 +1,4 @@
+You are given nn segments [l1,r1],[l2,r2],…,[ln,rn][l1,r1],[l2,r2],…,[ln,rn]. Each segment has one of two colors: the ii-th segment's color is titi.
+Let's call a pair of segments ii and jj bad if the following two conditions are met:
+  ti≠tjti≠tj;  the segments [li,ri][li,ri] and [lj,rj][lj,rj] intersect, embed or touch, i. e. there exists an integer xx such that x∈[li,ri]x∈[li,ri] and x∈[lj,rj]x∈[lj,rj]. 
+Calculate the maximum number of segments that can be selected from the given ones, so that there is no bad pair among the selected ones.

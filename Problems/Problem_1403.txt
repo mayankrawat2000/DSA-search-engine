@@ -1,0 +1,4 @@
+You are given an array aa consisting of nn integers. We denote the subarray a[l..r]a[l..r] as the array [al,al+1,…,ar][al,al+1,…,ar] (1≤l≤r≤n1≤l≤r≤n).
+A subarray is considered good if every integer that occurs in this subarray occurs there exactly thrice. For example, the array [1,2,2,2,1,1,2,2,2][1,2,2,2,1,1,2,2,2] has three good subarrays:
+  a[1..6]=[1,2,2,2,1,1]a[1..6]=[1,2,2,2,1,1];  a[2..4]=[2,2,2]a[2..4]=[2,2,2];  a[7..9]=[2,2,2]a[7..9]=[2,2,2]. 
+Calculate the number of good subarrays of the given array aa.

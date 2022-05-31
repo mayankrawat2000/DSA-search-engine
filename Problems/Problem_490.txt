@@ -1,0 +1,6 @@
+Theofanis started playing the new online game called "Among them". However, he always plays with Cypriot players, and they all have the same name: "Andreas" (the most common name in Cyprus).
+In each game, Theofanis plays with nn other players. Since they all have the same name, they are numbered from 11 to nn.
+The players write mm comments in the chat. A comment has the structure of "ii jj cc" where ii and jj are two distinct integers and cc is a string (1≤i,j≤n1≤i,j≤n; i≠ji≠j; cc is either imposter or crewmate). The comment means that player ii said that player jj has the role cc.
+An imposter always lies, and a crewmate always tells the truth. 
+Help Theofanis find the maximum possible number of imposters among all the other Cypriot players, or determine that the comments contradict each other (see the notes for further explanation).
+Note that each player has exactly one role: either imposter or crewmate.

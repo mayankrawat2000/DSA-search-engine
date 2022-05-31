@@ -1,0 +1,4 @@
+There is a grid with rr rows and cc columns, where the square on the ii-th row and jj-th column has an integer ai,jai,j written on it. Initially, all elements are set to 00. We are allowed to do the following operation:
+  Choose indices 1≤i≤r1≤i≤r and 1≤j≤c1≤j≤c, then replace all values on the same row or column as (i,j)(i,j) with the value xor 11. In other words, for all ax,yax,y where x=ix=i or y=jy=j or both, replace ax,yax,y with ax,yax,y xor 11. 
+You want to form grid bb by doing the above operations a finite number of times. However, some elements of bb are missing and are replaced with '?' instead.
+Let kk be the number of '?' characters. Among all the 2k2k ways of filling up the grid bb by replacing each '?' with '0' or '1', count the number of grids, that can be formed by doing the above operation a finite number of times, starting from the grid filled with 00. As this number can be large, output it modulo 998244353998244353.

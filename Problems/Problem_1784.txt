@@ -1,0 +1,2 @@
+Phoenix loves beautiful arrays. An array is beautiful if all its subarrays of length kk have the same sum. A subarray of an array is any sequence of consecutive elements.
+Phoenix currently has an array aa of length nn. He wants to insert some number of integers, possibly zero, into his array such that it becomes beautiful. The inserted integers must be between 11 and nn inclusive. Integers may be inserted anywhere (even before the first or after the last element), and he is not trying to minimize the number of inserted integers.

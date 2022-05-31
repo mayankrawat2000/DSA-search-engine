@@ -1,0 +1,4 @@
+During their training for the ICPC competitions, team "Jee You See" stumbled upon a very basic counting problem. After many "Wrong answer" verdicts, they finally decided to give up and destroy turn-off the PC. Now they want your help in up-solving the problem.
+You are given 4 integers nn, ll, rr, and zz. Count the number of arrays aa of length nn containing non-negative integers such that:
+  l≤a1+a2+…+an≤rl≤a1+a2+…+an≤r, and  a1⊕a2⊕…⊕an=za1⊕a2⊕…⊕an=z, where ⊕⊕ denotes the bitwise XOR operation. 
+Since the answer can be large, print it modulo 109+7109+7.

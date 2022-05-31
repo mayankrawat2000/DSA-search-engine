@@ -1,0 +1,4 @@
+A sequence of integers b1,b2,…,bmb1,b2,…,bm is called good if max(b1,b2,…,bm)⋅min(b1,b2,…,bm)≥b1+b2+…+bmmax(b1,b2,…,bm)⋅min(b1,b2,…,bm)≥b1+b2+…+bm.
+A sequence of integers a1,a2,…,ana1,a2,…,an is called perfect if every non-empty subsequence of aa is good.
+YouKn0wWho has two integers nn and MM, MM is prime. Help him find the number, modulo MM, of perfect sequences a1,a2,…,ana1,a2,…,an such that 1≤ai≤n+11≤ai≤n+1 for each integer ii from 11 to nn.
+A sequence dd is a subsequence of a sequence cc if dd can be obtained from cc by deletion of several (possibly, zero or all) elements.

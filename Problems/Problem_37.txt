@@ -1,0 +1,3 @@
+In the pet store on sale there are:
+  aa packs of dog food;  bb packs of cat food;  cc packs of universal food (such food is suitable for both dogs and cats). 
+Polycarp has xx dogs and yy cats. Is it possible that he will be able to buy food for all his animals in the store? Each of his dogs and each of his cats should receive one pack of suitable food for it.

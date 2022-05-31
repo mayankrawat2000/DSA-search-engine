@@ -1,0 +1,4 @@
+Given an array aa of length nn, find another array, bb, of length nn such that:
+  for each ii (1≤i≤n)(1≤i≤n) MEX({b1MEX({b1, b2b2, ……, bi})=aibi})=ai. 
+The MEXMEX of a set of integers is the smallest non-negative integer that doesn't belong to this set.
+If such array doesn't exist, determine this.

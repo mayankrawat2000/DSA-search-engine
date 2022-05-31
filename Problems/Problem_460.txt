@@ -1,0 +1,7 @@
+You are given a string ss. You need to find two non-empty strings aa and bb such that the following conditions are satisfied:
+  Strings aa and bb are both subsequences of ss.  For each index ii, character sisi of string ss must belong to exactly one of strings aa or bb.  String aa is lexicographically minimum possible; string bb may be any possible string. 
+Given string ss, print any valid aa and bb.
+Reminder:
+A string aa (bb) is a subsequence of a string ss if aa (bb) can be obtained from ss by deletion of several (possibly, zero) elements. For example, "dores", "cf", and "for" are subsequences of "codeforces", while "decor" and "fork" are not.
+A string xx is lexicographically smaller than a string yy if and only if one of the following holds:
+  xx is a prefix of yy, but x≠yx≠y;  in the first position where xx and yy differ, the string xx has a letter that appears earlier in the alphabet than the corresponding letter in yy. 

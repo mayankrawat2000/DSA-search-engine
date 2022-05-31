@@ -1,0 +1,6 @@
+This is an interactive problem.
+You are given two integers cc and nn. The jury has a randomly generated set AA of distinct positive integers not greater than cc (it is generated from all such possible sets with equal probability). The size of AA is equal to nn.
+Your task is to guess the set AA. In order to guess it, you can ask at most ⌈0.65⋅c⌉⌈0.65⋅c⌉ queries.
+In each query, you choose a single integer 1≤x≤c1≤x≤c. As the answer to this query you will be given the bitwise xor sum of all yy, such that y∈Ay∈A and gcd(x,y)=1gcd(x,y)=1 (i.e. xx and yy are coprime). If there is no such yy this xor sum is equal to 00.
+You can ask all queries at the beginning and you will receive the answers to all your queries. After that, you won't have the possibility to ask queries.
+You should find any set A′A′, such that |A′|=n|A′|=n and A′A′ and AA have the same answers for all cc possible queries.

@@ -1,0 +1,5 @@
+Recently, Petya learned about a new game "Slay the Dragon". As the name suggests, the player will have to fight with dragons. To defeat a dragon, you have to kill it and defend your castle. To do this, the player has a squad of nn heroes, the strength of the ii-th hero is equal to aiai.
+According to the rules of the game, exactly one hero should go kill the dragon, all the others will defend the castle. If the dragon's defense is equal to xx, then you have to send a hero with a strength of at least xx to kill it. If the dragon's attack power is yy, then the total strength of the heroes defending the castle should be at least yy.
+The player can increase the strength of any hero by 11 for one gold coin. This operation can be done any number of times.
+There are mm dragons in the game, the ii-th of them has defense equal to xixi and attack power equal to yiyi. Petya was wondering what is the minimum number of coins he needs to spend to defeat the ii-th dragon.
+Note that the task is solved independently for each dragon (improvements are not saved).

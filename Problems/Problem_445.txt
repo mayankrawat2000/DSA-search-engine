@@ -1,0 +1,4 @@
+An integer array aa of length nn is said to be a PalindORme if (a1a1 || a2a2 || …… || ai)=(an−i+1ai)=(an−i+1 || …… || an−1an−1 || an)an) for all 1≤i≤n1≤i≤n, where || denotes the bitwise OR operation.
+An integer array aa of length nn is considered to be good if its elements can be rearranged to form a PalindORme. Formally, array aa is good if there exists a permutation p1,p2,…pnp1,p2,…pn (an array where each integer from 11 to nn appears exactly once) for which ap1,ap2,…apnap1,ap2,…apn is a PalindORme.
+Find the number of good arrays of length nn, consisting only of integers in the range [0,2k−1][0,2k−1], and print it modulo some prime mm.
+Two arrays a1,a2,…,ana1,a2,…,an and b1,b2,…,bnb1,b2,…,bn are considered to be different if there exists any ii (1≤i≤n)(1≤i≤n) such that ai≠biai≠bi.

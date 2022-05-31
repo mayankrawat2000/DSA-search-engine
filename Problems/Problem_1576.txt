@@ -1,0 +1,6 @@
+In the game of Mastermind, there are two players  — Alice and Bob. Alice has a secret code, which Bob tries to guess. Here, a code is defined as a sequence of nn colors. There are exactly n+1n+1 colors in the entire universe, numbered from 11 to n+1n+1 inclusive.
+When Bob guesses a code, Alice tells him some information about how good of a guess it is, in the form of two integers xx and yy.
+The first integer xx is the number of indices where Bob's guess correctly matches Alice's code. The second integer yy is the size of the intersection of the two codes as multisets. That is, if Bob were to change the order of the colors in his guess, yy is the maximum number of indices he could get correct.
+For example, suppose n=5n=5, Alice's code is [3,1,6,1,2][3,1,6,1,2], and Bob's guess is [3,1,1,2,5][3,1,1,2,5]. At indices 11 and 22 colors are equal, while in the other indices they are not equal. So x=2x=2. And the two codes have the four colors 1,1,2,31,1,2,3 in common, so y=4y=4.
+  Solid lines denote a matched color for the same index. Dashed lines denote a matched color at a different index. xx is the number of solid lines, and yy is the total number of lines. 
+You are given Bob's guess and two values xx and yy. Can you find one possibility of Alice's code so that the values of xx and yy are correct?

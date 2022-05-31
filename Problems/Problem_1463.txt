@@ -1,0 +1,5 @@
+A permutation of length nn is an array consisting of nn distinct integers from 11 to nn in arbitrary order. For example, [2,3,1,5,4][2,3,1,5,4] is a permutation, but [1,2,2][1,2,2] is not a permutation (22 appears twice in the array) and [1,3,4][1,3,4] is also not a permutation (n=3n=3 but there is 44 in the array).
+Let pp be any permutation of length nn. We define the fingerprint F(p)F(p) of pp as the sorted array of sums of adjacent elements in pp. More formally,
+F(p)=sort([p1+p2,p2+p3,…,pn−1+pn]).F(p)=sort([p1+p2,p2+p3,…,pn−1+pn]).
+For example, if n=4n=4 and p=[1,4,2,3],p=[1,4,2,3], then the fingerprint is given by F(p)=sort([1+4,4+2,2+3])=sort([5,6,5])=[5,5,6]F(p)=sort([1+4,4+2,2+3])=sort([5,6,5])=[5,5,6].
+You are given a permutation pp of length nn. Your task is to find a different permutation p′p′ with the same fingerprint. Two permutations pp and p′p′ are considered different if there is some index ii such that pi≠p′ipi≠pi′.

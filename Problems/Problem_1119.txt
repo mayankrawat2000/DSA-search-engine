@@ -1,0 +1,2 @@
+You are given an integer nn. Check if nn has an odd divisor, greater than one (does there exist such a number xx (x>1x>1) that nn is divisible by xx and xx is odd).
+For example, if n=6n=6, then there is x=3x=3. If n=4n=4, then such a number does not exist.

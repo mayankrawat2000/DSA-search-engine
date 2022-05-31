@@ -1,0 +1,6 @@
+There is a trampoline park with nn trampolines in a line. The ii-th of which has strength SiSi.
+Pekora can jump on trampolines in multiple passes. She starts the pass by jumping on any trampoline of her choice. 
+If at the moment Pekora jumps on trampoline ii, the trampoline will launch her to position i+Sii+Si, and SiSi will become equal to max(Si−1,1)max(Si−1,1). In other words, SiSi will decrease by 11, except of the case Si=1Si=1, when SiSi will remain equal to 11. 
+If there is no trampoline in position i+Sii+Si, then this pass is over. Otherwise, Pekora will continue the pass by jumping from the trampoline at position i+Sii+Si by the same rule as above.
+Pekora can't stop jumping during the pass until she lands at the position larger than nn (in which there is no trampoline). Poor Pekora!
+Pekora is a naughty rabbit and wants to ruin the trampoline park by reducing all SiSi to 11. What is the minimum number of passes she needs to reduce all SiSi to 11?

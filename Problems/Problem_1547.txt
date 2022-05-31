@@ -1,0 +1,6 @@
+Captain Flint and his crew keep heading to a savage shore of Byteland for several months already, drinking rum and telling stories. In such moments uncle Bogdan often remembers his nephew Denis. Today, he has told a story about how Denis helped him to come up with an interesting problem and asked the crew to solve it.
+In the beginning, uncle Bogdan wrote on a board a positive integer xx consisting of nn digits. After that, he wiped out xx and wrote integer kk instead, which was the concatenation of binary representations of digits xx consists of (without leading zeroes). For example, let x=729x=729, then k=111101001k=111101001 (since 7=1117=111, 2=102=10, 9=10019=1001).
+After some time, uncle Bogdan understood that he doesn't know what to do with kk and asked Denis to help. Denis decided to wipe last nn digits of kk and named the new number as rr.
+As a result, Denis proposed to find such integer xx of length nn that rr (as number) is maximum possible. If there are multiple valid xx then Denis is interested in the minimum one.
+All crew members, including captain Flint himself, easily solved the task. All, except cabin boy Kostya, who was too drunk to think straight. But what about you?
+Note: in this task, we compare integers (xx or kk) as numbers (despite what representations they are written in), so 729<1999729<1999 or 111<1000111<1000.

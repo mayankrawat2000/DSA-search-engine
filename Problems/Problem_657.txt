@@ -1,0 +1,6 @@
+Alice and Borys are playing tennis.
+A tennis match consists of games. In each game, one of the players is serving and the other one is receiving.
+Players serve in turns: after a game where Alice is serving follows a game where Borys is serving, and vice versa.
+Each game ends with a victory of one of the players. If a game is won by the serving player, it's said that this player holds serve. If a game is won by the receiving player, it's said that this player breaks serve.
+It is known that Alice won aa games and Borys won bb games during the match. It is unknown who served first and who won which games.
+Find all values of kk such that exactly kk breaks could happen during the match between Alice and Borys in total.

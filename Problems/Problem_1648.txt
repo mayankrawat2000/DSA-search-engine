@@ -1,0 +1,3 @@
+Gottfried learned about binary number representation. He then came up with this task and presented it to you.
+You are given a collection of nn non-negative integers a1,…,ana1,…,an. You are allowed to perform the following operation: choose two distinct indices 1≤i,j≤n1≤i,j≤n. If before the operation ai=xai=x, aj=yaj=y, then after the operation ai=x AND yai=x AND y, aj=x OR yaj=x OR y, where ANDAND and OROR are bitwise AND and OR respectively (refer to the Notes section for formal description). The operation may be performed any number of times (possibly zero).
+After all operations are done, compute ∑ni=1a2i∑i=1nai2 — the sum of squares of all aiai. What is the largest sum of squares you can achieve?

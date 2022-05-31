@@ -1,0 +1,4 @@
+Leslie and Leon entered a labyrinth. The labyrinth consists of nn halls and mm one-way passages between them. The halls are numbered from 11 to nn.
+Leslie and Leon start their journey in the hall ss. Right away, they quarrel and decide to explore the labyrinth separately. However, they want to meet again at the end of their journey.
+To help Leslie and Leon, your task is to find two different paths from the given hall ss to some other hall tt, such that these two paths do not share halls other than the staring hall ss and the ending hall tt. The hall tt has not been determined yet, so you can choose any of the labyrinth's halls as tt except ss.
+Leslie's and Leon's paths do not have to be the shortest ones, but their paths must be simple, visiting any hall at most once. Also, they cannot visit any common halls except ss and tt during their journey, even at different times.

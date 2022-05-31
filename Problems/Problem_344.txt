@@ -1,0 +1,4 @@
+Polycarp is very fond of playing the game Minesweeper. Recently he found a similar game and there are such rules.
+There are mines on the field, for each the coordinates of its location are known (xi,yixi,yi). Each mine has a lifetime in seconds, after which it will explode. After the explosion, the mine also detonates all mines vertically and horizontally at a distance of kk (two perpendicular lines). As a result, we get an explosion on the field in the form of a "plus" symbol ('+'). Thus, one explosion can cause new explosions, and so on.
+Also, Polycarp can detonate anyone mine every second, starting from zero seconds. After that, a chain reaction of explosions also takes place. Mines explode instantly and also instantly detonate other mines according to the rules described above.
+Polycarp wants to set a new record and asks you to help him calculate in what minimum number of seconds all mines can be detonated.

@@ -1,0 +1,4 @@
+You are given an array aa of size nn. Each element in this array is an integer between 11 and 109109.
+You can perform several operations to this array. During an operation, you can replace an element in the array with any integer between 11 and 109109. 
+Output the minimum number of operations needed such that the resulting array doesn't contain any local maximums, and the resulting array after the operations.
+An element aiai is a local maximum if it is strictly larger than both of its neighbors (that is, ai>ai−1ai>ai−1 and ai>ai+1ai>ai+1). Since a1a1 and anan have only one neighbor each, they will never be a local maximum.

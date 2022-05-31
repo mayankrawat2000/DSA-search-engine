@@ -1,0 +1,4 @@
+A string ss of length nn, consisting of lowercase letters of the English alphabet, is given.
+You must choose some number kk between 00 and nn. Then, you select kk characters of ss and permute them however you want. In this process, the positions of the other n−kn−k characters remain unchanged. You have to perform this operation exactly once.
+For example, if s="andrea"s="andrea", you can choose the k=4k=4 characters "a_d_ea""a_d_ea" and permute them into "d_e_aa""d_e_aa" so that after the operation the string becomes "dneraa""dneraa".
+Determine the minimum kk so that it is possible to sort ss alphabetically (that is, after the operation its characters appear in alphabetical order).

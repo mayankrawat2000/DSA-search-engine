@@ -1,0 +1,2 @@
+Let's define the cost of a string ss as the number of index pairs ii and jj (1≤i<j<|s|1≤i<j<|s|) such that si=sjsi=sj and si+1=sj+1si+1=sj+1.
+You are given two positive integers nn and kk. Among all strings with length nn that contain only the first kk characters of the Latin alphabet, find a string with minimum possible cost. If there are multiple such strings with minimum cost — find any of them.

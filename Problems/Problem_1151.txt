@@ -1,0 +1,6 @@
+You want to build a fence that will consist of nn equal sections. All sections have a width equal to 11 and height equal to kk. You will place all sections in one line side by side.
+Unfortunately, the ground beneath the fence is not flat. For simplicity, you can think that the ground level under the ii-th section is equal to hihi. 
+You should follow several rules to build the fence: 
+  the consecutive sections should have a common side of length at least 11;  the first and the last sections should stand on the corresponding ground levels;  the sections between may be either on the ground level or higher, but not higher than k−1k−1 from the ground level hihi (the height should be an integer); 
+  One of possible fences (blue color) for the first test case 
+Is it possible to build a fence that meets all rules?

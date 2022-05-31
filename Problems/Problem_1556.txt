@@ -1,0 +1,5 @@
+You are given a table aa of size 2×n2×n (i.e. two rows and nn columns) consisting of integers from 11 to nn.
+In one move, you can choose some column jj (1≤j≤n1≤j≤n) and swap values a1,ja1,j and a2,ja2,j in it. Each column can be chosen no more than once.
+Your task is to find the minimum number of moves required to obtain permutations of size nn in both first and second rows of the table or determine if it is impossible to do that.
+You have to answer tt independent test cases.
+Recall that the permutation of size nn is such an array of size nn that contains each integer from 11 to nn exactly once (the order of elements doesn't matter).

@@ -1,0 +1,4 @@
+There is a chessboard of size nn by nn. The square in the ii-th row from top and jj-th column from the left is labelled (i,j)(i,j).
+Currently, Gregor has some pawns in the nn-th row. There are also enemy pawns in the 11-st row. On one turn, Gregor moves one of his pawns. A pawn can move one square up (from (i,j)(i,j) to (i−1,j)(i−1,j)) if there is no pawn in the destination square. Additionally, a pawn can move one square diagonally up (from (i,j)(i,j) to either (i−1,j−1)(i−1,j−1) or (i−1,j+1)(i−1,j+1)) if and only if there is an enemy pawn in that square. The enemy pawn is also removed.
+Gregor wants to know what is the maximum number of his pawns that can reach row 11?
+Note that only Gregor takes turns in this game, and the enemy pawns never move. Also, when Gregor's pawn reaches row 11, it is stuck and cannot make any further moves.

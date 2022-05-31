@@ -1,0 +1,10 @@
+Unfortunately, a mistake was found in the proof of the author's solution to this problem. Currently, we don't know the absolutely correct solution. However, you can solve this task, but if your solution passes all the tests, it is not guaranteed to be correct. If your solution has passed all the tests and you are sure that it is correct, you can write to one of the contest authors about it.
+ Surely you all read the book "Alice in Wonderland". In this task, Nastya got to the country of Three strange Bees. The bees are strange because their honeycombs are pentagonal. Nastya got there illegally, so she wants bees not to catch her. Help the bees punish the intruder! 
+This is an interactive problem.
+A beehive is a connected undirected graph where bees and Nastya can move along the edges. A graph satisfies two properties: 
+  The degree of any of its vertex is no more than 33.  For each edge, there exists a cycle of length not greater than 55 passing through this edge. 
+ There are three bees and Nastya. You play for bees. Firstly, you choose the vertices where you put the bees. Then Nastya chooses another vertex in which she will initially appear. One move is first moving the bees, then Nastya, in turn: 
+  For each of your bees, you can either move each one along some edge from the vertex they are currently staying or leave it in place.  Then Nastya will necessarily move along some edge of the graph from the vertex she is currently staying/. 
+You win if at least one of the bees and Nastya are in the same vertex at any time of the game.
+If this situation does not occur after nn moves, then you lose.
+Several bees can be in the same vertex.

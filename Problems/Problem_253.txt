@@ -1,0 +1,3 @@
+You are given an array aa of nn elements. 
+Your can perform the following operation no more than nn times: Select three indices x,y,zx,y,z (1≤x<y<z≤n)(1≤x<y<z≤n) and replace axax with ay−azay−az. After the operation, |ax||ax| need to be less than 10181018.
+Your goal is to make the resulting array non-decreasing. If there are multiple solutions, you can output any. If it is impossible to achieve, you should report it as well.

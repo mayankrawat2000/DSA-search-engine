@@ -1,0 +1,2 @@
+You are given two integers nn and mm. Find the MEXMEX of the sequence n⊕0,n⊕1,…,n⊕mn⊕0,n⊕1,…,n⊕m. Here, ⊕⊕ is the bitwise XOR operator.
+MEXMEX of the sequence of non-negative integers is the smallest non-negative integer that doesn't appear in this sequence. For example, MEX(0,1,2,4)=3MEX⁡(0,1,2,4)=3, and MEX(1,2021)=0MEX⁡(1,2021)=0. 

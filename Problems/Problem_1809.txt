@@ -1,0 +1,4 @@
+You are given an array aa consisting of nn elements. You may apply several operations (possibly zero) to it.
+During each operation, you choose two indices ii and jj (1≤i,j≤n1≤i,j≤n; i≠ji≠j), increase ajaj by aiai, and remove the ii-th element from the array (so the indices of all elements to the right to it decrease by 11, and nn also decreases by 11).
+Your goal is to make the array aa strictly ascending. That is, the condition a1<a2<⋯<ana1<a2<⋯<an should hold (where nn is the resulting size of the array).
+Calculate the minimum number of actions required to make the array strictly ascending.

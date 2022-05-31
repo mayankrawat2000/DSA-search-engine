@@ -1,0 +1,5 @@
+You are given a tree with nn nodes. As a reminder, a tree is a connected undirected graph without cycles.
+Let a1,a2,…,ana1,a2,…,an be a sequence of integers. Perform the following operation exactly nn times: 
+  Select an unerased node uu. Assign au:=au:= number of unerased nodes adjacent to uu. Then, erase the node uu along with all edges that have it as an endpoint. 
+For each integer kk from 11 to nn, find the number, modulo 998244353998244353, of different sequences a1,a2,…,ana1,a2,…,an that satisfy the following conditions:
+  it is possible to obtain aa by performing the aforementioned operations exactly nn times in some order.  gcd(a1,a2,…,an)=kgcd⁡(a1,a2,…,an)=k. Here, gcdgcd means the greatest common divisor of the elements in aa. 

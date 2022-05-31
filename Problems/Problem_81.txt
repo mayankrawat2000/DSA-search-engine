@@ -1,0 +1,3 @@
+mm chairs are arranged in a circle sequentially. The chairs are numbered from 00 to m−1m−1. nn people want to sit in these chairs. The ii-th of them wants at least a[i]a[i] empty chairs both on his right and left side. 
+More formally, if the ii-th person sits in the jj-th chair, then no one else should sit in the following chairs: (j−a[i])modm(j−a[i])modm, (j−a[i]+1)modm(j−a[i]+1)modm, ... (j+a[i]−1)modm(j+a[i]−1)modm, (j+a[i])modm(j+a[i])modm.
+Decide if it is possible to sit down for all of them, under the given limitations.

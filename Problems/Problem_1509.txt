@@ -1,0 +1,4 @@
+Boboniu likes bit operations. He wants to play a game with you.
+Boboniu gives you two sequences of non-negative integers a1,a2,…,ana1,a2,…,an and b1,b2,…,bmb1,b2,…,bm.
+For each ii (1≤i≤n1≤i≤n), you're asked to choose a jj (1≤j≤m1≤j≤m) and let ci=ai&bjci=ai&bj, where && denotes the bitwise AND operation. Note that you can pick the same jj for different ii's.
+Find the minimum possible c1|c2|…|cnc1|c2|…|cn, where || denotes the bitwise OR operation.

@@ -1,0 +1,4 @@
+Kate has a set SS of nn integers {1,…,n}{1,…,n}. 
+She thinks that imperfection of a subset M⊆SM⊆S is equal to the maximum of gcd(a,b)gcd(a,b) over all pairs (a,b)(a,b) such that both aa and bb are in MM and a≠ba≠b. 
+Kate is a very neat girl and for each k∈{2,…,n}k∈{2,…,n} she wants to find a subset that has the smallest imperfection among all subsets in SS of size kk. There can be more than one subset with the smallest imperfection and the same size, but you don't need to worry about it. Kate wants to find all the subsets herself, but she needs your help to find the smallest possible imperfection for each size kk, will name it IkIk. 
+Please, help Kate to find I2I2, I3I3, ..., InIn.

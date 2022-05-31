@@ -1,0 +1,5 @@
+On a weekend, Qingshan suggests that she and her friend Daniel go hiking. Unfortunately, they are busy high school students, so they can only go hiking on scratch paper.
+A permutation pp is written from left to right on the paper. First Qingshan chooses an integer index xx (1≤x≤n1≤x≤n) and tells it to Daniel. After that, Daniel chooses another integer index yy (1≤y≤n1≤y≤n, y≠xy≠x).
+The game progresses turn by turn and as usual, Qingshan moves first. The rules follow: 
+  If it is Qingshan's turn, Qingshan must change xx to such an index x′x′ that 1≤x′≤n1≤x′≤n, |x′−x|=1|x′−x|=1, x′≠yx′≠y, and px′<pxpx′<px at the same time.  If it is Daniel's turn, Daniel must change yy to such an index y′y′ that 1≤y′≤n1≤y′≤n, |y′−y|=1|y′−y|=1, y′≠xy′≠x, and py′>pypy′>py at the same time. 
+The person who can't make her or his move loses, and the other wins. You, as Qingshan's fan, are asked to calculate the number of possible xx to make Qingshan win in the case both players play optimally.

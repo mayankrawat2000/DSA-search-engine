@@ -1,0 +1,7 @@
+Ashish has an array aa of size nn.
+A subsequence of aa is defined as a sequence that can be obtained from aa by deleting some elements (possibly none), without changing the order of the remaining elements.
+Consider a subsequence ss of aa. He defines the cost of ss as the minimum between: 
+  The maximum among all elements at odd indices of ss.  The maximum among all elements at even indices of ss. 
+Note that the index of an element is its index in ss, rather than its index in aa. The positions are numbered from 11. So, the cost of ss is equal to min(max(s1,s3,s5,…),max(s2,s4,s6,…))min(max(s1,s3,s5,…),max(s2,s4,s6,…)).
+For example, the cost of {7,5,6}{7,5,6} is min(max(7,6),max(5))=min(7,5)=5min(max(7,6),max(5))=min(7,5)=5.
+Help him find the minimum cost of a subsequence of size kk.

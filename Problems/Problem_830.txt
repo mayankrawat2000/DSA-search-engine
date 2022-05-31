@@ -1,0 +1,2 @@
+Let's call a number a binary decimal if it's a positive integer and all digits in its decimal notation are either 00 or 11. For example, 10101111010111 is a binary decimal, while 1020110201 and 787788787788 are not.
+Given a number nn, you are asked to represent nn as a sum of some (not necessarily distinct) binary decimals. Compute the smallest number of binary decimals required for that.

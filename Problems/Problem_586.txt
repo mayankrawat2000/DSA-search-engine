@@ -1,0 +1,4 @@
+Ivan is playing yet another roguelike computer game. He controls a single hero in the game. The hero has nn equipment slots. There is a list of cici items for the ii-th slot, the jj-th of them increases the hero strength by ai,jai,j. The items for each slot are pairwise distinct and are listed in the increasing order of their strength increase. So, ai,1<ai,2<⋯<ai,ciai,1<ai,2<⋯<ai,ci.
+For each slot Ivan chooses exactly one item. Let the chosen item for the ii-th slot be the bibi-th item in the corresponding list. The sequence of choices [b1,b2,…,bn][b1,b2,…,bn] is called a build.
+The strength of a build is the sum of the strength increases of the items in it. Some builds are banned from the game. There is a list of mm pairwise distinct banned builds. It's guaranteed that there's at least one build that's not banned.
+What is the build with the maximum strength that is not banned from the game? If there are multiple builds with maximum strength, print any of them.

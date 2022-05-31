@@ -1,0 +1,8 @@
+ Nastya is a competitive programmer, but she is only studying now. Recently, Denis told her about the way to check if the string is correct bracket sequence. After that, unexpectedly, Nastya came up with a much more complex problem that Denis couldn't solve. Can you solve it? 
+A string ss is given. It consists of kk kinds of pairs of brackets. Each bracket has the form tt  — it is an integer, such that 1≤|t|≤k1≤|t|≤k. If the bracket has a form tt, then: 
+  If t>0t>0, then it's an opening bracket of the type tt.  If t<0t<0, then it's a closing bracket of the type −t−t. 
+Thus, there are kk types of pairs of brackets in total. 
+The queries need to be answered: 
+  Replace the bracket at position ii with the bracket of the form tt.  Check if the substring from the ll-th to rr-th position (including) is the correct bracket sequence. 
+ Recall the definition of the correct bracket sequence: 
+  An empty sequence is correct.   If AA and BB are two correct bracket sequences, then their concatenation "AA BB" is also correct bracket sequence.   If AA is the correct bracket sequence, cc (1≤c≤k)(1≤c≤k) is a type of brackets, then the sequence "cc AA −c−c" is also correct bracket sequence. 

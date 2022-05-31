@@ -1,0 +1,5 @@
+Mr. Chanek lives in a city represented as a plane. He wants to build an amusement park in the shape of a circle of radius rr. The circle must touch the origin (point (0,0)(0,0)).
+There are nn bird habitats that can be a photo spot for the tourists in the park. The ii-th bird habitat is at point pi=(xi,yi)pi=(xi,yi). 
+Find the minimum radius rr of a park with at least kk bird habitats inside. 
+A point is considered to be inside the park if and only if the distance between pipi and the center of the park is less than or equal to the radius of the park. Note that the center and the radius of the park do not need to be integers.
+In this problem, it is guaranteed that the given input always has a solution with r≤2⋅105r≤2⋅105.

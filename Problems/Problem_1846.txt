@@ -1,0 +1,5 @@
+You are given a permutation pp consisting of exactly 2626 integers from 11 to 2626 (since it is a permutation, each integer from 11 to 2626 occurs in pp exactly once) and two strings ss and tt consisting of lowercase Latin letters.
+A substring t′t′ of string tt is an occurence of string ss if the following conditions are met:
+  |t′|=|s||t′|=|s|;  for each i∈[1,|s|]i∈[1,|s|], either si=t′isi=ti′, or pidx(si)=idx(t′i)pidx(si)=idx(ti′), where idx(c)idx(c) is the index of character cc in Latin alphabet (idx(a)=1idx(a)=1, idx(b)=2idx(b)=2, idx(z)=26idx(z)=26). 
+For example, if p1=2p1=2, p2=3p2=3, p3=1p3=1, s=abcs=abc, t=abcaabat=abcaaba, then three substrings of tt are occurences of ss (they are t′=abct′=abc, t′=bcat′=bca and t′=abat′=aba).
+For each substring of tt having length equal to |s||s|, check if it is an occurence of ss.

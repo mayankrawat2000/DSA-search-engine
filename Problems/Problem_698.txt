@@ -1,0 +1,5 @@
+The Olympic Games have just started and Federico is eager to watch the marathon race.
+There will be nn athletes, numbered from 11 to nn, competing in the marathon, and all of them have taken part in 55 important marathons, numbered from 11 to 55, in the past. For each 1≤i≤n1≤i≤n and 1≤j≤51≤j≤5, Federico remembers that athlete ii ranked ri,jri,j-th in marathon jj (e.g., r2,4=3r2,4=3 means that athlete 22 was third in marathon 44).
+Federico considers athlete xx superior to athlete yy if athlete xx ranked better than athlete yy in at least 33 past marathons, i.e., rx,j<ry,jrx,j<ry,j for at least 33 distinct values of jj.
+Federico believes that an athlete is likely to get the gold medal at the Olympics if he is superior to all other athletes.
+Find any athlete who is likely to get the gold medal (that is, an athlete who is superior to all other athletes), or determine that there is no such athlete.

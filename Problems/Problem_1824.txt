@@ -1,0 +1,6 @@
+You have integer nn. Calculate how many ways are there to fully cover belt-like area of 4n−24n−2 triangles with diamond shapes. 
+Diamond shape consists of two triangles. You can move, rotate or flip the shape, but you cannot scale it. 
+22 coverings are different if some 22 triangles are covered by the same diamond shape in one of them and by different diamond shapes in the other one.
+Please look at pictures below for better understanding.
+  On the left you can see the diamond shape you will use, and on the right you can see the area you want to fill. These are the figures of the area you want to fill for n=1,2,3,4n=1,2,3,4. 
+You have to answer tt independent test cases.

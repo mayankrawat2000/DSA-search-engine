@@ -1,0 +1,7 @@
+Uh oh! Applications to tech companies are due soon, and you've been procrastinating by doing contests instead! (Let's pretend for now that it is actually possible to get a job in these uncertain times.)
+You have completed many programming projects. In fact, there are exactly nn types of programming projects, and you have completed aiai projects of type ii. Your résumé has limited space, but you want to carefully choose them in such a way that maximizes your chances of getting hired.
+You want to include several projects of the same type to emphasize your expertise, but you also don't want to include so many that the low-quality projects start slipping in. Specifically, you determine the following quantity to be a good indicator of your chances of getting hired:
+f(b1,…,bn)=∑i=1nbi(ai−b2i).f(b1,…,bn)=∑i=1nbi(ai−bi2).
+Here, bibi denotes the number of projects of type ii you include in your résumé. Of course, you cannot include more projects than you have completed, so you require 0≤bi≤ai0≤bi≤ai for all ii.
+Your résumé only has enough room for kk projects, and you will absolutely not be hired if your résumé has empty space, so you require ∑i=1nbi=k∑i=1nbi=k.
+Find values for b1,…,bnb1,…,bn that maximize the value of f(b1,…,bn)f(b1,…,bn) while satisfying the above two constraints.

@@ -1,0 +1,5 @@
+Let's call an array of kk integers c1,c2,…,ckc1,c2,…,ck terrible, if the following condition holds:
+Let AVGAVG be the c1+c2+…+ckkc1+c2+…+ckk(the average of all the elements of the array, it doesn't have to be integer). Then the number of elements of the array which are bigger than AVGAVG should be strictly larger than the number of elements of the array which are smaller than AVGAVG. Note that elements equal to AVGAVG don't count.For example c={1,4,4,5,6}c={1,4,4,5,6} is terrible because AVG=4.0AVG=4.0 and 55-th and 44-th elements are greater than AVGAVG and 11-st element is smaller than AVGAVG.
+Let's call an array of mm integers b1,b2,…,bmb1,b2,…,bm bad, if at least one of its non-empty subsequences is terrible, and good otherwise.
+You are given an array of nn integers a1,a2,…,ana1,a2,…,an. Find the minimum number of elements that you have to delete from it to obtain a good array.
+An array is a subsequence of another array if it can be obtained from it by deletion of several (possibly, zero or all) elements.

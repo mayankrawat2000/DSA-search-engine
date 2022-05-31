@@ -1,0 +1,5 @@
+You are given a colored permutation p1,p2,…,pnp1,p2,…,pn. The ii-th element of the permutation has color cici.
+Let's define an infinite path as infinite sequence i,p[i],p[p[i]],p[p[p[i]]]…i,p[i],p[p[i]],p[p[p[i]]]… where all elements have same color (c[i]=c[p[i]]=c[p[p[i]]]=…c[i]=c[p[i]]=c[p[p[i]]]=…).
+We can also define a multiplication of permutations aa and bb as permutation c=a×bc=a×b where c[i]=b[a[i]]c[i]=b[a[i]]. Moreover, we can define a power kk of permutation pp as pk=p×p×⋯×pk timespk=p×p×⋯×p⏟k times.
+Find the minimum k>0k>0 such that pkpk has at least one infinite path (i.e. there is a position ii in pkpk such that the sequence starting from ii is an infinite path).
+It can be proved that the answer always exists.

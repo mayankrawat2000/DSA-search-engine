@@ -1,0 +1,2 @@
+You are given two integers aa and bb, and qq queries. The ii-th query consists of two numbers lili and riri, and the answer to it is the number of integers xx such that li≤x≤rili≤x≤ri, and ((xmoda)modb)≠((xmodb)moda)((xmoda)modb)≠((xmodb)moda). Calculate the answer for each query.
+Recall that ymodzymodz is the remainder of the division of yy by zz. For example, 5mod3=25mod3=2, 7mod8=77mod8=7, 9mod4=19mod4=1, 9mod9=09mod9=0.

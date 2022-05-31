@@ -1,0 +1,2 @@
+You are given a mysterious language (codenamed "UnknownX") available in "Custom Test" tab. Find out what this language is, and use it to solve the following problem.
+You are given an integer input=1000∗n+modinput=1000∗n+mod (1≤n,mod≤9991≤n,mod≤999). Calculate double factorial of nn modulo modmod.

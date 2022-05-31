@@ -1,0 +1,4 @@
+An array bb of length kk is called good if its arithmetic mean is equal to 11. More formally, if b1+⋯+bkk=1.b1+⋯+bkk=1.
+Note that the value b1+⋯+bkkb1+⋯+bkk is not rounded up or down. For example, the array [1,1,1,2][1,1,1,2] has an arithmetic mean of 1.251.25, which is not equal to 11.
+You are given an integer array aa of length nn. In an operation, you can append a non-negative integer to the end of the array. What's the minimum number of operations required to make the array good?
+We have a proof that it is always possible with finitely many operations.

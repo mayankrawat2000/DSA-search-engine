@@ -1,0 +1,4 @@
+There are nn reindeer at the North Pole, all battling for the highest spot on the "Top Reindeer" leaderboard on the front page of CodeNorses (a popular competitive reindeer gaming website). Interestingly, the "Top Reindeer" title is just a measure of upvotes and has nothing to do with their skill level in the reindeer games, but they still give it the utmost importance.
+Currently, the ii-th reindeer has a score of aiai. You would like to influence the leaderboard with some operations. In an operation, you can choose a reindeer, and either increase or decrease his score by 11 unit. Negative scores are allowed.
+You have mm requirements for the resulting scores. Each requirement is given by an ordered pair (u,v)(u,v), meaning that after all operations, the score of reindeer uu must be less than or equal to the score of reindeer vv.
+Your task is to perform the minimum number of operations so that all requirements will be satisfied.

@@ -1,0 +1,6 @@
+There is a street that can be represented as an array of length nn.
+There are two policemen patrolling a street: the first one is standing at the point xx of the street and the second one is standing at the point yy of the street.
+During one minute, both policemen can decide what to do (independently): move left (if the current position is greater than 11), move right (if the current position is less than nn), or do nothing.
+The street is considered clear if each point of the street is visited by at least one policeman.
+Your task is to find the minimum number of minutes the policemen need to visit each point of the street (again, each point should be visited by at least one of them).
+You have to answer tt independent test cases.

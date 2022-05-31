@@ -1,0 +1,6 @@
+NASA (Norwegian Astronaut Stuff Association) is developing a new steering system for spaceships. But in its current state, it wouldn't be very safe if the spaceship would end up in a bunch of space junk. To make the steering system safe, they need to answer the following:
+Given the target position t=(0,0)t=(0,0), a set of nn pieces of space junk ll described by line segments li=((aix,aiy),(bix,biy))li=((aix,aiy),(bix,biy)), and a starting position s=(sx,sy)s=(sx,sy), is there a direction such that floating in that direction from the starting position would lead to the target position?
+When the spaceship hits a piece of space junk, what happens depends on the absolute difference in angle between the floating direction and the line segment, θθ:
+  If θ<45∘θ<45∘, the spaceship slides along the piece of space junk in the direction that minimizes the change in angle, and when the spaceship slides off the end of the space junk, it continues floating in the direction it came in (before hitting the space junk).  If θ≥45∘θ≥45∘, the spaceship stops, because there is too much friction to slide along the space junk. 
+You are only given the set of pieces of space junk once, and the target position is always (0,0)(0,0), but there are qq queries, each with a starting position sj=(sjx,sjy)sj=(sjx,sjy).
+Answer the above question for each query.

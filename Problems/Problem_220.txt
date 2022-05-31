@@ -1,0 +1,4 @@
+You are given an array aa of length nn. Also you are given mm distinct positions p1,p2,…,pmp1,p2,…,pm (1≤pi≤n1≤pi≤n).
+A non-empty subset of these positions TT is randomly selected with equal probability and the following value is calculated: ∑i=1n(ai⋅minj∈T|i−j|).∑i=1n(ai⋅minj∈T|i−j|). In other word, for each index of the array, aiai and the distance to the closest chosen position are multiplied, and then these values are summed up.
+Find the expected value of this sum.
+This value must be found modulo 998244353998244353. More formally, let M=998244353M=998244353. It can be shown that the answer can be represented as an irreducible fraction pqpq, where pp and qq are integers and q≠0q≠0 (mod MM). Output the integer equal to p⋅q−1p⋅q−1 (mod MM). In other words, output such integer xx that 0≤x<M0≤x<M and x⋅q=px⋅q=p (mod MM).

@@ -1,0 +1,3 @@
+You are given an integer array aa of size nn.
+You have to perform mm queries. Each query has one of two types: 
+  "11 ll rr kk" — calculate the minimum value difdif such that there are exist kk distinct integers x1,x2,…,xkx1,x2,…,xk such that cnti>0cnti>0 (for every i∈[1,k]i∈[1,k]) and |cnti−cntj|≤dif|cnti−cntj|≤dif (for every i∈[1,k],j∈[1,k]i∈[1,k],j∈[1,k]), where cnticnti is the number of occurrences of xixi in the subarray a[l..r]a[l..r]. If it is impossible to choose kk integers, report it;  "22 pp xx" — assign ap:=xap:=x. 

@@ -1,0 +1,6 @@
+Recently, your friend discovered one special operation on an integer array aa: 
+  Choose two indices ii and jj (i≠ji≠j);  Set ai=aj=|ai−aj|ai=aj=|ai−aj|. 
+After playing with this operation for a while, he came to the next conclusion: 
+  For every array aa of nn integers, where 1≤ai≤1091≤ai≤109, you can find a pair of indices (i,j)(i,j) such that the total sum of aa will decrease after performing the operation. 
+This statement sounds fishy to you, so you want to find a counterexample for a given integer nn. Can you find such counterexample and prove him wrong?
+In other words, find an array aa consisting of nn integers a1,a2,…,ana1,a2,…,an (1≤ai≤1091≤ai≤109) such that for all pairs of indices (i,j)(i,j) performing the operation won't decrease the total sum (it will increase or not change the sum).

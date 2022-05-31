@@ -1,0 +1,3 @@
+Theofanis has a string s1s2…sns1s2…sn and a character cc. He wants to make all characters of the string equal to cc using the minimum number of operations.
+In one operation he can choose a number xx (1≤x≤n1≤x≤n) and for every position ii, where ii is not divisible by xx, replace sisi with cc. 
+Find the minimum number of operations required to make all the characters equal to cc and the xx-s that he should use in his operations.

@@ -1,0 +1,7 @@
+You have a malfunctioning microwave in which you want to put some bananas. You have nn time-steps before the microwave stops working completely. At each time-step, it displays a new operation.
+Let kk be the number of bananas in the microwave currently. Initially, k=0k=0. In the ii-th operation, you are given three parameters titi, xixi, yiyi in the input. Based on the value of titi, you must do one of the following:
+Type 1: (ti=1ti=1, xixi, yiyi) — pick an aiai, such that 0≤ai≤yi0≤ai≤yi, and perform the following update aiai times: k:=⌈(k+xi)⌉k:=⌈(k+xi)⌉.
+Type 2: (ti=2ti=2, xixi, yiyi) — pick an aiai, such that 0≤ai≤yi0≤ai≤yi, and perform the following update aiai times: k:=⌈(k⋅xi)⌉k:=⌈(k⋅xi)⌉.
+Note that xixi can be a fractional value. See input format for more details. Also, ⌈x⌉⌈x⌉ is the smallest integer ≥x≥x.
+At the ii-th time-step, you must apply the ii-th operation exactly once.
+For each jj such that 1≤j≤m1≤j≤m, output the earliest time-step at which you can create exactly jj bananas. If you cannot create exactly jj bananas, output −1−1.

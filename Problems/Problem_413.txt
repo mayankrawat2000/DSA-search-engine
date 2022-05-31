@@ -1,0 +1,4 @@
+Keshi is throwing a party and he wants everybody in the party to be happy.
+He has nn friends. His ii-th friend has ii dollars. 
+If you invite the ii-th friend to the party, he will be happy only if at most aiai people in the party are strictly richer than him and at most bibi people are strictly poorer than him.
+Keshi wants to invite as many people as possible. Find the maximum number of people he can invite to the party so that every invited person would be happy.

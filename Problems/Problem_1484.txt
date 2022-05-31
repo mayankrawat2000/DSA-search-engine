@@ -1,0 +1,2 @@
+You are given an array a1,a2…ana1,a2…an. Calculate the number of tuples (i,j,k,l)(i,j,k,l) such that: 
+  1≤i<j<k<l≤n1≤i<j<k<l≤n;  ai=akai=ak and aj=alaj=al; 

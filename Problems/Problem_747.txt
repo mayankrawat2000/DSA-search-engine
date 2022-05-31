@@ -1,0 +1,2 @@
+Let f(i)f(i) denote the minimum positive integer xx such that xx is not a divisor of ii.
+Compute ∑ni=1f(i)∑i=1nf(i) modulo 109+7109+7. In other words, compute f(1)+f(2)+⋯+f(n)f(1)+f(2)+⋯+f(n) modulo 109+7109+7.

@@ -1,0 +1,1 @@
+You are given a sequence b1,b2,…,bnb1,b2,…,bn. Find the lexicographically minimal permutation a1,a2,…,a2na1,a2,…,a2n such that bi=min(a2i−1,a2i)bi=min(a2i−1,a2i), or determine that it is impossible.

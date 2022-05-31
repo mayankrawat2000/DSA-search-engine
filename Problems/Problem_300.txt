@@ -1,0 +1,7 @@
+Monocarp is playing a computer game once again. He is a wizard apprentice, who only knows a single spell. Luckily, this spell can damage the monsters.
+The level he's currently on contains nn monsters. The ii-th of them appears kiki seconds after the start of the level and has hihi health points. As an additional constraint, hi≤kihi≤ki for all 1≤i≤n1≤i≤n. All kiki are different.
+Monocarp can cast the spell at moments which are positive integer amounts of second after the start of the level: 1,2,3,…1,2,3,… The damage of the spell is calculated as follows. If he didn't cast the spell at the previous second, the damage is 11. Otherwise, let the damage at the previous second be xx. Then he can choose the damage to be either x+1x+1 or 11. A spell uses mana: casting a spell with damage xx uses xx mana. Mana doesn't regenerate.
+To kill the ii-th monster, Monocarp has to cast a spell with damage at least hihi at the exact moment the monster appears, which is kiki.
+Note that Monocarp can cast the spell even when there is no monster at the current second.
+The mana amount required to cast the spells is the sum of mana usages for all cast spells. Calculate the least amount of mana required for Monocarp to kill all monsters.
+It can be shown that it's always possible to kill all monsters under the constraints of the problem.

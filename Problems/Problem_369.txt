@@ -1,0 +1,2 @@
+An array a1,a2,…,ana1,a2,…,an is good if and only if for every subsegment 1≤l≤r≤n1≤l≤r≤n, the following holds: al+al+1+…+ar=12(al+ar)⋅(r−l+1)al+al+1+…+ar=12(al+ar)⋅(r−l+1). 
+You are given an array of integers a1,a2,…,ana1,a2,…,an. In one operation, you can replace any one element of this array with any real number. Find the minimum number of operations you need to make this array good.

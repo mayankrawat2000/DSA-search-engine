@@ -1,0 +1,4 @@
+Today, Marin is at a cosplay exhibition and is preparing for a group photoshoot!
+For the group picture, the cosplayers form a horizontal line. A group picture is considered beautiful if for every contiguous segment of at least 22 cosplayers, the number of males does not exceed the number of females (obviously).
+Currently, the line has nn cosplayers which can be described by a binary string ss. The ii-th cosplayer is male if si=0si=0 and female if si=1si=1. To ensure that the line is beautiful, you can invite some additional cosplayers (possibly zero) to join the line at any position. You can't remove any cosplayer from the line.
+Marin wants to know the minimum number of cosplayers you need to invite so that the group picture of all the cosplayers is beautiful. She can't do this on her own, so she's asking you for help. Can you help her?

@@ -1,0 +1,7 @@
+This is a hard version of the problem. In this version, the given array can contain equal elements and the constraints on nn are greater than in the easy version of the problem.
+You are given an array aa of nn integers (the given array can contain equal elements). You can perform the following operations on array elements:
+  choose any index ii (1≤i≤n1≤i≤n) and move the element a[i]a[i] to the begin of the array;  choose any index ii (1≤i≤n1≤i≤n) and move the element a[i]a[i] to the end of the array. 
+For example, if n=5n=5, a=[4,7,2,2,9]a=[4,7,2,2,9], then the following sequence of operations can be performed: 
+  after performing the operation of the first type to the second element, the array aa will become [7,4,2,2,9][7,4,2,2,9];  after performing the operation of the second type to the second element, the array aa will become [7,2,2,9,4][7,2,2,9,4]. 
+You can perform operations of any type any number of times in any order.
+Find the minimum total number of operations of the first and second type that will make the aa array sorted in non-decreasing order. In other words, what is the minimum number of operations must be performed so the array satisfies the inequalities a[1]≤a[2]≤…≤a[n]a[1]≤a[2]≤…≤a[n].

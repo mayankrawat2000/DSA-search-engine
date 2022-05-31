@@ -1,0 +1,2 @@
+There's a chip in the point (0,0)(0,0) of the coordinate plane. In one operation, you can move the chip from some point (x1,y1)(x1,y1) to some point (x2,y2)(x2,y2) if the Euclidean distance between these two points is an integer (i.e. (x1−x2)2+(y1−y2)2−−−−−−−−−−−−−−−−−−√(x1−x2)2+(y1−y2)2 is integer).
+Your task is to determine the minimum number of operations required to move the chip from the point (0,0)(0,0) to the point (x,y)(x,y).

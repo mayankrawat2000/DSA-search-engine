@@ -1,0 +1,4 @@
+Tenten runs a weapon shop for ninjas. Today she is willing to sell nn shurikens which cost 11, 22, ..., nn ryo (local currency). During a day, Tenten will place the shurikens onto the showcase, which is empty at the beginning of the day. Her job is fairly simple: sometimes Tenten places another shuriken (from the available shurikens) on the showcase, and sometimes a ninja comes in and buys a shuriken from the showcase. Since ninjas are thrifty, they always buy the cheapest shuriken from the showcase.
+Tenten keeps a record for all events, and she ends up with a list of the following types of records:
+  + means that she placed another shuriken on the showcase;  - x means that the shuriken of price xx was bought. 
+Today was a lucky day, and all shurikens were bought. Now Tenten wonders if her list is consistent, and what could be a possible order of placing the shurikens on the showcase. Help her to find this out!

@@ -1,0 +1,3 @@
+Luntik came out for a morning stroll and found an array aa of length nn. He calculated the sum ss of the elements of the array (s=∑ni=1ais=∑i=1nai). Luntik calls a subsequence of the array aa nearly full if the sum of the numbers in that subsequence is equal to s−1s−1.
+Luntik really wants to know the number of nearly full subsequences of the array aa. But he needs to come home so he asks you to solve that problem!
+A sequence xx is a subsequence of a sequence yy if xx can be obtained from yy by deletion of several (possibly, zero or all) elements.

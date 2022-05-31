@@ -1,0 +1,5 @@
+You have a permutation pp of integers from 11 to nn.
+You have a strength of ss and will perform the following operation some times:
+  Choose an index ii such that 1≤i≤|p|1≤i≤|p| and |i−pi|≤s|i−pi|≤s.  For all jj such that 1≤j≤|p|1≤j≤|p| and pi<pjpi<pj, update pjpj to pj−1pj−1.  Delete the ii-th element from pp. Formally, update pp to [p1,…,pi−1,pi+1,…,pn][p1,…,pi−1,pi+1,…,pn]. 
+It can be shown that no matter what ii you have chosen, pp will be a permutation of integers from 11 to |p||p| after all operations.
+You want to be able to transform pp into the empty permutation. Find the minimum strength ss that will allow you to do so.

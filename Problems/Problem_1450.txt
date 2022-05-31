@@ -1,0 +1,4 @@
+You are given a non-decreasing array of non-negative integers a1,a2,…,ana1,a2,…,an. Also you are given a positive integer kk.
+You want to find mm non-decreasing arrays of non-negative integers b1,b2,…,bmb1,b2,…,bm, such that:
+  The size of bibi is equal to nn for all 1≤i≤m1≤i≤m.  For all 1≤j≤n1≤j≤n, aj=b1,j+b2,j+…+bm,jaj=b1,j+b2,j+…+bm,j. In the other word, array aa is the sum of arrays bibi.  The number of different elements in the array bibi is at most kk for all 1≤i≤m1≤i≤m. 
+Find the minimum possible value of mm, or report that there is no possible mm.

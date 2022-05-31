@@ -1,0 +1,8 @@
+Drazil likes heap very much. So he created a problem with heap:
+There is a max heap with a height hh implemented on the array. The details of this heap are the following:
+This heap contains exactly 2h−12h−1 distinct positive non-zero integers. All integers are distinct. These numbers are stored in the array aa indexed from 11 to 2h−12h−1. For any 1<i<2h1<i<2h, a[i]<a[⌊i2⌋]a[i]<a[⌊i2⌋].
+Now we want to reduce the height of this heap such that the height becomes gg with exactly 2g−12g−1 numbers in heap. To reduce the height, we should perform the following action 2h−2g2h−2g times:
+Choose an index ii, which contains an element and call the following function ff in index ii:
+
+Note that we suppose that if a[i]=0a[i]=0, then index ii don't contain an element.
+After all operations, the remaining 2g−12g−1 element must be located in indices from 11 to 2g−12g−1. Now Drazil wonders what's the minimum possible sum of the remaining 2g−12g−1 elements. Please find this sum and find a sequence of the function calls to achieve this value.

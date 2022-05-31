@@ -1,0 +1,7 @@
+A positive integer is called composite if it can be represented as a product of two positive integers, both greater than 11. For example, the following numbers are composite: 66, 44, 120120, 2727. The following numbers aren't: 11, 22, 33, 1717, 9797.
+Alice is given a sequence of nn composite numbers a1,a2,…,ana1,a2,…,an.
+She wants to choose an integer m≤11m≤11 and color each element one of mm colors from 11 to mm so that:
+  for each color from 11 to mm there is at least one element of this color;  each element is colored and colored exactly one color;  the greatest common divisor of any two elements that are colored the same color is greater than 11, i.e. gcd(ai,aj)>1gcd(ai,aj)>1 for each pair i,ji,j if these elements are colored the same color. 
+Note that equal elements can be colored different colors — you just have to choose one of mm colors for each of the indices from 11 to nn.
+Alice showed already that if all ai≤1000ai≤1000 then she can always solve the task by choosing some m≤11m≤11.
+Help Alice to find the required coloring. Note that you don't have to minimize or maximize the number of colors, you just have to find the solution with some mm from 11 to 1111.

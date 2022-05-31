@@ -1,0 +1,5 @@
+Ashish has a tree consisting of nn nodes numbered 11 to nn rooted at node 11. The ii-th node in the tree has a cost aiai, and binary digit bibi is written in it. He wants to have binary digit cici written in the ii-th node in the end.
+To achieve this, he can perform the following operation any number of times: 
+  Select any kk nodes from the subtree of any node uu, and shuffle the digits in these nodes as he wishes, incurring a cost of k⋅auk⋅au. Here, he can choose kk ranging from 11 to the size of the subtree of uu. 
+He wants to perform the operations in such a way that every node finally has the digit corresponding to its target.
+Help him find the minimum total cost he needs to spend so that after all the operations, every node uu has digit cucu written in it, or determine that it is impossible.

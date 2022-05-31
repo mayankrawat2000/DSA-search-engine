@@ -1,0 +1,4 @@
+There are nn points and mm segments on the coordinate line. The initial coordinate of the ii-th point is aiai. The endpoints of the jj-th segment are ljlj and rjrj — left and right endpoints, respectively.
+You can move the points. In one move you can move any point from its current coordinate xx to the coordinate x−1x−1 or the coordinate x+1x+1. The cost of this move is 11.
+You should move the points in such a way that each segment is visited by at least one point. A point visits the segment [l,r][l,r] if there is a moment when its coordinate was on the segment [l,r][l,r] (including endpoints).
+You should find the minimal possible total cost of all moves such that all segments are visited.

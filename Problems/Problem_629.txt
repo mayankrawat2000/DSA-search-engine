@@ -1,0 +1,7 @@
+Do you know what tubular bells are? They are a musical instrument made up of cylindrical metal tubes. In an orchestra, tubular bells are used to mimic the ringing of bells.
+Mike has tubular bells, too! They consist of nn tubes, and each of the tubes has a length that can be expressed by a integer from ll to rr inclusive. It is clear that the lengths of all the tubes are different (it makes no sense to make the same tubes). It is also known that r−l+1=nr−l+1=n.
+Formally, we can say that Mike's tubular bells are described by a permutation aa of length nn that contains all numbers from ll to rr inclusive, with aiai denoting the length of the ii-th tube.
+You are offered an interesting task: to guess what Mike's instrument looks like. Simply, you must guess the permutation.
+Mike won't tell you ll or rr. He will only tell you nn, and will allow you to ask no more than n+5000n+5000 queries.
+In each query, you name two positive integers xx, yy such that 1≤x,y≤n,x≠y1≤x,y≤n,x≠y. In response to this query, the program written by Mike will give you lcm(ax,ay)lcm(ax,ay), where lcm(c,d)lcm(c,d) denotes the least common multiple of cc and dd.
+Solve Mike's problem!

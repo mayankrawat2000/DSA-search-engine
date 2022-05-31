@@ -1,0 +1,9 @@
+There are nn cities and mm bidirectional roads in Berland. The ii-th road connects the cities xixi and yiyi, and has the speed limit sisi. The road network allows everyone to get from any city to any other city. 
+The Berland Transport Ministry is planning a road reform.
+First of all, maintaining all mm roads is too costly, so m−(n−1)m−(n−1) roads will be demolished in such a way that the remaining (n−1)(n−1) roads still allow to get to any city from any other city. Formally, the remaining roads should represent an undirected tree.
+Secondly, the speed limits on the remaining roads might be changed. The changes will be done sequentially, each change is either increasing the speed limit on some road by 11, or decreasing it by 11. Since changing the speed limit requires a lot of work, the Ministry wants to minimize the number of changes.
+The goal of the Ministry is to have a road network of (n−1)(n−1) roads with the maximum speed limit over all roads equal to exactly kk. They assigned you the task of calculating the minimum number of speed limit changes they have to perform so the road network meets their requirements.
+For example, suppose the initial map of Berland looks like that, and k=7k=7:
+  
+Then one of the optimal courses of action is to demolish the roads 11–44 and 33–44, and then decrease the speed limit on the road 22–33 by 11, so the resulting road network looks like that:
+  

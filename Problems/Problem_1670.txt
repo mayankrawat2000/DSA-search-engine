@@ -1,0 +1,8 @@
+After the mysterious disappearance of Ashish, his two favourite disciples Ishika and Hriday, were each left with one half of a secret message. These messages can each be represented by a permutation of size nn. Let's call them aa and bb.
+Note that a permutation of nn elements is a sequence of numbers a1,a2,…,ana1,a2,…,an, in which every number from 11 to nn appears exactly once. 
+The message can be decoded by an arrangement of sequence aa and bb, such that the number of matching pairs of elements between them is maximum. A pair of elements aiai and bjbj is said to match if: 
+  i=ji=j, that is, they are at the same index.  ai=bjai=bj 
+His two disciples are allowed to perform the following operation any number of times: 
+  choose a number kk and cyclically shift one of the permutations to the left or right kk times. 
+A single cyclic shift to the left on any permutation cc is an operation that sets c1:=c2,c2:=c3,…,cn:=c1c1:=c2,c2:=c3,…,cn:=c1 simultaneously. Likewise, a single cyclic shift to the right on any permutation cc is an operation that sets c1:=cn,c2:=c1,…,cn:=cn−1c1:=cn,c2:=c1,…,cn:=cn−1 simultaneously.
+Help Ishika and Hriday find the maximum number of pairs of elements that match after performing the operation any (possibly zero) number of times.

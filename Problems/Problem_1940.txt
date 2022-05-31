@@ -1,0 +1,4 @@
+Vasya had three strings aa, bb and ss, which consist of lowercase English letters. The lengths of strings aa and bb are equal to nn, the length of the string ss is equal to mm. 
+Vasya decided to choose a substring of the string aa, then choose a substring of the string bb and concatenate them. Formally, he chooses a segment [l1,r1][l1,r1] (1≤l1≤r1≤n1≤l1≤r1≤n) and a segment [l2,r2][l2,r2] (1≤l2≤r2≤n1≤l2≤r2≤n), and after concatenation he obtains a string a[l1,r1]+b[l2,r2]=al1al1+1…ar1bl2bl2+1…br2a[l1,r1]+b[l2,r2]=al1al1+1…ar1bl2bl2+1…br2.
+Now, Vasya is interested in counting number of ways to choose those segments adhering to the following conditions:
+  segments [l1,r1][l1,r1] and [l2,r2][l2,r2] have non-empty intersection, i.e. there exists at least one integer xx, such that l1≤x≤r1l1≤x≤r1 and l2≤x≤r2l2≤x≤r2;  the string a[l1,r1]+b[l2,r2]a[l1,r1]+b[l2,r2] is equal to the string ss. 

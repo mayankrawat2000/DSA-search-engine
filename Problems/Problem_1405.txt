@@ -1,0 +1,5 @@
+You are playing a computer game. In this game, you have to fight nn monsters.
+To defend from monsters, you need a shield. Each shield has two parameters: its current durability aa and its defence rating bb. Each monster has only one parameter: its strength dd.
+When you fight a monster with strength dd while having a shield with current durability aa and defence bb, there are three possible outcomes:
+  if a=0a=0, then you receive dd damage;  if a>0a>0 and d≥bd≥b, you receive no damage, but the current durability of the shield decreases by 11;  if a>0a>0 and d<bd<b, nothing happens. 
+The ii-th monster has strength didi, and you will fight each of the monsters exactly once, in some random order (all n!n! orders are equiprobable). You have to consider mm different shields, the ii-th shield has initial durability aiai and defence rating bibi. For each shield, calculate the expected amount of damage you will receive if you take this shield and fight the given nn monsters in random order.

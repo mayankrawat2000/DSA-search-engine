@@ -1,0 +1,5 @@
+Phoenix wonders what it is like to rob diamonds from a jewelry store!
+There are nn types of diamonds. The ii-th type has weight wiwi and value vivi. The store initially has aiai diamonds of the ii-th type.
+Each day, for qq days, one of the following will happen: 
+  A new shipment of kiki diamonds of type didi arrive.  The store sells kiki diamonds of type didi.  Phoenix wonders what will happen if he robs the store using a bag that can fit diamonds with total weight not exceeding cici. If he greedily takes diamonds of the largest value that fit, how much value would be taken? If there are multiple diamonds with the largest value, he will take the one with minimum weight. If, of the diamonds with the largest value, there are multiple with the same minimum weight, he will take any of them. 
+Of course, since Phoenix is a law-abiding citizen, this is all a thought experiment and he never actually robs any diamonds from the store. This means that queries of type 33 do not affect the diamonds in the store.

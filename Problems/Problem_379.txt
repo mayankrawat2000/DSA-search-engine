@@ -1,0 +1,4 @@
+There are nn block towers in a row, where tower ii has a height of aiai. You're part of a building crew, and you want to make the buildings look as nice as possible. In a single day, you can perform the following operation:
+  Choose two indices ii and jj (1≤i,j≤n1≤i,j≤n; i≠ji≠j), and move a block from tower ii to tower jj. This essentially decreases aiai by 11 and increases ajaj by 11. 
+You think the ugliness of the buildings is the height difference between the tallest and shortest buildings. Formally, the ugliness is defined as max(a)−min(a)max(a)−min(a). 
+What's the minimum possible ugliness you can achieve, after any number of days?

@@ -1,0 +1,5 @@
+When they are bored, Federico and Giada often play the following card game with a deck containing 6n6n cards.
+Each card contains one number between 11 and 6n6n and each number appears on exactly one card. Initially the deck is sorted, so the first card contains the number 11, the second card contains the number 22, ……, and the last one contains the number 6n6n.
+Federico and Giada take turns, alternating; Federico starts.
+In his turn, the player takes 33 contiguous cards from the deck and puts them in his pocket. The order of the cards remaining in the deck is not changed. They play until the deck is empty (after exactly 2n2n turns). At the end of the game both Federico and Giada have 3n3n cards in their pockets.
+You are given the cards in Federico's pocket at the end of the game. Describe a sequence of moves that produces that set of cards in Federico's pocket.

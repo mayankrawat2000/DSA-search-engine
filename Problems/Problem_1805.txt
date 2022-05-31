@@ -1,0 +1,4 @@
+You are given an array aa consisting of nn integers (it is guaranteed that nn is even, i.e. divisible by 22). All aiai does not exceed some integer kk.
+Your task is to replace the minimum number of elements (replacement is the following operation: choose some index ii from 11 to nn and replace aiai with some integer in range [1;k][1;k]) to satisfy the following conditions:
+  after all replacements, all aiai are positive integers not greater than kk;  for all ii from 11 to n2n2 the following equation is true: ai+an−i+1=xai+an−i+1=x, where xx should be the same for all n2n2 pairs of elements. 
+You have to answer tt independent test cases.

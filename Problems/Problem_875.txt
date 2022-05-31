@@ -1,0 +1,1 @@
+You are given an array aa of nn integers. Count the number of pairs of indices (i,j)(i,j) such that i<ji<j and aj−ai=j−iaj−ai=j−i.

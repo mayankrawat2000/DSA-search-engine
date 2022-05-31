@@ -1,0 +1,7 @@
+Consider an array of integers C=[c1,c2,…,cn]C=[c1,c2,…,cn] of length nn. Let's build the sequence of arrays D0,D1,D2,…,DnD0,D1,D2,…,Dn of length n+1n+1 in the following way:
+  The first element of this sequence will be equals CC: D0=CD0=C.  For each 1≤i≤n1≤i≤n array DiDi will be constructed from Di−1Di−1 in the following way:   Let's find the lexicographically smallest subarray of Di−1Di−1 of length ii. Then, the first n−in−i elements of DiDi will be equals to the corresponding n−in−i elements of array Di−1Di−1 and the last ii elements of DiDi will be equals to the corresponding elements of the found subarray of length ii.  
+Array xx is subarray of array yy, if xx can be obtained by deletion of several (possibly, zero or all) elements from the beginning of yy and several (possibly, zero or all) elements from the end of yy.
+For array CC let's denote array DnDn as op(C)op(C).
+Alice has an array of integers A=[a1,a2,…,an]A=[a1,a2,…,an] of length nn. She will build the sequence of arrays B0,B1,…,BnB0,B1,…,Bn of length n+1n+1 in the following way:
+  The first element of this sequence will be equals AA: B0=AB0=A.  For each 1≤i≤n1≤i≤n array BiBi will be equals op(Bi−1)op(Bi−1), where opop is the transformation described above. 
+She will ask you qq queries about elements of sequence of arrays B0,B1,…,BnB0,B1,…,Bn. Each query consists of two integers ii and jj, and the answer to this query is the value of the jj-th element of array BiBi.

@@ -1,0 +1,4 @@
+You are given four different integer points p1p1, p2p2, p3p3 and p4p4 on XYXY grid.
+In one step you can choose one of the points pipi and move it in one of four directions by one. In other words, if you have chosen point pi=(x,y)pi=(x,y) you can move it to (x,y+1)(x,y+1), (x,y−1)(x,y−1), (x+1,y)(x+1,y) or (x−1,y)(x−1,y).
+Your goal to move points in such a way that they will form a square with sides parallel to OXOX and OYOY axes (a square with side 00 is allowed).
+What is the minimum number of steps you need to make such a square?

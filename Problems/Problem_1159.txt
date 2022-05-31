@@ -1,0 +1,2 @@
+You are given five integers nn, dx1dx1, dy1dy1, dx2dx2 and dy2dy2. You have to select nn distinct pairs of integers (xi,yi)(xi,yi) in such a way that, for every possible pair of integers (x,y)(x,y), there exists exactly one triple of integers (a,b,i)(a,b,i) meeting the following constraints:
+ {x=xi+a⋅dx1+b⋅dx2,y=yi+a⋅dy1+b⋅dy2.{x=xi+a⋅dx1+b⋅dx2,y=yi+a⋅dy1+b⋅dy2. 

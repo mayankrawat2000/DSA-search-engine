@@ -1,0 +1,4 @@
+The Alice's computer is broken, so she can't play her favorite card game now. To help Alice, Bob wants to answer nn her questions. 
+Initially, Bob holds one card with number 00 in the left hand and one in the right hand. In the ii-th question, Alice asks Bob to replace a card in the left or right hand with a card with number kiki (Bob chooses which of two cards he changes, Bob must replace exactly one card).
+After this action, Alice wants the numbers on the left and right cards to belong to given segments (segments for left and right cards can be different). Formally, let the number on the left card be xx, and on the right card be yy. Then after the ii-th swap the following conditions must be satisfied: al,i≤x≤bl,ial,i≤x≤bl,i, and ar,i≤y≤br,iar,i≤y≤br,i.
+Please determine if Bob can answer all requests. If it is possible, find a way to do it.

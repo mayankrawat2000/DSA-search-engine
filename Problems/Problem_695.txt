@@ -1,0 +1,4 @@
+The numbers 1,2,…,n⋅k1,2,…,n⋅k are colored with nn colors. These colors are indexed by 1,2,…,n1,2,…,n. For each 1≤i≤n1≤i≤n, there are exactly kk numbers colored with color ii.
+Let [a,b][a,b] denote the interval of integers between aa and bb inclusive, that is, the set {a,a+1,…,b}{a,a+1,…,b}. You must choose nn intervals [a1,b1],[a2,b2],…,[an,bn][a1,b1],[a2,b2],…,[an,bn] such that: 
+  for each 1≤i≤n1≤i≤n, it holds 1≤ai<bi≤n⋅k1≤ai<bi≤n⋅k;  for each 1≤i≤n1≤i≤n, the numbers aiai and bibi are colored with color ii;  each number 1≤x≤n⋅k1≤x≤n⋅k belongs to at most ⌈nk−1⌉⌈nk−1⌉ intervals. 
+One can show that such a family of intervals always exists under the given constraints.

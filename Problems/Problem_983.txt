@@ -1,0 +1,3 @@
+It was the third month of remote learning, Nastya got sick of staying at dormitory, so she decided to return to her hometown. In order to make her trip more entertaining, one of Nastya's friend presented her an integer array aa. 
+Several hours after starting her journey home Nastya remembered about the present. To entertain herself she decided to check, are there four different indices x,y,z,wx,y,z,w such that ax+ay=az+awax+ay=az+aw.
+Her train has already arrived the destination, but she still hasn't found the answer. Can you help her unravel the mystery?

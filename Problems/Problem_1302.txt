@@ -1,0 +1,5 @@
+In this problem MEX of a certain array is the smallest positive integer not contained in this array.
+Everyone knows this definition, including Lesha. But Lesha loves MEX, so he comes up with a new problem involving MEX every day, including today.
+You are given an array aa of length nn. Lesha considers all the non-empty subarrays of the initial array and computes MEX for each of them. Then Lesha computes MEX of the obtained numbers.
+An array bb is a subarray of an array aa, if bb can be obtained from aa by deletion of several (possible none or all) elements from the beginning and several (possibly none or all) elements from the end. In particular, an array is a subarray of itself.
+Lesha understands that the problem is very interesting this time, but he doesn't know how to solve it. Help him and find the MEX of MEXes of all the subarrays!

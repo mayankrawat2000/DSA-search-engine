@@ -1,0 +1,5 @@
+You are given two lists of segments [al1,ar1],[al2,ar2],…,[aln,arn][al1,ar1],[al2,ar2],…,[aln,arn] and [bl1,br1],[bl2,br2],…,[bln,brn][bl1,br1],[bl2,br2],…,[bln,brn].
+Initially, all segments [ali,ari][ali,ari] are equal to [l1,r1][l1,r1] and all segments [bli,bri][bli,bri] are equal to [l2,r2][l2,r2].
+In one step, you can choose one segment (either from the first or from the second list) and extend it by 11. In other words, suppose you've chosen segment [x,y][x,y] then you can transform it either into [x−1,y][x−1,y] or into [x,y+1][x,y+1].
+Let's define a total intersection II as the sum of lengths of intersections of the corresponding pairs of segments, i.e. ∑i=1nintersection_length([ali,ari],[bli,bri])∑i=1nintersection_length([ali,ari],[bli,bri]). Empty intersection has length 00 and length of a segment [x,y][x,y] is equal to y−xy−x.
+What is the minimum number of steps you need to make II greater or equal to kk?

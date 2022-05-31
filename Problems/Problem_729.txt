@@ -1,0 +1,6 @@
+AquaMoon had nn strings of length mm each. nn is an odd number.
+When AquaMoon was gone, Cirno tried to pair these nn strings together. After making n−12n−12 pairs, she found out that there was exactly one string without the pair!
+In her rage, she disrupted each pair of strings. For each pair, she selected some positions (at least 11 and at most mm) and swapped the letters in the two strings of this pair at the selected positions.
+For example, if m=6m=6 and two strings "abcdef" and "xyzklm" are in one pair and Cirno selected positions 22, 33 and 66 she will swap 'b' with 'y', 'c' with 'z' and 'f' with 'm'. The resulting strings will be "ayzdem" and "xbcklf".
+Cirno then stole away the string without pair and shuffled all remaining strings in arbitrary order.
+AquaMoon found the remaining n−1n−1 strings in complete disarray. Also, she remembers the initial nn strings. She wants to know which string was stolen, but she is not good at programming. Can you help her?

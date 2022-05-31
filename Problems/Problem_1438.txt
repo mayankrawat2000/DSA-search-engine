@@ -1,0 +1,6 @@
+There are nn points on a plane. The ii-th point has coordinates (xi,yi)(xi,yi). You have two horizontal platforms, both of length kk. Each platform can be placed anywhere on a plane but it should be placed horizontally (on the same yy-coordinate) and have integer borders. If the left border of the platform is (x,y)(x,y) then the right border is (x+k,y)(x+k,y) and all points between borders (including borders) belong to the platform.
+Note that platforms can share common points (overlap) and it is not necessary to place both platforms on the same yy-coordinate.
+When you place both platforms on a plane, all points start falling down decreasing their yy-coordinate. If a point collides with some platform at some moment, the point stops and is saved. Points which never collide with any platform are lost.
+Your task is to find the maximum number of points you can save if you place both platforms optimally.
+You have to answer tt independent test cases.
+For better understanding, please read the Note section below to see a picture for the first test case.

@@ -1,0 +1,5 @@
+Numbers 1,2,3,…n1,2,3,…n (each integer from 11 to nn once) are written on a board. In one operation you can erase any two numbers aa and bb from the board and write one integer a+b2a+b2 rounded up instead.
+You should perform the given operation n−1n−1 times and make the resulting number that will be left on the board as small as possible. 
+For example, if n=4n=4, the following course of action is optimal:
+  choose a=4a=4 and b=2b=2, so the new number is 33, and the whiteboard contains [1,3,3][1,3,3];  choose a=3a=3 and b=3b=3, so the new number is 33, and the whiteboard contains [1,3][1,3];  choose a=1a=1 and b=3b=3, so the new number is 22, and the whiteboard contains [2][2]. 
+It's easy to see that after n−1n−1 operations, there will be left only one number. Your goal is to minimize it.

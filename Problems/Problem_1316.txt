@@ -1,0 +1,15 @@
+You are given a matrix consisting of nn rows and mm columns. The matrix contains lowercase letters of the Latin alphabet.
+You can perform the following operation any number of times you want to: choose two integers ii (1≤i≤m1≤i≤m) and kk (0<k<n0<k<n), and shift every column jj such that i≤j≤mi≤j≤m cyclically by kk. The shift is performed upwards.
+For example, if you have a matrix 
+ ⎛⎝⎜adgbehcfi⎞⎠⎟(abcdefghi) 
+ and perform an operation with 
+
+i=2i=2
+i = 2
+, 
+
+k=1k=1
+k = 1
+, then it becomes: 
+ ⎛⎝⎜adgehbfic⎞⎠⎟(aefdhigbc) 
+You have to process qq queries. Each of the queries is a string of length mm consisting of lowercase letters of the Latin alphabet. For each query, you have to calculate the minimum number of operations described above you have to perform so that at least one row of the matrix is equal to the string from the query. Note that all queries are independent, that is, the operations you perform in a query don't affect the initial matrix in other queries.

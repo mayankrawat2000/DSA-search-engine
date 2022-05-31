@@ -1,0 +1,4 @@
+There are nn students numerated from 11 to nn. The level of the ii-th student is aiai. You need to split the students into stable groups. A group of students is called stable, if in the sorted array of their levels no two neighboring elements differ by more than xx.
+For example, if x=4x=4, then the group with levels [1,10,8,4,4][1,10,8,4,4] is stable (because 4−1≤x4−1≤x, 4−4≤x4−4≤x, 8−4≤x8−4≤x, 10−8≤x10−8≤x), while the group with levels [2,10,10,7][2,10,10,7] is not stable (7−2=5>x7−2=5>x).
+Apart from the nn given students, teachers can invite at most kk additional students with arbitrary levels (at teachers' choice). Find the minimum number of stable groups teachers can form from all students (including the newly invited).
+For example, if there are two students with levels 11 and 55; x=2x=2; and k≥1k≥1, then you can invite a new student with level 33 and put all the students in one stable group.

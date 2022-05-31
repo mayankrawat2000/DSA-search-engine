@@ -1,0 +1,3 @@
+You are given an array aa consisting of nn non-negative integers. You have to choose a non-negative integer xx and form a new array bb of size nn according to the following rule: for all ii from 11 to nn, bi=ai⊕xbi=ai⊕x (⊕⊕ denotes the operation bitwise XOR).
+An inversion in the bb array is a pair of integers ii and jj such that 1≤i<j≤n1≤i<j≤n and bi>bjbi>bj.
+You should choose xx in such a way that the number of inversions in bb is minimized. If there are several options for xx — output the smallest one.

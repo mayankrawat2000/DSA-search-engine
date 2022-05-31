@@ -1,0 +1,4 @@
+Arkady owns a non-decreasing array a1,a2,…,ana1,a2,…,an. You are jealous of its beauty and want to destroy this property. You have a so-called XOR-gun that you can use one or more times.
+In one step you can select two consecutive elements of the array, let's say xx and yy, remove them from the array and insert the integer x⊕yx⊕y on their place, where ⊕⊕ denotes the bitwise XOR operation. Note that the length of the array decreases by one after the operation. You can't perform this operation when the length of the array reaches one.
+For example, if the array is [2,5,6,8][2,5,6,8], you can select 55 and 66 and replace them with 5⊕6=35⊕6=3. The array becomes [2,3,8][2,3,8].
+You want the array no longer be non-decreasing. What is the minimum number of steps needed? If the array stays non-decreasing no matter what you do, print −1−1.

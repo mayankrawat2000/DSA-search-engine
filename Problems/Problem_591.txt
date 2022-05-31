@@ -1,0 +1,4 @@
+You are given a digital clock with nn digits. Each digit shows an integer from 00 to 99, so the whole clock shows an integer from 00 to 10n−110n−1. The clock will show leading zeroes if the number is smaller than 10n−110n−1.
+You want the clock to show 00 with as few operations as possible. In an operation, you can do one of the following: 
+  decrease the number on the clock by 11, or  swap two digits (you can choose which digits to swap, and they don't have to be adjacent). 
+Your task is to determine the minimum number of operations needed to make the clock show 00.

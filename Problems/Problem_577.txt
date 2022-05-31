@@ -1,0 +1,5 @@
+Mr. Chanek has an array aa of nn integers. The prettiness value of aa is denoted as:
+∑i=1n∑j=1ngcd(ai,aj)⋅gcd(i,j)∑i=1n∑j=1ngcd(ai,aj)⋅gcd(i,j)
+where gcd(x,y)gcd(x,y) denotes the greatest common divisor (GCD) of integers xx and yy.
+In other words, the prettiness value of an array aa is the total sum of gcd(ai,aj)⋅gcd(i,j)gcd(ai,aj)⋅gcd(i,j) for all pairs (i,j)(i,j).
+Help Mr. Chanek find the prettiness value of aa, and output the result modulo 109+7109+7!

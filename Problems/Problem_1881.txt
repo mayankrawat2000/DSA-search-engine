@@ -1,0 +1,4 @@
+You are given the array aa consisting of nn elements and the integer k≤nk≤n.
+You want to obtain at least kk equal elements in the array aa. In one move, you can make one of the following two operations:
+  Take one of the minimum elements of the array and increase its value by one (more formally, if the minimum value of aa is mnmn then you choose such index ii that ai=mnai=mn and set ai:=ai+1ai:=ai+1);  take one of the maximum elements of the array and decrease its value by one (more formally, if the maximum value of aa is mxmx then you choose such index ii that ai=mxai=mx and set ai:=ai−1ai:=ai−1). 
+Your task is to calculate the minimum number of moves required to obtain at least kk equal elements in the array.

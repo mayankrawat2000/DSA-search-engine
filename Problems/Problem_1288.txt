@@ -1,0 +1,7 @@
+This is an interactive problem.
+Igor wants to find the key to Olha's heart. The problem is, that it's at the root of a binary tree.
+There is a perfect binary tree of height hh consisting of n=2h−1n=2h−1 nodes. The nodes have been assigned distinct labels from 11 to nn. However, Igor only knows hh and does not know which label corresponds to which node. 
+To find key to Olha's heart he needs to find the label assigned to the root by making queries of the following type at most n+420n+420 times: 
+  Select three distinct labels uu, vv and ww (1≤u,v,w≤n1≤u,v,w≤n).  In response, Olha (the grader) will tell him the label of the lowest common ancestor of nodes labelled uu and vv, if the tree was rooted at the node labelled ww instead. 
+Help Igor to find the root!
+Note: the grader is not adaptive: the labels are fixed before any queries are made.

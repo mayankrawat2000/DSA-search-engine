@@ -1,0 +1,6 @@
+You found a useless array aa of 2n2n positive integers. You have realized that you actually don't need this array, so you decided to throw out all elements of aa.
+It could have been an easy task, but it turned out that you should follow some rules: 
+  In the beginning, you select any positive integer xx. Then you do the following operation nn times:   select two elements of array with sum equals xx;  remove them from aa and replace xx with maximum of that two numbers.  
+For example, if initially a=[3,5,1,2]a=[3,5,1,2], you can select x=6x=6. Then you can select the second and the third elements of aa with sum 5+1=65+1=6 and throw them out. After this operation, xx equals 55 and there are two elements in array: 33 and 22. You can throw them out on the next operation.
+Note, that you choose xx before the start and can't change it as you want between the operations.
+Determine how should you behave to throw out all elements of aa.

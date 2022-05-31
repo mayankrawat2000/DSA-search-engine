@@ -1,0 +1,5 @@
+This is the easy version of the problem. The difference between the versions is in the number of possible operations that can be made. You can make hacks if and only if you solved both versions of the problem.
+You are given a binary table of size n×mn×m. This table consists of symbols 00 and 11.
+You can make such operation: select 33 different cells that belong to one 2×22×2 square and change the symbols in these cells (change 00 to 11 and 11 to 00).
+Your task is to make all symbols in the table equal to 00. You are allowed to make at most 3nm3nm operations. You don't need to minimize the number of operations.
+It can be proved that it is always possible.

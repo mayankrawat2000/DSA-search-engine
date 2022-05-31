@@ -1,0 +1,4 @@
+Frog Gorf is traveling through Swamp kingdom. Unfortunately, after a poor jump, he fell into a well of nn meters depth. Now Gorf is on the bottom of the well and has a long way up.
+The surface of the well's walls vary in quality: somewhere they are slippery, but somewhere have convenient ledges. In other words, if Gorf is on xx meters below ground level, then in one jump he can go up on any integer distance from 00 to axax meters inclusive. (Note that Gorf can't jump down, only up).
+Unfortunately, Gorf has to take a break after each jump (including jump on 00 meters). And after jumping up to position xx meters below ground level, he'll slip exactly bxbx meters down while resting.
+Calculate the minimum number of jumps Gorf needs to reach ground level.

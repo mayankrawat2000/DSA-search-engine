@@ -1,0 +1,6 @@
+You are a usual chat user on the most famous streaming platform. Of course, there are some moments when you just want to chill and spam something.
+More precisely, you want to spam the emote triangle of size kk. It consists of 2k−12k−1 messages. The first message consists of one emote, the second one — of two emotes, ..., the kk-th one — of kk emotes, the k+1k+1-th one — of k−1k−1 emotes, ..., and the last one — of one emote.
+For example, the emote triangle for k=3k=3 consists of 55 messages:
+  
+Of course, most of the channels have auto moderation. Auto moderator of the current chat will ban you right after you spam at least xx emotes in succession (you can assume you are the only user in the chat). Now you are interested — how many messages will you write before getting banned? Or maybe you will not get banned at all (i.e. will write all 2k−12k−1 messages and complete your emote triangle successfully)? Note that if you get banned as a result of writing a message, this message is also counted.
+You have to answer tt independent test cases.

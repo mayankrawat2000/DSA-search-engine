@@ -1,0 +1,4 @@
+You have two strings aa and bb of equal length nn consisting of characters 0 and 1, and an integer kk.
+You need to make strings aa and bb equal.
+In one step, you can choose any substring of aa containing exactly kk characters 1 (and arbitrary number of characters 0) and reverse it. Formally, if a=a1a2…ana=a1a2…an, you can choose any integers ll and rr (1≤l≤r≤n1≤l≤r≤n) such that there are exactly kk ones among characters al,al+1,…,aral,al+1,…,ar, and set aa to a1a2…al−1arar−1…alar+1ar+2…ana1a2…al−1arar−1…alar+1ar+2…an.
+Find a way to make aa equal to bb using at most 4n4n reversals of the above kind, or determine that such a way doesn't exist. The number of reversals doesn't have to be minimized.

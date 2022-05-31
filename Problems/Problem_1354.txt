@@ -1,0 +1,4 @@
+Vasya goes to visit his classmate Petya. Vasya knows that Petya's apartment number is nn. 
+There is only one entrance in Petya's house and the distribution of apartments is the following: the first floor contains 22 apartments, every other floor contains xx apartments each. Apartments are numbered starting from one, from the first floor. I.e. apartments on the first floor have numbers 11 and 22, apartments on the second floor have numbers from 33 to (x+2)(x+2), apartments on the third floor have numbers from (x+3)(x+3) to (2⋅x+2)(2⋅x+2), and so on.
+Your task is to find the number of floor on which Petya lives. Assume that the house is always high enough to fit at least nn apartments.
+You have to answer tt independent test cases.

@@ -1,0 +1,5 @@
+You are given nn dominoes. Each domino has a left and a right cell. Each cell can be colored either black or white. Some cells are already colored, while some aren't yet.
+The coloring is said to be valid if and only if it is possible to rearrange the dominoes in some order such that for each 1≤i≤n1≤i≤n the color of the right cell of the ii-th domino is different from the color of the left cell of the ((imodn)+1)((imodn)+1)-st domino. 
+Note that you can't rotate the dominoes, so the left cell always remains the left cell, and the right cell always remains the right cell.
+Count the number of valid ways to color the yet uncolored cells of dominoes. Two ways are considered different if there is a cell that is colored white in one way and black in the other. In particular, colorings BW WB and WB BW different (and both invalid).
+As this number can be very big, output it modulo 998244353998244353.

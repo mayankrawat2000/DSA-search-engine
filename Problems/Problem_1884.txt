@@ -1,0 +1,5 @@
+A number is ternary if it contains only digits 00, 11 and 22. For example, the following numbers are ternary: 10221022, 1111, 2121, 20022002.
+You are given a long ternary number xx. The first (leftmost) digit of xx is guaranteed to be 22, the other digits of xx can be 00, 11 or 22.
+Let's define the ternary XOR operation ⊙⊙ of two ternary numbers aa and bb (both of length nn) as a number c=a⊙bc=a⊙b of length nn, where ci=(ai+bi)%3ci=(ai+bi)%3 (where %% is modulo operation). In other words, add the corresponding digits and take the remainders of the sums when divided by 33. For example, 10222⊙11021=2121010222⊙11021=21210.
+Your task is to find such ternary numbers aa and bb both of length nn and both without leading zeros that a⊙b=xa⊙b=x and max(a,b)max(a,b) is the minimum possible.
+You have to answer tt independent test cases.

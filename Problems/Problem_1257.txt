@@ -1,0 +1,9 @@
+A patient has been infected with an unknown disease. His body can be seen as an infinite grid of triangular cells which looks as follows:
+  
+Two cells are neighboring if they share a side. Therefore, each cell (xx, yy) has exactly three neighbors: 
+  (x+1x+1, yy)  (x−1x−1, yy)  (x+1x+1, y−1y−1) if xx is even and (x−1x−1, y+1y+1) otherwise. 
+ 
+Initially some cells are infected, all the others are healthy. The process of recovery begins. Each second, for exactly one cell (even though there might be multiple cells that could change its state) one of the following happens:
+  A healthy cell with at least 22 infected neighbors also becomes infected.  An infected cell with at least 22 healthy neighbors also becomes healthy. 
+If no such cell exists, the process of recovery stops. Patient is considered recovered if the process of recovery has stopped and all the cells are healthy.
+We're interested in a worst-case scenario: is it possible that the patient never recovers, or if it's not possible, what is the maximum possible duration of the recovery process?

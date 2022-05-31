@@ -1,0 +1,6 @@
+You are given a string ss, consisting only of characters '0' or '1'. Let |s||s| be the length of ss.
+You are asked to choose some integer kk (k>0k>0) and find a sequence aa of length kk such that: 
+  1≤a1<a2<⋯<ak≤|s|1≤a1<a2<⋯<ak≤|s|;  ai−1+1<aiai−1+1<ai for all ii from 22 to kk. 
+The characters at positions a1,a2,…,aka1,a2,…,ak are removed, the remaining characters are concatenated without changing the order. So, in other words, the positions in the sequence aa should not be adjacent.
+Let the resulting string be s′s′. s′s′ is called sorted if for all ii from 22 to |s′||s′| s′i−1≤s′isi−1′≤si′.
+Does there exist such a sequence aa that the resulting string s′s′ is sorted?

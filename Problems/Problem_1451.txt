@@ -1,0 +1,6 @@
+You are given three sequences: a1,a2,…,ana1,a2,…,an; b1,b2,…,bnb1,b2,…,bn; c1,c2,…,cnc1,c2,…,cn.
+For each ii, ai≠biai≠bi, ai≠ciai≠ci, bi≠cibi≠ci.
+Find a sequence p1,p2,…,pnp1,p2,…,pn, that satisfy the following conditions:
+ pi∈{ai,bi,ci}pi∈{ai,bi,ci} pi≠p(imodn)+1pi≠p(imodn)+1.
+In other words, for each element, you need to choose one of the three possible values, such that no two adjacent elements (where we consider elements i,i+1i,i+1 adjacent for i<ni<n and also elements 11 and nn) will have equal value.
+It can be proved that in the given constraints solution always exists. You don't need to minimize/maximize anything, you need to find any proper sequence.

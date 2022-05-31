@@ -1,0 +1,4 @@
+Turbulent times are coming, so you decided to buy sugar in advance. There are nn shops around that sell sugar: the ii-th shop sells one pack of sugar for aiai coins, but only one pack to one customer each day. So in order to buy several packs, you need to visit several shops.
+Another problem is that prices are increasing each day: during the first day the cost is aiai, during the second day cost is ai+1ai+1, during the third day — ai+2ai+2 and so on for each shop ii.
+On the contrary, your everyday budget is only xx coins. In other words, each day you go and buy as many packs as possible with total cost not exceeding xx. Note that if you don't spend some amount of coins during a day, you can't use these coins during the next days.
+Eventually, the cost for each pack will exceed xx, and you won't be able to buy even a single pack. So, how many packs will you be able to buy till that moment in total?

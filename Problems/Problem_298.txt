@@ -1,0 +1,6 @@
+You are given a tree consisting of nn vertices. Some of the vertices (at least two) are black, all the other vertices are white.
+You place a chip on one of the vertices of the tree, and then perform the following operations:
+  let the current vertex where the chip is located is xx. You choose a black vertex yy, and then move the chip along the first edge on the simple path from xx to yy. 
+You are not allowed to choose the same black vertex yy in two operations in a row (i. e., for every two consecutive operations, the chosen black vertex should be different).
+You end your operations when the chip moves to the black vertex (if it is initially placed in a black vertex, you don't perform the operations at all), or when the number of performed operations exceeds 100500100500.
+For every vertex ii, you have to determine if there exists a (possibly empty) sequence of operations that moves the chip to some black vertex, if the chip is initially placed on the vertex ii.

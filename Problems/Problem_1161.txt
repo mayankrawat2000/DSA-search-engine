@@ -1,0 +1,6 @@
+The hobbits Frodo and Sam are carrying the One Ring to Mordor. In order not to be spotted by orcs, they decided to go through the mountains.
+The mountain relief can be represented as a polyline with nn points (xi,yi)(xi,yi), numbered from 11 to nn (xi<xi+1xi<xi+1 for 1≤i≤n−11≤i≤n−1). Hobbits start their journey at the point (x1,y1)(x1,y1) and should reach the point (xn,yn)(xn,yn) to complete their mission.
+The problem is that there is a tower with the Eye of Sauron, which watches them. The tower is located at the point (xn,yn)(xn,yn) and has the height HH, so the Eye is located at the point (xn,yn+H)(xn,yn+H). In order to complete the mission successfully, the hobbits have to wear cloaks all the time when the Sauron Eye can see them, i. e. when there is a direct line from the Eye to the hobbits which is not intersected by the relief.
+The hobbits are low, so their height can be considered negligibly small, but still positive, so when a direct line from the Sauron Eye to the hobbits only touches the relief, the Eye can see them.
+  The Sauron Eye can't see hobbits when they are in the left position, but can see them when they are in the right position. 
+The hobbits do not like to wear cloaks, so they wear them only when they can be spotted by the Eye. Your task is to calculate the total distance the hobbits have to walk while wearing cloaks.

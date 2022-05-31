@@ -1,0 +1,4 @@
+British mathematician John Littlewood once said about Indian mathematician Srinivasa Ramanujan that "every positive integer was one of his personal friends."
+It turns out that positive integers can also be friends with each other! You are given an array aa of distinct positive integers. 
+Define a subarray ai,ai+1,…,ajai,ai+1,…,aj to be a friend group if and only if there exists an integer m≥2m≥2 such that aimodm=ai+1modm=…=ajmodmaimodm=ai+1modm=…=ajmodm, where xmodyxmody denotes the remainder when xx is divided by yy.
+Your friend Gregor wants to know the size of the largest friend group in aa.

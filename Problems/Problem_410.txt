@@ -1,0 +1,5 @@
+Lee was planning to get closer to Mashtali's heart to proceed with his evil plan(which we're not aware of, yet), so he decided to beautify Mashtali's graph. But he made several rules for himself. And also he was too busy with his plans that he didn't have time for such minor tasks, so he asked you for help.
+Mashtali's graph is an undirected weighted graph with nn vertices and mm edges with weights equal to either 11 or 22. Lee wants to direct the edges of Mashtali's graph so that it will be as beautiful as possible.
+Lee thinks that the beauty of a directed weighted graph is equal to the number of its Oddysey vertices. A vertex vv is an Oddysey vertex if |d+(v)−d−(v)|=1|d+(v)−d−(v)|=1, where d+(v)d+(v) is the sum of weights of the outgoing from vv edges, and d−(v)d−(v) is the sum of the weights of the incoming to vv edges.
+Find the largest possible beauty of a graph that Lee can achieve by directing the edges of Mashtali's graph. In addition, find any way to achieve it.
+Note that you have to orient each edge.

@@ -1,0 +1,6 @@
+This is an interactive problem. The only difference between the easy and hard version is the limit on number of questions.
+There are nn players labelled from 11 to nn. It is guaranteed that nn is a multiple of 33.
+Among them, there are kk impostors and n−kn−k crewmates. The number of impostors, kk, is not given to you. It is guaranteed that n3<k<2n3n3<k<2n3.
+In each question, you can choose three distinct integers aa, bb, cc (1≤a,b,c≤n1≤a,b,c≤n) and ask: "Among the players labelled aa, bb and cc, are there more impostors or more crewmates?" You will be given the integer 00 if there are more impostors than crewmates, and 11 otherwise.
+Find the number of impostors kk and the indices of players that are impostors after asking at most 2n2n questions.
+The jury is adaptive, which means the indices of impostors may not be fixed beforehand and can depend on your questions. It is guaranteed that there is at least one set of impostors which fulfills the constraints and the answers to your questions at any time.

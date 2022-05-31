@@ -1,0 +1,9 @@
+The integers shop sells nn segments. The ii-th of them contains all integers from lili to riri and costs cici coins.
+Tomorrow Vasya will go to this shop and will buy some segments there. He will get all integers that appear in at least one of bought segments. The total cost of the purchase is the sum of costs of all segments in it.
+After shopping, Vasya will get some more integers as a gift. He will get integer xx as a gift if and only if all of the following conditions are satisfied: 
+  Vasya hasn't bought xx.  Vasya has bought integer ll that is less than xx.  Vasya has bought integer rr that is greater than xx. 
+Vasya can get integer xx as a gift only once so he won't have the same integers after receiving a gift.
+For example, if Vasya buys segment [2,4][2,4] for 2020 coins and segment [7,8][7,8] for 2222 coins, he spends 4242 coins and receives integers 2,3,4,7,82,3,4,7,8 from these segments. He also gets integers 55 and 66 as a gift.
+Due to the technical issues only the first ss segments (that is, segments [l1,r1],[l2,r2],…,[ls,rs][l1,r1],[l2,r2],…,[ls,rs]) will be available tomorrow in the shop.
+Vasya wants to get (to buy or to get as a gift) as many integers as possible. If he can do this in differents ways, he selects the cheapest of them.
+For each ss from 11 to nn, find how many coins will Vasya spend if only the first ss segments will be available.

@@ -1,0 +1,1 @@
+You are given nn integers a1,a2,…,ana1,a2,…,an. You choose any subset of the given numbers (possibly, none or all numbers) and negate these numbers (i. e. change x→(−x)x→(−x)). What is the maximum number of different values in the array you can achieve?

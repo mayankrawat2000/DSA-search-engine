@@ -1,0 +1,2 @@
+Let f(x)f(x) be the sum of digits of a decimal number xx.
+Find the smallest non-negative integer xx such that f(x)+f(x+1)+⋯+f(x+k)=nf(x)+f(x+1)+⋯+f(x+k)=n.

@@ -1,0 +1,4 @@
+Nezzar has a binary string ss of length nn that he wants to share with his best friend, Nanako. Nanako will spend qq days inspecting the binary string. At the same time, Nezzar wants to change the string ss into string ff during these qq days, because it looks better.
+It is known that Nanako loves consistency so much. On the ii-th day, Nanako will inspect a segment of string ss from position lili to position riri inclusive. If the segment contains both characters '0' and '1', Nanako becomes unhappy and throws away the string.
+After this inspection, at the ii-th night, Nezzar can secretly change strictly less than half of the characters in the segment from lili to riri inclusive, otherwise the change will be too obvious.
+Now Nezzar wonders, if it is possible to avoid Nanako being unhappy and at the same time have the string become equal to the string ff at the end of these qq days and nights.

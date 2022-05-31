@@ -1,0 +1,2 @@
+Shubham has an array aa of size nn, and wants to select exactly xx elements from it, such that their sum is odd. These elements do not have to be consecutive. The elements of the array are not guaranteed to be distinct.
+Tell him whether he can do so.

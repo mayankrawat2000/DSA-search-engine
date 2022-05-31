@@ -1,0 +1,8 @@
+This is a harder version of the problem E with larger constraints.
+Twilight Sparkle has received a new task from Princess Celestia. This time she asked to decipher the ancient scroll containing important knowledge of pony origin.
+To hide the crucial information from evil eyes, pony elders cast a spell on the scroll. That spell adds exactly one letter in any place to each word it is cast on. To make the path to the knowledge more tangled elders chose some of words in the scroll and cast a spell on them.
+Twilight Sparkle knows that the elders admired the order in all things so the scroll original scroll contained words in lexicographically non-decreasing order. She is asked to delete one letter from some of the words of the scroll (to undo the spell) to get some version of the original scroll. 
+Unfortunately, there may be more than one way to recover the ancient scroll. To not let the important knowledge slip by Twilight has to look through all variants of the original scroll and find the required one. To estimate the maximum time Twilight may spend on the work she needs to know the number of variants she has to look through. She asks you to find that number! Since that number can be very big, Twilight asks you to find it modulo 109+7109+7.
+It may occur that princess Celestia has sent a wrong scroll so the answer may not exist.
+A string aa is lexicographically smaller than a string bb if and only if one of the following holds:
+ aa is a prefix of bb, but a≠ba≠b; in the first position where aa and bb differ, the string aa has a letter that appears earlier in the alphabet than the corresponding letter in bb.

@@ -1,0 +1,4 @@
+This is an interactive problem.
+Your goal is to find a circle on a plane by shooting rays and getting the distance to the circle as a result. 
+Interactor has three hidden integer parameters that are determined in advance for each test, but which you don't know — xcxc, ycyc, and rcrc. (xc,yc)(xc,yc) are coordinates of the circle's center and rcrc is its radius. The absolute values of xcxc, ycyc, and rcrc do not exceed 105105, and 1≤rc≤x2c+y2c−−−−−−√−11≤rc≤xc2+yc2−1.
+You can shoot rays that extend from the origin (0,0)(0,0) and go via a point (xq,yq)(xq,yq) with the integer coordinates you specify. For each ray, you get a distance from the ray to the circle or 00 if the ray intersects the circle. 

@@ -1,0 +1,3 @@
+There are nn points on a coordinate axis OXOX. The ii-th point is located at the integer point xixi and has a speed vivi. It is guaranteed that no two points occupy the same coordinate. All nn points move with the constant speed, the coordinate of the ii-th point at the moment tt (tt can be non-integer) is calculated as xi+t⋅vixi+t⋅vi.
+Consider two points ii and jj. Let d(i,j)d(i,j) be the minimum possible distance between these two points over any possible moments of time (even non-integer). It means that if two points ii and jj coincide at some moment, the value d(i,j)d(i,j) will be 00.
+Your task is to calculate the value ∑1≤i<j≤n∑1≤i<j≤n d(i,j)d(i,j) (the sum of minimum distances over all pairs of points).

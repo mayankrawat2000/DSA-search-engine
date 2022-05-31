@@ -1,0 +1,5 @@
+You are given array a1,a2,…,ana1,a2,…,an, consisting of non-negative integers.
+Let's define operation of "elimination" with integer parameter kk (1≤k≤n1≤k≤n) as follows:
+  Choose kk distinct array indices 1≤i1<i2<…<ik≤n1≤i1<i2<…<ik≤n.  Calculate x=ai1 & ai2 & … & aikx=ai1 & ai2 & … & aik, where && denotes the bitwise AND operation (notes section contains formal definition).  Subtract xx from each of ai1,ai2,…,aikai1,ai2,…,aik; all other elements remain untouched. 
+Find all possible values of kk, such that it's possible to make all elements of array aa equal to 00 using a finite number of elimination operations with parameter kk. It can be proven that exists at least one possible kk for any array aa.
+Note that you firstly choose kk and only after that perform elimination operations with value kk you've chosen initially.

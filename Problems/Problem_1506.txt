@@ -1,0 +1,12 @@
+Ziota found a video game called "Monster Invaders".
+Similar to every other shooting RPG game, "Monster Invaders" involves killing monsters and bosses with guns.
+For the sake of simplicity, we only consider two different types of monsters and three different types of guns.
+Namely, the two types of monsters are: 
+  a normal monster with 11 hp.  a boss with 22 hp. 
+And the three types of guns are: 
+  Pistol, deals 11 hp in damage to one monster, r1r1 reloading time  Laser gun, deals 11 hp in damage to all the monsters in the current level (including the boss), r2r2 reloading time  AWP, instantly kills any monster, r3r3 reloading time 
+The guns are initially not loaded, and the Ziota can only reload 1 gun at a time.
+The levels of the game can be considered as an array a1,a2,…,ana1,a2,…,an, in which the ii-th stage has aiai normal monsters and 1 boss. Due to the nature of the game, Ziota cannot use the Pistol (the first type of gun) or AWP (the third type of gun) to shoot the boss before killing all of the aiai normal monsters.
+If Ziota damages the boss but does not kill it immediately, he is forced to move out of the current level to an arbitrary adjacent level (adjacent levels of level ii (1<i<n)(1<i<n) are levels i−1i−1 and i+1i+1, the only adjacent level of level 11 is level 22, the only adjacent level of level nn is level n−1n−1). Ziota can also choose to move to an adjacent level at any time. Each move between adjacent levels are managed by portals with dd teleportation time.
+In order not to disrupt the space-time continuum within the game, it is strictly forbidden to reload or shoot monsters during teleportation. 
+Ziota starts the game at level 1. The objective of the game is rather simple, to kill all the bosses in all the levels. He is curious about the minimum time to finish the game (assuming it takes no time to shoot the monsters with a loaded gun and Ziota has infinite ammo on all the three guns). Please help him find this value.

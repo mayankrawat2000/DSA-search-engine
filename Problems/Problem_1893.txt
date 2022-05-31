@@ -1,0 +1,2 @@
+You are given two integers nn and kk. Your task is to find if nn can be represented as a sum of kk distinct positive odd (not divisible by 22) integers or not.
+You have to answer tt independent test cases.

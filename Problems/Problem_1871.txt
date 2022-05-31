@@ -1,0 +1,9 @@
+InputThe input contains a single integer aa (0≤a≤630≤a≤63).
+OutputOutput a single number.
+ExamplesInputCopy2
+OutputCopy2
+InputCopy5
+OutputCopy24
+InputCopy35
+OutputCopy50
+

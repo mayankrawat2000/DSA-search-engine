@@ -1,0 +1,4 @@
+You are playing a very popular computer game. The next level consists of nn consecutive locations, numbered from 11 to nn, each of them containing either land or water. It is known that the first and last locations contain land, and for completing the level you have to move from the first location to the last. Also, if you become inside a location with water, you will die, so you can only move between locations with land.
+You can jump between adjacent locations for free, as well as no more than once jump from any location with land ii to any location with land i+xi+x, spending xx coins (x≥0x≥0).
+Your task is to spend the minimum possible number of coins to move from the first location to the last one.
+Note that this is always possible since both the first and last locations are the land locations.

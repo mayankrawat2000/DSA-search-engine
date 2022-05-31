@@ -1,0 +1,5 @@
+Polycarp has a string s[1…n]s[1…n] of length nn consisting of decimal digits. Polycarp performs the following operation with the string ss no more than once (i.e. he can perform operation 00 or 11 time): 
+  Polycarp selects two numbers ii and jj (1≤i≤j≤n1≤i≤j≤n) and removes characters from the ss string at the positions i,i+1,i+2,…,ji,i+1,i+2,…,j (i.e. removes substring s[i…j]s[i…j]). More formally, Polycarp turns the string ss into the string s1s2…si−1sj+1sj+2…sns1s2…si−1sj+1sj+2…sn. 
+For example, the string s=s="20192020" Polycarp can turn into strings: 
+  "2020" (in this case (i,j)=(3,6)(i,j)=(3,6) or (i,j)=(1,4)(i,j)=(1,4));  "2019220" (in this case (i,j)=(6,6)(i,j)=(6,6));  "020" (in this case (i,j)=(1,5)(i,j)=(1,5));  other operations are also possible, only a few of them are listed above. 
+Polycarp likes the string "2020" very much, so he is wondering if it is possible to turn the string ss into a string "2020" in no more than one operation? Note that you can perform zero operations.

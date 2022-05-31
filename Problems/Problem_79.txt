@@ -1,0 +1,1 @@
+Given an array aa of nn elements, print any value that appears at least three times or print -1 if there is no such value.

@@ -1,0 +1,1 @@
+You are given NN points on an infinite plane with the Cartesian coordinate system on it. N−1N−1 points lay on one line, and one point isn't on that line. You are on point KK at the start, and the goal is to visit every point. You can move between any two points in a straight line, and you can revisit points. What is the minimum length of the path? 

@@ -1,0 +1,5 @@
+Polycarp plays a (yet another!) strategic computer game. In this game, he leads an army of mercenaries.
+Polycarp wants to gather his army for a quest. There are nn mercenaries for hire, and the army should consist of some subset of them.
+The ii-th mercenary can be chosen if the resulting number of chosen mercenaries is not less than lili (otherwise he deems the quest to be doomed) and not greater than riri (he doesn't want to share the trophies with too many other mercenaries). Furthermore, mm pairs of mercenaries hate each other and cannot be chosen for the same quest. 
+How many non-empty subsets does Polycarp need to consider? In other words, calculate the number of non-empty subsets of mercenaries such that the size of this subset belongs to [li,ri][li,ri] for each chosen mercenary, and there are no two mercenaries in the subset that hate each other.
+The answer may be large, so calculate it modulo 998244353998244353.

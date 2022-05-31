@@ -1,0 +1,3 @@
+You are given two positive integers nn (1≤n≤1091≤n≤109) and kk (1≤k≤1001≤k≤100). Represent the number nn as the sum of kk positive integers of the same parity (have the same remainder when divided by 22).
+In other words, find a1,a2,…,aka1,a2,…,ak such that all ai>0ai>0, n=a1+a2+…+akn=a1+a2+…+ak and either all aiai are even or all aiai are odd at the same time.
+If such a representation does not exist, then report it.

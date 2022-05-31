@@ -1,0 +1,5 @@
+Kuroni is the coordinator of the next Mathforces round written by the "Proof by AC" team. All the preparation has been done, and he is discussing with the team about the score distribution for the round.
+The round consists of nn problems, numbered from 11 to nn. The problems are ordered in increasing order of difficulty, no two problems have the same difficulty. A score distribution for the round can be denoted by an array a1,a2,…,ana1,a2,…,an, where aiai is the score of ii-th problem. 
+Kuroni thinks that the score distribution should satisfy the following requirements:
+  The score of each problem should be a positive integer not exceeding 109109.  A harder problem should grant a strictly higher score than an easier problem. In other words, 1≤a1<a2<⋯<an≤1091≤a1<a2<⋯<an≤109.  The balance of the score distribution, defined as the number of triples (i,j,k)(i,j,k) such that 1≤i<j<k≤n1≤i<j<k≤n and ai+aj=akai+aj=ak, should be exactly mm. 
+Help the team find a score distribution that satisfies Kuroni's requirement. In case such a score distribution does not exist, output −1−1.

@@ -1,0 +1,5 @@
+Berland crossword is a puzzle that is solved on a square grid with nn rows and nn columns. Initially all the cells are white.
+To solve the puzzle one has to color some cells on the border of the grid black in such a way that: 
+  exactly UU cells in the top row are black;  exactly RR cells in the rightmost column are black;  exactly DD cells in the bottom row are black;  exactly LL cells in the leftmost column are black. 
+Note that you can color zero cells black and leave every cell white.
+Your task is to check if there exists a solution to the given puzzle.

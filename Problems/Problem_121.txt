@@ -1,0 +1,4 @@
+Bethany would like to tile her bathroom. The bathroom has width ww centimeters and length ll centimeters. If Bethany simply used the basic tiles of size 1×11×1 centimeters, she would use w⋅lw⋅l of them. 
+However, she has something different in mind. 
+  On the interior of the floor she wants to use the 1×11×1 tiles. She needs exactly (w−2)⋅(l−2)(w−2)⋅(l−2) of these.  On the floor boundary she wants to use tiles of size 1×a1×a for some positive integer aa. The tiles can also be rotated by 9090 degrees. 
+For which values of aa can Bethany tile the bathroom floor as described? Note that aa can also be 11. 

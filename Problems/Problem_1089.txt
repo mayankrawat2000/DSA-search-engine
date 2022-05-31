@@ -1,0 +1,6 @@
+The great hero guards the country where Homer lives. The hero has attack power AA and initial health value BB. There are nn monsters in front of the hero. The ii-th monster has attack power aiai and initial health value bibi. 
+The hero or a monster is said to be living, if his or its health value is positive (greater than or equal to 11); and he or it is said to be dead, if his or its health value is non-positive (less than or equal to 00).
+In order to protect people in the country, the hero will fight with monsters until either the hero is dead or all the monsters are dead.
+  In each fight, the hero can select an arbitrary living monster and fight with it. Suppose the ii-th monster is selected, and the health values of the hero and the ii-th monster are xx and yy before the fight, respectively. After the fight, the health values of the hero and the ii-th monster become x−aix−ai and y−Ay−A, respectively. 
+Note that the hero can fight the same monster more than once.
+For the safety of the people in the country, please tell them whether the great hero can kill all the monsters (even if the great hero himself is dead after killing the last monster).

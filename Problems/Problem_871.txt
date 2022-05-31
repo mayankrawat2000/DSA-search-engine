@@ -1,0 +1,7 @@
+Dima overslept the alarm clock, which was supposed to raise him to school.
+Dima wonders if he will have time to come to the first lesson. To do this, he needs to know the minimum time it will take him to get from home to school.
+The city where Dima lives is a rectangular field of n×mn×m size. Each cell (i,j)(i,j) on this field is denoted by one number aijaij:
+  The number −1−1 means that the passage through the cell is prohibited;  The number 00 means that the cell is free and Dima can walk though it.  The number xx (1≤x≤1091≤x≤109) means that the cell contains a portal with a cost of xx. A cell with a portal is also considered free. 
+From any portal, Dima can go to any other portal, while the time of moving from the portal (i,j)(i,j) to the portal (x,y)(x,y) corresponds to the sum of their costs aij+axyaij+axy.
+In addition to moving between portals, Dima can also move between unoccupied cells adjacent to one side in time ww. In particular, he can enter a cell with a portal and not use it.
+Initially, Dima is in the upper-left cell (1,1)(1,1), and the school is in the lower right cell (n,m)(n,m).

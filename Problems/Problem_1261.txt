@@ -1,0 +1,8 @@
+You are given two strings AA and BB representing essays of two students who are suspected cheaters. For any two strings CC, DD we define their similarity score S(C,D)S(C,D) as 4⋅LCS(C,D)−|C|−|D|4⋅LCS(C,D)−|C|−|D|, where LCS(C,D)LCS(C,D) denotes the length of the Longest Common Subsequence of strings CC and DD. 
+You believe that only some part of the essays could have been copied, therefore you're interested in their substrings.
+Calculate the maximal similarity score over all pairs of substrings. More formally, output maximal S(C,D)S(C,D) over all pairs (C,D)(C,D), where CC is some substring of AA, and DD is some substring of BB. 
+If XX is a string, |X||X| denotes its length.
+A string aa is a substring of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.
+A string aa is a subsequence of a string bb if aa can be obtained from bb by deletion of several (possibly, zero or all) characters. 
+Pay attention to the difference between the substring and subsequence, as they both appear in the problem statement. 
+You may wish to read the Wikipedia page about the Longest Common Subsequence problem.

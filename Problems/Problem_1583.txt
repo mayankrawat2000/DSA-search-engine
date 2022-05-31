@@ -1,0 +1,5 @@
+There are nn warriors in a row. The power of the ii-th warrior is aiai. All powers are pairwise distinct.
+You have two types of spells which you may cast: 
+  Fireball: you spend xx mana and destroy exactly kk consecutive warriors;  Berserk: you spend yy mana, choose two consecutive warriors, and the warrior with greater power destroys the warrior with smaller power. 
+For example, let the powers of warriors be [2,3,7,8,11,5,4][2,3,7,8,11,5,4], and k=3k=3. If you cast Berserk on warriors with powers 88 and 1111, the resulting sequence of powers becomes [2,3,7,11,5,4][2,3,7,11,5,4]. Then, for example, if you cast Fireball on consecutive warriors with powers [7,11,5][7,11,5], the resulting sequence of powers becomes [2,3,4][2,3,4].
+You want to turn the current sequence of warriors powers a1,a2,…,ana1,a2,…,an into b1,b2,…,bmb1,b2,…,bm. Calculate the minimum amount of mana you need to spend on it.

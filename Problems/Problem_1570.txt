@@ -1,0 +1,6 @@
+Koa the Koala and her best friend want to play a game.
+The game starts with an array aa of length nn consisting of non-negative integers. Koa and her best friend move in turns and each have initially a score equal to 00. Koa starts.
+Let's describe a move in the game:
+  During his move, a player chooses any element of the array and removes it from this array, xor-ing it with the current score of the player. More formally: if the current score of the player is xx and the chosen element is yy, his new score will be x⊕yx⊕y. Here ⊕⊕ denotes bitwise XOR operation. Note that after a move element yy is removed from aa.  The game ends when the array is empty. 
+At the end of the game the winner is the player with the maximum score. If both players have the same score then it's a draw.
+If both players play optimally find out whether Koa will win, lose or draw the game.

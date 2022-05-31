@@ -1,0 +1,12 @@
+This is the hard version of the problem. The only difference between the easy and the hard versions are removal queries, they are present only in the hard version.
+"Interplanetary Software, Inc." together with "Robots of Cydonia, Ltd." has developed and released robot cats. These electronic pets can meow, catch mice and entertain the owner in various ways.
+The developers from "Interplanetary Software, Inc." have recently decided to release a software update for these robots. After the update, the cats must solve the problems about bracket sequences. One of the problems is described below.
+  
+First, we need to learn a bit of bracket sequence theory. Consider the strings that contain characters "(", ")" and ".". Call a string regular bracket sequence (RBS), if it can be transformed to an empty string by one or more operations of removing either single "." characters, or a continuous substring "()". For instance, the string "(()(.))" is an RBS, as it can be transformed to an empty string with the following sequence of removals:
+ "(()(.))" →→ "(()())" →→ "(())" →→ "()" →→ "". 
+We got an empty string, so the initial string was an RBS. At the same time, the string ")(" is not an RBS, as it is not possible to apply such removal operations to it.
+An RBS is simple if this RBS is not empty, doesn't start with ".", and doesn't end with ".".
+Denote the substring of the string ss as its sequential subsegment. In particular, s[l…r]=slsl+1…srs[l…r]=slsl+1…sr, where sisi is the ii-th character of the string ss.
+Now, move on to the problem statement itself. You are given a string ss, initially consisting of characters "(" and ")". You need to answer the following queries:
+  Given two indices, ll and rr (1≤l<r≤n1≤l<r≤n). It's guaranteed that the ll-th character is equal to "(", the rr-th character is equal to ")", and the characters between them are equal to ".". Then the ll-th and the rr-th characters must be set to ".".  Given two indices, ll and rr (1≤l<r≤n1≤l<r≤n), and it's guaranteed that the substring s[l…r]s[l…r] is a simple RBS. You need to find the number of substrings in s[l…r]s[l…r] such that they are simple RBS. In other words, find the number of index pairs ii, jj such that l≤i<j≤rl≤i<j≤r and s[i…j]s[i…j] is a simple RBS. 
+You are an employee in "Interplanetary Software, Inc." and you were given the task to teach the cats to solve the problem above, after the update.

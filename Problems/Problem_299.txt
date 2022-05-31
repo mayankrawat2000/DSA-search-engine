@@ -1,0 +1,7 @@
+Monocarp is planning to host a martial arts tournament. There will be three divisions based on weight: lightweight, middleweight and heavyweight. The winner of each division will be determined by a single elimination system.
+In particular, that implies that the number of participants in each division should be a power of two. Additionally, each division should have a non-zero amount of participants.
+nn participants have registered for the tournament so far, the ii-th of them weighs aiai. To split participants into divisions, Monocarp is going to establish two integer weight boundaries xx and yy (x<yx<y). 
+All participants who weigh strictly less than xx will be considered lightweight. All participants who weigh greater or equal to yy will be considered heavyweight. The remaining participants will be considered middleweight.
+It's possible that the distribution doesn't make the number of participants in each division a power of two. It can also lead to empty divisions. To fix the issues, Monocarp can invite an arbitrary number of participants to each division.
+Note that Monocarp can't kick out any of the nn participants who have already registered for the tournament.
+However, he wants to invite as little extra participants as possible. Help Monocarp to choose xx and yy in such a way that the total amount of extra participants required is as small as possible. Output that amount.

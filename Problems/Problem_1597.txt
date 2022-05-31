@@ -1,0 +1,6 @@
+This is an interactive problem.
+Anton and Harris are playing a game to decide which of them is the king of problemsetting.
+There are three piles of stones, initially containing aa, bb, and cc stones, where aa, bb, and cc are distinct positive integers. On each turn of the game, the following sequence of events takes place:
+  The first player chooses a positive integer yy and provides it to the second player.  The second player adds yy stones to one of the piles, with the condition that he cannot choose the same pile in two consecutive turns. 
+The second player loses if, at any point, two of the piles contain the same number of stones. The first player loses if 10001000 turns have passed without the second player losing.
+Feeling confident in his skills, Anton decided to let Harris choose whether he wants to go first or second. Help Harris defeat Anton and become the king of problemsetting!

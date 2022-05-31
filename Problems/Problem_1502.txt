@@ -1,0 +1,4 @@
+Let's call a list of positive integers a0,a1,...,an−1a0,a1,...,an−1 a power sequence if there is a positive integer cc, so that for every 0≤i≤n−10≤i≤n−1 then ai=ciai=ci.
+Given a list of nn positive integers a0,a1,...,an−1a0,a1,...,an−1, you are allowed to:
+  Reorder the list (i.e. pick a permutation pp of {0,1,...,n−1}{0,1,...,n−1} and change aiai to apiapi), then  Do the following operation any number of times: pick an index ii and change aiai to ai−1ai−1 or ai+1ai+1 (i.e. increment or decrement aiai by 11) with a cost of 11. 
+Find the minimum cost to transform a0,a1,...,an−1a0,a1,...,an−1 into a power sequence.

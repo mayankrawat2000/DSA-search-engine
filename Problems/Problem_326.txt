@@ -1,0 +1,5 @@
+There are three sticks with integer lengths l1,l2l1,l2 and l3l3.
+You are asked to break exactly one of them into two pieces in such a way that: 
+  both pieces have positive (strictly greater than 00) integer length;  the total length of the pieces is equal to the original length of the stick;  it's possible to construct a rectangle from the resulting four sticks such that each stick is used as exactly one of its sides. 
+A square is also considered a rectangle.
+Determine if it's possible to do that.

@@ -1,0 +1,2 @@
+Phoenix is trying to take a photo of his nn friends with labels 1,2,…,n1,2,…,n who are lined up in a row in a special order. But before he can take the photo, his friends get distracted by a duck and mess up their order.
+Now, Phoenix must restore the order but he doesn't remember completely! He only remembers that the ii-th friend from the left had a label between aiai and bibi inclusive. Does there exist a unique way to order his friends based of his memory? 

@@ -1,0 +1,9 @@
+Polycarp has invited nn friends to celebrate the New Year. During the celebration, he decided to take a group photo of all his friends. Each friend can stand or lie on the side.
+Each friend is characterized by two values hihi (their height) and wiwi (their width). On the photo the ii-th friend will occupy a rectangle hi×wihi×wi (if they are standing) or wi×hiwi×hi (if they are lying on the side).
+The jj-th friend can be placed in front of the ii-th friend on the photo if his rectangle is lower and narrower than the rectangle of the ii-th friend. Formally, at least one of the following conditions must be fulfilled:
+  hj<hihj<hi and wj<wiwj<wi (both friends are standing or both are lying);  wj<hiwj<hi and hj<wihj<wi (one of the friends is standing and the other is lying). 
+For example, if n=3n=3, h=[3,5,3]h=[3,5,3] and w=[4,4,3]w=[4,4,3], then:
+  the first friend can be placed in front of the second: w1<h2w1<h2 and h1<w2h1<w2 (one of the them is standing and the other one is lying);  the third friend can be placed in front of the second: h3<h2h3<h2 and w3<w2w3<w2 (both friends are standing or both are lying). 
+In other cases, the person in the foreground will overlap the person in the background.
+Help Polycarp for each ii find any jj, such that the jj-th friend can be located in front of the ii-th friend (i.e. at least one of the conditions above is fulfilled).
+Please note that you do not need to find the arrangement of all people for a group photo. You just need to find for each friend ii any other friend jj who can be located in front of him. Think about it as you need to solve nn separate independent subproblems.

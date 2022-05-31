@@ -1,0 +1,4 @@
+You are given two arrays of integers a1,a2,…,ana1,a2,…,an and b1,b2,…,bmb1,b2,…,bm.
+You need to insert all elements of bb into aa in an arbitrary way. As a result you will get an array c1,c2,…,cn+mc1,c2,…,cn+m of size n+mn+m.
+Note that you are not allowed to change the order of elements in aa, while you can insert elements of bb at arbitrary positions. They can be inserted at the beginning, between any elements of aa, or at the end. Moreover, elements of bb can appear in the resulting array in any order.
+What is the minimum possible number of inversions in the resulting array cc? Recall that an inversion is a pair of indices (i,j)(i,j) such that i<ji<j and ci>cjci>cj.

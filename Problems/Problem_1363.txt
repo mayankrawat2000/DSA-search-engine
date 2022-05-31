@@ -1,0 +1,3 @@
+While exploring the old caves, researchers found a book, or more precisely, a stash of mixed pages from a book. Luckily, all of the original pages are present and each page contains its number. Therefore, the researchers can reconstruct the book.
+After taking a deeper look into the contents of these pages, linguists think that this may be some kind of dictionary. What's interesting is that this ancient civilization used an alphabet which is a subset of the English alphabet, however, the order of these letters in the alphabet is not like the one in the English language.
+Given the contents of pages that researchers have found, your task is to reconstruct the alphabet of this ancient civilization using the provided pages from the dictionary.

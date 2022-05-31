@@ -1,0 +1,4 @@
+In Fire City, there are nn intersections and mm one-way roads. The ii-th road goes from intersection aiai to bibi and has length lili miles. 
+There are qq cars that may only drive along those roads. The ii-th car starts at intersection vivi and has an odometer that begins at sisi, increments for each mile driven, and resets to 00 whenever it reaches titi. Phoenix has been tasked to drive cars along some roads (possibly none) and return them to their initial intersection with the odometer showing 00.
+For each car, please find if this is possible. 
+A car may visit the same road or intersection an arbitrary number of times. The odometers don't stop counting the distance after resetting, so odometers may also be reset an arbitrary number of times.

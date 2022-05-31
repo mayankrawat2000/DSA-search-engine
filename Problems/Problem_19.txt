@@ -1,0 +1,7 @@
+Tokitsukaze has two colorful tapes. There are nn distinct colors, numbered 11 through nn, and each color appears exactly once on each of the two tapes. Denote the color of the ii-th position of the first tape as caicai, and the color of the ii-th position of the second tape as cbicbi.
+Now Tokitsukaze wants to select each color an integer value from 11 to nn, distinct for all the colors. After that she will put down the color values in each colored position on the tapes. Denote the number of the ii-th position of the first tape as numainumai, and the number of the ii-th position of the second tape as numbinumbi.
+  
+For example, for the above picture, assuming that the color red has value xx (1≤x≤n1≤x≤n), it appears at the 11-st position of the first tape and the 33-rd position of the second tape, so numa1=numb3=xnuma1=numb3=x.
+Note that each color ii from 11 to nn should have a distinct value, and the same color which appears in both tapes has the same value. 
+After labeling each color, the beauty of the two tapes is calculated as ∑i=1n|numai−numbi|.∑i=1n|numai−numbi|.
+Please help Tokitsukaze to find the highest possible beauty. 

@@ -1,0 +1,4 @@
+You are given an integer nn and an array a1,a2,…,ana1,a2,…,an. You should reorder the elements of the array aa in such way that the sum of MEXMEX on prefixes (ii-th prefix is a1,a2,…,aia1,a2,…,ai) is maximized.
+Formally, you should find an array b1,b2,…,bnb1,b2,…,bn, such that the sets of elements of arrays aa and bb are equal (it is equivalent to array bb can be found as an array aa with some reordering of its elements) and ∑i=1nMEX(b1,b2,…,bi)∑i=1nMEX(b1,b2,…,bi) is maximized.
+MEXMEX of a set of nonnegative integers is the minimal nonnegative integer such that it is not in the set.
+For example, MEX({1,2,3})=0MEX({1,2,3})=0, MEX({0,1,2,4,5})=3MEX({0,1,2,4,5})=3.

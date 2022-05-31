@@ -1,0 +1,7 @@
+Note: The XOR-sum of set {s1,s2,…,sm}{s1,s2,…,sm} is defined as s1⊕s2⊕…⊕sms1⊕s2⊕…⊕sm, where ⊕⊕ denotes the bitwise XOR operation.
+After almost winning IOI, Victor bought himself an n×nn×n grid containing integers in each cell. nn is an even integer. The integer in the cell in the ii-th row and jj-th column is ai,jai,j.
+Sadly, Mihai stole the grid from Victor and told him he would return it with only one condition: Victor has to tell Mihai the XOR-sum of all the integers in the whole grid.
+Victor doesn't remember all the elements of the grid, but he remembers some information about it: For each cell, Victor remembers the XOR-sum of all its neighboring cells.
+Two cells are considered neighbors if they share an edge — in other words, for some integers 1≤i,j,k,l≤n1≤i,j,k,l≤n, the cell in the ii-th row and jj-th column is a neighbor of the cell in the kk-th row and ll-th column if |i−k|=1|i−k|=1 and j=lj=l, or if i=ki=k and |j−l|=1|j−l|=1.
+To get his grid back, Victor is asking you for your help. Can you use the information Victor remembers to find the XOR-sum of the whole grid?
+It can be proven that the answer is unique.

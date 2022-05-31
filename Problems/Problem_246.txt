@@ -1,0 +1,4 @@
+You are given two arrays aa and bb, both of length nn.
+You can perform the following operation any number of times (possibly zero): select an index ii (1≤i≤n1≤i≤n) and swap aiai and bibi.
+Let's define the cost of the array aa as ∑ni=1∑nj=i+1(ai+aj)2∑i=1n∑j=i+1n(ai+aj)2. Similarly, the cost of the array bb is ∑ni=1∑nj=i+1(bi+bj)2∑i=1n∑j=i+1n(bi+bj)2.
+Your task is to minimize the total cost of two arrays.

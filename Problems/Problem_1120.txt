@@ -1,0 +1,8 @@
+Igor had a sequence d1,d2,…,dnd1,d2,…,dn of integers. When Igor entered the classroom there was an integer xx written on the blackboard.
+Igor generated sequence pp using the following algorithm: 
+  initially, p=[x]p=[x];  for each 1≤i≤n1≤i≤n he did the following operation |di||di| times:   if di≥0di≥0, then he looked at the last element of pp (let it be yy) and appended y+1y+1 to the end of pp;  if di<0di<0, then he looked at the last element of pp (let it be yy) and appended y−1y−1 to the end of pp.  
+For example, if x=3x=3, and d=[1,−1,2]d=[1,−1,2], pp will be equal [3,4,3,4,5][3,4,3,4,5].
+Igor decided to calculate the length of the longest increasing subsequence of pp and the number of them.
+A sequence aa is a subsequence of a sequence bb if aa can be obtained from bb by deletion of several (possibly, zero or all) elements.
+A sequence aa is an increasing sequence if each element of aa (except the first one) is strictly greater than the previous element.
+For p=[3,4,3,4,5]p=[3,4,3,4,5], the length of longest increasing subsequence is 33 and there are 33 of them: [3–,4–,3,4,5–][3_,4_,3,4,5_], [3–,4,3,4–,5–][3_,4,3,4_,5_], [3,4,3–,4–,5–][3,4,3_,4_,5_].

@@ -1,0 +1,4 @@
+A sequence (b1,b2,…,bk)(b1,b2,…,bk) is called strange, if the absolute difference between any pair of its elements is greater than or equal to the maximum element in the sequence. Formally speaking, it's strange if for every pair (i,j)(i,j) with 1≤i<j≤k1≤i<j≤k, we have |ai−aj|≥MAX|ai−aj|≥MAX, where MAXMAX is the largest element of the sequence. In particular, any sequence of length at most 11 is strange.
+For example, the sequences (−2021,−1,−1,−1)(−2021,−1,−1,−1) and (−1,0,1)(−1,0,1) are strange, but (3,0,1)(3,0,1) is not, because |0−1|<3|0−1|<3.
+Sifid has an array aa of nn integers. Sifid likes everything big, so among all the strange subsequences of aa, he wants to find the length of the longest one. Can you help him?
+A sequence cc is a subsequence of an array dd if cc can be obtained from dd by deletion of several (possibly, zero or all) elements.

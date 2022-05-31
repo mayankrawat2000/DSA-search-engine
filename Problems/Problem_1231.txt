@@ -1,0 +1,5 @@
+You are given a multiset of powers of two. More precisely, for each ii from 00 to nn exclusive you have cnticnti elements equal to 2i2i.
+In one operation, you can choose any one element 2l>12l>1 and divide it into two elements 2l−12l−1.
+You should perform qq queries. Each query has one of two types: 
+  "11 pospos valval" — assign cntpos:=valcntpos:=val;  "22 xx kk" — calculate the minimum number of operations you need to make at least kk elements with value lower or equal to 2x2x. 
+Note that all queries of the second type don't change the multiset; that is, you just calculate the minimum number of operations, you don't perform them.

@@ -1,0 +1,6 @@
+Masha works in an advertising agency. In order to promote the new brand, she wants to conclude contracts with some bloggers. In total, Masha has connections of nn different bloggers. Blogger numbered ii has aiai followers.
+Since Masha has a limited budget, she can only sign a contract with kk different bloggers. Of course, Masha wants her ad to be seen by as many people as possible. Therefore, she must hire bloggers with the maximum total number of followers.
+Help her, find the number of ways to select kk bloggers so that the total number of their followers is maximum possible. Two ways are considered different if there is at least one blogger in the first way, which is not in the second way. Masha believes that all bloggers have different followers (that is, there is no follower who would follow two different bloggers).
+For example, if n=4n=4, k=3k=3, a=[1,3,1,2]a=[1,3,1,2], then Masha has two ways to select 33 bloggers with the maximum total number of followers: 
+  conclude contracts with bloggers with numbers 11, 22 and 44. In this case, the number of followers will be equal to a1+a2+a4=6a1+a2+a4=6.  conclude contracts with bloggers with numbers 22, 33 and 44. In this case, the number of followers will be equal to a2+a3+a4=6a2+a3+a4=6. 
+Since the answer can be quite large, output it modulo 109+7109+7.

@@ -1,0 +1,2 @@
+You are given a list of nn integers. You can perform the following operation: you choose an element xx from the list, erase xx from the list, and subtract the value of xx from all the remaining elements. Thus, in one operation, the length of the list is decreased by exactly 11.
+Given an integer kk (k>0k>0), find if there is some sequence of n−1n−1 operations such that, after applying the operations, the only remaining element of the list is equal to kk.

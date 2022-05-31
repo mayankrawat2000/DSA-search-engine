@@ -1,0 +1,4 @@
+Kostya is extremely busy: he is renovating his house! He needs to hand wallpaper, assemble furniture throw away trash.
+Kostya is buying tiles for bathroom today. He is standing in front of a large square stand with tiles in a shop. The stand is a square of n×nn×n cells, each cell of which contains a small tile with color ci,jci,j. The shop sells tiles in packs: more specifically, you can only buy a subsquare of the initial square.
+A subsquare is any square part of the stand, i. e. any set S(i0,j0,k)={ci,j | i0≤i<i0+k,j0≤j<j0+k}S(i0,j0,k)={ci,j | i0≤i<i0+k,j0≤j<j0+k} with 1≤i0,j0≤n−k+11≤i0,j0≤n−k+1.
+Kostya still does not know how many tiles he needs, so he considers the subsquares of all possible sizes. He doesn't want his bathroom to be too colorful. Help Kostya to count for each k≤nk≤n the number of subsquares of size k×kk×k that have at most qq different colors of tiles. Two subsquares are considered different if their location on the stand is different.

@@ -1,0 +1,4 @@
+Ori and Sein have overcome many difficult challenges. They finally lit the Shrouded Lantern and found Gumon Seal, the key to the Forlorn Ruins. When they tried to open the door to the ruins... nothing happened.
+Ori was very surprised, but Sein gave the explanation quickly: clever Gumon decided to make an additional defence for the door.
+There are nn lamps with Spirit Tree's light. Sein knows the time of turning on and off for the ii-th lamp — lili and riri respectively. To open the door you have to choose kk lamps in such a way that there will be a moment of time when they all will be turned on.
+While Sein decides which of the kk lamps to pick, Ori is interested: how many ways there are to pick such kk lamps that the door will open? It may happen that Sein may be wrong and there are no such kk lamps. The answer might be large, so print it modulo 998244353998244353.

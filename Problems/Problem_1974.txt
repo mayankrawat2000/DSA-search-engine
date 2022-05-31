@@ -1,0 +1,3 @@
+Kuroni is very angry at the other setters for using him as a theme! As a punishment, he forced them to solve the following problem:
+You have an array aa consisting of nn positive integers. An operation consists of choosing an element and either adding 11 to it or subtracting 11 from it, such that the element remains positive. We say the array is good if the greatest common divisor of all its elements is not 11. Find the minimum number of operations needed to make the array good.
+Unable to match Kuroni's intellect, the setters failed to solve the problem. Help them escape from Kuroni's punishment!

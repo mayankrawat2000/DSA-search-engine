@@ -1,0 +1,7 @@
+There is a city that can be represented as a square grid with corner points in (0,0)(0,0) and (106,106)(106,106).
+The city has nn vertical and mm horizontal streets that goes across the whole city, i. e. the ii-th vertical streets goes from (xi,0)(xi,0) to (xi,106)(xi,106) and the jj-th horizontal street goes from (0,yj)(0,yj) to (106,yj)(106,yj). 
+All streets are bidirectional. Borders of the city are streets as well.
+There are kk persons staying on the streets: the pp-th person at point (xp,yp)(xp,yp) (so either xpxp equal to some xixi or ypyp equal to some yjyj, or both).
+Let's say that a pair of persons form an inconvenient pair if the shortest path from one person to another going only by streets is strictly greater than the Manhattan distance between them.
+Calculate the number of inconvenient pairs of persons (pairs (x,y)(x,y) and (y,x)(y,x) are the same pair).
+Let's recall that Manhattan distance between points (x1,y1)(x1,y1) and (x2,y2)(x2,y2) is |x1−x2|+|y1−y2||x1−x2|+|y1−y2|.

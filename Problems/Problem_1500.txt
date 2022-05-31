@@ -1,0 +1,7 @@
+Alice and Bob play a game. They have a binary string ss (a string such that each character in it is either 00 or 11). Alice moves first, then Bob, then Alice again, and so on.
+During their move, the player can choose any number (not less than one) of consecutive equal characters in ss and delete them.
+For example, if the string is 1011010110, there are 66 possible moves (deleted characters are bold):
+  10110→011010110→0110;  10110→111010110→1110;  10110→101010110→1010;  10110→101010110→1010;  10110→10010110→100;  10110→101110110→1011. 
+After the characters are removed, the characters to the left and to the right of the removed block become adjacent. I. e. the following sequence of moves is valid: 10110→100→110110→100→1.
+The game ends when the string becomes empty, and the score of each player is the number of 11-characters deleted by them.
+Each player wants to maximize their score. Calculate the resulting score of Alice.

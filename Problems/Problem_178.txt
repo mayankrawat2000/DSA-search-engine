@@ -1,0 +1,5 @@
+Monocarp is playing a tower defense game. A level in the game can be represented as an OX axis, where each lattice point from 11 to nn contains a tower in it.
+The tower in the ii-th point has cici mana capacity and riri mana regeneration rate. In the beginning, before the 00-th second, each tower has full mana. If, at the end of some second, the ii-th tower has xx mana, then it becomes min(x+ri,ci)min(x+ri,ci) mana for the next second.
+There are qq monsters spawning on a level. The jj-th monster spawns at point 11 at the beginning of tjtj-th second, and it has hjhj health. Every monster is moving 11 point per second in the direction of increasing coordinate.
+When a monster passes the tower, the tower deals min(H,M)min(H,M) damage to it, where HH is the current health of the monster and MM is the current mana amount of the tower. This amount gets subtracted from both monster's health and tower's mana.
+Unfortunately, sometimes some monsters can pass all nn towers and remain alive. Monocarp wants to know what will be the total health of the monsters after they pass all towers.

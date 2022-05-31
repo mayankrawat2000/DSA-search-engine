@@ -1,0 +1,3 @@
+To become the king of Codeforces, Kuroni has to solve the following problem.
+He is given nn numbers a1,a2,…,ana1,a2,…,an. Help Kuroni to calculate ∏1≤i<j≤n|ai−aj|∏1≤i<j≤n|ai−aj|. As result can be very big, output it modulo mm.
+If you are not familiar with short notation, ∏1≤i<j≤n|ai−aj|∏1≤i<j≤n|ai−aj| is equal to |a1−a2|⋅|a1−a3|⋅|a1−a2|⋅|a1−a3|⋅ …… ⋅|a1−an|⋅|a2−a3|⋅|a2−a4|⋅⋅|a1−an|⋅|a2−a3|⋅|a2−a4|⋅ …… ⋅|a2−an|⋅⋅|a2−an|⋅ …… ⋅|an−1−an|⋅|an−1−an|. In other words, this is the product of |ai−aj||ai−aj| for all 1≤i<j≤n1≤i<j≤n.

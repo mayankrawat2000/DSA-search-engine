@@ -1,0 +1,5 @@
+Monocarp had a sequence aa consisting of n+mn+m integers a1,a2,…,an+ma1,a2,…,an+m. He painted the elements into two colors, red and blue; nn elements were painted red, all other mm elements were painted blue.
+After painting the elements, he has written two sequences r1,r2,…,rnr1,r2,…,rn and b1,b2,…,bmb1,b2,…,bm. The sequence rr consisted of all red elements of aa in the order they appeared in aa; similarly, the sequence bb consisted of all blue elements of aa in the order they appeared in aa as well.
+Unfortunately, the original sequence was lost, and Monocarp only has the sequences rr and bb. He wants to restore the original sequence. In case there are multiple ways to restore it, he wants to choose a way to restore that maximizes the value of 
+f(a)=max(0,a1,(a1+a2),(a1+a2+a3),…,(a1+a2+a3+⋯+an+m))f(a)=max(0,a1,(a1+a2),(a1+a2+a3),…,(a1+a2+a3+⋯+an+m))
+Help Monocarp to calculate the maximum possible value of f(a)f(a).

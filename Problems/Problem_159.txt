@@ -1,0 +1,3 @@
+You are given four integers nn, BB, xx and yy. You should build a sequence a0,a1,a2,…,ana0,a1,a2,…,an where a0=0a0=0 and for each i≥1i≥1 you can choose: 
+  either ai=ai−1+xai=ai−1+x  or ai=ai−1−yai=ai−1−y. 
+Your goal is to build such a sequence aa that ai≤Bai≤B for all ii and ∑i=0nai∑i=0nai is maximum possible.

@@ -1,0 +1,6 @@
+Boboniu likes playing chess with his employees. As we know, no employee can beat the boss in the chess game, so Boboniu has never lost in any round.
+You are a new applicant for his company. Boboniu will test you with the following chess question:
+Consider a n×mn×m grid (rows are numbered from 11 to nn, and columns are numbered from 11 to mm). You have a chess piece, and it stands at some cell (Sx,Sy)(Sx,Sy) which is not on the border (i.e. 2≤Sx≤n−12≤Sx≤n−1 and 2≤Sy≤m−12≤Sy≤m−1).
+From the cell (x,y)(x,y), you can move your chess piece to (x,y′)(x,y′) (1≤y′≤m,y′≠y1≤y′≤m,y′≠y) or (x′,y)(x′,y) (1≤x′≤n,x′≠x1≤x′≤n,x′≠x). In other words, the chess piece moves as a rook. From the cell, you can move to any cell on the same row or column.
+Your goal is to visit each cell exactly once. Can you find a solution?
+Note that cells on the path between two adjacent cells in your route are not counted as visited, and it is not required to return to the starting point.

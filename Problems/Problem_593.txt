@@ -1,0 +1,4 @@
+You are given a strictly convex polygon with nn vertices.
+You will make kk cuts that meet the following conditions: 
+  each cut is a segment that connects two different nonadjacent vertices;  two cuts can intersect only at vertices of the polygon. 
+Your task is to maximize the area of the smallest region that will be formed by the polygon and those kk cuts.

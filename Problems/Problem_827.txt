@@ -1,0 +1,4 @@
+Every December, VK traditionally holds an event for its employees named "Secret Santa". Here's how it happens.
+nn employees numbered from 11 to nn take part in the event. Each employee ii is assigned a different employee bibi, to which employee ii has to make a new year gift. Each employee is assigned to exactly one other employee, and nobody is assigned to themselves (but two employees may be assigned to each other). Formally, all bibi must be distinct integers between 11 and nn, and for any ii, bi≠ibi≠i must hold.
+The assignment is usually generated randomly. This year, as an experiment, all event participants have been asked who they wish to make a gift to. Each employee ii has said that they wish to make a gift to employee aiai.
+Find a valid assignment bb that maximizes the number of fulfilled wishes of the employees.

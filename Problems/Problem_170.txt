@@ -1,0 +1,11 @@
+Given a list of distinct values, we denote with first minimum, second minimum, and third minimum the three smallest values (in increasing order).
+A permutation p1,p2,…,pnp1,p2,…,pn is good if the following statement holds for all pairs (l,r)(l,r) with 1≤l<l+2≤r≤n1≤l<l+2≤r≤n. 
+  If {pl,pr}{pl,pr} are (not necessarily in this order) the first and second minimum of pl,pl+1,…,prpl,pl+1,…,pr then the third minimum of pl,pl+1,…,prpl,pl+1,…,pr is either pl+1pl+1 or pr−1pr−1. 
+You are given an integer nn and a string ss of length mm consisting of characters "<" and ">".
+Count the number of good permutations p1,p2,…,pnp1,p2,…,pn such that, for all 1≤i≤m1≤i≤m, 
+  pi<pi+1pi<pi+1 if si=si= "<";  pi>pi+1pi>pi+1 if si=si= ">". 
+ As the result can be very large, you should print it modulo 
+
+998244353998244353
+998\,244\,353
+.

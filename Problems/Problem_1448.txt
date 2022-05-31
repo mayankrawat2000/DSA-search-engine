@@ -1,0 +1,5 @@
+There are nn robbers at coordinates (a1,b1)(a1,b1), (a2,b2)(a2,b2), ..., (an,bn)(an,bn) and mm searchlight at coordinates (c1,d1)(c1,d1), (c2,d2)(c2,d2), ..., (cm,dm)(cm,dm). 
+In one move you can move each robber to the right (increase aiai of each robber by one) or move each robber up (increase bibi of each robber by one). Note that you should either increase all aiai or all bibi, you can't increase aiai for some points and bibi for some other points.
+Searchlight jj can see a robber ii if ai≤cjai≤cj and bi≤djbi≤dj. 
+A configuration of robbers is safe if no searchlight can see a robber (i.e. if there is no pair i,ji,j such that searchlight jj can see a robber ii).
+What is the minimum number of moves you need to perform to reach a safe configuration?

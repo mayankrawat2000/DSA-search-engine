@@ -1,0 +1,4 @@
+You are given an undirected graph where each edge has one of two colors: black or red.
+Your task is to assign a real number to each node so that: 
+  for each black edge the sum of values at its endpoints is 11;  for each red edge the sum of values at its endpoints is 22;  the sum of the absolute values of all assigned numbers is the smallest possible. 
+Otherwise, if it is not possible, report that there is no feasible assignment of the numbers.

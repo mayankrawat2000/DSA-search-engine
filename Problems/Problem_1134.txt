@@ -1,0 +1,10 @@
+Every year Santa Claus gives gifts to all children. However, each country has its own traditions, and this process takes place in different ways. For example, in Berland you need to solve the New Year's puzzle.
+Polycarp got the following problem: given a grid strip of size 2×n2×n, some cells of it are blocked. You need to check if it is possible to tile all free cells using the 2×12×1 and 1×21×2 tiles (dominoes).
+For example, if n=5n=5 and the strip looks like this (black cells are blocked):
+  
+Then it can be tiled, for example, using two vertical and two horizontal tiles, as in the picture below (different tiles are marked by different colors).
+  
+And if n=3n=3 and the strip looks like this:
+  
+It is impossible to tile free cells.
+Polycarp easily solved this task and received his New Year's gift. Can you solve it?

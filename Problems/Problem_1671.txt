@@ -1,0 +1,5 @@
+Ashish has nn elements arranged in a line. 
+These elements are represented by two integers aiai — the value of the element and bibi — the type of the element (there are only two possible types: 00 and 11). He wants to sort the elements in non-decreasing values of aiai.
+He can perform the following operation any number of times: 
+ Select any two elements ii and jj such that bi≠bjbi≠bj and swap them. That is, he can only swap two elements of different types in one move. 
+Tell him if he can sort the elements in non-decreasing values of aiai after performing any number of operations.
